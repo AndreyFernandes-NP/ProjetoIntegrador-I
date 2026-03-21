@@ -2,18 +2,20 @@
 Este é um projeto integrador aplicando conhecimentos de Machine Learning no processamento e uso de dados disponíveis do estado de São Paulo.
 Feito para o curso de Pós-Graduação em Inteligência Artificial na PUC-SP em Python.
 
+**Cenário**
+Esse projeto busca a correlação entre distritos com maior vulnerabilidade social e pior estrutura urbana tendem a apresentar uma maior pressão sobre os serviços de saúde em São Paulo.
+
 **Requisitos**
 - Python 3.x
-- Credenciais configuradas no arquivo ```.env```
 - Dependências instaladas [```pip install -r requirements.txt```]
 - Ambiente virtual [recomendado]
 
-## Instrucoes de setup local (wip)
+## Instruções de setup local (wip)
 
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/AndreyFernandes-NP/ProjetoIntegrador-I.git
-   cd (EmBreve)
+   cd (A Definir o Nome)
    ```
 2. **Crie um virtual environment**
    ```bash
