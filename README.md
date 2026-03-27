@@ -14,16 +14,18 @@ Esse projeto busca a correlação entre distritos com maior vulnerabilidade soci
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/AndreyFernandes-NP/ProjetoIntegrador-I.git
-   cd (A Definir o Nome)
+   cd ProjetoIntegrador-I
    ```
 2. **Crie um virtual environment**
    ```bash
-    python3 -m venv env
-    venv/Scripts/activate.bat
+    python -m venv env
+    ```
+3. **Abra/Nunca esqueça de sempre abrir o virtual environment**
+   ```bash
+    env/Scripts/activate.bat
     ```
 3. **Instale as dependencias**
    ```bash
    pip install -r requirements.txt
     ```
-4. **Configure as variáveis de ambiente em um arquivo .env na raiz do projeto**
 ****
