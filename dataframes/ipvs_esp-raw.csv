@@ -1,0 +1,3871 @@
+cod_ibge;grupo_ipvs;n_pessoas;n_domicilios;n_setores
+3500105;Baixíssima Vulnerabilidade;99;36;1
+3500105;Muito Baixa Vulnerabilidade;20816;8316;49
+3500105;Baixa Vulnerabilidade;4015;1667;10
+3500105;Média Vulnerabilidade;5683;2140;12
+3500105;Alta Vulnerabilidade;3181;1162;7
+3500105;Muito Alta Vulnerabilidade;0;0;0
+3500204;Baixíssima Vulnerabilidade;0;0;0
+3500204;Muito Baixa Vulnerabilidade;278;98;2
+3500204;Baixa Vulnerabilidade;0;0;0
+3500204;Média Vulnerabilidade;2010;801;3
+3500204;Alta Vulnerabilidade;1909;688;3
+3500204;Muito Alta Vulnerabilidade;0;0;0
+3500303;Baixíssima Vulnerabilidade;0;0;0
+3500303;Muito Baixa Vulnerabilidade;13200;4931;26
+3500303;Baixa Vulnerabilidade;1669;621;4
+3500303;Média Vulnerabilidade;11783;4158;22
+3500303;Alta Vulnerabilidade;5356;1770;7
+3500303;Muito Alta Vulnerabilidade;0;0;0
+3500402;Baixíssima Vulnerabilidade;0;0;0
+3500402;Muito Baixa Vulnerabilidade;5756;2279;16
+3500402;Baixa Vulnerabilidade;0;0;0
+3500402;Média Vulnerabilidade;1465;534;3
+3500402;Alta Vulnerabilidade;0;0;0
+3500402;Muito Alta Vulnerabilidade;0;0;0
+3500501;Baixíssima Vulnerabilidade;152;57;1
+3500501;Muito Baixa Vulnerabilidade;9144;3646;26
+3500501;Baixa Vulnerabilidade;1521;589;5
+3500501;Média Vulnerabilidade;5300;1921;13
+3500501;Alta Vulnerabilidade;1394;483;4
+3500501;Muito Alta Vulnerabilidade;0;0;0
+3500550;Baixíssima Vulnerabilidade;0;0;0
+3500550;Muito Baixa Vulnerabilidade;4207;1640;15
+3500550;Baixa Vulnerabilidade;1450;543;4
+3500550;Média Vulnerabilidade;1139;411;3
+3500550;Alta Vulnerabilidade;228;69;1
+3500550;Muito Alta Vulnerabilidade;0;0;0
+3500600;Baixíssima Vulnerabilidade;0;0;0
+3500600;Muito Baixa Vulnerabilidade;2185;887;5
+3500600;Baixa Vulnerabilidade;594;266;2
+3500600;Média Vulnerabilidade;0;0;0
+3500600;Alta Vulnerabilidade;0;0;0
+3500600;Muito Alta Vulnerabilidade;0;0;0
+3500709;Baixíssima Vulnerabilidade;247;89;1
+3500709;Muito Baixa Vulnerabilidade;18140;6563;28
+3500709;Baixa Vulnerabilidade;2892;967;4
+3500709;Média Vulnerabilidade;4767;1598;7
+3500709;Alta Vulnerabilidade;11067;3618;14
+3500709;Muito Alta Vulnerabilidade;0;0;0
+3500758;Baixíssima Vulnerabilidade;0;0;0
+3500758;Muito Baixa Vulnerabilidade;2421;865;7
+3500758;Baixa Vulnerabilidade;0;0;0
+3500758;Média Vulnerabilidade;1666;572;4
+3500758;Alta Vulnerabilidade;1656;563;4
+3500758;Muito Alta Vulnerabilidade;0;0;0
+3500808;Baixíssima Vulnerabilidade;0;0;0
+3500808;Muito Baixa Vulnerabilidade;1148;463;4
+3500808;Baixa Vulnerabilidade;0;0;0
+3500808;Média Vulnerabilidade;2027;785;5
+3500808;Alta Vulnerabilidade;1074;407;3
+3500808;Muito Alta Vulnerabilidade;0;0;0
+3500907;Baixíssima Vulnerabilidade;530;225;1
+3500907;Muito Baixa Vulnerabilidade;527;178;3
+3500907;Baixa Vulnerabilidade;0;0;0
+3500907;Média Vulnerabilidade;1605;594;3
+3500907;Alta Vulnerabilidade;642;237;1
+3500907;Muito Alta Vulnerabilidade;0;0;0
+3501004;Baixíssima Vulnerabilidade;0;0;0
+3501004;Muito Baixa Vulnerabilidade;4599;1762;11
+3501004;Baixa Vulnerabilidade;0;0;0
+3501004;Média Vulnerabilidade;8448;3036;17
+3501004;Alta Vulnerabilidade;3676;1258;7
+3501004;Muito Alta Vulnerabilidade;0;0;0
+3501103;Baixíssima Vulnerabilidade;0;0;0
+3501103;Muito Baixa Vulnerabilidade;844;335;5
+3501103;Baixa Vulnerabilidade;410;168;1
+3501103;Média Vulnerabilidade;1304;533;4
+3501103;Alta Vulnerabilidade;1096;416;2
+3501103;Muito Alta Vulnerabilidade;0;0;0
+3501152;Baixíssima Vulnerabilidade;199;69;1
+3501152;Muito Baixa Vulnerabilidade;12790;4401;21
+3501152;Baixa Vulnerabilidade;1681;570;3
+3501152;Média Vulnerabilidade;2186;757;6
+3501152;Alta Vulnerabilidade;0;0;0
+3501152;Muito Alta Vulnerabilidade;0;0;0
+3501202;Baixíssima Vulnerabilidade;0;0;0
+3501202;Muito Baixa Vulnerabilidade;1969;767;6
+3501202;Baixa Vulnerabilidade;0;0;0
+3501202;Média Vulnerabilidade;1627;667;4
+3501202;Alta Vulnerabilidade;301;96;1
+3501202;Muito Alta Vulnerabilidade;0;0;0
+3501301;Baixíssima Vulnerabilidade;870;301;1
+3501301;Muito Baixa Vulnerabilidade;10397;3817;22
+3501301;Baixa Vulnerabilidade;1248;486;2
+3501301;Média Vulnerabilidade;5435;1961;11
+3501301;Alta Vulnerabilidade;8989;3209;13
+3501301;Muito Alta Vulnerabilidade;0;0;0
+3501400;Baixíssima Vulnerabilidade;0;0;0
+3501400;Muito Baixa Vulnerabilidade;0;0;0
+3501400;Baixa Vulnerabilidade;0;0;0
+3501400;Média Vulnerabilidade;1704;628;3
+3501400;Alta Vulnerabilidade;1307;489;4
+3501400;Muito Alta Vulnerabilidade;0;0;0
+3501509;Baixíssima Vulnerabilidade;0;0;0
+3501509;Muito Baixa Vulnerabilidade;0;0;0
+3501509;Baixa Vulnerabilidade;0;0;0
+3501509;Média Vulnerabilidade;2539;883;7
+3501509;Alta Vulnerabilidade;228;85;1
+3501509;Muito Alta Vulnerabilidade;0;0;0
+3501608;Baixíssima Vulnerabilidade;16824;6319;42
+3501608;Muito Baixa Vulnerabilidade;172302;65301;365
+3501608;Baixa Vulnerabilidade;30053;11489;61
+3501608;Média Vulnerabilidade;6753;2435;14
+3501608;Alta Vulnerabilidade;9557;3299;19
+3501608;Muito Alta Vulnerabilidade;481;163;1
+3501707;Baixíssima Vulnerabilidade;0;0;0
+3501707;Muito Baixa Vulnerabilidade;7022;2537;13
+3501707;Baixa Vulnerabilidade;2112;762;4
+3501707;Média Vulnerabilidade;14758;5092;27
+3501707;Alta Vulnerabilidade;8868;2961;14
+3501707;Muito Alta Vulnerabilidade;0;0;0
+3501806;Baixíssima Vulnerabilidade;0;0;0
+3501806;Muito Baixa Vulnerabilidade;3750;1503;9
+3501806;Baixa Vulnerabilidade;0;0;0
+3501806;Média Vulnerabilidade;623;260;1
+3501806;Alta Vulnerabilidade;1495;598;2
+3501806;Muito Alta Vulnerabilidade;0;0;0
+3501905;Baixíssima Vulnerabilidade;1508;559;3
+3501905;Muito Baixa Vulnerabilidade;40931;14957;82
+3501905;Baixa Vulnerabilidade;8588;3274;15
+3501905;Média Vulnerabilidade;4105;1446;13
+3501905;Alta Vulnerabilidade;10970;3724;17
+3501905;Muito Alta Vulnerabilidade;359;110;1
+3502002;Baixíssima Vulnerabilidade;0;0;0
+3502002;Muito Baixa Vulnerabilidade;3885;1430;12
+3502002;Baixa Vulnerabilidade;0;0;0
+3502002;Média Vulnerabilidade;236;75;1
+3502002;Alta Vulnerabilidade;352;135;1
+3502002;Muito Alta Vulnerabilidade;0;0;0
+3502101;Baixíssima Vulnerabilidade;609;224;1
+3502101;Muito Baixa Vulnerabilidade;31310;12137;58
+3502101;Baixa Vulnerabilidade;3364;1217;7
+3502101;Média Vulnerabilidade;11671;4360;25
+3502101;Alta Vulnerabilidade;10572;3831;20
+3502101;Muito Alta Vulnerabilidade;0;0;0
+3502200;Baixíssima Vulnerabilidade;0;0;0
+3502200;Muito Baixa Vulnerabilidade;10341;3676;19
+3502200;Baixa Vulnerabilidade;1885;692;4
+3502200;Média Vulnerabilidade;7650;2752;16
+3502200;Alta Vulnerabilidade;3661;1230;6
+3502200;Muito Alta Vulnerabilidade;0;0;0
+3502309;Baixíssima Vulnerabilidade;0;0;0
+3502309;Muito Baixa Vulnerabilidade;709;284;5
+3502309;Baixa Vulnerabilidade;144;54;1
+3502309;Média Vulnerabilidade;1335;486;6
+3502309;Alta Vulnerabilidade;2852;1006;7
+3502309;Muito Alta Vulnerabilidade;0;0;0
+3502408;Baixíssima Vulnerabilidade;0;0;0
+3502408;Muito Baixa Vulnerabilidade;1851;709;5
+3502408;Baixa Vulnerabilidade;0;0;0
+3502408;Média Vulnerabilidade;1465;546;2
+3502408;Alta Vulnerabilidade;306;101;1
+3502408;Muito Alta Vulnerabilidade;0;0;0
+3502507;Baixíssima Vulnerabilidade;0;0;0
+3502507;Muito Baixa Vulnerabilidade;18165;6523;42
+3502507;Baixa Vulnerabilidade;1005;448;2
+3502507;Média Vulnerabilidade;8566;2825;16
+3502507;Alta Vulnerabilidade;4222;1440;7
+3502507;Muito Alta Vulnerabilidade;0;0;0
+3502606;Baixíssima Vulnerabilidade;0;0;0
+3502606;Muito Baixa Vulnerabilidade;455;176;2
+3502606;Baixa Vulnerabilidade;0;0;0
+3502606;Média Vulnerabilidade;2572;1031;9
+3502606;Alta Vulnerabilidade;899;360;2
+3502606;Muito Alta Vulnerabilidade;0;0;0
+3502705;Baixíssima Vulnerabilidade;0;0;0
+3502705;Muito Baixa Vulnerabilidade;4816;1775;13
+3502705;Baixa Vulnerabilidade;2674;1007;5
+3502705;Média Vulnerabilidade;8552;3056;30
+3502705;Alta Vulnerabilidade;7769;2736;22
+3502705;Muito Alta Vulnerabilidade;0;0;0
+3502754;Baixíssima Vulnerabilidade;81;38;1
+3502754;Muito Baixa Vulnerabilidade;4149;1451;14
+3502754;Baixa Vulnerabilidade;4163;1469;6
+3502754;Média Vulnerabilidade;2719;918;9
+3502754;Alta Vulnerabilidade;9923;3388;14
+3502754;Muito Alta Vulnerabilidade;0;0;0
+3502804;Baixíssima Vulnerabilidade;14191;5808;38
+3502804;Muito Baixa Vulnerabilidade;102317;40004;255
+3502804;Baixa Vulnerabilidade;29932;12678;78
+3502804;Média Vulnerabilidade;17871;6668;42
+3502804;Alta Vulnerabilidade;34305;12274;71
+3502804;Muito Alta Vulnerabilidade;0;0;0
+3502903;Baixíssima Vulnerabilidade;2179;746;3
+3502903;Muito Baixa Vulnerabilidade;18798;7049;52
+3502903;Baixa Vulnerabilidade;3030;1042;8
+3502903;Média Vulnerabilidade;6176;2166;16
+3502903;Alta Vulnerabilidade;1404;501;5
+3502903;Muito Alta Vulnerabilidade;0;0;0
+3503000;Baixíssima Vulnerabilidade;0;0;0
+3503000;Muito Baixa Vulnerabilidade;3302;1229;7
+3503000;Baixa Vulnerabilidade;0;0;0
+3503000;Média Vulnerabilidade;1703;622;4
+3503000;Alta Vulnerabilidade;0;0;0
+3503000;Muito Alta Vulnerabilidade;0;0;0
+3503109;Baixíssima Vulnerabilidade;0;0;0
+3503109;Muito Baixa Vulnerabilidade;700;246;4
+3503109;Baixa Vulnerabilidade;941;319;3
+3503109;Média Vulnerabilidade;3174;1144;10
+3503109;Alta Vulnerabilidade;1632;534;3
+3503109;Muito Alta Vulnerabilidade;0;0;0
+3503158;Baixíssima Vulnerabilidade;0;0;0
+3503158;Muito Baixa Vulnerabilidade;245;91;1
+3503158;Baixa Vulnerabilidade;0;0;0
+3503158;Média Vulnerabilidade;2005;770;7
+3503158;Alta Vulnerabilidade;0;0;0
+3503158;Muito Alta Vulnerabilidade;0;0;0
+3503208;Baixíssima Vulnerabilidade;16029;5974;38
+3503208;Muito Baixa Vulnerabilidade;128749;49861;282
+3503208;Baixa Vulnerabilidade;40454;17404;99
+3503208;Média Vulnerabilidade;19914;7094;37
+3503208;Alta Vulnerabilidade;33884;11690;55
+3503208;Muito Alta Vulnerabilidade;0;0;0
+3503307;Baixíssima Vulnerabilidade;5860;2142;19
+3503307;Muito Baixa Vulnerabilidade;69435;25869;185
+3503307;Baixa Vulnerabilidade;14998;6109;34
+3503307;Média Vulnerabilidade;24464;8378;53
+3503307;Alta Vulnerabilidade;13974;4802;30
+3503307;Muito Alta Vulnerabilidade;0;0;0
+3503356;Baixíssima Vulnerabilidade;0;0;0
+3503356;Muito Baixa Vulnerabilidade;0;0;0
+3503356;Baixa Vulnerabilidade;0;0;0
+3503356;Média Vulnerabilidade;1426;519;4
+3503356;Alta Vulnerabilidade;0;0;0
+3503356;Muito Alta Vulnerabilidade;0;0;0
+3503406;Baixíssima Vulnerabilidade;0;0;0
+3503406;Muito Baixa Vulnerabilidade;4578;1786;15
+3503406;Baixa Vulnerabilidade;0;0;0
+3503406;Média Vulnerabilidade;1916;698;4
+3503406;Alta Vulnerabilidade;1331;492;3
+3503406;Muito Alta Vulnerabilidade;0;0;0
+3503505;Baixíssima Vulnerabilidade;0;0;0
+3503505;Muito Baixa Vulnerabilidade;389;147;2
+3503505;Baixa Vulnerabilidade;0;0;0
+3503505;Média Vulnerabilidade;1926;678;6
+3503505;Alta Vulnerabilidade;1090;367;5
+3503505;Muito Alta Vulnerabilidade;0;0;0
+3503604;Baixíssima Vulnerabilidade;0;0;0
+3503604;Muito Baixa Vulnerabilidade;2144;743;4
+3503604;Baixa Vulnerabilidade;0;0;0
+3503604;Média Vulnerabilidade;3805;1305;9
+3503604;Alta Vulnerabilidade;3791;1223;7
+3503604;Muito Alta Vulnerabilidade;0;0;0
+3503703;Baixíssima Vulnerabilidade;0;0;0
+3503703;Muito Baixa Vulnerabilidade;3413;1322;7
+3503703;Baixa Vulnerabilidade;0;0;0
+3503703;Média Vulnerabilidade;3863;1436;7
+3503703;Alta Vulnerabilidade;0;0;0
+3503703;Muito Alta Vulnerabilidade;0;0;0
+3503802;Baixíssima Vulnerabilidade;1655;608;3
+3503802;Muito Baixa Vulnerabilidade;21880;7842;59
+3503802;Baixa Vulnerabilidade;3188;1127;8
+3503802;Média Vulnerabilidade;7329;2566;17
+3503802;Alta Vulnerabilidade;16891;5832;29
+3503802;Muito Alta Vulnerabilidade;0;0;0
+3503901;Baixíssima Vulnerabilidade;7766;2520;15
+3503901;Muito Baixa Vulnerabilidade;34177;11984;59
+3503901;Baixa Vulnerabilidade;9320;3164;16
+3503901;Média Vulnerabilidade;9484;3230;16
+3503901;Alta Vulnerabilidade;23388;7676;38
+3503901;Muito Alta Vulnerabilidade;1368;409;5
+3503950;Baixíssima Vulnerabilidade;0;0;0
+3503950;Muito Baixa Vulnerabilidade;210;72;1
+3503950;Baixa Vulnerabilidade;0;0;0
+3503950;Média Vulnerabilidade;1562;583;4
+3503950;Alta Vulnerabilidade;0;0;0
+3503950;Muito Alta Vulnerabilidade;0;0;0
+3504008;Baixíssima Vulnerabilidade;3879;1469;8
+3504008;Muito Baixa Vulnerabilidade;56870;22296;114
+3504008;Baixa Vulnerabilidade;15013;5862;27
+3504008;Média Vulnerabilidade;12201;4486;22
+3504008;Alta Vulnerabilidade;11174;3784;22
+3504008;Muito Alta Vulnerabilidade;0;0;0
+3504107;Baixíssima Vulnerabilidade;14891;5452;39
+3504107;Muito Baixa Vulnerabilidade;86409;31513;192
+3504107;Baixa Vulnerabilidade;12458;4374;30
+3504107;Média Vulnerabilidade;17459;5985;48
+3504107;Alta Vulnerabilidade;18511;6489;40
+3504107;Muito Alta Vulnerabilidade;5278;1743;15
+3504206;Baixíssima Vulnerabilidade;0;0;0
+3504206;Muito Baixa Vulnerabilidade;4748;1902;16
+3504206;Baixa Vulnerabilidade;393;149;1
+3504206;Média Vulnerabilidade;7053;2774;14
+3504206;Alta Vulnerabilidade;1362;530;2
+3504206;Muito Alta Vulnerabilidade;0;0;0
+3504305;Baixíssima Vulnerabilidade;0;0;0
+3504305;Muito Baixa Vulnerabilidade;530;194;2
+3504305;Baixa Vulnerabilidade;549;218;1
+3504305;Média Vulnerabilidade;1882;716;4
+3504305;Alta Vulnerabilidade;820;299;1
+3504305;Muito Alta Vulnerabilidade;0;0;0
+3504404;Baixíssima Vulnerabilidade;0;0;0
+3504404;Muito Baixa Vulnerabilidade;2149;766;4
+3504404;Baixa Vulnerabilidade;401;143;2
+3504404;Média Vulnerabilidade;2711;982;5
+3504404;Alta Vulnerabilidade;4471;1559;8
+3504404;Muito Alta Vulnerabilidade;0;0;0
+3504503;Baixíssima Vulnerabilidade;2971;1065;7
+3504503;Muito Baixa Vulnerabilidade;43781;16912;123
+3504503;Baixa Vulnerabilidade;12207;4647;35
+3504503;Média Vulnerabilidade;11828;4154;30
+3504503;Alta Vulnerabilidade;18847;6372;40
+3504503;Muito Alta Vulnerabilidade;84;24;1
+3504602;Baixíssima Vulnerabilidade;687;230;2
+3504602;Muito Baixa Vulnerabilidade;19473;7094;37
+3504602;Baixa Vulnerabilidade;5250;1915;7
+3504602;Média Vulnerabilidade;0;0;0
+3504602;Alta Vulnerabilidade;1617;640;4
+3504602;Muito Alta Vulnerabilidade;0;0;0
+3504701;Baixíssima Vulnerabilidade;0;0;0
+3504701;Muito Baixa Vulnerabilidade;1188;482;3
+3504701;Baixa Vulnerabilidade;0;0;0
+3504701;Média Vulnerabilidade;0;0;0
+3504701;Alta Vulnerabilidade;170;57;1
+3504701;Muito Alta Vulnerabilidade;0;0;0
+3504800;Baixíssima Vulnerabilidade;0;0;0
+3504800;Muito Baixa Vulnerabilidade;4977;1960;13
+3504800;Baixa Vulnerabilidade;0;0;0
+3504800;Média Vulnerabilidade;4034;1545;8
+3504800;Alta Vulnerabilidade;506;174;1
+3504800;Muito Alta Vulnerabilidade;0;0;0
+3504909;Baixíssima Vulnerabilidade;0;0;0
+3504909;Muito Baixa Vulnerabilidade;5035;1947;14
+3504909;Baixa Vulnerabilidade;0;0;0
+3504909;Média Vulnerabilidade;3598;1292;13
+3504909;Alta Vulnerabilidade;314;112;2
+3504909;Muito Alta Vulnerabilidade;850;307;2
+3505005;Baixíssima Vulnerabilidade;0;0;0
+3505005;Muito Baixa Vulnerabilidade;0;0;0
+3505005;Baixa Vulnerabilidade;277;112;1
+3505005;Média Vulnerabilidade;805;308;4
+3505005;Alta Vulnerabilidade;2137;819;5
+3505005;Muito Alta Vulnerabilidade;0;0;0
+3505104;Baixíssima Vulnerabilidade;0;0;0
+3505104;Muito Baixa Vulnerabilidade;0;0;0
+3505104;Baixa Vulnerabilidade;0;0;0
+3505104;Média Vulnerabilidade;1266;479;4
+3505104;Alta Vulnerabilidade;4176;1553;8
+3505104;Muito Alta Vulnerabilidade;0;0;0
+3505203;Baixíssima Vulnerabilidade;0;0;0
+3505203;Muito Baixa Vulnerabilidade;16125;6351;42
+3505203;Baixa Vulnerabilidade;2471;897;6
+3505203;Média Vulnerabilidade;7610;2689;15
+3505203;Alta Vulnerabilidade;5062;1710;9
+3505203;Muito Alta Vulnerabilidade;0;0;0
+3505302;Baixíssima Vulnerabilidade;413;152;1
+3505302;Muito Baixa Vulnerabilidade;23713;9188;52
+3505302;Baixa Vulnerabilidade;925;332;2
+3505302;Média Vulnerabilidade;7037;2483;13
+3505302;Alta Vulnerabilidade;1873;631;3
+3505302;Muito Alta Vulnerabilidade;0;0;0
+3505351;Baixíssima Vulnerabilidade;0;0;0
+3505351;Muito Baixa Vulnerabilidade;0;0;0
+3505351;Baixa Vulnerabilidade;0;0;0
+3505351;Média Vulnerabilidade;1227;473;5
+3505351;Alta Vulnerabilidade;3850;1367;13
+3505351;Muito Alta Vulnerabilidade;0;0;0
+3505401;Baixíssima Vulnerabilidade;0;0;0
+3505401;Muito Baixa Vulnerabilidade;0;0;0
+3505401;Baixa Vulnerabilidade;0;0;0
+3505401;Média Vulnerabilidade;2683;1024;11
+3505401;Alta Vulnerabilidade;2553;960;5
+3505401;Muito Alta Vulnerabilidade;0;0;0
+3505500;Baixíssima Vulnerabilidade;3877;1332;6
+3505500;Muito Baixa Vulnerabilidade;61406;23680;113
+3505500;Baixa Vulnerabilidade;32172;12398;51
+3505500;Média Vulnerabilidade;7104;2527;15
+3505500;Alta Vulnerabilidade;17362;6363;27
+3505500;Muito Alta Vulnerabilidade;0;0;0
+3505609;Baixíssima Vulnerabilidade;0;0;0
+3505609;Muito Baixa Vulnerabilidade;4034;1474;10
+3505609;Baixa Vulnerabilidade;1104;393;3
+3505609;Média Vulnerabilidade;13519;4703;24
+3505609;Alta Vulnerabilidade;13123;4532;23
+3505609;Muito Alta Vulnerabilidade;0;0;0
+3505708;Baixíssima Vulnerabilidade;53858;20720;96
+3505708;Muito Baixa Vulnerabilidade;113228;37114;158
+3505708;Baixa Vulnerabilidade;72392;25027;97
+3505708;Média Vulnerabilidade;26383;8876;36
+3505708;Alta Vulnerabilidade;41330;14696;55
+3505708;Muito Alta Vulnerabilidade;8717;2925;18
+3505807;Baixíssima Vulnerabilidade;0;0;0
+3505807;Muito Baixa Vulnerabilidade;8277;2949;20
+3505807;Baixa Vulnerabilidade;1815;640;6
+3505807;Média Vulnerabilidade;5488;1951;13
+3505807;Alta Vulnerabilidade;5695;1928;13
+3505807;Muito Alta Vulnerabilidade;0;0;0
+3505906;Baixíssima Vulnerabilidade;707;245;1
+3505906;Muito Baixa Vulnerabilidade;36464;13767;70
+3505906;Baixa Vulnerabilidade;1335;459;3
+3505906;Média Vulnerabilidade;11419;4094;22
+3505906;Alta Vulnerabilidade;7798;2673;13
+3505906;Muito Alta Vulnerabilidade;0;0;0
+3506003;Baixíssima Vulnerabilidade;31390;12691;57
+3506003;Muito Baixa Vulnerabilidade;187380;69922;314
+3506003;Baixa Vulnerabilidade;75047;31021;134
+3506003;Média Vulnerabilidade;18276;6200;22
+3506003;Alta Vulnerabilidade;51690;17630;72
+3506003;Muito Alta Vulnerabilidade;6043;1990;17
+3506102;Baixíssima Vulnerabilidade;1727;676;5
+3506102;Muito Baixa Vulnerabilidade;46410;17510;96
+3506102;Baixa Vulnerabilidade;7851;2898;14
+3506102;Média Vulnerabilidade;7668;2726;15
+3506102;Alta Vulnerabilidade;12188;4125;18
+3506102;Muito Alta Vulnerabilidade;0;0;0
+3506201;Baixíssima Vulnerabilidade;0;0;0
+3506201;Muito Baixa Vulnerabilidade;702;263;2
+3506201;Baixa Vulnerabilidade;431;164;1
+3506201;Média Vulnerabilidade;773;262;2
+3506201;Alta Vulnerabilidade;500;164;2
+3506201;Muito Alta Vulnerabilidade;0;0;0
+3506300;Baixíssima Vulnerabilidade;0;0;0
+3506300;Muito Baixa Vulnerabilidade;4683;1754;11
+3506300;Baixa Vulnerabilidade;1060;373;2
+3506300;Média Vulnerabilidade;1109;413;2
+3506300;Alta Vulnerabilidade;3679;1339;7
+3506300;Muito Alta Vulnerabilidade;0;0;0
+3506359;Baixíssima Vulnerabilidade;466;182;2
+3506359;Muito Baixa Vulnerabilidade;17707;6734;65
+3506359;Baixa Vulnerabilidade;13588;4793;35
+3506359;Média Vulnerabilidade;2925;1017;11
+3506359;Alta Vulnerabilidade;9748;3200;23
+3506359;Muito Alta Vulnerabilidade;15994;5486;36
+3506409;Baixíssima Vulnerabilidade;0;0;0
+3506409;Muito Baixa Vulnerabilidade;3729;1447;10
+3506409;Baixa Vulnerabilidade;785;299;2
+3506409;Média Vulnerabilidade;1024;400;3
+3506409;Alta Vulnerabilidade;1696;632;4
+3506409;Muito Alta Vulnerabilidade;0;0;0
+3506508;Baixíssima Vulnerabilidade;4431;1603;12
+3506508;Muito Baixa Vulnerabilidade;57115;22234;135
+3506508;Baixa Vulnerabilidade;12557;5069;27
+3506508;Média Vulnerabilidade;27889;10542;60
+3506508;Alta Vulnerabilidade;16271;5788;33
+3506508;Muito Alta Vulnerabilidade;0;0;0
+3506607;Baixíssima Vulnerabilidade;0;0;0
+3506607;Muito Baixa Vulnerabilidade;7209;2576;17
+3506607;Baixa Vulnerabilidade;678;236;1
+3506607;Média Vulnerabilidade;13036;4650;38
+3506607;Alta Vulnerabilidade;5261;1797;12
+3506607;Muito Alta Vulnerabilidade;2176;731;5
+3506706;Baixíssima Vulnerabilidade;0;0;0
+3506706;Muito Baixa Vulnerabilidade;2517;969;8
+3506706;Baixa Vulnerabilidade;657;239;2
+3506706;Média Vulnerabilidade;4766;1673;8
+3506706;Alta Vulnerabilidade;4901;1731;8
+3506706;Muito Alta Vulnerabilidade;0;0;0
+3506805;Baixíssima Vulnerabilidade;0;0;0
+3506805;Muito Baixa Vulnerabilidade;3537;1391;9
+3506805;Baixa Vulnerabilidade;1303;451;3
+3506805;Média Vulnerabilidade;4024;1417;8
+3506805;Alta Vulnerabilidade;2041;704;4
+3506805;Muito Alta Vulnerabilidade;0;0;0
+3506904;Baixíssima Vulnerabilidade;0;0;0
+3506904;Muito Baixa Vulnerabilidade;2323;899;7
+3506904;Baixa Vulnerabilidade;322;115;1
+3506904;Média Vulnerabilidade;3576;1367;14
+3506904;Alta Vulnerabilidade;3824;1416;8
+3506904;Muito Alta Vulnerabilidade;0;0;0
+3507001;Baixíssima Vulnerabilidade;4031;1417;8
+3507001;Muito Baixa Vulnerabilidade;28498;10388;56
+3507001;Baixa Vulnerabilidade;9385;3312;14
+3507001;Média Vulnerabilidade;6421;2122;17
+3507001;Alta Vulnerabilidade;11778;4137;19
+3507001;Muito Alta Vulnerabilidade;0;0;0
+3507100;Baixíssima Vulnerabilidade;162;53;1
+3507100;Muito Baixa Vulnerabilidade;7674;2792;23
+3507100;Baixa Vulnerabilidade;2982;1059;5
+3507100;Média Vulnerabilidade;3212;1072;9
+3507100;Alta Vulnerabilidade;7073;2460;15
+3507100;Muito Alta Vulnerabilidade;0;0;0
+3507159;Baixíssima Vulnerabilidade;0;0;0
+3507159;Muito Baixa Vulnerabilidade;0;0;0
+3507159;Baixa Vulnerabilidade;319;105;1
+3507159;Média Vulnerabilidade;1217;401;4
+3507159;Alta Vulnerabilidade;1989;658;4
+3507159;Muito Alta Vulnerabilidade;0;0;0
+3507209;Baixíssima Vulnerabilidade;0;0;0
+3507209;Muito Baixa Vulnerabilidade;0;0;0
+3507209;Baixa Vulnerabilidade;0;0;0
+3507209;Média Vulnerabilidade;442;174;1
+3507209;Alta Vulnerabilidade;296;94;1
+3507209;Muito Alta Vulnerabilidade;0;0;0
+3507308;Baixíssima Vulnerabilidade;0;0;0
+3507308;Muito Baixa Vulnerabilidade;1319;470;3
+3507308;Baixa Vulnerabilidade;625;213;1
+3507308;Média Vulnerabilidade;1940;665;4
+3507308;Alta Vulnerabilidade;790;276;2
+3507308;Muito Alta Vulnerabilidade;0;0;0
+3507407;Baixíssima Vulnerabilidade;411;185;1
+3507407;Muito Baixa Vulnerabilidade;5917;2282;19
+3507407;Baixa Vulnerabilidade;862;324;2
+3507407;Média Vulnerabilidade;4356;1660;10
+3507407;Alta Vulnerabilidade;2324;886;6
+3507407;Muito Alta Vulnerabilidade;0;0;0
+3507456;Baixíssima Vulnerabilidade;0;0;0
+3507456;Muito Baixa Vulnerabilidade;1541;542;4
+3507456;Baixa Vulnerabilidade;0;0;0
+3507456;Média Vulnerabilidade;510;192;1
+3507456;Alta Vulnerabilidade;512;175;2
+3507456;Muito Alta Vulnerabilidade;0;0;0
+3507506;Baixíssima Vulnerabilidade;4493;1806;14
+3507506;Muito Baixa Vulnerabilidade;70545;26723;172
+3507506;Baixa Vulnerabilidade;35308;14136;81
+3507506;Média Vulnerabilidade;10893;3740;23
+3507506;Alta Vulnerabilidade;21560;7366;37
+3507506;Muito Alta Vulnerabilidade;543;179;1
+3507605;Baixíssima Vulnerabilidade;10844;3761;24
+3507605;Muito Baixa Vulnerabilidade;81470;29470;190
+3507605;Baixa Vulnerabilidade;41425;15458;85
+3507605;Média Vulnerabilidade;13321;4538;36
+3507605;Alta Vulnerabilidade;26675;9240;54
+3507605;Muito Alta Vulnerabilidade;212;83;1
+3507704;Baixíssima Vulnerabilidade;0;0;0
+3507704;Muito Baixa Vulnerabilidade;869;340;4
+3507704;Baixa Vulnerabilidade;0;0;0
+3507704;Média Vulnerabilidade;1901;721;5
+3507704;Alta Vulnerabilidade;2429;854;4
+3507704;Muito Alta Vulnerabilidade;0;0;0
+3507753;Baixíssima Vulnerabilidade;0;0;0
+3507753;Muito Baixa Vulnerabilidade;908;344;3
+3507753;Baixa Vulnerabilidade;0;0;0
+3507753;Média Vulnerabilidade;1622;618;4
+3507753;Alta Vulnerabilidade;0;0;0
+3507753;Muito Alta Vulnerabilidade;0;0;0
+3507803;Baixíssima Vulnerabilidade;0;0;0
+3507803;Muito Baixa Vulnerabilidade;13656;5015;22
+3507803;Baixa Vulnerabilidade;2979;1059;5
+3507803;Média Vulnerabilidade;2257;737;4
+3507803;Alta Vulnerabilidade;6265;2068;9
+3507803;Muito Alta Vulnerabilidade;0;0;0
+3507902;Baixíssima Vulnerabilidade;0;0;0
+3507902;Muito Baixa Vulnerabilidade;12658;4685;31
+3507902;Baixa Vulnerabilidade;4210;1515;7
+3507902;Média Vulnerabilidade;2187;778;7
+3507902;Alta Vulnerabilidade;4129;1433;7
+3507902;Muito Alta Vulnerabilidade;0;0;0
+3508009;Baixíssima Vulnerabilidade;355;153;1
+3508009;Muito Baixa Vulnerabilidade;2117;772;8
+3508009;Baixa Vulnerabilidade;2063;770;6
+3508009;Média Vulnerabilidade;2640;953;7
+3508009;Alta Vulnerabilidade;12703;4208;28
+3508009;Muito Alta Vulnerabilidade;0;0;0
+3508108;Baixíssima Vulnerabilidade;0;0;0
+3508108;Muito Baixa Vulnerabilidade;7565;3043;23
+3508108;Baixa Vulnerabilidade;554;214;1
+3508108;Média Vulnerabilidade;5748;2232;17
+3508108;Alta Vulnerabilidade;3101;1139;8
+3508108;Muito Alta Vulnerabilidade;0;0;0
+3508207;Baixíssima Vulnerabilidade;0;0;0
+3508207;Muito Baixa Vulnerabilidade;2993;1154;8
+3508207;Baixa Vulnerabilidade;0;0;0
+3508207;Média Vulnerabilidade;686;277;2
+3508207;Alta Vulnerabilidade;585;201;1
+3508207;Muito Alta Vulnerabilidade;0;0;0
+3508306;Baixíssima Vulnerabilidade;0;0;0
+3508306;Muito Baixa Vulnerabilidade;1382;542;3
+3508306;Baixa Vulnerabilidade;0;0;0
+3508306;Média Vulnerabilidade;1189;428;3
+3508306;Alta Vulnerabilidade;1687;614;3
+3508306;Muito Alta Vulnerabilidade;0;0;0
+3508405;Baixíssima Vulnerabilidade;392;135;1
+3508405;Muito Baixa Vulnerabilidade;14130;4798;26
+3508405;Baixa Vulnerabilidade;12979;4326;16
+3508405;Média Vulnerabilidade;4902;1596;11
+3508405;Alta Vulnerabilidade;13075;4228;16
+3508405;Muito Alta Vulnerabilidade;950;296;5
+3508504;Baixíssima Vulnerabilidade;3233;1132;7
+3508504;Muito Baixa Vulnerabilidade;55843;19941;113
+3508504;Baixa Vulnerabilidade;8723;3153;18
+3508504;Média Vulnerabilidade;13767;4762;25
+3508504;Alta Vulnerabilidade;12905;4149;22
+3508504;Muito Alta Vulnerabilidade;343;104;1
+3508603;Baixíssima Vulnerabilidade;1447;501;3
+3508603;Muito Baixa Vulnerabilidade;16054;5699;40
+3508603;Baixa Vulnerabilidade;2775;999;6
+3508603;Média Vulnerabilidade;8297;2727;20
+3508603;Alta Vulnerabilidade;2471;806;6
+3508603;Muito Alta Vulnerabilidade;0;0;0
+3508702;Baixíssima Vulnerabilidade;0;0;0
+3508702;Muito Baixa Vulnerabilidade;7841;2948;22
+3508702;Baixa Vulnerabilidade;223;80;1
+3508702;Média Vulnerabilidade;6138;2220;12
+3508702;Alta Vulnerabilidade;2430;825;7
+3508702;Muito Alta Vulnerabilidade;0;0;0
+3508801;Baixíssima Vulnerabilidade;533;224;1
+3508801;Muito Baixa Vulnerabilidade;7413;2869;24
+3508801;Baixa Vulnerabilidade;614;235;2
+3508801;Média Vulnerabilidade;4698;1759;14
+3508801;Alta Vulnerabilidade;2822;967;6
+3508801;Muito Alta Vulnerabilidade;0;0;0
+3508900;Baixíssima Vulnerabilidade;0;0;0
+3508900;Muito Baixa Vulnerabilidade;664;256;2
+3508900;Baixa Vulnerabilidade;0;0;0
+3508900;Média Vulnerabilidade;2564;1027;6
+3508900;Alta Vulnerabilidade;291;110;1
+3508900;Muito Alta Vulnerabilidade;0;0;0
+3509007;Baixíssima Vulnerabilidade;3827;1301;10
+3509007;Muito Baixa Vulnerabilidade;52632;18259;100
+3509007;Baixa Vulnerabilidade;21514;7449;34
+3509007;Média Vulnerabilidade;1979;682;5
+3509007;Alta Vulnerabilidade;7675;2675;16
+3509007;Muito Alta Vulnerabilidade;6832;2227;15
+3509106;Baixíssima Vulnerabilidade;0;0;0
+3509106;Muito Baixa Vulnerabilidade;493;211;2
+3509106;Baixa Vulnerabilidade;0;0;0
+3509106;Média Vulnerabilidade;3106;1205;10
+3509106;Alta Vulnerabilidade;708;276;2
+3509106;Muito Alta Vulnerabilidade;0;0;0
+3509205;Baixíssima Vulnerabilidade;1944;666;6
+3509205;Muito Baixa Vulnerabilidade;28920;10143;63
+3509205;Baixa Vulnerabilidade;23650;8720;53
+3509205;Média Vulnerabilidade;5475;1875;13
+3509205;Alta Vulnerabilidade;20748;7232;39
+3509205;Muito Alta Vulnerabilidade;10708;3633;31
+3509254;Baixíssima Vulnerabilidade;0;0;0
+3509254;Muito Baixa Vulnerabilidade;4876;1745;8
+3509254;Baixa Vulnerabilidade;1076;382;2
+3509254;Média Vulnerabilidade;8496;3010;23
+3509254;Alta Vulnerabilidade;13840;4696;28
+3509254;Muito Alta Vulnerabilidade;0;0;0
+3509304;Baixíssima Vulnerabilidade;0;0;0
+3509304;Muito Baixa Vulnerabilidade;5088;2006;14
+3509304;Baixa Vulnerabilidade;138;48;1
+3509304;Média Vulnerabilidade;2872;1098;6
+3509304;Alta Vulnerabilidade;843;296;2
+3509304;Muito Alta Vulnerabilidade;0;0;0
+3509403;Baixíssima Vulnerabilidade;0;0;0
+3509403;Muito Baixa Vulnerabilidade;11390;4193;21
+3509403;Baixa Vulnerabilidade;400;169;1
+3509403;Média Vulnerabilidade;6589;2370;14
+3509403;Alta Vulnerabilidade;5070;1771;6
+3509403;Muito Alta Vulnerabilidade;0;0;0
+3509452;Baixíssima Vulnerabilidade;0;0;0
+3509452;Muito Baixa Vulnerabilidade;1606;636;5
+3509452;Baixa Vulnerabilidade;866;314;1
+3509452;Média Vulnerabilidade;1200;436;3
+3509452;Alta Vulnerabilidade;2023;705;3
+3509452;Muito Alta Vulnerabilidade;0;0;0
+3509502;Baixíssima Vulnerabilidade;164725;68137;390
+3509502;Muito Baixa Vulnerabilidade;527920;201236;1118
+3509502;Baixa Vulnerabilidade;148728;62435;347
+3509502;Média Vulnerabilidade;66893;22668;131
+3509502;Alta Vulnerabilidade;81633;27807;148
+3509502;Muito Alta Vulnerabilidade;139454;45321;288
+3509601;Baixíssima Vulnerabilidade;955;346;4
+3509601;Muito Baixa Vulnerabilidade;37150;13087;107
+3509601;Baixa Vulnerabilidade;8741;3030;22
+3509601;Média Vulnerabilidade;6635;2279;21
+3509601;Alta Vulnerabilidade;18946;6380;42
+3509601;Muito Alta Vulnerabilidade;2983;967;11
+3509700;Baixíssima Vulnerabilidade;140;51;1
+3509700;Muito Baixa Vulnerabilidade;18710;6698;63
+3509700;Baixa Vulnerabilidade;5540;1983;15
+3509700;Média Vulnerabilidade;5633;1913;14
+3509700;Alta Vulnerabilidade;4934;1661;11
+3509700;Muito Alta Vulnerabilidade;9061;2905;22
+3509809;Baixíssima Vulnerabilidade;0;0;0
+3509809;Muito Baixa Vulnerabilidade;1682;649;5
+3509809;Baixa Vulnerabilidade;0;0;0
+3509809;Média Vulnerabilidade;1092;403;5
+3509809;Alta Vulnerabilidade;2090;754;5
+3509809;Muito Alta Vulnerabilidade;0;0;0
+3509908;Baixíssima Vulnerabilidade;0;0;0
+3509908;Muito Baixa Vulnerabilidade;4153;1620;11
+3509908;Baixa Vulnerabilidade;1403;514;3
+3509908;Média Vulnerabilidade;3464;1157;9
+3509908;Alta Vulnerabilidade;2246;761;4
+3509908;Muito Alta Vulnerabilidade;0;0;0
+3509957;Baixíssima Vulnerabilidade;0;0;0
+3509957;Muito Baixa Vulnerabilidade;1298;447;4
+3509957;Baixa Vulnerabilidade;267;101;1
+3509957;Média Vulnerabilidade;1015;311;4
+3509957;Alta Vulnerabilidade;2125;646;4
+3509957;Muito Alta Vulnerabilidade;0;0;0
+3510005;Baixíssima Vulnerabilidade;0;0;0
+3510005;Muito Baixa Vulnerabilidade;16340;6220;36
+3510005;Baixa Vulnerabilidade;349;118;1
+3510005;Média Vulnerabilidade;7936;2823;16
+3510005;Alta Vulnerabilidade;4391;1594;8
+3510005;Muito Alta Vulnerabilidade;0;0;0
+3510104;Baixíssima Vulnerabilidade;0;0;0
+3510104;Muito Baixa Vulnerabilidade;1441;562;3
+3510104;Baixa Vulnerabilidade;0;0;0
+3510104;Média Vulnerabilidade;1435;540;4
+3510104;Alta Vulnerabilidade;0;0;0
+3510104;Muito Alta Vulnerabilidade;0;0;0
+3510153;Baixíssima Vulnerabilidade;0;0;0
+3510153;Muito Baixa Vulnerabilidade;0;0;0
+3510153;Baixa Vulnerabilidade;772;268;2
+3510153;Média Vulnerabilidade;2970;964;7
+3510153;Alta Vulnerabilidade;2328;780;6
+3510153;Muito Alta Vulnerabilidade;0;0;0
+3510203;Baixíssima Vulnerabilidade;0;0;0
+3510203;Muito Baixa Vulnerabilidade;13888;5089;37
+3510203;Baixa Vulnerabilidade;2086;733;5
+3510203;Média Vulnerabilidade;14003;4837;39
+3510203;Alta Vulnerabilidade;15880;5263;30
+3510203;Muito Alta Vulnerabilidade;0;0;0
+3510302;Baixíssima Vulnerabilidade;0;0;0
+3510302;Muito Baixa Vulnerabilidade;4220;1515;11
+3510302;Baixa Vulnerabilidade;2584;902;3
+3510302;Média Vulnerabilidade;4958;1777;10
+3510302;Alta Vulnerabilidade;8709;2866;15
+3510302;Muito Alta Vulnerabilidade;0;0;0
+3510401;Baixíssima Vulnerabilidade;164;59;1
+3510401;Muito Baixa Vulnerabilidade;21992;7793;39
+3510401;Baixa Vulnerabilidade;14611;4987;21
+3510401;Média Vulnerabilidade;4841;1612;8
+3510401;Alta Vulnerabilidade;7187;2329;13
+3510401;Muito Alta Vulnerabilidade;756;246;3
+3510500;Baixíssima Vulnerabilidade;3097;1311;15
+3510500;Muito Baixa Vulnerabilidade;59191;22457;188
+3510500;Baixa Vulnerabilidade;15331;5622;38
+3510500;Média Vulnerabilidade;11756;4133;28
+3510500;Alta Vulnerabilidade;37165;12572;72
+3510500;Muito Alta Vulnerabilidade;5201;1726;14
+3510609;Baixíssima Vulnerabilidade;8107;2668;23
+3510609;Muito Baixa Vulnerabilidade;168368;60779;382
+3510609;Baixa Vulnerabilidade;63807;22870;130
+3510609;Média Vulnerabilidade;30826;10858;64
+3510609;Alta Vulnerabilidade;54262;18981;106
+3510609;Muito Alta Vulnerabilidade;59707;20120;120
+3510708;Baixíssima Vulnerabilidade;0;0;0
+3510708;Muito Baixa Vulnerabilidade;3437;1452;10
+3510708;Baixa Vulnerabilidade;664;272;2
+3510708;Média Vulnerabilidade;5315;2120;13
+3510708;Alta Vulnerabilidade;1841;736;3
+3510708;Muito Alta Vulnerabilidade;0;0;0
+3510807;Baixíssima Vulnerabilidade;0;0;0
+3510807;Muito Baixa Vulnerabilidade;13860;5300;27
+3510807;Baixa Vulnerabilidade;3653;1333;5
+3510807;Média Vulnerabilidade;4625;1603;11
+3510807;Alta Vulnerabilidade;3947;1384;6
+3510807;Muito Alta Vulnerabilidade;0;0;0
+3510906;Baixíssima Vulnerabilidade;0;0;0
+3510906;Muito Baixa Vulnerabilidade;714;278;2
+3510906;Baixa Vulnerabilidade;0;0;0
+3510906;Média Vulnerabilidade;1790;698;6
+3510906;Alta Vulnerabilidade;284;100;1
+3510906;Muito Alta Vulnerabilidade;0;0;0
+3511003;Baixíssima Vulnerabilidade;0;0;0
+3511003;Muito Baixa Vulnerabilidade;7019;2650;15
+3511003;Baixa Vulnerabilidade;1111;379;2
+3511003;Média Vulnerabilidade;6670;2467;18
+3511003;Alta Vulnerabilidade;4825;1766;11
+3511003;Muito Alta Vulnerabilidade;0;0;0
+3511102;Baixíssima Vulnerabilidade;3699;1456;13
+3511102;Muito Baixa Vulnerabilidade;71141;27331;160
+3511102;Baixa Vulnerabilidade;10641;4569;29
+3511102;Média Vulnerabilidade;14643;5270;31
+3511102;Alta Vulnerabilidade;14237;4995;27
+3511102;Muito Alta Vulnerabilidade;0;0;0
+3511201;Baixíssima Vulnerabilidade;0;0;0
+3511201;Muito Baixa Vulnerabilidade;3282;1185;7
+3511201;Baixa Vulnerabilidade;743;283;1
+3511201;Média Vulnerabilidade;920;354;2
+3511201;Alta Vulnerabilidade;1881;634;3
+3511201;Muito Alta Vulnerabilidade;0;0;0
+3511300;Baixíssima Vulnerabilidade;0;0;0
+3511300;Muito Baixa Vulnerabilidade;7777;2927;21
+3511300;Baixa Vulnerabilidade;2662;987;5
+3511300;Média Vulnerabilidade;502;183;3
+3511300;Alta Vulnerabilidade;1303;446;3
+3511300;Muito Alta Vulnerabilidade;0;0;0
+3511409;Baixíssima Vulnerabilidade;0;0;0
+3511409;Muito Baixa Vulnerabilidade;8406;3183;26
+3511409;Baixa Vulnerabilidade;1071;399;4
+3511409;Média Vulnerabilidade;2887;1032;8
+3511409;Alta Vulnerabilidade;7555;2664;16
+3511409;Muito Alta Vulnerabilidade;0;0;0
+3511508;Baixíssima Vulnerabilidade;224;72;1
+3511508;Muito Baixa Vulnerabilidade;29597;10664;45
+3511508;Baixa Vulnerabilidade;6052;2116;8
+3511508;Média Vulnerabilidade;3915;1400;8
+3511508;Alta Vulnerabilidade;4508;1564;7
+3511508;Muito Alta Vulnerabilidade;0;0;0
+3511607;Baixíssima Vulnerabilidade;0;0;0
+3511607;Muito Baixa Vulnerabilidade;7779;2775;18
+3511607;Baixa Vulnerabilidade;261;90;1
+3511607;Média Vulnerabilidade;2544;852;7
+3511607;Alta Vulnerabilidade;6767;2225;9
+3511607;Muito Alta Vulnerabilidade;0;0;0
+3511706;Baixíssima Vulnerabilidade;0;0;0
+3511706;Muito Baixa Vulnerabilidade;8909;3117;21
+3511706;Baixa Vulnerabilidade;1381;495;2
+3511706;Média Vulnerabilidade;1507;491;4
+3511706;Alta Vulnerabilidade;3073;1018;6
+3511706;Muito Alta Vulnerabilidade;0;0;0
+3511904;Baixíssima Vulnerabilidade;0;0;0
+3511904;Muito Baixa Vulnerabilidade;788;337;2
+3511904;Baixa Vulnerabilidade;0;0;0
+3511904;Média Vulnerabilidade;1078;395;3
+3511904;Alta Vulnerabilidade;4851;1739;9
+3511904;Muito Alta Vulnerabilidade;0;0;0
+3512001;Baixíssima Vulnerabilidade;0;0;0
+3512001;Muito Baixa Vulnerabilidade;11732;4302;23
+3512001;Baixa Vulnerabilidade;0;0;0
+3512001;Média Vulnerabilidade;4070;1390;7
+3512001;Alta Vulnerabilidade;2642;868;4
+3512001;Muito Alta Vulnerabilidade;0;0;0
+3512100;Baixíssima Vulnerabilidade;0;0;0
+3512100;Muito Baixa Vulnerabilidade;671;245;2
+3512100;Baixa Vulnerabilidade;311;114;1
+3512100;Média Vulnerabilidade;3069;1122;7
+3512100;Alta Vulnerabilidade;2123;759;4
+3512100;Muito Alta Vulnerabilidade;0;0;0
+3512209;Baixíssima Vulnerabilidade;560;197;1
+3512209;Muito Baixa Vulnerabilidade;6175;2244;14
+3512209;Baixa Vulnerabilidade;2370;853;4
+3512209;Média Vulnerabilidade;5170;1735;14
+3512209;Alta Vulnerabilidade;13645;4386;20
+3512209;Muito Alta Vulnerabilidade;0;0;0
+3512308;Baixíssima Vulnerabilidade;0;0;0
+3512308;Muito Baixa Vulnerabilidade;7681;2920;21
+3512308;Baixa Vulnerabilidade;898;352;4
+3512308;Média Vulnerabilidade;2634;935;8
+3512308;Alta Vulnerabilidade;3747;1316;8
+3512308;Muito Alta Vulnerabilidade;0;0;0
+3512407;Baixíssima Vulnerabilidade;0;0;0
+3512407;Muito Baixa Vulnerabilidade;9139;3330;20
+3512407;Baixa Vulnerabilidade;9301;3220;13
+3512407;Média Vulnerabilidade;151;50;1
+3512407;Alta Vulnerabilidade;4874;1585;7
+3512407;Muito Alta Vulnerabilidade;272;79;1
+3512506;Baixíssima Vulnerabilidade;0;0;0
+3512506;Muito Baixa Vulnerabilidade;2143;801;6
+3512506;Baixa Vulnerabilidade;479;178;1
+3512506;Média Vulnerabilidade;1754;668;4
+3512506;Alta Vulnerabilidade;942;339;2
+3512506;Muito Alta Vulnerabilidade;0;0;0
+3512605;Baixíssima Vulnerabilidade;306;115;1
+3512605;Muito Baixa Vulnerabilidade;537;220;2
+3512605;Baixa Vulnerabilidade;0;0;0
+3512605;Média Vulnerabilidade;2218;861;8
+3512605;Alta Vulnerabilidade;1219;458;3
+3512605;Muito Alta Vulnerabilidade;0;0;0
+3512704;Baixíssima Vulnerabilidade;0;0;0
+3512704;Muito Baixa Vulnerabilidade;2453;882;7
+3512704;Baixa Vulnerabilidade;0;0;0
+3512704;Média Vulnerabilidade;906;306;3
+3512704;Alta Vulnerabilidade;655;213;1
+3512704;Muito Alta Vulnerabilidade;0;0;0
+3512803;Baixíssima Vulnerabilidade;117;40;1
+3512803;Muito Baixa Vulnerabilidade;37050;13570;91
+3512803;Baixa Vulnerabilidade;5742;2043;13
+3512803;Média Vulnerabilidade;5658;2011;13
+3512803;Alta Vulnerabilidade;8539;3096;17
+3512803;Muito Alta Vulnerabilidade;1567;573;6
+3512902;Baixíssima Vulnerabilidade;0;0;0
+3512902;Muito Baixa Vulnerabilidade;3480;1339;5
+3512902;Baixa Vulnerabilidade;0;0;0
+3512902;Média Vulnerabilidade;1113;427;5
+3512902;Alta Vulnerabilidade;4037;1467;7
+3512902;Muito Alta Vulnerabilidade;0;0;0
+3513009;Baixíssima Vulnerabilidade;32516;11236;92
+3513009;Muito Baixa Vulnerabilidade;97082;34690;246
+3513009;Baixa Vulnerabilidade;50117;17810;117
+3513009;Média Vulnerabilidade;22172;7659;59
+3513009;Alta Vulnerabilidade;57502;19747;120
+3513009;Muito Alta Vulnerabilidade;10749;3563;28
+3513108;Baixíssima Vulnerabilidade;1223;423;3
+3513108;Muito Baixa Vulnerabilidade;11509;4122;20
+3513108;Baixa Vulnerabilidade;3240;1095;5
+3513108;Média Vulnerabilidade;5662;1958;9
+3513108;Alta Vulnerabilidade;11074;3576;14
+3513108;Muito Alta Vulnerabilidade;0;0;0
+3513207;Baixíssima Vulnerabilidade;0;0;0
+3513207;Muito Baixa Vulnerabilidade;5060;1832;12
+3513207;Baixa Vulnerabilidade;0;0;0
+3513207;Média Vulnerabilidade;1440;484;4
+3513207;Alta Vulnerabilidade;2439;830;5
+3513207;Muito Alta Vulnerabilidade;0;0;0
+3513306;Baixíssima Vulnerabilidade;0;0;0
+3513306;Muito Baixa Vulnerabilidade;1039;419;3
+3513306;Baixa Vulnerabilidade;0;0;0
+3513306;Média Vulnerabilidade;911;348;2
+3513306;Alta Vulnerabilidade;0;0;0
+3513306;Muito Alta Vulnerabilidade;0;0;0
+3513405;Baixíssima Vulnerabilidade;1271;481;3
+3513405;Muito Baixa Vulnerabilidade;57441;20797;116
+3513405;Baixa Vulnerabilidade;5344;1936;11
+3513405;Média Vulnerabilidade;4193;1407;10
+3513405;Alta Vulnerabilidade;4693;1535;9
+3513405;Muito Alta Vulnerabilidade;1106;344;4
+3513504;Baixíssima Vulnerabilidade;0;0;0
+3513504;Muito Baixa Vulnerabilidade;39276;14234;69
+3513504;Baixa Vulnerabilidade;9492;3606;20
+3513504;Média Vulnerabilidade;15936;5477;28
+3513504;Alta Vulnerabilidade;10333;3621;18
+3513504;Muito Alta Vulnerabilidade;36426;12821;76
+3513603;Baixíssima Vulnerabilidade;456;175;1
+3513603;Muito Baixa Vulnerabilidade;5143;2089;14
+3513603;Baixa Vulnerabilidade;311;127;1
+3513603;Média Vulnerabilidade;10801;4125;37
+3513603;Alta Vulnerabilidade;5005;1923;9
+3513603;Muito Alta Vulnerabilidade;0;0;0
+3513702;Baixíssima Vulnerabilidade;708;246;1
+3513702;Muito Baixa Vulnerabilidade;19144;7050;40
+3513702;Baixa Vulnerabilidade;4557;1680;8
+3513702;Média Vulnerabilidade;4158;1394;8
+3513702;Alta Vulnerabilidade;2824;944;4
+3513702;Muito Alta Vulnerabilidade;0;0;0
+3513801;Baixíssima Vulnerabilidade;5597;1983;15
+3513801;Muito Baixa Vulnerabilidade;165494;61884;296
+3513801;Baixa Vulnerabilidade;44270;16818;73
+3513801;Média Vulnerabilidade;37449;13940;70
+3513801;Alta Vulnerabilidade;50356;18800;89
+3513801;Muito Alta Vulnerabilidade;87310;30721;195
+3513850;Baixíssima Vulnerabilidade;0;0;0
+3513850;Muito Baixa Vulnerabilidade;145;48;1
+3513850;Baixa Vulnerabilidade;176;60;1
+3513850;Média Vulnerabilidade;1117;468;4
+3513850;Alta Vulnerabilidade;0;0;0
+3513850;Muito Alta Vulnerabilidade;0;0;0
+3513900;Baixíssima Vulnerabilidade;0;0;0
+3513900;Muito Baixa Vulnerabilidade;5914;2304;14
+3513900;Baixa Vulnerabilidade;791;291;3
+3513900;Média Vulnerabilidade;3878;1449;8
+3513900;Alta Vulnerabilidade;304;112;1
+3513900;Muito Alta Vulnerabilidade;0;0;0
+3514007;Baixíssima Vulnerabilidade;0;0;0
+3514007;Muito Baixa Vulnerabilidade;3861;1335;7
+3514007;Baixa Vulnerabilidade;441;145;1
+3514007;Média Vulnerabilidade;2293;800;6
+3514007;Alta Vulnerabilidade;2068;766;4
+3514007;Muito Alta Vulnerabilidade;0;0;0
+3514106;Baixíssima Vulnerabilidade;0;0;0
+3514106;Muito Baixa Vulnerabilidade;5078;2024;15
+3514106;Baixa Vulnerabilidade;2489;926;6
+3514106;Média Vulnerabilidade;3519;1259;9
+3514106;Alta Vulnerabilidade;12354;4305;26
+3514106;Muito Alta Vulnerabilidade;0;0;0
+3514205;Baixíssima Vulnerabilidade;0;0;0
+3514205;Muito Baixa Vulnerabilidade;253;89;2
+3514205;Baixa Vulnerabilidade;0;0;0
+3514205;Média Vulnerabilidade;1583;668;4
+3514205;Alta Vulnerabilidade;161;55;1
+3514205;Muito Alta Vulnerabilidade;0;0;0
+3514304;Baixíssima Vulnerabilidade;0;0;0
+3514304;Muito Baixa Vulnerabilidade;4212;1696;10
+3514304;Baixa Vulnerabilidade;506;189;1
+3514304;Média Vulnerabilidade;1143;399;3
+3514304;Alta Vulnerabilidade;2142;792;3
+3514304;Muito Alta Vulnerabilidade;0;0;0
+3514403;Baixíssima Vulnerabilidade;623;220;3
+3514403;Muito Baixa Vulnerabilidade;24960;9709;53
+3514403;Baixa Vulnerabilidade;5007;1992;13
+3514403;Média Vulnerabilidade;7557;2917;18
+3514403;Alta Vulnerabilidade;5673;2078;10
+3514403;Muito Alta Vulnerabilidade;0;0;0
+3514502;Baixíssima Vulnerabilidade;0;0;0
+3514502;Muito Baixa Vulnerabilidade;3897;1538;11
+3514502;Baixa Vulnerabilidade;1182;459;4
+3514502;Média Vulnerabilidade;4290;1667;11
+3514502;Alta Vulnerabilidade;2639;1016;6
+3514502;Muito Alta Vulnerabilidade;0;0;0
+3514601;Baixíssima Vulnerabilidade;0;0;0
+3514601;Muito Baixa Vulnerabilidade;2852;1004;7
+3514601;Baixa Vulnerabilidade;3211;1129;5
+3514601;Média Vulnerabilidade;671;235;1
+3514601;Alta Vulnerabilidade;2633;893;4
+3514601;Muito Alta Vulnerabilidade;0;0;0
+3514700;Baixíssima Vulnerabilidade;0;0;0
+3514700;Muito Baixa Vulnerabilidade;1526;572;6
+3514700;Baixa Vulnerabilidade;1194;448;3
+3514700;Média Vulnerabilidade;2156;824;4
+3514700;Alta Vulnerabilidade;996;320;2
+3514700;Muito Alta Vulnerabilidade;0;0;0
+3514809;Baixíssima Vulnerabilidade;630;238;1
+3514809;Muito Baixa Vulnerabilidade;1606;592;3
+3514809;Baixa Vulnerabilidade;788;294;1
+3514809;Média Vulnerabilidade;5190;1876;14
+3514809;Alta Vulnerabilidade;2695;876;5
+3514809;Muito Alta Vulnerabilidade;0;0;0
+3514908;Baixíssima Vulnerabilidade;0;0;0
+3514908;Muito Baixa Vulnerabilidade;3127;1071;6
+3514908;Baixa Vulnerabilidade;3037;1073;4
+3514908;Média Vulnerabilidade;644;210;4
+3514908;Alta Vulnerabilidade;10654;3544;14
+3514908;Muito Alta Vulnerabilidade;0;0;0
+3514924;Baixíssima Vulnerabilidade;0;0;0
+3514924;Muito Baixa Vulnerabilidade;432;152;2
+3514924;Baixa Vulnerabilidade;572;212;1
+3514924;Média Vulnerabilidade;1605;604;4
+3514924;Alta Vulnerabilidade;529;216;1
+3514924;Muito Alta Vulnerabilidade;0;0;0
+3514957;Baixíssima Vulnerabilidade;0;0;0
+3514957;Muito Baixa Vulnerabilidade;461;178;1
+3514957;Baixa Vulnerabilidade;0;0;0
+3514957;Média Vulnerabilidade;1862;718;4
+3514957;Alta Vulnerabilidade;0;0;0
+3514957;Muito Alta Vulnerabilidade;0;0;0
+3515004;Baixíssima Vulnerabilidade;2054;713;6
+3515004;Muito Baixa Vulnerabilidade;53604;19291;131
+3515004;Baixa Vulnerabilidade;16701;5686;40
+3515004;Média Vulnerabilidade;50693;17923;109
+3515004;Alta Vulnerabilidade;71003;25150;143
+3515004;Muito Alta Vulnerabilidade;52590;18045;113
+3515103;Baixíssima Vulnerabilidade;2657;892;5
+3515103;Muito Baixa Vulnerabilidade;16697;5995;50
+3515103;Baixa Vulnerabilidade;8027;2814;17
+3515103;Média Vulnerabilidade;16720;5934;42
+3515103;Alta Vulnerabilidade;20238;6973;53
+3515103;Muito Alta Vulnerabilidade;819;263;3
+3515129;Baixíssima Vulnerabilidade;0;0;0
+3515129;Muito Baixa Vulnerabilidade;0;0;0
+3515129;Baixa Vulnerabilidade;0;0;0
+3515129;Média Vulnerabilidade;1577;645;4
+3515129;Alta Vulnerabilidade;1212;444;2
+3515129;Muito Alta Vulnerabilidade;0;0;0
+3515152;Baixíssima Vulnerabilidade;933;342;3
+3515152;Muito Baixa Vulnerabilidade;3302;1207;9
+3515152;Baixa Vulnerabilidade;3319;1251;5
+3515152;Média Vulnerabilidade;676;245;4
+3515152;Alta Vulnerabilidade;10517;3590;18
+3515152;Muito Alta Vulnerabilidade;0;0;0
+3515186;Baixíssima Vulnerabilidade;0;0;0
+3515186;Muito Baixa Vulnerabilidade;24166;9041;45
+3515186;Baixa Vulnerabilidade;1436;525;4
+3515186;Média Vulnerabilidade;12109;4149;24
+3515186;Alta Vulnerabilidade;1824;637;4
+3515186;Muito Alta Vulnerabilidade;0;0;0
+3515194;Baixíssima Vulnerabilidade;0;0;0
+3515194;Muito Baixa Vulnerabilidade;0;0;0
+3515194;Baixa Vulnerabilidade;0;0;0
+3515194;Média Vulnerabilidade;1202;441;4
+3515194;Alta Vulnerabilidade;2858;1009;8
+3515194;Muito Alta Vulnerabilidade;0;0;0
+3515202;Baixíssima Vulnerabilidade;0;0;0
+3515202;Muito Baixa Vulnerabilidade;6393;2412;13
+3515202;Baixa Vulnerabilidade;0;0;0
+3515202;Média Vulnerabilidade;1035;395;3
+3515202;Alta Vulnerabilidade;1790;631;4
+3515202;Muito Alta Vulnerabilidade;0;0;0
+3515301;Baixíssima Vulnerabilidade;0;0;0
+3515301;Muito Baixa Vulnerabilidade;271;105;1
+3515301;Baixa Vulnerabilidade;164;54;1
+3515301;Média Vulnerabilidade;1768;643;4
+3515301;Alta Vulnerabilidade;319;104;1
+3515301;Muito Alta Vulnerabilidade;0;0;0
+3515350;Baixíssima Vulnerabilidade;0;0;0
+3515350;Muito Baixa Vulnerabilidade;0;0;0
+3515350;Baixa Vulnerabilidade;0;0;0
+3515350;Média Vulnerabilidade;4676;1749;12
+3515350;Alta Vulnerabilidade;3243;1273;7
+3515350;Muito Alta Vulnerabilidade;0;0;0
+3515400;Baixíssima Vulnerabilidade;0;0;0
+3515400;Muito Baixa Vulnerabilidade;6296;2430;15
+3515400;Baixa Vulnerabilidade;1201;459;3
+3515400;Média Vulnerabilidade;3930;1486;8
+3515400;Alta Vulnerabilidade;4599;1636;7
+3515400;Muito Alta Vulnerabilidade;0;0;0
+3515509;Baixíssima Vulnerabilidade;1786;679;4
+3515509;Muito Baixa Vulnerabilidade;40242;15657;96
+3515509;Baixa Vulnerabilidade;7000;2849;18
+3515509;Média Vulnerabilidade;13595;5199;30
+3515509;Alta Vulnerabilidade;8086;3127;19
+3515509;Muito Alta Vulnerabilidade;0;0;0
+3515608;Baixíssima Vulnerabilidade;0;0;0
+3515608;Muito Baixa Vulnerabilidade;2834;1094;6
+3515608;Baixa Vulnerabilidade;0;0;0
+3515608;Média Vulnerabilidade;2857;1065;8
+3515608;Alta Vulnerabilidade;0;0;0
+3515608;Muito Alta Vulnerabilidade;0;0;0
+3515657;Baixíssima Vulnerabilidade;0;0;0
+3515657;Muito Baixa Vulnerabilidade;337;126;1
+3515657;Baixa Vulnerabilidade;0;0;0
+3515657;Média Vulnerabilidade;848;311;2
+3515657;Alta Vulnerabilidade;470;176;1
+3515657;Muito Alta Vulnerabilidade;0;0;0
+3515707;Baixíssima Vulnerabilidade;0;0;0
+3515707;Muito Baixa Vulnerabilidade;48891;17160;99
+3515707;Baixa Vulnerabilidade;18097;6298;42
+3515707;Média Vulnerabilidade;42686;14846;84
+3515707;Alta Vulnerabilidade;37628;12889;74
+3515707;Muito Alta Vulnerabilidade;29794;9729;80
+3515806;Baixíssima Vulnerabilidade;0;0;0
+3515806;Muito Baixa Vulnerabilidade;139;52;1
+3515806;Baixa Vulnerabilidade;0;0;0
+3515806;Média Vulnerabilidade;1216;511;4
+3515806;Alta Vulnerabilidade;0;0;0
+3515806;Muito Alta Vulnerabilidade;0;0;0
+3515905;Baixíssima Vulnerabilidade;0;0;0
+3515905;Muito Baixa Vulnerabilidade;1510;610;4
+3515905;Baixa Vulnerabilidade;0;0;0
+3515905;Média Vulnerabilidade;1208;510;3
+3515905;Alta Vulnerabilidade;0;0;0
+3515905;Muito Alta Vulnerabilidade;0;0;0
+3516002;Baixíssima Vulnerabilidade;0;0;0
+3516002;Muito Baixa Vulnerabilidade;4252;1622;10
+3516002;Baixa Vulnerabilidade;0;0;0
+3516002;Média Vulnerabilidade;4732;1752;10
+3516002;Alta Vulnerabilidade;1927;704;3
+3516002;Muito Alta Vulnerabilidade;0;0;0
+3516101;Baixíssima Vulnerabilidade;0;0;0
+3516101;Muito Baixa Vulnerabilidade;494;188;2
+3516101;Baixa Vulnerabilidade;0;0;0
+3516101;Média Vulnerabilidade;1534;583;3
+3516101;Alta Vulnerabilidade;492;185;2
+3516101;Muito Alta Vulnerabilidade;0;0;0
+3516200;Baixíssima Vulnerabilidade;11015;4239;23
+3516200;Muito Baixa Vulnerabilidade;185614;67506;366
+3516200;Baixa Vulnerabilidade;74339;27932;147
+3516200;Média Vulnerabilidade;38205;13702;75
+3516200;Alta Vulnerabilidade;40100;13977;68
+3516200;Muito Alta Vulnerabilidade;0;0;0
+3516309;Baixíssima Vulnerabilidade;520;173;1
+3516309;Muito Baixa Vulnerabilidade;12511;4378;33
+3516309;Baixa Vulnerabilidade;11680;4172;27
+3516309;Média Vulnerabilidade;24604;8436;55
+3516309;Alta Vulnerabilidade;92055;32507;191
+3516309;Muito Alta Vulnerabilidade;22498;7637;64
+3516408;Baixíssima Vulnerabilidade;1035;331;1
+3516408;Muito Baixa Vulnerabilidade;33747;12291;80
+3516408;Baixa Vulnerabilidade;27822;9889;56
+3516408;Média Vulnerabilidade;13726;4971;33
+3516408;Alta Vulnerabilidade;47694;16469;96
+3516408;Muito Alta Vulnerabilidade;14236;4719;42
+3516507;Baixíssima Vulnerabilidade;0;0;0
+3516507;Muito Baixa Vulnerabilidade;622;256;2
+3516507;Baixa Vulnerabilidade;0;0;0
+3516507;Média Vulnerabilidade;1362;520;3
+3516507;Alta Vulnerabilidade;617;233;1
+3516507;Muito Alta Vulnerabilidade;0;0;0
+3516606;Baixíssima Vulnerabilidade;0;0;0
+3516606;Muito Baixa Vulnerabilidade;1713;685;5
+3516606;Baixa Vulnerabilidade;0;0;0
+3516606;Média Vulnerabilidade;2957;1132;8
+3516606;Alta Vulnerabilidade;1391;518;3
+3516606;Muito Alta Vulnerabilidade;0;0;0
+3516705;Baixíssima Vulnerabilidade;318;119;1
+3516705;Muito Baixa Vulnerabilidade;19251;7232;41
+3516705;Baixa Vulnerabilidade;4889;1848;13
+3516705;Média Vulnerabilidade;9927;3643;25
+3516705;Alta Vulnerabilidade;6814;2418;17
+3516705;Muito Alta Vulnerabilidade;0;0;0
+3516804;Baixíssima Vulnerabilidade;0;0;0
+3516804;Muito Baixa Vulnerabilidade;0;0;0
+3516804;Baixa Vulnerabilidade;0;0;0
+3516804;Média Vulnerabilidade;2574;1026;8
+3516804;Alta Vulnerabilidade;517;167;2
+3516804;Muito Alta Vulnerabilidade;0;0;0
+3516853;Baixíssima Vulnerabilidade;0;0;0
+3516853;Muito Baixa Vulnerabilidade;801;287;1
+3516853;Baixa Vulnerabilidade;0;0;0
+3516853;Média Vulnerabilidade;1333;500;5
+3516853;Alta Vulnerabilidade;2529;840;4
+3516853;Muito Alta Vulnerabilidade;0;0;0
+3516903;Baixíssima Vulnerabilidade;0;0;0
+3516903;Muito Baixa Vulnerabilidade;5875;2295;14
+3516903;Baixa Vulnerabilidade;105;39;1
+3516903;Média Vulnerabilidade;4048;1584;11
+3516903;Alta Vulnerabilidade;165;71;1
+3516903;Muito Alta Vulnerabilidade;0;0;0
+3517000;Baixíssima Vulnerabilidade;0;0;0
+3517000;Muito Baixa Vulnerabilidade;2328;899;7
+3517000;Baixa Vulnerabilidade;170;62;1
+3517000;Média Vulnerabilidade;3506;1340;9
+3517000;Alta Vulnerabilidade;2673;995;7
+3517000;Muito Alta Vulnerabilidade;0;0;0
+3517109;Baixíssima Vulnerabilidade;0;0;0
+3517109;Muito Baixa Vulnerabilidade;1600;610;5
+3517109;Baixa Vulnerabilidade;0;0;0
+3517109;Média Vulnerabilidade;1461;561;4
+3517109;Alta Vulnerabilidade;928;319;2
+3517109;Muito Alta Vulnerabilidade;0;0;0
+3517208;Baixíssima Vulnerabilidade;0;0;0
+3517208;Muito Baixa Vulnerabilidade;2170;785;5
+3517208;Baixa Vulnerabilidade;778;272;2
+3517208;Média Vulnerabilidade;3122;1107;9
+3517208;Alta Vulnerabilidade;4873;1712;10
+3517208;Muito Alta Vulnerabilidade;0;0;0
+3517307;Baixíssima Vulnerabilidade;0;0;0
+3517307;Muito Baixa Vulnerabilidade;244;89;1
+3517307;Baixa Vulnerabilidade;0;0;0
+3517307;Média Vulnerabilidade;2326;900;6
+3517307;Alta Vulnerabilidade;2877;1050;7
+3517307;Muito Alta Vulnerabilidade;0;0;0
+3517406;Baixíssima Vulnerabilidade;0;0;0
+3517406;Muito Baixa Vulnerabilidade;20948;7940;36
+3517406;Baixa Vulnerabilidade;5945;2110;9
+3517406;Média Vulnerabilidade;4336;1681;10
+3517406;Alta Vulnerabilidade;7555;2831;13
+3517406;Muito Alta Vulnerabilidade;0;0;0
+3517505;Baixíssima Vulnerabilidade;396;151;1
+3517505;Muito Baixa Vulnerabilidade;6917;2475;17
+3517505;Baixa Vulnerabilidade;2950;989;5
+3517505;Média Vulnerabilidade;4644;1705;10
+3517505;Alta Vulnerabilidade;6479;2314;11
+3517505;Muito Alta Vulnerabilidade;0;0;0
+3517604;Baixíssima Vulnerabilidade;0;0;0
+3517604;Muito Baixa Vulnerabilidade;985;356;3
+3517604;Baixa Vulnerabilidade;501;192;2
+3517604;Média Vulnerabilidade;9493;3436;32
+3517604;Alta Vulnerabilidade;5912;2116;17
+3517604;Muito Alta Vulnerabilidade;0;0;0
+3517703;Baixíssima Vulnerabilidade;0;0;0
+3517703;Muito Baixa Vulnerabilidade;5679;2126;11
+3517703;Baixa Vulnerabilidade;622;242;2
+3517703;Média Vulnerabilidade;6076;2153;12
+3517703;Alta Vulnerabilidade;5902;2052;10
+3517703;Muito Alta Vulnerabilidade;0;0;0
+3517802;Baixíssima Vulnerabilidade;0;0;0
+3517802;Muito Baixa Vulnerabilidade;3691;1490;10
+3517802;Baixa Vulnerabilidade;0;0;0
+3517802;Média Vulnerabilidade;2597;1037;7
+3517802;Alta Vulnerabilidade;806;292;2
+3517802;Muito Alta Vulnerabilidade;0;0;0
+3517901;Baixíssima Vulnerabilidade;0;0;0
+3517901;Muito Baixa Vulnerabilidade;3633;1440;10
+3517901;Baixa Vulnerabilidade;134;47;1
+3517901;Média Vulnerabilidade;2294;851;6
+3517901;Alta Vulnerabilidade;3892;1432;6
+3517901;Muito Alta Vulnerabilidade;0;0;0
+3518008;Baixíssima Vulnerabilidade;0;0;0
+3518008;Muito Baixa Vulnerabilidade;471;186;2
+3518008;Baixa Vulnerabilidade;0;0;0
+3518008;Média Vulnerabilidade;1241;514;4
+3518008;Alta Vulnerabilidade;0;0;0
+3518008;Muito Alta Vulnerabilidade;0;0;0
+3518107;Baixíssima Vulnerabilidade;0;0;0
+3518107;Muito Baixa Vulnerabilidade;1203;423;3
+3518107;Baixa Vulnerabilidade;0;0;0
+3518107;Média Vulnerabilidade;1897;709;4
+3518107;Alta Vulnerabilidade;2904;1027;7
+3518107;Muito Alta Vulnerabilidade;0;0;0
+3518206;Baixíssima Vulnerabilidade;0;0;0
+3518206;Muito Baixa Vulnerabilidade;14004;5386;33
+3518206;Baixa Vulnerabilidade;435;181;1
+3518206;Média Vulnerabilidade;10743;4038;23
+3518206;Alta Vulnerabilidade;5081;1798;10
+3518206;Muito Alta Vulnerabilidade;0;0;0
+3518305;Baixíssima Vulnerabilidade;972;362;2
+3518305;Muito Baixa Vulnerabilidade;12901;4786;33
+3518305;Baixa Vulnerabilidade;838;304;1
+3518305;Média Vulnerabilidade;11639;4007;26
+3518305;Alta Vulnerabilidade;4182;1393;6
+3518305;Muito Alta Vulnerabilidade;0;0;0
+3518404;Baixíssima Vulnerabilidade;5072;1943;12
+3518404;Muito Baixa Vulnerabilidade;75600;27479;147
+3518404;Baixa Vulnerabilidade;7096;2571;15
+3518404;Média Vulnerabilidade;11346;3901;22
+3518404;Alta Vulnerabilidade;15248;5115;27
+3518404;Muito Alta Vulnerabilidade;732;222;3
+3518503;Baixíssima Vulnerabilidade;0;0;0
+3518503;Muito Baixa Vulnerabilidade;3273;1223;11
+3518503;Baixa Vulnerabilidade;665;279;1
+3518503;Média Vulnerabilidade;2891;1055;8
+3518503;Alta Vulnerabilidade;5353;1930;12
+3518503;Muito Alta Vulnerabilidade;0;0;0
+3518602;Baixíssima Vulnerabilidade;0;0;0
+3518602;Muito Baixa Vulnerabilidade;15114;5445;31
+3518602;Baixa Vulnerabilidade;2360;779;5
+3518602;Média Vulnerabilidade;5983;2181;14
+3518602;Alta Vulnerabilidade;13246;4492;24
+3518602;Muito Alta Vulnerabilidade;0;0;0
+3518701;Baixíssima Vulnerabilidade;6654;2768;40
+3518701;Muito Baixa Vulnerabilidade;106676;38521;265
+3518701;Baixa Vulnerabilidade;29605;10428;63
+3518701;Média Vulnerabilidade;18643;6295;30
+3518701;Alta Vulnerabilidade;15382;5205;28
+3518701;Muito Alta Vulnerabilidade;105123;34241;193
+3518800;Baixíssima Vulnerabilidade;60089;21992;161
+3518800;Muito Baixa Vulnerabilidade;471657;171394;892
+3518800;Baixa Vulnerabilidade;156157;57341;297
+3518800;Média Vulnerabilidade;121205;42164;214
+3518800;Alta Vulnerabilidade;255335;86397;404
+3518800;Muito Alta Vulnerabilidade;213993;69358;382
+3518859;Baixíssima Vulnerabilidade;0;0;0
+3518859;Muito Baixa Vulnerabilidade;2035;704;5
+3518859;Baixa Vulnerabilidade;0;0;0
+3518859;Média Vulnerabilidade;1964;694;4
+3518859;Alta Vulnerabilidade;3180;1104;7
+3518859;Muito Alta Vulnerabilidade;0;0;0
+3518909;Baixíssima Vulnerabilidade;0;0;0
+3518909;Muito Baixa Vulnerabilidade;699;286;3
+3518909;Baixa Vulnerabilidade;0;0;0
+3518909;Média Vulnerabilidade;1166;466;4
+3518909;Alta Vulnerabilidade;2088;776;5
+3518909;Muito Alta Vulnerabilidade;0;0;0
+3519006;Baixíssima Vulnerabilidade;0;0;0
+3519006;Muito Baixa Vulnerabilidade;3132;1180;10
+3519006;Baixa Vulnerabilidade;475;171;3
+3519006;Média Vulnerabilidade;1752;586;5
+3519006;Alta Vulnerabilidade;3319;1221;8
+3519006;Muito Alta Vulnerabilidade;0;0;0
+3519055;Baixíssima Vulnerabilidade;2305;862;5
+3519055;Muito Baixa Vulnerabilidade;6199;2180;12
+3519055;Baixa Vulnerabilidade;1038;378;4
+3519055;Média Vulnerabilidade;1632;518;3
+3519055;Alta Vulnerabilidade;3737;1184;6
+3519055;Muito Alta Vulnerabilidade;0;0;0
+3519071;Baixíssima Vulnerabilidade;7634;2412;12
+3519071;Muito Baixa Vulnerabilidade;101001;35521;157
+3519071;Baixa Vulnerabilidade;50871;18457;82
+3519071;Média Vulnerabilidade;29071;9799;41
+3519071;Alta Vulnerabilidade;38637;12989;56
+3519071;Muito Alta Vulnerabilidade;4072;1319;10
+3519105;Baixíssima Vulnerabilidade;0;0;0
+3519105;Muito Baixa Vulnerabilidade;5451;2118;14
+3519105;Baixa Vulnerabilidade;1122;409;2
+3519105;Média Vulnerabilidade;1815;703;5
+3519105;Alta Vulnerabilidade;1826;626;3
+3519105;Muito Alta Vulnerabilidade;0;0;0
+3519204;Baixíssima Vulnerabilidade;0;0;0
+3519204;Muito Baixa Vulnerabilidade;1339;515;4
+3519204;Baixa Vulnerabilidade;176;58;1
+3519204;Média Vulnerabilidade;2712;962;9
+3519204;Alta Vulnerabilidade;1413;531;4
+3519204;Muito Alta Vulnerabilidade;0;0;0
+3519253;Baixíssima Vulnerabilidade;0;0;0
+3519253;Muito Baixa Vulnerabilidade;570;217;2
+3519253;Baixa Vulnerabilidade;800;273;2
+3519253;Média Vulnerabilidade;1112;385;3
+3519253;Alta Vulnerabilidade;2499;881;5
+3519253;Muito Alta Vulnerabilidade;0;0;0
+3519303;Baixíssima Vulnerabilidade;0;0;0
+3519303;Muito Baixa Vulnerabilidade;7891;2850;15
+3519303;Baixa Vulnerabilidade;3686;1273;7
+3519303;Média Vulnerabilidade;8577;2911;13
+3519303;Alta Vulnerabilidade;11646;3939;15
+3519303;Muito Alta Vulnerabilidade;0;0;0
+3519402;Baixíssima Vulnerabilidade;0;0;0
+3519402;Muito Baixa Vulnerabilidade;5497;2087;17
+3519402;Baixa Vulnerabilidade;882;317;2
+3519402;Média Vulnerabilidade;2127;815;6
+3519402;Alta Vulnerabilidade;2807;1055;7
+3519402;Muito Alta Vulnerabilidade;0;0;0
+3519501;Baixíssima Vulnerabilidade;342;138;1
+3519501;Muito Baixa Vulnerabilidade;2246;887;6
+3519501;Baixa Vulnerabilidade;0;0;0
+3519501;Média Vulnerabilidade;1429;555;4
+3519501;Alta Vulnerabilidade;1912;675;5
+3519501;Muito Alta Vulnerabilidade;268;87;1
+3519600;Baixíssima Vulnerabilidade;275;95;1
+3519600;Muito Baixa Vulnerabilidade;22920;8791;57
+3519600;Baixa Vulnerabilidade;5824;2141;12
+3519600;Média Vulnerabilidade;11525;4262;27
+3519600;Alta Vulnerabilidade;18727;6687;32
+3519600;Muito Alta Vulnerabilidade;0;0;0
+3519709;Baixíssima Vulnerabilidade;951;323;3
+3519709;Muito Baixa Vulnerabilidade;15013;5420;45
+3519709;Baixa Vulnerabilidade;3808;1343;10
+3519709;Média Vulnerabilidade;28591;10016;107
+3519709;Alta Vulnerabilidade;22241;7545;64
+3519709;Muito Alta Vulnerabilidade;1251;408;4
+3519808;Baixíssima Vulnerabilidade;0;0;0
+3519808;Muito Baixa Vulnerabilidade;2457;944;6
+3519808;Baixa Vulnerabilidade;0;0;0
+3519808;Média Vulnerabilidade;2250;867;5
+3519808;Alta Vulnerabilidade;2044;719;3
+3519808;Muito Alta Vulnerabilidade;0;0;0
+3519907;Baixíssima Vulnerabilidade;0;0;0
+3519907;Muito Baixa Vulnerabilidade;2239;893;5
+3519907;Baixa Vulnerabilidade;1266;455;3
+3519907;Média Vulnerabilidade;441;167;3
+3519907;Alta Vulnerabilidade;3046;1168;7
+3519907;Muito Alta Vulnerabilidade;0;0;0
+3520004;Baixíssima Vulnerabilidade;0;0;0
+3520004;Muito Baixa Vulnerabilidade;5584;2063;12
+3520004;Baixa Vulnerabilidade;2665;943;5
+3520004;Média Vulnerabilidade;10810;3915;20
+3520004;Alta Vulnerabilidade;3733;1248;8
+3520004;Muito Alta Vulnerabilidade;0;0;0
+3520103;Baixíssima Vulnerabilidade;0;0;0
+3520103;Muito Baixa Vulnerabilidade;10952;4203;26
+3520103;Baixa Vulnerabilidade;323;114;1
+3520103;Média Vulnerabilidade;8054;3041;16
+3520103;Alta Vulnerabilidade;6746;2453;15
+3520103;Muito Alta Vulnerabilidade;0;0;0
+3520202;Baixíssima Vulnerabilidade;0;0;0
+3520202;Muito Baixa Vulnerabilidade;3698;1392;8
+3520202;Baixa Vulnerabilidade;1094;391;2
+3520202;Média Vulnerabilidade;3718;1376;13
+3520202;Alta Vulnerabilidade;1528;564;5
+3520202;Muito Alta Vulnerabilidade;0;0;0
+3520301;Baixíssima Vulnerabilidade;0;0;0
+3520301;Muito Baixa Vulnerabilidade;10293;3971;23
+3520301;Baixa Vulnerabilidade;0;0;0
+3520301;Média Vulnerabilidade;15149;5637;43
+3520301;Alta Vulnerabilidade;1723;550;4
+3520301;Muito Alta Vulnerabilidade;0;0;0
+3520400;Baixíssima Vulnerabilidade;429;171;3
+3520400;Muito Baixa Vulnerabilidade;15082;5684;48
+3520400;Baixa Vulnerabilidade;8454;3091;19
+3520400;Média Vulnerabilidade;319;116;2
+3520400;Alta Vulnerabilidade;2482;888;5
+3520400;Muito Alta Vulnerabilidade;6829;2318;19
+3520426;Baixíssima Vulnerabilidade;0;0;0
+3520426;Muito Baixa Vulnerabilidade;7747;3078;30
+3520426;Baixa Vulnerabilidade;512;202;2
+3520426;Média Vulnerabilidade;3732;1459;15
+3520426;Alta Vulnerabilidade;941;363;4
+3520426;Muito Alta Vulnerabilidade;0;0;0
+3520442;Baixíssima Vulnerabilidade;1695;628;5
+3520442;Muito Baixa Vulnerabilidade;17187;6567;38
+3520442;Baixa Vulnerabilidade;2542;1001;7
+3520442;Média Vulnerabilidade;2817;1035;6
+3520442;Alta Vulnerabilidade;1077;393;3
+3520442;Muito Alta Vulnerabilidade;0;0;0
+3520509;Baixíssima Vulnerabilidade;45853;16354;69
+3520509;Muito Baixa Vulnerabilidade;132729;48221;193
+3520509;Baixa Vulnerabilidade;41337;14366;51
+3520509;Média Vulnerabilidade;14866;4969;18
+3520509;Alta Vulnerabilidade;19041;6384;25
+3520509;Muito Alta Vulnerabilidade;0;0;0
+3520608;Baixíssima Vulnerabilidade;0;0;0
+3520608;Muito Baixa Vulnerabilidade;2401;899;5
+3520608;Baixa Vulnerabilidade;175;61;1
+3520608;Média Vulnerabilidade;2350;898;5
+3520608;Alta Vulnerabilidade;151;56;1
+3520608;Muito Alta Vulnerabilidade;0;0;0
+3520707;Baixíssima Vulnerabilidade;0;0;0
+3520707;Muito Baixa Vulnerabilidade;1182;453;4
+3520707;Baixa Vulnerabilidade;0;0;0
+3520707;Média Vulnerabilidade;2335;996;7
+3520707;Alta Vulnerabilidade;452;191;1
+3520707;Muito Alta Vulnerabilidade;0;0;0
+3520806;Baixíssima Vulnerabilidade;0;0;0
+3520806;Muito Baixa Vulnerabilidade;107;41;1
+3520806;Baixa Vulnerabilidade;0;0;0
+3520806;Média Vulnerabilidade;3303;1213;5
+3520806;Alta Vulnerabilidade;0;0;0
+3520806;Muito Alta Vulnerabilidade;0;0;0
+3520905;Baixíssima Vulnerabilidade;0;0;0
+3520905;Muito Baixa Vulnerabilidade;5284;1957;15
+3520905;Baixa Vulnerabilidade;706;237;2
+3520905;Média Vulnerabilidade;4720;1697;11
+3520905;Alta Vulnerabilidade;2660;878;5
+3520905;Muito Alta Vulnerabilidade;0;0;0
+3521002;Baixíssima Vulnerabilidade;0;0;0
+3521002;Muito Baixa Vulnerabilidade;13412;4736;21
+3521002;Baixa Vulnerabilidade;3070;1052;5
+3521002;Média Vulnerabilidade;2039;733;6
+3521002;Alta Vulnerabilidade;14671;5094;23
+3521002;Muito Alta Vulnerabilidade;0;0;0
+3521101;Baixíssima Vulnerabilidade;0;0;0
+3521101;Muito Baixa Vulnerabilidade;2135;751;5
+3521101;Baixa Vulnerabilidade;1445;538;3
+3521101;Média Vulnerabilidade;1200;379;3
+3521101;Alta Vulnerabilidade;1992;699;4
+3521101;Muito Alta Vulnerabilidade;0;0;0
+3521150;Baixíssima Vulnerabilidade;0;0;0
+3521150;Muito Baixa Vulnerabilidade;2283;811;8
+3521150;Baixa Vulnerabilidade;0;0;0
+3521150;Média Vulnerabilidade;3372;1237;7
+3521150;Alta Vulnerabilidade;894;316;3
+3521150;Muito Alta Vulnerabilidade;0;0;0
+3521200;Baixíssima Vulnerabilidade;0;0;0
+3521200;Muito Baixa Vulnerabilidade;969;381;2
+3521200;Baixa Vulnerabilidade;0;0;0
+3521200;Média Vulnerabilidade;1529;543;4
+3521200;Alta Vulnerabilidade;258;89;1
+3521200;Muito Alta Vulnerabilidade;0;0;0
+3521309;Baixíssima Vulnerabilidade;0;0;0
+3521309;Muito Baixa Vulnerabilidade;6815;2565;11
+3521309;Baixa Vulnerabilidade;0;0;0
+3521309;Média Vulnerabilidade;4336;1560;7
+3521309;Alta Vulnerabilidade;2929;1080;5
+3521309;Muito Alta Vulnerabilidade;0;0;0
+3521408;Baixíssima Vulnerabilidade;376;123;1
+3521408;Muito Baixa Vulnerabilidade;14025;4912;30
+3521408;Baixa Vulnerabilidade;3724;1287;7
+3521408;Média Vulnerabilidade;2012;630;5
+3521408;Alta Vulnerabilidade;1625;529;3
+3521408;Muito Alta Vulnerabilidade;0;0;0
+3521507;Baixíssima Vulnerabilidade;0;0;0
+3521507;Muito Baixa Vulnerabilidade;1476;537;4
+3521507;Baixa Vulnerabilidade;0;0;0
+3521507;Média Vulnerabilidade;3784;1364;8
+3521507;Alta Vulnerabilidade;1574;556;4
+3521507;Muito Alta Vulnerabilidade;0;0;0
+3521606;Baixíssima Vulnerabilidade;0;0;0
+3521606;Muito Baixa Vulnerabilidade;1591;655;5
+3521606;Baixa Vulnerabilidade;0;0;0
+3521606;Média Vulnerabilidade;3545;1423;9
+3521606;Alta Vulnerabilidade;451;173;1
+3521606;Muito Alta Vulnerabilidade;0;0;0
+3521705;Baixíssima Vulnerabilidade;0;0;0
+3521705;Muito Baixa Vulnerabilidade;2215;810;5
+3521705;Baixa Vulnerabilidade;2879;1094;8
+3521705;Média Vulnerabilidade;3456;1281;14
+3521705;Alta Vulnerabilidade;7810;2785;20
+3521705;Muito Alta Vulnerabilidade;0;0;0
+3521804;Baixíssima Vulnerabilidade;152;52;1
+3521804;Muito Baixa Vulnerabilidade;6514;2379;20
+3521804;Baixa Vulnerabilidade;2355;835;5
+3521804;Média Vulnerabilidade;2901;1087;11
+3521804;Alta Vulnerabilidade;11706;4140;26
+3521804;Muito Alta Vulnerabilidade;0;0;0
+3521903;Baixíssima Vulnerabilidade;0;0;0
+3521903;Muito Baixa Vulnerabilidade;6163;2284;17
+3521903;Baixa Vulnerabilidade;3950;1439;8
+3521903;Média Vulnerabilidade;3716;1393;9
+3521903;Alta Vulnerabilidade;2906;1023;6
+3521903;Muito Alta Vulnerabilidade;0;0;0
+3522000;Baixíssima Vulnerabilidade;0;0;0
+3522000;Muito Baixa Vulnerabilidade;1067;394;3
+3522000;Baixa Vulnerabilidade;467;169;1
+3522000;Média Vulnerabilidade;684;221;3
+3522000;Alta Vulnerabilidade;1267;455;3
+3522000;Muito Alta Vulnerabilidade;0;0;0
+3522109;Baixíssima Vulnerabilidade;570;259;1
+3522109;Muito Baixa Vulnerabilidade;49902;19406;160
+3522109;Baixa Vulnerabilidade;6016;2327;13
+3522109;Média Vulnerabilidade;26356;9672;52
+3522109;Alta Vulnerabilidade;27518;9588;48
+3522109;Muito Alta Vulnerabilidade;554;192;3
+3522158;Baixíssima Vulnerabilidade;0;0;0
+3522158;Muito Baixa Vulnerabilidade;0;0;0
+3522158;Baixa Vulnerabilidade;412;145;1
+3522158;Média Vulnerabilidade;2144;808;8
+3522158;Alta Vulnerabilidade;660;243;2
+3522158;Muito Alta Vulnerabilidade;0;0;0
+3522208;Baixíssima Vulnerabilidade;1409;454;3
+3522208;Muito Baixa Vulnerabilidade;37264;13133;102
+3522208;Baixa Vulnerabilidade;15758;5549;35
+3522208;Média Vulnerabilidade;44986;15650;110
+3522208;Alta Vulnerabilidade;42332;14155;88
+3522208;Muito Alta Vulnerabilidade;13642;4651;34
+3522307;Baixíssima Vulnerabilidade;3337;1110;8
+3522307;Muito Baixa Vulnerabilidade;74740;27241;118
+3522307;Baixa Vulnerabilidade;26621;9380;37
+3522307;Média Vulnerabilidade;20523;7174;39
+3522307;Alta Vulnerabilidade;28017;9286;42
+3522307;Muito Alta Vulnerabilidade;0;0;0
+3522406;Baixíssima Vulnerabilidade;1626;615;4
+3522406;Muito Baixa Vulnerabilidade;29076;10822;51
+3522406;Baixa Vulnerabilidade;9894;3632;19
+3522406;Média Vulnerabilidade;19321;6789;46
+3522406;Alta Vulnerabilidade;27923;9349;44
+3522406;Muito Alta Vulnerabilidade;0;0;0
+3522505;Baixíssima Vulnerabilidade;2863;978;3
+3522505;Muito Baixa Vulnerabilidade;46859;16782;64
+3522505;Baixa Vulnerabilidade;36206;12932;44
+3522505;Média Vulnerabilidade;26267;9418;36
+3522505;Alta Vulnerabilidade;105351;36635;128
+3522505;Muito Alta Vulnerabilidade;13820;4868;26
+3522604;Baixíssima Vulnerabilidade;1058;382;5
+3522604;Muito Baixa Vulnerabilidade;43295;16331;89
+3522604;Baixa Vulnerabilidade;4439;1653;10
+3522604;Média Vulnerabilidade;13429;4674;27
+3522604;Alta Vulnerabilidade;8457;2884;12
+3522604;Muito Alta Vulnerabilidade;0;0;0
+3522653;Baixíssima Vulnerabilidade;0;0;0
+3522653;Muito Baixa Vulnerabilidade;0;0;0
+3522653;Baixa Vulnerabilidade;0;0;0
+3522653;Média Vulnerabilidade;1342;482;6
+3522653;Alta Vulnerabilidade;2963;1077;9
+3522653;Muito Alta Vulnerabilidade;0;0;0
+3522703;Baixíssima Vulnerabilidade;0;0;0
+3522703;Muito Baixa Vulnerabilidade;19478;7725;48
+3522703;Baixa Vulnerabilidade;2844;1059;7
+3522703;Média Vulnerabilidade;8680;3179;20
+3522703;Alta Vulnerabilidade;7534;2724;17
+3522703;Muito Alta Vulnerabilidade;0;0;0
+3522802;Baixíssima Vulnerabilidade;0;0;0
+3522802;Muito Baixa Vulnerabilidade;3753;1455;11
+3522802;Baixa Vulnerabilidade;710;274;2
+3522802;Média Vulnerabilidade;5487;2039;20
+3522802;Alta Vulnerabilidade;3825;1362;10
+3522802;Muito Alta Vulnerabilidade;0;0;0
+3522901;Baixíssima Vulnerabilidade;0;0;0
+3522901;Muito Baixa Vulnerabilidade;3797;1390;8
+3522901;Baixa Vulnerabilidade;0;0;0
+3522901;Média Vulnerabilidade;3907;1348;6
+3522901;Alta Vulnerabilidade;5401;1825;9
+3522901;Muito Alta Vulnerabilidade;0;0;0
+3523008;Baixíssima Vulnerabilidade;0;0;0
+3523008;Muito Baixa Vulnerabilidade;0;0;0
+3523008;Baixa Vulnerabilidade;879;336;2
+3523008;Média Vulnerabilidade;1133;438;3
+3523008;Alta Vulnerabilidade;1851;694;5
+3523008;Muito Alta Vulnerabilidade;0;0;0
+3523107;Baixíssima Vulnerabilidade;297;88;1
+3523107;Muito Baixa Vulnerabilidade;83949;28384;140
+3523107;Baixa Vulnerabilidade;34428;11736;58
+3523107;Média Vulnerabilidade;73998;24629;115
+3523107;Alta Vulnerabilidade;83599;27624;129
+3523107;Muito Alta Vulnerabilidade;90935;29102;142
+3523206;Baixíssima Vulnerabilidade;220;86;1
+3523206;Muito Baixa Vulnerabilidade;15966;6112;52
+3523206;Baixa Vulnerabilidade;4440;1699;13
+3523206;Média Vulnerabilidade;9164;3487;30
+3523206;Alta Vulnerabilidade;13253;4660;29
+3523206;Muito Alta Vulnerabilidade;0;0;0
+3523305;Baixíssima Vulnerabilidade;0;0;0
+3523305;Muito Baixa Vulnerabilidade;3762;1380;9
+3523305;Baixa Vulnerabilidade;739;288;1
+3523305;Média Vulnerabilidade;5486;2063;20
+3523305;Alta Vulnerabilidade;4990;1743;9
+3523305;Muito Alta Vulnerabilidade;0;0;0
+3523404;Baixíssima Vulnerabilidade;9646;3349;23
+3523404;Muito Baixa Vulnerabilidade;60878;22361;128
+3523404;Baixa Vulnerabilidade;20692;7577;27
+3523404;Média Vulnerabilidade;4867;1711;12
+3523404;Alta Vulnerabilidade;23768;8276;35
+3523404;Muito Alta Vulnerabilidade;0;0;0
+3523503;Baixíssima Vulnerabilidade;0;0;0
+3523503;Muito Baixa Vulnerabilidade;5791;1997;16
+3523503;Baixa Vulnerabilidade;1546;532;5
+3523503;Média Vulnerabilidade;4374;1424;11
+3523503;Alta Vulnerabilidade;5413;1760;11
+3523503;Muito Alta Vulnerabilidade;0;0;0
+3523602;Baixíssima Vulnerabilidade;0;0;0
+3523602;Muito Baixa Vulnerabilidade;7051;2678;20
+3523602;Baixa Vulnerabilidade;2028;719;4
+3523602;Média Vulnerabilidade;691;248;2
+3523602;Alta Vulnerabilidade;2180;725;5
+3523602;Muito Alta Vulnerabilidade;708;247;4
+3523701;Baixíssima Vulnerabilidade;0;0;0
+3523701;Muito Baixa Vulnerabilidade;803;296;2
+3523701;Baixa Vulnerabilidade;0;0;0
+3523701;Média Vulnerabilidade;3592;1248;7
+3523701;Alta Vulnerabilidade;1361;461;4
+3523701;Muito Alta Vulnerabilidade;0;0;0
+3523800;Baixíssima Vulnerabilidade;0;0;0
+3523800;Muito Baixa Vulnerabilidade;3016;1117;6
+3523800;Baixa Vulnerabilidade;392;148;1
+3523800;Média Vulnerabilidade;1432;518;4
+3523800;Alta Vulnerabilidade;3025;1083;4
+3523800;Muito Alta Vulnerabilidade;0;0;0
+3523909;Baixíssima Vulnerabilidade;10112;3609;19
+3523909;Muito Baixa Vulnerabilidade;83082;29834;128
+3523909;Baixa Vulnerabilidade;23072;8570;37
+3523909;Média Vulnerabilidade;18494;6302;39
+3523909;Alta Vulnerabilidade;28130;9606;41
+3523909;Muito Alta Vulnerabilidade;3226;1061;6
+3524006;Baixíssima Vulnerabilidade;7465;2475;22
+3524006;Muito Baixa Vulnerabilidade;21783;7358;51
+3524006;Baixa Vulnerabilidade;17034;5888;30
+3524006;Média Vulnerabilidade;2131;703;5
+3524006;Alta Vulnerabilidade;21100;6908;34
+3524006;Muito Alta Vulnerabilidade;0;0;0
+3524105;Baixíssima Vulnerabilidade;1955;723;4
+3524105;Muito Baixa Vulnerabilidade;16741;6388;36
+3524105;Baixa Vulnerabilidade;638;235;3
+3524105;Média Vulnerabilidade;9985;3725;22
+3524105;Alta Vulnerabilidade;7811;2823;14
+3524105;Muito Alta Vulnerabilidade;0;0;0
+3524204;Baixíssima Vulnerabilidade;0;0;0
+3524204;Muito Baixa Vulnerabilidade;2406;936;7
+3524204;Baixa Vulnerabilidade;0;0;0
+3524204;Média Vulnerabilidade;3449;1223;5
+3524204;Alta Vulnerabilidade;0;0;0
+3524204;Muito Alta Vulnerabilidade;0;0;0
+3524303;Baixíssima Vulnerabilidade;4125;1578;11
+3524303;Muito Baixa Vulnerabilidade;37775;14674;94
+3524303;Baixa Vulnerabilidade;7718;3240;20
+3524303;Média Vulnerabilidade;9497;3470;21
+3524303;Alta Vulnerabilidade;11763;4161;21
+3524303;Muito Alta Vulnerabilidade;0;0;0
+3524402;Baixíssima Vulnerabilidade;12644;4170;31
+3524402;Muito Baixa Vulnerabilidade;136385;49196;279
+3524402;Baixa Vulnerabilidade;29290;10908;66
+3524402;Média Vulnerabilidade;23837;8078;42
+3524402;Alta Vulnerabilidade;29158;9819;52
+3524402;Muito Alta Vulnerabilidade;6365;2109;14
+3524501;Baixíssima Vulnerabilidade;0;0;0
+3524501;Muito Baixa Vulnerabilidade;569;197;2
+3524501;Baixa Vulnerabilidade;3729;1322;5
+3524501;Média Vulnerabilidade;1370;514;4
+3524501;Alta Vulnerabilidade;1746;592;3
+3524501;Muito Alta Vulnerabilidade;0;0;0
+3524600;Baixíssima Vulnerabilidade;0;0;0
+3524600;Muito Baixa Vulnerabilidade;6945;2620;12
+3524600;Baixa Vulnerabilidade;191;69;1
+3524600;Média Vulnerabilidade;4884;1728;17
+3524600;Alta Vulnerabilidade;3714;1290;6
+3524600;Muito Alta Vulnerabilidade;0;0;0
+3524709;Baixíssima Vulnerabilidade;2867;986;8
+3524709;Muito Baixa Vulnerabilidade;25921;9635;42
+3524709;Baixa Vulnerabilidade;21601;7794;31
+3524709;Média Vulnerabilidade;1611;616;6
+3524709;Alta Vulnerabilidade;6528;2193;9
+3524709;Muito Alta Vulnerabilidade;0;0;0
+3524808;Baixíssima Vulnerabilidade;343;110;1
+3524808;Muito Baixa Vulnerabilidade;28454;11190;66
+3524808;Baixa Vulnerabilidade;3853;1563;9
+3524808;Média Vulnerabilidade;10184;4013;23
+3524808;Alta Vulnerabilidade;5731;2174;10
+3524808;Muito Alta Vulnerabilidade;0;0;0
+3524907;Baixíssima Vulnerabilidade;408;140;2
+3524907;Muito Baixa Vulnerabilidade;2564;941;8
+3524907;Baixa Vulnerabilidade;0;0;0
+3524907;Média Vulnerabilidade;1920;677;8
+3524907;Alta Vulnerabilidade;1228;433;2
+3524907;Muito Alta Vulnerabilidade;0;0;0
+3525003;Baixíssima Vulnerabilidade;6947;2198;9
+3525003;Muito Baixa Vulnerabilidade;31856;11602;42
+3525003;Baixa Vulnerabilidade;35113;12651;45
+3525003;Média Vulnerabilidade;6177;2195;9
+3525003;Alta Vulnerabilidade;32847;11635;45
+3525003;Muito Alta Vulnerabilidade;4963;1692;11
+3525102;Baixíssima Vulnerabilidade;521;175;1
+3525102;Muito Baixa Vulnerabilidade;21191;7558;36
+3525102;Baixa Vulnerabilidade;8011;2728;14
+3525102;Média Vulnerabilidade;4588;1526;7
+3525102;Alta Vulnerabilidade;8626;2750;12
+3525102;Muito Alta Vulnerabilidade;0;0;0
+3525201;Baixíssima Vulnerabilidade;320;104;1
+3525201;Muito Baixa Vulnerabilidade;11916;4264;44
+3525201;Baixa Vulnerabilidade;4450;1557;11
+3525201;Média Vulnerabilidade;4476;1528;17
+3525201;Alta Vulnerabilidade;14297;4819;26
+3525201;Muito Alta Vulnerabilidade;0;0;0
+3525300;Baixíssima Vulnerabilidade;2183;769;7
+3525300;Muito Baixa Vulnerabilidade;77911;29359;164
+3525300;Baixa Vulnerabilidade;15869;5896;33
+3525300;Média Vulnerabilidade;13365;4528;27
+3525300;Alta Vulnerabilidade;22680;7679;40
+3525300;Muito Alta Vulnerabilidade;0;0;0
+3525409;Baixíssima Vulnerabilidade;0;0;0
+3525409;Muito Baixa Vulnerabilidade;1664;572;4
+3525409;Baixa Vulnerabilidade;0;0;0
+3525409;Média Vulnerabilidade;1663;575;3
+3525409;Alta Vulnerabilidade;454;144;1
+3525409;Muito Alta Vulnerabilidade;0;0;0
+3525508;Baixíssima Vulnerabilidade;0;0;0
+3525508;Muito Baixa Vulnerabilidade;5946;2183;15
+3525508;Baixa Vulnerabilidade;774;307;2
+3525508;Média Vulnerabilidade;2735;971;8
+3525508;Alta Vulnerabilidade;2879;1032;9
+3525508;Muito Alta Vulnerabilidade;0;0;0
+3525607;Baixíssima Vulnerabilidade;0;0;0
+3525607;Muito Baixa Vulnerabilidade;1155;381;1
+3525607;Baixa Vulnerabilidade;0;0;0
+3525607;Média Vulnerabilidade;3007;1090;6
+3525607;Alta Vulnerabilidade;0;0;0
+3525607;Muito Alta Vulnerabilidade;0;0;0
+3525706;Baixíssima Vulnerabilidade;0;0;0
+3525706;Muito Baixa Vulnerabilidade;11276;4200;25
+3525706;Baixa Vulnerabilidade;9202;3375;15
+3525706;Média Vulnerabilidade;3322;1204;8
+3525706;Alta Vulnerabilidade;12614;4513;22
+3525706;Muito Alta Vulnerabilidade;0;0;0
+3525805;Baixíssima Vulnerabilidade;0;0;0
+3525805;Muito Baixa Vulnerabilidade;0;0;0
+3525805;Baixa Vulnerabilidade;0;0;0
+3525805;Média Vulnerabilidade;618;240;1
+3525805;Alta Vulnerabilidade;3482;1266;6
+3525805;Muito Alta Vulnerabilidade;0;0;0
+3525854;Baixíssima Vulnerabilidade;0;0;0
+3525854;Muito Baixa Vulnerabilidade;1921;645;7
+3525854;Baixa Vulnerabilidade;0;0;0
+3525854;Média Vulnerabilidade;130;46;1
+3525854;Alta Vulnerabilidade;660;193;2
+3525854;Muito Alta Vulnerabilidade;0;0;0
+3525904;Baixíssima Vulnerabilidade;71373;27082;176
+3525904;Muito Baixa Vulnerabilidade;245216;92031;639
+3525904;Baixa Vulnerabilidade;65079;23881;144
+3525904;Média Vulnerabilidade;8270;2892;23
+3525904;Alta Vulnerabilidade;28423;9775;47
+3525904;Muito Alta Vulnerabilidade;17917;5783;32
+3526001;Baixíssima Vulnerabilidade;0;0;0
+3526001;Muito Baixa Vulnerabilidade;9603;3654;27
+3526001;Baixa Vulnerabilidade;469;169;1
+3526001;Média Vulnerabilidade;4042;1502;8
+3526001;Alta Vulnerabilidade;4372;1590;6
+3526001;Muito Alta Vulnerabilidade;0;0;0
+3526100;Baixíssima Vulnerabilidade;0;0;0
+3526100;Muito Baixa Vulnerabilidade;4098;1559;7
+3526100;Baixa Vulnerabilidade;562;212;2
+3526100;Média Vulnerabilidade;10164;3746;30
+3526100;Alta Vulnerabilidade;2167;771;7
+3526100;Muito Alta Vulnerabilidade;0;0;0
+3526209;Baixíssima Vulnerabilidade;0;0;0
+3526209;Muito Baixa Vulnerabilidade;883;324;4
+3526209;Baixa Vulnerabilidade;1722;635;4
+3526209;Média Vulnerabilidade;10445;3897;53
+3526209;Alta Vulnerabilidade;13146;4754;41
+3526209;Muito Alta Vulnerabilidade;0;0;0
+3526308;Baixíssima Vulnerabilidade;0;0;0
+3526308;Muito Baixa Vulnerabilidade;1287;537;5
+3526308;Baixa Vulnerabilidade;0;0;0
+3526308;Média Vulnerabilidade;2309;985;7
+3526308;Alta Vulnerabilidade;1293;513;3
+3526308;Muito Alta Vulnerabilidade;0;0;0
+3526407;Baixíssima Vulnerabilidade;783;302;1
+3526407;Muito Baixa Vulnerabilidade;12599;4567;25
+3526407;Baixa Vulnerabilidade;5824;2072;11
+3526407;Média Vulnerabilidade;1399;482;6
+3526407;Alta Vulnerabilidade;5300;1757;7
+3526407;Muito Alta Vulnerabilidade;0;0;0
+3526506;Baixíssima Vulnerabilidade;0;0;0
+3526506;Muito Baixa Vulnerabilidade;2278;895;7
+3526506;Baixa Vulnerabilidade;0;0;0
+3526506;Média Vulnerabilidade;1669;632;5
+3526506;Alta Vulnerabilidade;600;216;3
+3526506;Muito Alta Vulnerabilidade;0;0;0
+3526605;Baixíssima Vulnerabilidade;0;0;0
+3526605;Muito Baixa Vulnerabilidade;2193;738;5
+3526605;Baixa Vulnerabilidade;812;281;2
+3526605;Média Vulnerabilidade;3342;1082;7
+3526605;Alta Vulnerabilidade;654;233;1
+3526605;Muito Alta Vulnerabilidade;0;0;0
+3526704;Baixíssima Vulnerabilidade;3103;1209;4
+3526704;Muito Baixa Vulnerabilidade;36490;14175;71
+3526704;Baixa Vulnerabilidade;6523;2482;8
+3526704;Média Vulnerabilidade;21704;7580;35
+3526704;Alta Vulnerabilidade;29606;10131;40
+3526704;Muito Alta Vulnerabilidade;0;0;0
+3526803;Baixíssima Vulnerabilidade;2235;864;7
+3526803;Muito Baixa Vulnerabilidade;42649;14725;65
+3526803;Baixa Vulnerabilidade;7249;2529;7
+3526803;Média Vulnerabilidade;9694;3239;14
+3526803;Alta Vulnerabilidade;4223;1381;6
+3526803;Muito Alta Vulnerabilidade;0;0;0
+3526902;Baixíssima Vulnerabilidade;15957;5950;44
+3526902;Muito Baixa Vulnerabilidade;153609;56537;375
+3526902;Baixa Vulnerabilidade;44905;16692;109
+3526902;Média Vulnerabilidade;39317;13255;82
+3526902;Alta Vulnerabilidade;34046;11093;65
+3526902;Muito Alta Vulnerabilidade;0;0;0
+3527009;Baixíssima Vulnerabilidade;0;0;0
+3527009;Muito Baixa Vulnerabilidade;3218;1241;10
+3527009;Baixa Vulnerabilidade;1641;564;3
+3527009;Média Vulnerabilidade;832;300;3
+3527009;Alta Vulnerabilidade;1164;426;2
+3527009;Muito Alta Vulnerabilidade;0;0;0
+3527108;Baixíssima Vulnerabilidade;2837;1056;8
+3527108;Muito Baixa Vulnerabilidade;42004;16408;90
+3527108;Baixa Vulnerabilidade;11633;4513;24
+3527108;Média Vulnerabilidade;7973;2879;18
+3527108;Alta Vulnerabilidade;8978;3311;21
+3527108;Muito Alta Vulnerabilidade;0;0;0
+3527207;Baixíssima Vulnerabilidade;648;267;2
+3527207;Muito Baixa Vulnerabilidade;53574;19430;110
+3527207;Baixa Vulnerabilidade;5847;2249;15
+3527207;Média Vulnerabilidade;12681;4228;22
+3527207;Alta Vulnerabilidade;10358;3391;16
+3527207;Muito Alta Vulnerabilidade;1025;306;1
+3527256;Baixíssima Vulnerabilidade;0;0;0
+3527256;Muito Baixa Vulnerabilidade;0;0;0
+3527256;Baixa Vulnerabilidade;0;0;0
+3527256;Média Vulnerabilidade;1635;674;5
+3527256;Alta Vulnerabilidade;192;69;1
+3527256;Muito Alta Vulnerabilidade;0;0;0
+3527306;Baixíssima Vulnerabilidade;3741;1280;10
+3527306;Muito Baixa Vulnerabilidade;15033;5082;30
+3527306;Baixa Vulnerabilidade;9714;3408;14
+3527306;Média Vulnerabilidade;2167;735;6
+3527306;Alta Vulnerabilidade;20494;7201;26
+3527306;Muito Alta Vulnerabilidade;246;79;1
+3527405;Baixíssima Vulnerabilidade;0;0;0
+3527405;Muito Baixa Vulnerabilidade;7171;2822;19
+3527405;Baixa Vulnerabilidade;622;223;2
+3527405;Média Vulnerabilidade;3008;1136;7
+3527405;Alta Vulnerabilidade;6371;2311;10
+3527405;Muito Alta Vulnerabilidade;0;0;0
+3527504;Baixíssima Vulnerabilidade;0;0;0
+3527504;Muito Baixa Vulnerabilidade;550;194;3
+3527504;Baixa Vulnerabilidade;0;0;0
+3527504;Média Vulnerabilidade;1656;636;3
+3527504;Alta Vulnerabilidade;160;59;1
+3527504;Muito Alta Vulnerabilidade;0;0;0
+3527603;Baixíssima Vulnerabilidade;0;0;0
+3527603;Muito Baixa Vulnerabilidade;3806;1363;7
+3527603;Baixa Vulnerabilidade;0;0;0
+3527603;Média Vulnerabilidade;3005;1001;4
+3527603;Alta Vulnerabilidade;5296;1746;7
+3527603;Muito Alta Vulnerabilidade;0;0;0
+3527702;Baixíssima Vulnerabilidade;0;0;0
+3527702;Muito Baixa Vulnerabilidade;310;109;1
+3527702;Baixa Vulnerabilidade;340;115;1
+3527702;Média Vulnerabilidade;3022;1151;6
+3527702;Alta Vulnerabilidade;903;319;2
+3527702;Muito Alta Vulnerabilidade;0;0;0
+3527801;Baixíssima Vulnerabilidade;0;0;0
+3527801;Muito Baixa Vulnerabilidade;230;85;1
+3527801;Baixa Vulnerabilidade;0;0;0
+3527801;Média Vulnerabilidade;3370;1251;6
+3527801;Alta Vulnerabilidade;159;50;1
+3527801;Muito Alta Vulnerabilidade;0;0;0
+3527900;Baixíssima Vulnerabilidade;0;0;0
+3527900;Muito Baixa Vulnerabilidade;214;85;2
+3527900;Baixa Vulnerabilidade;103;36;1
+3527900;Média Vulnerabilidade;704;295;2
+3527900;Alta Vulnerabilidade;1407;533;3
+3527900;Muito Alta Vulnerabilidade;0;0;0
+3528007;Baixíssima Vulnerabilidade;0;0;0
+3528007;Muito Baixa Vulnerabilidade;7856;2788;13
+3528007;Baixa Vulnerabilidade;2855;916;3
+3528007;Média Vulnerabilidade;3109;992;4
+3528007;Alta Vulnerabilidade;2737;874;4
+3528007;Muito Alta Vulnerabilidade;0;0;0
+3528106;Baixíssima Vulnerabilidade;0;0;0
+3528106;Muito Baixa Vulnerabilidade;2214;882;5
+3528106;Baixa Vulnerabilidade;321;118;1
+3528106;Média Vulnerabilidade;2698;1108;5
+3528106;Alta Vulnerabilidade;2068;845;5
+3528106;Muito Alta Vulnerabilidade;0;0;0
+3528205;Baixíssima Vulnerabilidade;0;0;0
+3528205;Muito Baixa Vulnerabilidade;1136;419;5
+3528205;Baixa Vulnerabilidade;0;0;0
+3528205;Média Vulnerabilidade;2212;876;4
+3528205;Alta Vulnerabilidade;579;212;2
+3528205;Muito Alta Vulnerabilidade;0;0;0
+3528304;Baixíssima Vulnerabilidade;0;0;0
+3528304;Muito Baixa Vulnerabilidade;1154;470;3
+3528304;Baixa Vulnerabilidade;187;58;1
+3528304;Média Vulnerabilidade;1822;729;5
+3528304;Alta Vulnerabilidade;0;0;0
+3528304;Muito Alta Vulnerabilidade;0;0;0
+3528403;Baixíssima Vulnerabilidade;160;61;1
+3528403;Muito Baixa Vulnerabilidade;28364;9996;52
+3528403;Baixa Vulnerabilidade;3046;1047;6
+3528403;Média Vulnerabilidade;6691;2317;19
+3528403;Alta Vulnerabilidade;9135;3072;16
+3528403;Muito Alta Vulnerabilidade;492;149;2
+3528502;Baixíssima Vulnerabilidade;5040;1749;24
+3528502;Muito Baixa Vulnerabilidade;36945;13193;133
+3528502;Baixa Vulnerabilidade;11048;3949;35
+3528502;Média Vulnerabilidade;12002;4229;47
+3528502;Alta Vulnerabilidade;19550;6752;49
+3528502;Muito Alta Vulnerabilidade;3391;1155;13
+3528601;Baixíssima Vulnerabilidade;0;0;0
+3528601;Muito Baixa Vulnerabilidade;5365;2072;17
+3528601;Baixa Vulnerabilidade;664;260;3
+3528601;Média Vulnerabilidade;1303;479;3
+3528601;Alta Vulnerabilidade;2301;802;4
+3528601;Muito Alta Vulnerabilidade;0;0;0
+3528700;Baixíssima Vulnerabilidade;0;0;0
+3528700;Muito Baixa Vulnerabilidade;97;38;1
+3528700;Baixa Vulnerabilidade;0;0;0
+3528700;Média Vulnerabilidade;3399;1343;8
+3528700;Alta Vulnerabilidade;0;0;0
+3528700;Muito Alta Vulnerabilidade;0;0;0
+3528809;Baixíssima Vulnerabilidade;0;0;0
+3528809;Muito Baixa Vulnerabilidade;6152;2316;16
+3528809;Baixa Vulnerabilidade;0;0;0
+3528809;Média Vulnerabilidade;4441;1748;8
+3528809;Alta Vulnerabilidade;1773;656;3
+3528809;Muito Alta Vulnerabilidade;0;0;0
+3528858;Baixíssima Vulnerabilidade;0;0;0
+3528858;Muito Baixa Vulnerabilidade;1621;611;4
+3528858;Baixa Vulnerabilidade;354;132;1
+3528858;Média Vulnerabilidade;1007;388;3
+3528858;Alta Vulnerabilidade;250;88;2
+3528858;Muito Alta Vulnerabilidade;0;0;0
+3528908;Baixíssima Vulnerabilidade;154;53;1
+3528908;Muito Baixa Vulnerabilidade;694;286;2
+3528908;Baixa Vulnerabilidade;0;0;0
+3528908;Média Vulnerabilidade;2331;915;6
+3528908;Alta Vulnerabilidade;0;0;0
+3528908;Muito Alta Vulnerabilidade;0;0;0
+3529005;Baixíssima Vulnerabilidade;14526;5529;32
+3529005;Muito Baixa Vulnerabilidade;126653;47380;271
+3529005;Baixa Vulnerabilidade;39960;16067;87
+3529005;Média Vulnerabilidade;25018;8887;51
+3529005;Alta Vulnerabilidade;24966;8854;46
+3529005;Muito Alta Vulnerabilidade;2868;977;14
+3529104;Baixíssima Vulnerabilidade;0;0;0
+3529104;Muito Baixa Vulnerabilidade;135;45;1
+3529104;Baixa Vulnerabilidade;0;0;0
+3529104;Média Vulnerabilidade;1519;598;3
+3529104;Alta Vulnerabilidade;175;62;1
+3529104;Muito Alta Vulnerabilidade;0;0;0
+3529203;Baixíssima Vulnerabilidade;0;0;0
+3529203;Muito Baixa Vulnerabilidade;5966;2286;11
+3529203;Baixa Vulnerabilidade;117;36;1
+3529203;Média Vulnerabilidade;10594;4017;19
+3529203;Alta Vulnerabilidade;6066;2197;9
+3529203;Muito Alta Vulnerabilidade;0;0;0
+3529302;Baixíssima Vulnerabilidade;1515;577;5
+3529302;Muito Baixa Vulnerabilidade;48005;17578;96
+3529302;Baixa Vulnerabilidade;5975;2265;11
+3529302;Média Vulnerabilidade;15063;5476;27
+3529302;Alta Vulnerabilidade;7739;2702;13
+3529302;Muito Alta Vulnerabilidade;0;0;0
+3529401;Baixíssima Vulnerabilidade;0;0;0
+3529401;Muito Baixa Vulnerabilidade;202762;75943;405
+3529401;Baixa Vulnerabilidade;46409;17358;94
+3529401;Média Vulnerabilidade;26062;9448;51
+3529401;Alta Vulnerabilidade;26029;9436;50
+3529401;Muito Alta Vulnerabilidade;114476;39917;203
+3529500;Baixíssima Vulnerabilidade;0;0;0
+3529500;Muito Baixa Vulnerabilidade;1579;593;4
+3529500;Baixa Vulnerabilidade;1267;460;3
+3529500;Média Vulnerabilidade;2640;1012;4
+3529500;Alta Vulnerabilidade;546;193;2
+3529500;Muito Alta Vulnerabilidade;0;0;0
+3529609;Baixíssima Vulnerabilidade;0;0;0
+3529609;Muito Baixa Vulnerabilidade;2980;1114;7
+3529609;Baixa Vulnerabilidade;0;0;0
+3529609;Média Vulnerabilidade;1426;550;4
+3529609;Alta Vulnerabilidade;0;0;0
+3529609;Muito Alta Vulnerabilidade;0;0;0
+3529658;Baixíssima Vulnerabilidade;0;0;0
+3529658;Muito Baixa Vulnerabilidade;141;56;1
+3529658;Baixa Vulnerabilidade;0;0;0
+3529658;Média Vulnerabilidade;677;277;2
+3529658;Alta Vulnerabilidade;1041;379;3
+3529658;Muito Alta Vulnerabilidade;0;0;0
+3529708;Baixíssima Vulnerabilidade;0;0;0
+3529708;Muito Baixa Vulnerabilidade;3585;1380;7
+3529708;Baixa Vulnerabilidade;1033;368;2
+3529708;Média Vulnerabilidade;8024;2992;17
+3529708;Alta Vulnerabilidade;6045;2132;11
+3529708;Muito Alta Vulnerabilidade;0;0;0
+3529807;Baixíssima Vulnerabilidade;0;0;0
+3529807;Muito Baixa Vulnerabilidade;1393;565;5
+3529807;Baixa Vulnerabilidade;422;154;1
+3529807;Média Vulnerabilidade;2918;1124;7
+3529807;Alta Vulnerabilidade;6314;2232;11
+3529807;Muito Alta Vulnerabilidade;0;0;0
+3529906;Baixíssima Vulnerabilidade;0;0;0
+3529906;Muito Baixa Vulnerabilidade;2336;924;6
+3529906;Baixa Vulnerabilidade;0;0;0
+3529906;Média Vulnerabilidade;10260;3761;34
+3529906;Alta Vulnerabilidade;5248;1927;14
+3529906;Muito Alta Vulnerabilidade;0;0;0
+3530003;Baixíssima Vulnerabilidade;0;0;0
+3530003;Muito Baixa Vulnerabilidade;728;286;3
+3530003;Baixa Vulnerabilidade;416;152;1
+3530003;Média Vulnerabilidade;1515;631;5
+3530003;Alta Vulnerabilidade;261;90;1
+3530003;Muito Alta Vulnerabilidade;0;0;0
+3530102;Baixíssima Vulnerabilidade;0;0;0
+3530102;Muito Baixa Vulnerabilidade;12795;4971;38
+3530102;Baixa Vulnerabilidade;400;177;3
+3530102;Média Vulnerabilidade;8853;3398;26
+3530102;Alta Vulnerabilidade;1183;429;2
+3530102;Muito Alta Vulnerabilidade;0;0;0
+3530201;Baixíssima Vulnerabilidade;0;0;0
+3530201;Muito Baixa Vulnerabilidade;2421;994;6
+3530201;Baixa Vulnerabilidade;0;0;0
+3530201;Média Vulnerabilidade;11124;4278;26
+3530201;Alta Vulnerabilidade;2030;748;5
+3530201;Muito Alta Vulnerabilidade;0;0;0
+3530300;Baixíssima Vulnerabilidade;4750;1537;6
+3530300;Muito Baixa Vulnerabilidade;37600;13881;64
+3530300;Baixa Vulnerabilidade;8202;3061;12
+3530300;Média Vulnerabilidade;7693;2929;16
+3530300;Alta Vulnerabilidade;4611;1675;6
+3530300;Muito Alta Vulnerabilidade;0;0;0
+3530409;Baixíssima Vulnerabilidade;0;0;0
+3530409;Muito Baixa Vulnerabilidade;1559;572;5
+3530409;Baixa Vulnerabilidade;595;229;2
+3530409;Média Vulnerabilidade;683;262;1
+3530409;Alta Vulnerabilidade;1668;606;5
+3530409;Muito Alta Vulnerabilidade;0;0;0
+3530508;Baixíssima Vulnerabilidade;984;358;2
+3530508;Muito Baixa Vulnerabilidade;39619;14742;77
+3530508;Baixa Vulnerabilidade;3622;1332;8
+3530508;Média Vulnerabilidade;14290;5222;31
+3530508;Alta Vulnerabilidade;7990;2760;17
+3530508;Muito Alta Vulnerabilidade;0;0;0
+3530607;Baixíssima Vulnerabilidade;31990;11546;74
+3530607;Muito Baixa Vulnerabilidade;225316;80689;441
+3530607;Baixa Vulnerabilidade;41553;16023;87
+3530607;Média Vulnerabilidade;45244;15356;107
+3530607;Alta Vulnerabilidade;86611;28618;149
+3530607;Muito Alta Vulnerabilidade;17486;5621;38
+3530706;Baixíssima Vulnerabilidade;4883;1831;6
+3530706;Muito Baixa Vulnerabilidade;100742;36782;187
+3530706;Baixa Vulnerabilidade;12251;4606;21
+3530706;Média Vulnerabilidade;21469;7163;40
+3530706;Alta Vulnerabilidade;12180;3978;20
+3530706;Muito Alta Vulnerabilidade;0;0;0
+3530805;Baixíssima Vulnerabilidade;5230;1849;7
+3530805;Muito Baixa Vulnerabilidade;53594;20286;102
+3530805;Baixa Vulnerabilidade;10585;4044;15
+3530805;Média Vulnerabilidade;12188;4210;18
+3530805;Alta Vulnerabilidade;9532;3118;13
+3530805;Muito Alta Vulnerabilidade;0;0;0
+3530904;Baixíssima Vulnerabilidade;0;0;0
+3530904;Muito Baixa Vulnerabilidade;1163;417;4
+3530904;Baixa Vulnerabilidade;0;0;0
+3530904;Média Vulnerabilidade;0;0;0
+3530904;Alta Vulnerabilidade;2460;782;3
+3530904;Muito Alta Vulnerabilidade;0;0;0
+3531001;Baixíssima Vulnerabilidade;0;0;0
+3531001;Muito Baixa Vulnerabilidade;299;130;1
+3531001;Baixa Vulnerabilidade;0;0;0
+3531001;Média Vulnerabilidade;1368;560;5
+3531001;Alta Vulnerabilidade;119;45;1
+3531001;Muito Alta Vulnerabilidade;0;0;0
+3531100;Baixíssima Vulnerabilidade;150;62;1
+3531100;Muito Baixa Vulnerabilidade;27765;10517;91
+3531100;Baixa Vulnerabilidade;3069;1093;10
+3531100;Média Vulnerabilidade;15724;5578;33
+3531100;Alta Vulnerabilidade;11761;4073;23
+3531100;Muito Alta Vulnerabilidade;0;0;0
+3531209;Baixíssima Vulnerabilidade;107;45;1
+3531209;Muito Baixa Vulnerabilidade;5245;1997;16
+3531209;Baixa Vulnerabilidade;640;231;1
+3531209;Média Vulnerabilidade;1632;600;5
+3531209;Alta Vulnerabilidade;875;325;3
+3531209;Muito Alta Vulnerabilidade;0;0;0
+3531308;Baixíssima Vulnerabilidade;200;75;1
+3531308;Muito Baixa Vulnerabilidade;29287;11283;71
+3531308;Baixa Vulnerabilidade;2907;1087;7
+3531308;Média Vulnerabilidade;10489;3976;21
+3531308;Alta Vulnerabilidade;4130;1482;8
+3531308;Muito Alta Vulnerabilidade;0;0;0
+3531407;Baixíssima Vulnerabilidade;0;0;0
+3531407;Muito Baixa Vulnerabilidade;13941;5470;27
+3531407;Baixa Vulnerabilidade;1232;461;3
+3531407;Média Vulnerabilidade;3689;1420;9
+3531407;Alta Vulnerabilidade;3322;1279;7
+3531407;Muito Alta Vulnerabilidade;0;0;0
+3531506;Baixíssima Vulnerabilidade;606;225;1
+3531506;Muito Baixa Vulnerabilidade;8495;3252;22
+3531506;Baixa Vulnerabilidade;1093;387;2
+3531506;Média Vulnerabilidade;5703;2117;11
+3531506;Alta Vulnerabilidade;2050;726;4
+3531506;Muito Alta Vulnerabilidade;0;0;0
+3531605;Baixíssima Vulnerabilidade;0;0;0
+3531605;Muito Baixa Vulnerabilidade;1151;446;4
+3531605;Baixa Vulnerabilidade;0;0;0
+3531605;Média Vulnerabilidade;2892;1122;6
+3531605;Alta Vulnerabilidade;0;0;0
+3531605;Muito Alta Vulnerabilidade;0;0;0
+3531704;Baixíssima Vulnerabilidade;0;0;0
+3531704;Muito Baixa Vulnerabilidade;1636;641;7
+3531704;Baixa Vulnerabilidade;0;0;0
+3531704;Média Vulnerabilidade;2401;893;10
+3531704;Alta Vulnerabilidade;0;0;0
+3531704;Muito Alta Vulnerabilidade;0;0;0
+3531803;Baixíssima Vulnerabilidade;0;0;0
+3531803;Muito Baixa Vulnerabilidade;21500;7739;40
+3531803;Baixa Vulnerabilidade;6033;2097;10
+3531803;Média Vulnerabilidade;18740;6413;28
+3531803;Alta Vulnerabilidade;17778;5951;27
+3531803;Muito Alta Vulnerabilidade;0;0;0
+3531902;Baixíssima Vulnerabilidade;0;0;0
+3531902;Muito Baixa Vulnerabilidade;11537;4167;23
+3531902;Baixa Vulnerabilidade;2381;819;4
+3531902;Média Vulnerabilidade;6129;2229;11
+3531902;Alta Vulnerabilidade;7201;2593;14
+3531902;Muito Alta Vulnerabilidade;0;0;0
+3532009;Baixíssima Vulnerabilidade;0;0;0
+3532009;Muito Baixa Vulnerabilidade;5183;1860;12
+3532009;Baixa Vulnerabilidade;2301;814;5
+3532009;Média Vulnerabilidade;2921;1000;4
+3532009;Alta Vulnerabilidade;2672;932;5
+3532009;Muito Alta Vulnerabilidade;0;0;0
+3532058;Baixíssima Vulnerabilidade;0;0;0
+3532058;Muito Baixa Vulnerabilidade;1290;462;4
+3532058;Baixa Vulnerabilidade;100;37;1
+3532058;Média Vulnerabilidade;2263;783;4
+3532058;Alta Vulnerabilidade;0;0;0
+3532058;Muito Alta Vulnerabilidade;0;0;0
+3532108;Baixíssima Vulnerabilidade;0;0;0
+3532108;Muito Baixa Vulnerabilidade;2047;817;4
+3532108;Baixa Vulnerabilidade;0;0;0
+3532108;Média Vulnerabilidade;1246;503;4
+3532108;Alta Vulnerabilidade;419;160;1
+3532108;Muito Alta Vulnerabilidade;0;0;0
+3532157;Baixíssima Vulnerabilidade;0;0;0
+3532157;Muito Baixa Vulnerabilidade;457;167;2
+3532157;Baixa Vulnerabilidade;0;0;0
+3532157;Média Vulnerabilidade;1659;653;3
+3532157;Alta Vulnerabilidade;401;159;1
+3532157;Muito Alta Vulnerabilidade;0;0;0
+3532207;Baixíssima Vulnerabilidade;0;0;0
+3532207;Muito Baixa Vulnerabilidade;2184;765;7
+3532207;Baixa Vulnerabilidade;190;66;1
+3532207;Média Vulnerabilidade;1336;530;3
+3532207;Alta Vulnerabilidade;1864;643;4
+3532207;Muito Alta Vulnerabilidade;0;0;0
+3532306;Baixíssima Vulnerabilidade;0;0;0
+3532306;Muito Baixa Vulnerabilidade;910;367;3
+3532306;Baixa Vulnerabilidade;0;0;0
+3532306;Média Vulnerabilidade;3390;1398;15
+3532306;Alta Vulnerabilidade;2507;994;7
+3532306;Muito Alta Vulnerabilidade;0;0;0
+3532405;Baixíssima Vulnerabilidade;0;0;0
+3532405;Muito Baixa Vulnerabilidade;2258;841;8
+3532405;Baixa Vulnerabilidade;1690;626;4
+3532405;Média Vulnerabilidade;8481;3202;35
+3532405;Alta Vulnerabilidade;4790;1692;13
+3532405;Muito Alta Vulnerabilidade;0;0;0
+3532504;Baixíssima Vulnerabilidade;0;0;0
+3532504;Muito Baixa Vulnerabilidade;6590;2548;12
+3532504;Baixa Vulnerabilidade;0;0;0
+3532504;Média Vulnerabilidade;2949;1118;7
+3532504;Alta Vulnerabilidade;0;0;0
+3532504;Muito Alta Vulnerabilidade;0;0;0
+3532603;Baixíssima Vulnerabilidade;0;0;0
+3532603;Muito Baixa Vulnerabilidade;5561;2321;12
+3532603;Baixa Vulnerabilidade;564;210;2
+3532603;Média Vulnerabilidade;3067;1286;5
+3532603;Alta Vulnerabilidade;393;136;1
+3532603;Muito Alta Vulnerabilidade;0;0;0
+3532702;Baixíssima Vulnerabilidade;0;0;0
+3532702;Muito Baixa Vulnerabilidade;1081;397;2
+3532702;Baixa Vulnerabilidade;0;0;0
+3532702;Média Vulnerabilidade;3030;1121;6
+3532702;Alta Vulnerabilidade;637;243;1
+3532702;Muito Alta Vulnerabilidade;0;0;0
+3532801;Baixíssima Vulnerabilidade;0;0;0
+3532801;Muito Baixa Vulnerabilidade;4050;1508;8
+3532801;Baixa Vulnerabilidade;879;328;1
+3532801;Média Vulnerabilidade;1588;600;3
+3532801;Alta Vulnerabilidade;0;0;0
+3532801;Muito Alta Vulnerabilidade;0;0;0
+3532827;Baixíssima Vulnerabilidade;498;177;1
+3532827;Muito Baixa Vulnerabilidade;0;0;0
+3532827;Baixa Vulnerabilidade;1020;341;2
+3532827;Média Vulnerabilidade;1577;557;6
+3532827;Alta Vulnerabilidade;5205;1774;14
+3532827;Muito Alta Vulnerabilidade;0;0;0
+3532843;Baixíssima Vulnerabilidade;0;0;0
+3532843;Muito Baixa Vulnerabilidade;524;217;3
+3532843;Baixa Vulnerabilidade;0;0;0
+3532843;Média Vulnerabilidade;1345;544;5
+3532843;Alta Vulnerabilidade;125;44;1
+3532843;Muito Alta Vulnerabilidade;0;0;0
+3532868;Baixíssima Vulnerabilidade;0;0;0
+3532868;Muito Baixa Vulnerabilidade;546;214;2
+3532868;Baixa Vulnerabilidade;0;0;0
+3532868;Média Vulnerabilidade;350;123;1
+3532868;Alta Vulnerabilidade;0;0;0
+3532868;Muito Alta Vulnerabilidade;0;0;0
+3532900;Baixíssima Vulnerabilidade;0;0;0
+3532900;Muito Baixa Vulnerabilidade;3224;1211;7
+3532900;Baixa Vulnerabilidade;0;0;0
+3532900;Média Vulnerabilidade;2705;976;6
+3532900;Alta Vulnerabilidade;3227;1135;7
+3532900;Muito Alta Vulnerabilidade;0;0;0
+3533007;Baixíssima Vulnerabilidade;0;0;0
+3533007;Muito Baixa Vulnerabilidade;7656;2911;21
+3533007;Baixa Vulnerabilidade;405;135;1
+3533007;Média Vulnerabilidade;8139;3100;21
+3533007;Alta Vulnerabilidade;2711;964;6
+3533007;Muito Alta Vulnerabilidade;0;0;0
+3533106;Baixíssima Vulnerabilidade;0;0;0
+3533106;Muito Baixa Vulnerabilidade;221;85;2
+3533106;Baixa Vulnerabilidade;0;0;0
+3533106;Média Vulnerabilidade;1313;529;3
+3533106;Alta Vulnerabilidade;539;220;1
+3533106;Muito Alta Vulnerabilidade;0;0;0
+3533205;Baixíssima Vulnerabilidade;0;0;0
+3533205;Muito Baixa Vulnerabilidade;804;284;2
+3533205;Baixa Vulnerabilidade;922;332;2
+3533205;Média Vulnerabilidade;1355;519;3
+3533205;Alta Vulnerabilidade;799;282;2
+3533205;Muito Alta Vulnerabilidade;0;0;0
+3533254;Baixíssima Vulnerabilidade;0;0;0
+3533254;Muito Baixa Vulnerabilidade;1407;486;3
+3533254;Baixa Vulnerabilidade;0;0;0
+3533254;Média Vulnerabilidade;1482;550;4
+3533254;Alta Vulnerabilidade;1477;540;3
+3533254;Muito Alta Vulnerabilidade;0;0;0
+3533304;Baixíssima Vulnerabilidade;0;0;0
+3533304;Muito Baixa Vulnerabilidade;737;300;1
+3533304;Baixa Vulnerabilidade;0;0;0
+3533304;Média Vulnerabilidade;1657;663;4
+3533304;Alta Vulnerabilidade;250;95;1
+3533304;Muito Alta Vulnerabilidade;0;0;0
+3533403;Baixíssima Vulnerabilidade;1776;570;4
+3533403;Muito Baixa Vulnerabilidade;41442;14885;97
+3533403;Baixa Vulnerabilidade;16118;5848;33
+3533403;Média Vulnerabilidade;1331;455;3
+3533403;Alta Vulnerabilidade;735;267;2
+3533403;Muito Alta Vulnerabilidade;0;0;0
+3533502;Baixíssima Vulnerabilidade;291;107;1
+3533502;Muito Baixa Vulnerabilidade;18411;7145;42
+3533502;Baixa Vulnerabilidade;3121;1146;6
+3533502;Média Vulnerabilidade;9350;3639;25
+3533502;Alta Vulnerabilidade;6519;2495;13
+3533502;Muito Alta Vulnerabilidade;0;0;0
+3533601;Baixíssima Vulnerabilidade;0;0;0
+3533601;Muito Baixa Vulnerabilidade;5866;2137;15
+3533601;Baixa Vulnerabilidade;310;106;1
+3533601;Média Vulnerabilidade;958;360;2
+3533601;Alta Vulnerabilidade;0;0;0
+3533601;Muito Alta Vulnerabilidade;0;0;0
+3533700;Baixíssima Vulnerabilidade;0;0;0
+3533700;Muito Baixa Vulnerabilidade;1443;559;3
+3533700;Baixa Vulnerabilidade;0;0;0
+3533700;Média Vulnerabilidade;605;237;3
+3533700;Alta Vulnerabilidade;2221;802;6
+3533700;Muito Alta Vulnerabilidade;0;0;0
+3533809;Baixíssima Vulnerabilidade;0;0;0
+3533809;Muito Baixa Vulnerabilidade;1188;462;5
+3533809;Baixa Vulnerabilidade;0;0;0
+3533809;Média Vulnerabilidade;141;64;1
+3533809;Alta Vulnerabilidade;953;362;3
+3533809;Muito Alta Vulnerabilidade;0;0;0
+3533908;Baixíssima Vulnerabilidade;1493;581;3
+3533908;Muito Baixa Vulnerabilidade;30147;11478;57
+3533908;Baixa Vulnerabilidade;4337;1545;8
+3533908;Média Vulnerabilidade;5906;2219;13
+3533908;Alta Vulnerabilidade;12321;4334;20
+3533908;Muito Alta Vulnerabilidade;0;0;0
+3534005;Baixíssima Vulnerabilidade;0;0;0
+3534005;Muito Baixa Vulnerabilidade;1067;394;5
+3534005;Baixa Vulnerabilidade;783;279;1
+3534005;Média Vulnerabilidade;2916;1030;6
+3534005;Alta Vulnerabilidade;0;0;0
+3534005;Muito Alta Vulnerabilidade;0;0;0
+3534104;Baixíssima Vulnerabilidade;0;0;0
+3534104;Muito Baixa Vulnerabilidade;3332;1219;6
+3534104;Baixa Vulnerabilidade;0;0;0
+3534104;Média Vulnerabilidade;1724;609;4
+3534104;Alta Vulnerabilidade;666;248;1
+3534104;Muito Alta Vulnerabilidade;0;0;0
+3534203;Baixíssima Vulnerabilidade;0;0;0
+3534203;Muito Baixa Vulnerabilidade;2998;1069;7
+3534203;Baixa Vulnerabilidade;917;319;2
+3534203;Média Vulnerabilidade;1052;367;3
+3534203;Alta Vulnerabilidade;981;343;2
+3534203;Muito Alta Vulnerabilidade;0;0;0
+3534302;Baixíssima Vulnerabilidade;0;0;0
+3534302;Muito Baixa Vulnerabilidade;21881;7993;41
+3534302;Baixa Vulnerabilidade;2666;926;4
+3534302;Média Vulnerabilidade;8501;2888;17
+3534302;Alta Vulnerabilidade;4965;1670;9
+3534302;Muito Alta Vulnerabilidade;0;0;0
+3534401;Baixíssima Vulnerabilidade;41382;15887;91
+3534401;Muito Baixa Vulnerabilidade;340654;125650;698
+3534401;Baixa Vulnerabilidade;127824;47252;249
+3534401;Média Vulnerabilidade;46895;16357;90
+3534401;Alta Vulnerabilidade;70637;24260;129
+3534401;Muito Alta Vulnerabilidade;95953;31297;196
+3534500;Baixíssima Vulnerabilidade;0;0;0
+3534500;Muito Baixa Vulnerabilidade;0;0;0
+3534500;Baixa Vulnerabilidade;0;0;0
+3534500;Média Vulnerabilidade;516;227;1
+3534500;Alta Vulnerabilidade;1534;575;3
+3534500;Muito Alta Vulnerabilidade;0;0;0
+3534609;Baixíssima Vulnerabilidade;216;76;1
+3534609;Muito Baixa Vulnerabilidade;14734;5843;31
+3534609;Baixa Vulnerabilidade;2917;1127;7
+3534609;Média Vulnerabilidade;8239;3273;18
+3534609;Alta Vulnerabilidade;3218;1196;5
+3534609;Muito Alta Vulnerabilidade;0;0;0
+3534708;Baixíssima Vulnerabilidade;2924;1139;9
+3534708;Muito Baixa Vulnerabilidade;50447;19116;148
+3534708;Baixa Vulnerabilidade;10338;3940;28
+3534708;Média Vulnerabilidade;17891;6285;43
+3534708;Alta Vulnerabilidade;21243;7249;51
+3534708;Muito Alta Vulnerabilidade;0;0;0
+3534757;Baixíssima Vulnerabilidade;0;0;0
+3534757;Muito Baixa Vulnerabilidade;3888;1494;11
+3534757;Baixa Vulnerabilidade;882;317;2
+3534757;Média Vulnerabilidade;3374;1389;8
+3534757;Alta Vulnerabilidade;2102;830;5
+3534757;Muito Alta Vulnerabilidade;0;0;0
+3534807;Baixíssima Vulnerabilidade;0;0;0
+3534807;Muito Baixa Vulnerabilidade;465;180;3
+3534807;Baixa Vulnerabilidade;753;266;1
+3534807;Média Vulnerabilidade;4144;1578;11
+3534807;Alta Vulnerabilidade;2184;812;5
+3534807;Muito Alta Vulnerabilidade;0;0;0
+3534906;Baixíssima Vulnerabilidade;0;0;0
+3534906;Muito Baixa Vulnerabilidade;5848;2329;11
+3534906;Baixa Vulnerabilidade;0;0;0
+3534906;Média Vulnerabilidade;3231;1243;8
+3534906;Alta Vulnerabilidade;227;87;1
+3534906;Muito Alta Vulnerabilidade;0;0;0
+3535002;Baixíssima Vulnerabilidade;0;0;0
+3535002;Muito Baixa Vulnerabilidade;3174;1292;9
+3535002;Baixa Vulnerabilidade;1179;419;4
+3535002;Média Vulnerabilidade;4510;1771;14
+3535002;Alta Vulnerabilidade;2358;890;6
+3535002;Muito Alta Vulnerabilidade;0;0;0
+3535101;Baixíssima Vulnerabilidade;0;0;0
+3535101;Muito Baixa Vulnerabilidade;2685;971;5
+3535101;Baixa Vulnerabilidade;505;173;1
+3535101;Média Vulnerabilidade;700;242;2
+3535101;Alta Vulnerabilidade;5653;2015;11
+3535101;Muito Alta Vulnerabilidade;0;0;0
+3535200;Baixíssima Vulnerabilidade;0;0;0
+3535200;Muito Baixa Vulnerabilidade;2826;1144;12
+3535200;Baixa Vulnerabilidade;605;252;2
+3535200;Média Vulnerabilidade;3451;1409;11
+3535200;Alta Vulnerabilidade;1848;673;4
+3535200;Muito Alta Vulnerabilidade;0;0;0
+3535309;Baixíssima Vulnerabilidade;0;0;0
+3535309;Muito Baixa Vulnerabilidade;11861;4585;22
+3535309;Baixa Vulnerabilidade;546;197;1
+3535309;Média Vulnerabilidade;4802;1745;10
+3535309;Alta Vulnerabilidade;1671;592;3
+3535309;Muito Alta Vulnerabilidade;0;0;0
+3535408;Baixíssima Vulnerabilidade;0;0;0
+3535408;Muito Baixa Vulnerabilidade;3262;1255;10
+3535408;Baixa Vulnerabilidade;1376;488;3
+3535408;Média Vulnerabilidade;4903;1802;10
+3535408;Alta Vulnerabilidade;5328;1917;9
+3535408;Muito Alta Vulnerabilidade;0;0;0
+3535507;Baixíssima Vulnerabilidade;0;0;0
+3535507;Muito Baixa Vulnerabilidade;18509;7098;39
+3535507;Baixa Vulnerabilidade;2311;893;6
+3535507;Média Vulnerabilidade;9688;3608;23
+3535507;Alta Vulnerabilidade;8756;3013;14
+3535507;Muito Alta Vulnerabilidade;0;0;0
+3535606;Baixíssima Vulnerabilidade;0;0;0
+3535606;Muito Baixa Vulnerabilidade;5394;2053;18
+3535606;Baixa Vulnerabilidade;358;156;1
+3535606;Média Vulnerabilidade;7453;2821;25
+3535606;Alta Vulnerabilidade;3723;1316;9
+3535606;Muito Alta Vulnerabilidade;0;0;0
+3535705;Baixíssima Vulnerabilidade;0;0;0
+3535705;Muito Baixa Vulnerabilidade;3332;1232;7
+3535705;Baixa Vulnerabilidade;0;0;0
+3535705;Média Vulnerabilidade;2335;884;6
+3535705;Alta Vulnerabilidade;432;152;1
+3535705;Muito Alta Vulnerabilidade;0;0;0
+3535804;Baixíssima Vulnerabilidade;523;198;3
+3535804;Muito Baixa Vulnerabilidade;4719;1637;10
+3535804;Baixa Vulnerabilidade;3271;1205;9
+3535804;Média Vulnerabilidade;4172;1560;13
+3535804;Alta Vulnerabilidade;6067;2026;15
+3535804;Muito Alta Vulnerabilidade;0;0;0
+3535903;Baixíssima Vulnerabilidade;0;0;0
+3535903;Muito Baixa Vulnerabilidade;782;300;3
+3535903;Baixa Vulnerabilidade;779;293;2
+3535903;Média Vulnerabilidade;1330;529;2
+3535903;Alta Vulnerabilidade;1076;392;2
+3535903;Muito Alta Vulnerabilidade;0;0;0
+3536000;Baixíssima Vulnerabilidade;0;0;0
+3536000;Muito Baixa Vulnerabilidade;2633;1067;9
+3536000;Baixa Vulnerabilidade;0;0;0
+3536000;Média Vulnerabilidade;4830;1862;14
+3536000;Alta Vulnerabilidade;2409;926;7
+3536000;Muito Alta Vulnerabilidade;0;0;0
+3536109;Baixíssima Vulnerabilidade;333;141;1
+3536109;Muito Baixa Vulnerabilidade;1703;595;7
+3536109;Baixa Vulnerabilidade;702;248;2
+3536109;Média Vulnerabilidade;2184;751;5
+3536109;Alta Vulnerabilidade;2024;709;4
+3536109;Muito Alta Vulnerabilidade;0;0;0
+3536208;Baixíssima Vulnerabilidade;766;313;1
+3536208;Muito Baixa Vulnerabilidade;3520;1348;7
+3536208;Baixa Vulnerabilidade;1135;392;2
+3536208;Média Vulnerabilidade;10632;3720;20
+3536208;Alta Vulnerabilidade;2365;831;5
+3536208;Muito Alta Vulnerabilidade;0;0;0
+3536257;Baixíssima Vulnerabilidade;0;0;0
+3536257;Muito Baixa Vulnerabilidade;392;139;1
+3536257;Baixa Vulnerabilidade;0;0;0
+3536257;Média Vulnerabilidade;1777;714;2
+3536257;Alta Vulnerabilidade;721;255;1
+3536257;Muito Alta Vulnerabilidade;0;0;0
+3536307;Baixíssima Vulnerabilidade;0;0;0
+3536307;Muito Baixa Vulnerabilidade;4607;1665;12
+3536307;Baixa Vulnerabilidade;2114;743;5
+3536307;Média Vulnerabilidade;4121;1359;9
+3536307;Alta Vulnerabilidade;3445;1193;7
+3536307;Muito Alta Vulnerabilidade;0;0;0
+3536406;Baixíssima Vulnerabilidade;0;0;0
+3536406;Muito Baixa Vulnerabilidade;1307;508;4
+3536406;Baixa Vulnerabilidade;638;235;3
+3536406;Média Vulnerabilidade;640;250;2
+3536406;Alta Vulnerabilidade;4893;1755;13
+3536406;Muito Alta Vulnerabilidade;0;0;0
+3536505;Baixíssima Vulnerabilidade;22530;7599;40
+3536505;Muito Baixa Vulnerabilidade;59852;20849;99
+3536505;Baixa Vulnerabilidade;18223;6401;32
+3536505;Média Vulnerabilidade;5156;1596;7
+3536505;Alta Vulnerabilidade;3880;1271;4
+3536505;Muito Alta Vulnerabilidade;0;0;0
+3536570;Baixíssima Vulnerabilidade;0;0;0
+3536570;Muito Baixa Vulnerabilidade;481;178;2
+3536570;Baixa Vulnerabilidade;0;0;0
+3536570;Média Vulnerabilidade;829;327;2
+3536570;Alta Vulnerabilidade;678;225;2
+3536570;Muito Alta Vulnerabilidade;0;0;0
+3536604;Baixíssima Vulnerabilidade;0;0;0
+3536604;Muito Baixa Vulnerabilidade;1088;466;4
+3536604;Baixa Vulnerabilidade;0;0;0
+3536604;Média Vulnerabilidade;4206;1714;10
+3536604;Alta Vulnerabilidade;1786;699;5
+3536604;Muito Alta Vulnerabilidade;0;0;0
+3536703;Baixíssima Vulnerabilidade;0;0;0
+3536703;Muito Baixa Vulnerabilidade;23956;8634;50
+3536703;Baixa Vulnerabilidade;3237;1135;6
+3536703;Média Vulnerabilidade;9544;3182;19
+3536703;Alta Vulnerabilidade;7128;2374;12
+3536703;Muito Alta Vulnerabilidade;152;58;1
+3536802;Baixíssima Vulnerabilidade;0;0;0
+3536802;Muito Baixa Vulnerabilidade;880;336;3
+3536802;Baixa Vulnerabilidade;518;192;1
+3536802;Média Vulnerabilidade;5128;1934;17
+3536802;Alta Vulnerabilidade;0;0;0
+3536802;Muito Alta Vulnerabilidade;0;0;0
+3536901;Baixíssima Vulnerabilidade;0;0;0
+3536901;Muito Baixa Vulnerabilidade;1667;647;5
+3536901;Baixa Vulnerabilidade;0;0;0
+3536901;Média Vulnerabilidade;964;365;4
+3536901;Alta Vulnerabilidade;0;0;0
+3536901;Muito Alta Vulnerabilidade;0;0;0
+3537008;Baixíssima Vulnerabilidade;0;0;0
+3537008;Muito Baixa Vulnerabilidade;4417;1663;15
+3537008;Baixa Vulnerabilidade;93;37;1
+3537008;Média Vulnerabilidade;7695;2738;18
+3537008;Alta Vulnerabilidade;3243;1119;7
+3537008;Muito Alta Vulnerabilidade;0;0;0
+3537107;Baixíssima Vulnerabilidade;324;114;1
+3537107;Muito Baixa Vulnerabilidade;18865;7068;41
+3537107;Baixa Vulnerabilidade;6420;2423;13
+3537107;Média Vulnerabilidade;7066;2529;13
+3537107;Alta Vulnerabilidade;9943;3476;15
+3537107;Muito Alta Vulnerabilidade;0;0;0
+3537156;Baixíssima Vulnerabilidade;0;0;0
+3537156;Muito Baixa Vulnerabilidade;1987;753;4
+3537156;Baixa Vulnerabilidade;0;0;0
+3537156;Média Vulnerabilidade;0;0;0
+3537156;Alta Vulnerabilidade;814;310;1
+3537156;Muito Alta Vulnerabilidade;0;0;0
+3537206;Baixíssima Vulnerabilidade;0;0;0
+3537206;Muito Baixa Vulnerabilidade;1674;636;4
+3537206;Baixa Vulnerabilidade;0;0;0
+3537206;Média Vulnerabilidade;6891;2358;17
+3537206;Alta Vulnerabilidade;2312;789;6
+3537206;Muito Alta Vulnerabilidade;0;0;0
+3537305;Baixíssima Vulnerabilidade;852;312;2
+3537305;Muito Baixa Vulnerabilidade;32771;12745;68
+3537305;Baixa Vulnerabilidade;6804;2522;13
+3537305;Média Vulnerabilidade;13223;5029;28
+3537305;Alta Vulnerabilidade;7375;2454;13
+3537305;Muito Alta Vulnerabilidade;0;0;0
+3537404;Baixíssima Vulnerabilidade;0;0;0
+3537404;Muito Baixa Vulnerabilidade;9026;3595;20
+3537404;Baixa Vulnerabilidade;1745;673;3
+3537404;Média Vulnerabilidade;10249;3876;18
+3537404;Alta Vulnerabilidade;2568;905;5
+3537404;Muito Alta Vulnerabilidade;0;0;0
+3537503;Baixíssima Vulnerabilidade;0;0;0
+3537503;Muito Baixa Vulnerabilidade;2938;1096;7
+3537503;Baixa Vulnerabilidade;0;0;0
+3537503;Média Vulnerabilidade;3593;1283;11
+3537503;Alta Vulnerabilidade;1920;635;4
+3537503;Muito Alta Vulnerabilidade;0;0;0
+3537602;Baixíssima Vulnerabilidade;349;131;2
+3537602;Muito Baixa Vulnerabilidade;31084;12103;94
+3537602;Baixa Vulnerabilidade;2699;975;5
+3537602;Média Vulnerabilidade;14503;5191;29
+3537602;Alta Vulnerabilidade;17843;6090;30
+3537602;Muito Alta Vulnerabilidade;277;87;1
+3537701;Baixíssima Vulnerabilidade;0;0;0
+3537701;Muito Baixa Vulnerabilidade;719;291;3
+3537701;Baixa Vulnerabilidade;0;0;0
+3537701;Média Vulnerabilidade;3397;1299;8
+3537701;Alta Vulnerabilidade;1234;430;3
+3537701;Muito Alta Vulnerabilidade;0;0;0
+3537800;Baixíssima Vulnerabilidade;0;0;0
+3537800;Muito Baixa Vulnerabilidade;19924;7237;51
+3537800;Baixa Vulnerabilidade;1448;542;3
+3537800;Média Vulnerabilidade;21168;7650;62
+3537800;Alta Vulnerabilidade;9646;3386;20
+3537800;Muito Alta Vulnerabilidade;0;0;0
+3537909;Baixíssima Vulnerabilidade;0;0;0
+3537909;Muito Baixa Vulnerabilidade;12117;4277;24
+3537909;Baixa Vulnerabilidade;198;68;1
+3537909;Média Vulnerabilidade;8365;2931;20
+3537909;Alta Vulnerabilidade;6830;2286;10
+3537909;Muito Alta Vulnerabilidade;0;0;0
+3538006;Baixíssima Vulnerabilidade;5941;2080;12
+3538006;Muito Baixa Vulnerabilidade;89135;32265;194
+3538006;Baixa Vulnerabilidade;23960;8783;46
+3538006;Média Vulnerabilidade;13685;4481;31
+3538006;Alta Vulnerabilidade;31057;9954;53
+3538006;Muito Alta Vulnerabilidade;148;48;1
+3538105;Baixíssima Vulnerabilidade;0;0;0
+3538105;Muito Baixa Vulnerabilidade;7973;3060;21
+3538105;Baixa Vulnerabilidade;832;297;2
+3538105;Média Vulnerabilidade;4934;1815;11
+3538105;Alta Vulnerabilidade;487;189;1
+3538105;Muito Alta Vulnerabilidade;0;0;0
+3538204;Baixíssima Vulnerabilidade;0;0;0
+3538204;Muito Baixa Vulnerabilidade;6995;2579;25
+3538204;Baixa Vulnerabilidade;1720;647;4
+3538204;Média Vulnerabilidade;2899;1112;11
+3538204;Alta Vulnerabilidade;2935;1075;8
+3538204;Muito Alta Vulnerabilidade;0;0;0
+3538303;Baixíssima Vulnerabilidade;0;0;0
+3538303;Muito Baixa Vulnerabilidade;660;261;2
+3538303;Baixa Vulnerabilidade;0;0;0
+3538303;Média Vulnerabilidade;2138;860;4
+3538303;Alta Vulnerabilidade;320;114;1
+3538303;Muito Alta Vulnerabilidade;0;0;0
+3538501;Baixíssima Vulnerabilidade;0;0;0
+3538501;Muito Baixa Vulnerabilidade;9191;3425;21
+3538501;Baixa Vulnerabilidade;398;158;1
+3538501;Média Vulnerabilidade;2589;893;7
+3538501;Alta Vulnerabilidade;0;0;0
+3538501;Muito Alta Vulnerabilidade;0;0;0
+3538600;Baixíssima Vulnerabilidade;0;0;0
+3538600;Muito Baixa Vulnerabilidade;10505;3943;26
+3538600;Baixa Vulnerabilidade;1426;528;4
+3538600;Média Vulnerabilidade;8285;3051;23
+3538600;Alta Vulnerabilidade;4381;1515;10
+3538600;Muito Alta Vulnerabilidade;0;0;0
+3538709;Baixíssima Vulnerabilidade;28197;11066;64
+3538709;Muito Baixa Vulnerabilidade;222635;82719;448
+3538709;Baixa Vulnerabilidade;81278;32029;150
+3538709;Média Vulnerabilidade;28080;9383;55
+3538709;Alta Vulnerabilidade;47140;15715;73
+3538709;Muito Alta Vulnerabilidade;9633;3424;19
+3538808;Baixíssima Vulnerabilidade;0;0;0
+3538808;Muito Baixa Vulnerabilidade;13731;5291;30
+3538808;Baixa Vulnerabilidade;3916;1530;8
+3538808;Média Vulnerabilidade;8085;2898;16
+3538808;Alta Vulnerabilidade;3148;1148;6
+3538808;Muito Alta Vulnerabilidade;0;0;0
+3538907;Baixíssima Vulnerabilidade;0;0;0
+3538907;Muito Baixa Vulnerabilidade;9070;3640;19
+3538907;Baixa Vulnerabilidade;1309;507;3
+3538907;Média Vulnerabilidade;3253;1275;8
+3538907;Alta Vulnerabilidade;5011;1891;8
+3538907;Muito Alta Vulnerabilidade;0;0;0
+3539004;Baixíssima Vulnerabilidade;0;0;0
+3539004;Muito Baixa Vulnerabilidade;5201;1979;12
+3539004;Baixa Vulnerabilidade;1248;456;2
+3539004;Média Vulnerabilidade;3782;1390;8
+3539004;Alta Vulnerabilidade;521;169;1
+3539004;Muito Alta Vulnerabilidade;0;0;0
+3539103;Baixíssima Vulnerabilidade;0;0;0
+3539103;Muito Baixa Vulnerabilidade;2085;781;4
+3539103;Baixa Vulnerabilidade;1234;407;3
+3539103;Média Vulnerabilidade;3101;1043;6
+3539103;Alta Vulnerabilidade;8716;2898;11
+3539103;Muito Alta Vulnerabilidade;2972;901;6
+3539202;Baixíssima Vulnerabilidade;0;0;0
+3539202;Muito Baixa Vulnerabilidade;16514;6080;29
+3539202;Baixa Vulnerabilidade;1412;492;3
+3539202;Média Vulnerabilidade;5245;1927;10
+3539202;Alta Vulnerabilidade;1966;681;3
+3539202;Muito Alta Vulnerabilidade;0;0;0
+3539301;Baixíssima Vulnerabilidade;2302;856;4
+3539301;Muito Baixa Vulnerabilidade;42100;16403;80
+3539301;Baixa Vulnerabilidade;7377;2894;15
+3539301;Média Vulnerabilidade;9271;3164;16
+3539301;Alta Vulnerabilidade;10478;3645;16
+3539301;Muito Alta Vulnerabilidade;0;0;0
+3539400;Baixíssima Vulnerabilidade;2122;697;3
+3539400;Muito Baixa Vulnerabilidade;10154;3611;18
+3539400;Baixa Vulnerabilidade;0;0;0
+3539400;Média Vulnerabilidade;2273;777;5
+3539400;Alta Vulnerabilidade;0;0;0
+3539400;Muito Alta Vulnerabilidade;0;0;0
+3539509;Baixíssima Vulnerabilidade;0;0;0
+3539509;Muito Baixa Vulnerabilidade;13050;4751;28
+3539509;Baixa Vulnerabilidade;2213;816;4
+3539509;Média Vulnerabilidade;6499;2300;14
+3539509;Alta Vulnerabilidade;11720;3988;22
+3539509;Muito Alta Vulnerabilidade;0;0;0
+3539608;Baixíssima Vulnerabilidade;0;0;0
+3539608;Muito Baixa Vulnerabilidade;367;150;1
+3539608;Baixa Vulnerabilidade;0;0;0
+3539608;Média Vulnerabilidade;2700;1013;7
+3539608;Alta Vulnerabilidade;1319;482;3
+3539608;Muito Alta Vulnerabilidade;0;0;0
+3539707;Baixíssima Vulnerabilidade;0;0;0
+3539707;Muito Baixa Vulnerabilidade;285;119;2
+3539707;Baixa Vulnerabilidade;0;0;0
+3539707;Média Vulnerabilidade;1774;660;4
+3539707;Alta Vulnerabilidade;826;305;2
+3539707;Muito Alta Vulnerabilidade;0;0;0
+3539806;Baixíssima Vulnerabilidade;0;0;0
+3539806;Muito Baixa Vulnerabilidade;58700;20114;123
+3539806;Baixa Vulnerabilidade;15566;5408;30
+3539806;Média Vulnerabilidade;12344;4212;25
+3539806;Alta Vulnerabilidade;14713;4889;27
+3539806;Muito Alta Vulnerabilidade;2003;665;6
+3539905;Baixíssima Vulnerabilidade;0;0;0
+3539905;Muito Baixa Vulnerabilidade;1900;725;5
+3539905;Baixa Vulnerabilidade;601;216;1
+3539905;Média Vulnerabilidade;2558;1015;5
+3539905;Alta Vulnerabilidade;472;197;1
+3539905;Muito Alta Vulnerabilidade;0;0;0
+3540002;Baixíssima Vulnerabilidade;160;53;1
+3540002;Muito Baixa Vulnerabilidade;13657;4981;28
+3540002;Baixa Vulnerabilidade;2132;765;4
+3540002;Média Vulnerabilidade;1195;450;3
+3540002;Alta Vulnerabilidade;2740;954;7
+3540002;Muito Alta Vulnerabilidade;0;0;0
+3540101;Baixíssima Vulnerabilidade;0;0;0
+3540101;Muito Baixa Vulnerabilidade;1859;780;6
+3540101;Baixa Vulnerabilidade;0;0;0
+3540101;Média Vulnerabilidade;1520;576;5
+3540101;Alta Vulnerabilidade;0;0;0
+3540101;Muito Alta Vulnerabilidade;0;0;0
+3540200;Baixíssima Vulnerabilidade;0;0;0
+3540200;Muito Baixa Vulnerabilidade;10490;3820;21
+3540200;Baixa Vulnerabilidade;3204;1165;7
+3540200;Média Vulnerabilidade;5299;1834;10
+3540200;Alta Vulnerabilidade;17652;6174;31
+3540200;Muito Alta Vulnerabilidade;0;0;0
+3540259;Baixíssima Vulnerabilidade;0;0;0
+3540259;Muito Baixa Vulnerabilidade;260;103;1
+3540259;Baixa Vulnerabilidade;0;0;0
+3540259;Média Vulnerabilidade;1942;718;5
+3540259;Alta Vulnerabilidade;1779;676;5
+3540259;Muito Alta Vulnerabilidade;0;0;0
+3540309;Baixíssima Vulnerabilidade;0;0;0
+3540309;Muito Baixa Vulnerabilidade;495;197;1
+3540309;Baixa Vulnerabilidade;0;0;0
+3540309;Média Vulnerabilidade;0;0;0
+3540309;Alta Vulnerabilidade;1647;667;3
+3540309;Muito Alta Vulnerabilidade;0;0;0
+3540408;Baixíssima Vulnerabilidade;0;0;0
+3540408;Muito Baixa Vulnerabilidade;701;284;3
+3540408;Baixa Vulnerabilidade;0;0;0
+3540408;Média Vulnerabilidade;3276;1281;9
+3540408;Alta Vulnerabilidade;0;0;0
+3540408;Muito Alta Vulnerabilidade;0;0;0
+3540507;Baixíssima Vulnerabilidade;174;66;1
+3540507;Muito Baixa Vulnerabilidade;4706;1829;17
+3540507;Baixa Vulnerabilidade;662;255;1
+3540507;Média Vulnerabilidade;2899;1039;7
+3540507;Alta Vulnerabilidade;1763;628;6
+3540507;Muito Alta Vulnerabilidade;0;0;0
+3540606;Baixíssima Vulnerabilidade;1242;429;3
+3540606;Muito Baixa Vulnerabilidade;27962;9550;41
+3540606;Baixa Vulnerabilidade;7613;2778;12
+3540606;Média Vulnerabilidade;8464;2705;13
+3540606;Alta Vulnerabilidade;8643;2819;17
+3540606;Muito Alta Vulnerabilidade;0;0;0
+3540705;Baixíssima Vulnerabilidade;337;119;1
+3540705;Muito Baixa Vulnerabilidade;31962;11970;53
+3540705;Baixa Vulnerabilidade;1419;536;2
+3540705;Média Vulnerabilidade;6420;2231;11
+3540705;Alta Vulnerabilidade;10534;3576;12
+3540705;Muito Alta Vulnerabilidade;1234;375;2
+3540754;Baixíssima Vulnerabilidade;0;0;0
+3540754;Muito Baixa Vulnerabilidade;1326;455;2
+3540754;Baixa Vulnerabilidade;1060;343;2
+3540754;Média Vulnerabilidade;5906;1893;9
+3540754;Alta Vulnerabilidade;8955;2972;15
+3540754;Muito Alta Vulnerabilidade;0;0;0
+3540804;Baixíssima Vulnerabilidade;0;0;0
+3540804;Muito Baixa Vulnerabilidade;8275;3111;20
+3540804;Baixa Vulnerabilidade;1996;745;5
+3540804;Média Vulnerabilidade;1897;721;5
+3540804;Alta Vulnerabilidade;5865;2083;11
+3540804;Muito Alta Vulnerabilidade;0;0;0
+3540853;Baixíssima Vulnerabilidade;0;0;0
+3540853;Muito Baixa Vulnerabilidade;0;0;0
+3540853;Baixa Vulnerabilidade;0;0;0
+3540853;Média Vulnerabilidade;1419;539;3
+3540853;Alta Vulnerabilidade;0;0;0
+3540853;Muito Alta Vulnerabilidade;0;0;0
+3540903;Baixíssima Vulnerabilidade;0;0;0
+3540903;Muito Baixa Vulnerabilidade;8365;2991;18
+3540903;Baixa Vulnerabilidade;1442;450;3
+3540903;Média Vulnerabilidade;4698;1588;7
+3540903;Alta Vulnerabilidade;2451;799;5
+3540903;Muito Alta Vulnerabilidade;0;0;0
+3541000;Baixíssima Vulnerabilidade;10604;4334;44
+3541000;Muito Baixa Vulnerabilidade;181158;71720;586
+3541000;Baixa Vulnerabilidade;40299;14662;85
+3541000;Média Vulnerabilidade;22889;7856;45
+3541000;Alta Vulnerabilidade;69678;23343;107
+3541000;Muito Alta Vulnerabilidade;21242;6962;49
+3541059;Baixíssima Vulnerabilidade;0;0;0
+3541059;Muito Baixa Vulnerabilidade;350;122;1
+3541059;Baixa Vulnerabilidade;467;165;1
+3541059;Média Vulnerabilidade;1308;448;4
+3541059;Alta Vulnerabilidade;3001;1015;6
+3541059;Muito Alta Vulnerabilidade;0;0;0
+3541109;Baixíssima Vulnerabilidade;0;0;0
+3541109;Muito Baixa Vulnerabilidade;1091;417;3
+3541109;Baixa Vulnerabilidade;267;94;1
+3541109;Média Vulnerabilidade;2211;851;5
+3541109;Alta Vulnerabilidade;0;0;0
+3541109;Muito Alta Vulnerabilidade;0;0;0
+3541208;Baixíssima Vulnerabilidade;0;0;0
+3541208;Muito Baixa Vulnerabilidade;6353;2488;16
+3541208;Baixa Vulnerabilidade;0;0;0
+3541208;Média Vulnerabilidade;3828;1470;11
+3541208;Alta Vulnerabilidade;1616;587;3
+3541208;Muito Alta Vulnerabilidade;0;0;0
+3541307;Baixíssima Vulnerabilidade;438;150;1
+3541307;Muito Baixa Vulnerabilidade;12370;4823;23
+3541307;Baixa Vulnerabilidade;3662;1384;5
+3541307;Média Vulnerabilidade;13330;5102;26
+3541307;Alta Vulnerabilidade;8567;3190;16
+3541307;Muito Alta Vulnerabilidade;0;0;0
+3541406;Baixíssima Vulnerabilidade;12011;4511;25
+3541406;Muito Baixa Vulnerabilidade;123970;47271;220
+3541406;Baixa Vulnerabilidade;36249;14907;67
+3541406;Média Vulnerabilidade;23594;8692;40
+3541406;Alta Vulnerabilidade;27421;9681;40
+3541406;Muito Alta Vulnerabilidade;0;0;0
+3541505;Baixíssima Vulnerabilidade;1052;405;3
+3541505;Muito Baixa Vulnerabilidade;16743;6746;34
+3541505;Baixa Vulnerabilidade;740;313;2
+3541505;Média Vulnerabilidade;10754;4289;21
+3541505;Alta Vulnerabilidade;4935;1903;7
+3541505;Muito Alta Vulnerabilidade;0;0;0
+3541604;Baixíssima Vulnerabilidade;0;0;0
+3541604;Muito Baixa Vulnerabilidade;16744;6357;36
+3541604;Baixa Vulnerabilidade;3822;1374;8
+3541604;Média Vulnerabilidade;6001;2174;13
+3541604;Alta Vulnerabilidade;8249;2880;14
+3541604;Muito Alta Vulnerabilidade;0;0;0
+3541653;Baixíssima Vulnerabilidade;0;0;0
+3541653;Muito Baixa Vulnerabilidade;531;199;2
+3541653;Baixa Vulnerabilidade;843;304;1
+3541653;Média Vulnerabilidade;368;133;2
+3541653;Alta Vulnerabilidade;1499;515;5
+3541653;Muito Alta Vulnerabilidade;0;0;0
+3541703;Baixíssima Vulnerabilidade;0;0;0
+3541703;Muito Baixa Vulnerabilidade;5575;2089;12
+3541703;Baixa Vulnerabilidade;0;0;0
+3541703;Média Vulnerabilidade;4134;1524;7
+3541703;Alta Vulnerabilidade;3030;1071;6
+3541703;Muito Alta Vulnerabilidade;0;0;0
+3541802;Baixíssima Vulnerabilidade;0;0;0
+3541802;Muito Baixa Vulnerabilidade;293;96;2
+3541802;Baixa Vulnerabilidade;201;69;1
+3541802;Média Vulnerabilidade;1883;727;6
+3541802;Alta Vulnerabilidade;755;282;2
+3541802;Muito Alta Vulnerabilidade;0;0;0
+3541901;Baixíssima Vulnerabilidade;0;0;0
+3541901;Muito Baixa Vulnerabilidade;2981;1118;10
+3541901;Baixa Vulnerabilidade;354;130;1
+3541901;Média Vulnerabilidade;916;321;3
+3541901;Alta Vulnerabilidade;4608;1593;9
+3541901;Muito Alta Vulnerabilidade;0;0;0
+3542008;Baixíssima Vulnerabilidade;0;0;0
+3542008;Muito Baixa Vulnerabilidade;1491;542;3
+3542008;Baixa Vulnerabilidade;111;39;1
+3542008;Média Vulnerabilidade;3281;1204;4
+3542008;Alta Vulnerabilidade;1853;632;3
+3542008;Muito Alta Vulnerabilidade;0;0;0
+3542107;Baixíssima Vulnerabilidade;0;0;0
+3542107;Muito Baixa Vulnerabilidade;5872;2066;9
+3542107;Baixa Vulnerabilidade;0;0;0
+3542107;Média Vulnerabilidade;1698;584;3
+3542107;Alta Vulnerabilidade;1257;413;3
+3542107;Muito Alta Vulnerabilidade;0;0;0
+3542206;Baixíssima Vulnerabilidade;0;0;0
+3542206;Muito Baixa Vulnerabilidade;12224;4753;29
+3542206;Baixa Vulnerabilidade;843;344;3
+3542206;Média Vulnerabilidade;5512;1997;10
+3542206;Alta Vulnerabilidade;9620;3531;17
+3542206;Muito Alta Vulnerabilidade;0;0;0
+3542305;Baixíssima Vulnerabilidade;0;0;0
+3542305;Muito Baixa Vulnerabilidade;419;152;1
+3542305;Baixa Vulnerabilidade;0;0;0
+3542305;Média Vulnerabilidade;2754;1044;11
+3542305;Alta Vulnerabilidade;946;326;3
+3542305;Muito Alta Vulnerabilidade;0;0;0
+3542404;Baixíssima Vulnerabilidade;116;39;1
+3542404;Muito Baixa Vulnerabilidade;9117;3459;19
+3542404;Baixa Vulnerabilidade;1158;432;2
+3542404;Média Vulnerabilidade;5344;1967;8
+3542404;Alta Vulnerabilidade;4154;1538;8
+3542404;Muito Alta Vulnerabilidade;0;0;0
+3542503;Baixíssima Vulnerabilidade;0;0;0
+3542503;Muito Baixa Vulnerabilidade;2767;1064;6
+3542503;Baixa Vulnerabilidade;251;100;1
+3542503;Média Vulnerabilidade;740;316;2
+3542503;Alta Vulnerabilidade;1752;611;3
+3542503;Muito Alta Vulnerabilidade;0;0;0
+3542602;Baixíssima Vulnerabilidade;201;65;1
+3542602;Muito Baixa Vulnerabilidade;30438;11450;51
+3542602;Baixa Vulnerabilidade;1685;587;4
+3542602;Média Vulnerabilidade;14616;5113;31
+3542602;Alta Vulnerabilidade;11181;3894;19
+3542602;Muito Alta Vulnerabilidade;0;0;0
+3542701;Baixíssima Vulnerabilidade;0;0;0
+3542701;Muito Baixa Vulnerabilidade;614;214;2
+3542701;Baixa Vulnerabilidade;0;0;0
+3542701;Média Vulnerabilidade;2287;733;5
+3542701;Alta Vulnerabilidade;3435;1215;8
+3542701;Muito Alta Vulnerabilidade;0;0;0
+3542800;Baixíssima Vulnerabilidade;0;0;0
+3542800;Muito Baixa Vulnerabilidade;378;146;1
+3542800;Baixa Vulnerabilidade;0;0;0
+3542800;Média Vulnerabilidade;2300;858;9
+3542800;Alta Vulnerabilidade;382;133;1
+3542800;Muito Alta Vulnerabilidade;0;0;0
+3542909;Baixíssima Vulnerabilidade;0;0;0
+3542909;Muito Baixa Vulnerabilidade;3183;1262;9
+3542909;Baixa Vulnerabilidade;0;0;0
+3542909;Média Vulnerabilidade;2465;905;5
+3542909;Alta Vulnerabilidade;5149;1809;9
+3542909;Muito Alta Vulnerabilidade;0;0;0
+3543006;Baixíssima Vulnerabilidade;0;0;0
+3543006;Muito Baixa Vulnerabilidade;2166;813;5
+3543006;Baixa Vulnerabilidade;0;0;0
+3543006;Média Vulnerabilidade;6778;2350;20
+3543006;Alta Vulnerabilidade;9216;3240;24
+3543006;Muito Alta Vulnerabilidade;0;0;0
+3543105;Baixíssima Vulnerabilidade;0;0;0
+3543105;Muito Baixa Vulnerabilidade;0;0;0
+3543105;Baixa Vulnerabilidade;0;0;0
+3543105;Média Vulnerabilidade;2268;783;5
+3543105;Alta Vulnerabilidade;2253;767;4
+3543105;Muito Alta Vulnerabilidade;0;0;0
+3543204;Baixíssima Vulnerabilidade;0;0;0
+3543204;Muito Baixa Vulnerabilidade;1241;447;5
+3543204;Baixa Vulnerabilidade;222;83;2
+3543204;Média Vulnerabilidade;2398;921;9
+3543204;Alta Vulnerabilidade;635;221;3
+3543204;Muito Alta Vulnerabilidade;0;0;0
+3543238;Baixíssima Vulnerabilidade;0;0;0
+3543238;Muito Baixa Vulnerabilidade;0;0;0
+3543238;Baixa Vulnerabilidade;0;0;0
+3543238;Média Vulnerabilidade;1591;636;4
+3543238;Alta Vulnerabilidade;307;129;1
+3543238;Muito Alta Vulnerabilidade;0;0;0
+3543253;Baixíssima Vulnerabilidade;0;0;0
+3543253;Muito Baixa Vulnerabilidade;1113;424;3
+3543253;Baixa Vulnerabilidade;0;0;0
+3543253;Média Vulnerabilidade;5837;2078;19
+3543253;Alta Vulnerabilidade;252;89;1
+3543253;Muito Alta Vulnerabilidade;0;0;0
+3543303;Baixíssima Vulnerabilidade;910;324;2
+3543303;Muito Baixa Vulnerabilidade;82827;30069;142
+3543303;Baixa Vulnerabilidade;9494;3367;16
+3543303;Média Vulnerabilidade;9512;3366;22
+3543303;Alta Vulnerabilidade;7218;2501;13
+3543303;Muito Alta Vulnerabilidade;4586;1629;6
+3543402;Baixíssima Vulnerabilidade;86955;33796;174
+3543402;Muito Baixa Vulnerabilidade;328918;124887;616
+3543402;Baixa Vulnerabilidade;165853;68870;317
+3543402;Média Vulnerabilidade;21899;7405;34
+3543402;Alta Vulnerabilidade;65127;22375;103
+3543402;Muito Alta Vulnerabilidade;22793;7572;68
+3543501;Baixíssima Vulnerabilidade;0;0;0
+3543501;Muito Baixa Vulnerabilidade;0;0;0
+3543501;Baixa Vulnerabilidade;342;131;1
+3543501;Média Vulnerabilidade;1565;615;8
+3543501;Alta Vulnerabilidade;3474;1282;7
+3543501;Muito Alta Vulnerabilidade;0;0;0
+3543600;Baixíssima Vulnerabilidade;0;0;0
+3543600;Muito Baixa Vulnerabilidade;1836;676;6
+3543600;Baixa Vulnerabilidade;354;152;1
+3543600;Média Vulnerabilidade;763;280;2
+3543600;Alta Vulnerabilidade;824;269;1
+3543600;Muito Alta Vulnerabilidade;0;0;0
+3543709;Baixíssima Vulnerabilidade;0;0;0
+3543709;Muito Baixa Vulnerabilidade;2996;1120;7
+3543709;Baixa Vulnerabilidade;594;203;1
+3543709;Média Vulnerabilidade;4499;1657;10
+3543709;Alta Vulnerabilidade;927;310;2
+3543709;Muito Alta Vulnerabilidade;0;0;0
+3543808;Baixíssima Vulnerabilidade;0;0;0
+3543808;Muito Baixa Vulnerabilidade;2091;843;8
+3543808;Baixa Vulnerabilidade;1036;381;4
+3543808;Média Vulnerabilidade;3291;1237;8
+3543808;Alta Vulnerabilidade;2180;804;4
+3543808;Muito Alta Vulnerabilidade;0;0;0
+3543907;Baixíssima Vulnerabilidade;9027;3443;16
+3543907;Muito Baixa Vulnerabilidade;107470;41050;205
+3543907;Baixa Vulnerabilidade;34173;12774;57
+3543907;Média Vulnerabilidade;14498;4935;24
+3543907;Alta Vulnerabilidade;32976;11127;47
+3543907;Muito Alta Vulnerabilidade;419;137;3
+3544004;Baixíssima Vulnerabilidade;911;309;2
+3544004;Muito Baixa Vulnerabilidade;20149;7058;38
+3544004;Baixa Vulnerabilidade;1583;520;3
+3544004;Média Vulnerabilidade;2906;968;8
+3544004;Alta Vulnerabilidade;5524;1735;7
+3544004;Muito Alta Vulnerabilidade;0;0;0
+3544103;Baixíssima Vulnerabilidade;0;0;0
+3544103;Muito Baixa Vulnerabilidade;16366;5864;33
+3544103;Baixa Vulnerabilidade;1067;390;3
+3544103;Média Vulnerabilidade;10688;3864;25
+3544103;Alta Vulnerabilidade;10417;3667;19
+3544103;Muito Alta Vulnerabilidade;5166;1842;12
+3544202;Baixíssima Vulnerabilidade;0;0;0
+3544202;Muito Baixa Vulnerabilidade;1081;457;2
+3544202;Baixa Vulnerabilidade;373;127;2
+3544202;Média Vulnerabilidade;2573;1011;6
+3544202;Alta Vulnerabilidade;3724;1359;6
+3544202;Muito Alta Vulnerabilidade;0;0;0
+3544251;Baixíssima Vulnerabilidade;0;0;0
+3544251;Muito Baixa Vulnerabilidade;6819;2675;16
+3544251;Baixa Vulnerabilidade;564;210;1
+3544251;Média Vulnerabilidade;8647;3184;22
+3544251;Alta Vulnerabilidade;934;356;2
+3544251;Muito Alta Vulnerabilidade;0;0;0
+3544301;Baixíssima Vulnerabilidade;0;0;0
+3544301;Muito Baixa Vulnerabilidade;5494;1890;14
+3544301;Baixa Vulnerabilidade;2185;719;3
+3544301;Média Vulnerabilidade;1020;340;3
+3544301;Alta Vulnerabilidade;2100;681;3
+3544301;Muito Alta Vulnerabilidade;0;0;0
+3544400;Baixíssima Vulnerabilidade;0;0;0
+3544400;Muito Baixa Vulnerabilidade;0;0;0
+3544400;Baixa Vulnerabilidade;0;0;0
+3544400;Média Vulnerabilidade;2015;764;5
+3544400;Alta Vulnerabilidade;374;125;1
+3544400;Muito Alta Vulnerabilidade;0;0;0
+3544509;Baixíssima Vulnerabilidade;0;0;0
+3544509;Muito Baixa Vulnerabilidade;2514;977;10
+3544509;Baixa Vulnerabilidade;661;254;2
+3544509;Média Vulnerabilidade;236;108;1
+3544509;Alta Vulnerabilidade;0;0;0
+3544509;Muito Alta Vulnerabilidade;0;0;0
+3544608;Baixíssima Vulnerabilidade;0;0;0
+3544608;Muito Baixa Vulnerabilidade;1034;425;5
+3544608;Baixa Vulnerabilidade;0;0;0
+3544608;Média Vulnerabilidade;3595;1420;10
+3544608;Alta Vulnerabilidade;276;94;1
+3544608;Muito Alta Vulnerabilidade;0;0;0
+3544707;Baixíssima Vulnerabilidade;0;0;0
+3544707;Muito Baixa Vulnerabilidade;0;0;0
+3544707;Baixa Vulnerabilidade;0;0;0
+3544707;Média Vulnerabilidade;2381;883;6
+3544707;Alta Vulnerabilidade;0;0;0
+3544707;Muito Alta Vulnerabilidade;0;0;0
+3544806;Baixíssima Vulnerabilidade;0;0;0
+3544806;Muito Baixa Vulnerabilidade;1840;727;6
+3544806;Baixa Vulnerabilidade;812;293;2
+3544806;Média Vulnerabilidade;1790;668;6
+3544806;Alta Vulnerabilidade;1774;694;3
+3544806;Muito Alta Vulnerabilidade;0;0;0
+3544905;Baixíssima Vulnerabilidade;0;0;0
+3544905;Muito Baixa Vulnerabilidade;7182;2604;17
+3544905;Baixa Vulnerabilidade;1782;645;5
+3544905;Média Vulnerabilidade;146;48;1
+3544905;Alta Vulnerabilidade;2091;736;4
+3544905;Muito Alta Vulnerabilidade;0;0;0
+3545001;Baixíssima Vulnerabilidade;0;0;0
+3545001;Muito Baixa Vulnerabilidade;4977;1737;13
+3545001;Baixa Vulnerabilidade;509;202;1
+3545001;Média Vulnerabilidade;6065;2210;22
+3545001;Alta Vulnerabilidade;3110;1108;8
+3545001;Muito Alta Vulnerabilidade;0;0;0
+3545100;Baixíssima Vulnerabilidade;0;0;0
+3545100;Muito Baixa Vulnerabilidade;597;225;3
+3545100;Baixa Vulnerabilidade;0;0;0
+3545100;Média Vulnerabilidade;2182;848;4
+3545100;Alta Vulnerabilidade;1830;662;3
+3545100;Muito Alta Vulnerabilidade;0;0;0
+3545159;Baixíssima Vulnerabilidade;0;0;0
+3545159;Muito Baixa Vulnerabilidade;7414;2650;13
+3545159;Baixa Vulnerabilidade;0;0;0
+3545159;Média Vulnerabilidade;599;211;2
+3545159;Alta Vulnerabilidade;0;0;0
+3545159;Muito Alta Vulnerabilidade;0;0;0
+3545209;Baixíssima Vulnerabilidade;4251;1485;8
+3545209;Muito Baixa Vulnerabilidade;91889;32237;138
+3545209;Baixa Vulnerabilidade;20750;7386;28
+3545209;Média Vulnerabilidade;9234;3094;13
+3545209;Alta Vulnerabilidade;7240;2340;11
+3545209;Muito Alta Vulnerabilidade;335;113;1
+3545308;Baixíssima Vulnerabilidade;824;279;2
+3545308;Muito Baixa Vulnerabilidade;18954;6726;41
+3545308;Baixa Vulnerabilidade;6652;2338;10
+3545308;Média Vulnerabilidade;10021;3450;18
+3545308;Alta Vulnerabilidade;6155;2119;9
+3545308;Muito Alta Vulnerabilidade;0;0;0
+3545407;Baixíssima Vulnerabilidade;0;0;0
+3545407;Muito Baixa Vulnerabilidade;1702;688;7
+3545407;Baixa Vulnerabilidade;0;0;0
+3545407;Média Vulnerabilidade;2537;962;7
+3545407;Alta Vulnerabilidade;4493;1603;13
+3545407;Muito Alta Vulnerabilidade;0;0;0
+3545506;Baixíssima Vulnerabilidade;0;0;0
+3545506;Muito Baixa Vulnerabilidade;0;0;0
+3545506;Baixa Vulnerabilidade;0;0;0
+3545506;Média Vulnerabilidade;1893;661;3
+3545506;Alta Vulnerabilidade;1539;526;2
+3545506;Muito Alta Vulnerabilidade;0;0;0
+3545605;Baixíssima Vulnerabilidade;0;0;0
+3545605;Muito Baixa Vulnerabilidade;8140;3082;18
+3545605;Baixa Vulnerabilidade;201;77;1
+3545605;Média Vulnerabilidade;2665;937;7
+3545605;Alta Vulnerabilidade;2781;1092;5
+3545605;Muito Alta Vulnerabilidade;0;0;0
+3545704;Baixíssima Vulnerabilidade;0;0;0
+3545704;Muito Baixa Vulnerabilidade;2736;1119;9
+3545704;Baixa Vulnerabilidade;0;0;0
+3545704;Média Vulnerabilidade;2615;1060;6
+3545704;Alta Vulnerabilidade;864;335;3
+3545704;Muito Alta Vulnerabilidade;0;0;0
+3545803;Baixíssima Vulnerabilidade;4927;1710;11
+3545803;Muito Baixa Vulnerabilidade;129130;46806;270
+3545803;Baixa Vulnerabilidade;22481;8326;46
+3545803;Média Vulnerabilidade;13011;4513;27
+3545803;Alta Vulnerabilidade;13052;4555;27
+3545803;Muito Alta Vulnerabilidade;0;0;0
+3546009;Baixíssima Vulnerabilidade;0;0;0
+3546009;Muito Baixa Vulnerabilidade;5685;2151;16
+3546009;Baixa Vulnerabilidade;1157;413;2
+3546009;Média Vulnerabilidade;4218;1620;17
+3546009;Alta Vulnerabilidade;2558;858;5
+3546009;Muito Alta Vulnerabilidade;0;0;0
+3546108;Baixíssima Vulnerabilidade;0;0;0
+3546108;Muito Baixa Vulnerabilidade;839;306;4
+3546108;Baixa Vulnerabilidade;205;72;1
+3546108;Média Vulnerabilidade;1018;371;4
+3546108;Alta Vulnerabilidade;505;187;2
+3546108;Muito Alta Vulnerabilidade;0;0;0
+3546207;Baixíssima Vulnerabilidade;0;0;0
+3546207;Muito Baixa Vulnerabilidade;3580;1383;10
+3546207;Baixa Vulnerabilidade;0;0;0
+3546207;Média Vulnerabilidade;378;136;2
+3546207;Alta Vulnerabilidade;250;89;1
+3546207;Muito Alta Vulnerabilidade;0;0;0
+3546256;Baixíssima Vulnerabilidade;0;0;0
+3546256;Muito Baixa Vulnerabilidade;2018;732;4
+3546256;Baixa Vulnerabilidade;0;0;0
+3546256;Média Vulnerabilidade;0;0;0
+3546256;Alta Vulnerabilidade;0;0;0
+3546256;Muito Alta Vulnerabilidade;0;0;0
+3546306;Baixíssima Vulnerabilidade;0;0;0
+3546306;Muito Baixa Vulnerabilidade;11875;4588;25
+3546306;Baixa Vulnerabilidade;1543;518;2
+3546306;Média Vulnerabilidade;7065;2452;12
+3546306;Alta Vulnerabilidade;7926;2721;12
+3546306;Muito Alta Vulnerabilidade;0;0;0
+3546405;Baixíssima Vulnerabilidade;137;62;1
+3546405;Muito Baixa Vulnerabilidade;24854;9269;66
+3546405;Baixa Vulnerabilidade;7110;2490;15
+3546405;Média Vulnerabilidade;6070;2189;15
+3546405;Alta Vulnerabilidade;6446;2174;14
+3546405;Muito Alta Vulnerabilidade;995;293;2
+3546504;Baixíssima Vulnerabilidade;0;0;0
+3546504;Muito Baixa Vulnerabilidade;4226;1519;8
+3546504;Baixa Vulnerabilidade;0;0;0
+3546504;Média Vulnerabilidade;992;358;2
+3546504;Alta Vulnerabilidade;779;284;2
+3546504;Muito Alta Vulnerabilidade;0;0;0
+3546603;Baixíssima Vulnerabilidade;0;0;0
+3546603;Muito Baixa Vulnerabilidade;16845;6519;37
+3546603;Baixa Vulnerabilidade;5149;1947;10
+3546603;Média Vulnerabilidade;4609;1815;9
+3546603;Alta Vulnerabilidade;7563;2926;18
+3546603;Muito Alta Vulnerabilidade;0;0;0
+3546702;Baixíssima Vulnerabilidade;768;239;1
+3546702;Muito Baixa Vulnerabilidade;5334;1875;13
+3546702;Baixa Vulnerabilidade;12468;4243;20
+3546702;Média Vulnerabilidade;519;187;2
+3546702;Alta Vulnerabilidade;4080;1506;8
+3546702;Muito Alta Vulnerabilidade;0;0;0
+3546801;Baixíssima Vulnerabilidade;698;257;2
+3546801;Muito Baixa Vulnerabilidade;13833;4939;31
+3546801;Baixa Vulnerabilidade;4644;1606;8
+3546801;Média Vulnerabilidade;18286;6560;54
+3546801;Alta Vulnerabilidade;14579;5012;24
+3546801;Muito Alta Vulnerabilidade;0;0;0
+3546900;Baixíssima Vulnerabilidade;0;0;0
+3546900;Muito Baixa Vulnerabilidade;1463;515;3
+3546900;Baixa Vulnerabilidade;0;0;0
+3546900;Média Vulnerabilidade;3164;1110;5
+3546900;Alta Vulnerabilidade;2449;814;3
+3546900;Muito Alta Vulnerabilidade;0;0;0
+3547007;Baixíssima Vulnerabilidade;0;0;0
+3547007;Muito Baixa Vulnerabilidade;2276;804;4
+3547007;Baixa Vulnerabilidade;0;0;0
+3547007;Média Vulnerabilidade;833;320;2
+3547007;Alta Vulnerabilidade;2009;687;2
+3547007;Muito Alta Vulnerabilidade;0;0;0
+3547106;Baixíssima Vulnerabilidade;0;0;0
+3547106;Muito Baixa Vulnerabilidade;254;97;2
+3547106;Baixa Vulnerabilidade;0;0;0
+3547106;Média Vulnerabilidade;1918;757;4
+3547106;Alta Vulnerabilidade;754;275;1
+3547106;Muito Alta Vulnerabilidade;0;0;0
+3547205;Baixíssima Vulnerabilidade;0;0;0
+3547205;Muito Baixa Vulnerabilidade;574;236;2
+3547205;Baixa Vulnerabilidade;0;0;0
+3547205;Média Vulnerabilidade;1026;406;4
+3547205;Alta Vulnerabilidade;0;0;0
+3547205;Muito Alta Vulnerabilidade;0;0;0
+3547304;Baixíssima Vulnerabilidade;45670;15356;62
+3547304;Muito Baixa Vulnerabilidade;16221;5613;23
+3547304;Baixa Vulnerabilidade;31093;10640;31
+3547304;Média Vulnerabilidade;5038;1703;9
+3547304;Alta Vulnerabilidade;51488;17457;48
+3547304;Muito Alta Vulnerabilidade;3790;1265;10
+3547403;Baixíssima Vulnerabilidade;0;0;0
+3547403;Muito Baixa Vulnerabilidade;542;203;4
+3547403;Baixa Vulnerabilidade;0;0;0
+3547403;Média Vulnerabilidade;2109;854;7
+3547403;Alta Vulnerabilidade;0;0;0
+3547403;Muito Alta Vulnerabilidade;0;0;0
+3547502;Baixíssima Vulnerabilidade;0;0;0
+3547502;Muito Baixa Vulnerabilidade;17489;6911;40
+3547502;Baixa Vulnerabilidade;877;324;2
+3547502;Média Vulnerabilidade;4913;1728;9
+3547502;Alta Vulnerabilidade;1090;390;2
+3547502;Muito Alta Vulnerabilidade;0;0;0
+3547601;Baixíssima Vulnerabilidade;0;0;0
+3547601;Muito Baixa Vulnerabilidade;17284;6453;33
+3547601;Baixa Vulnerabilidade;0;0;0
+3547601;Média Vulnerabilidade;5933;2087;10
+3547601;Alta Vulnerabilidade;0;0;0
+3547601;Muito Alta Vulnerabilidade;0;0;0
+3547650;Baixíssima Vulnerabilidade;0;0;0
+3547650;Muito Baixa Vulnerabilidade;958;372;3
+3547650;Baixa Vulnerabilidade;0;0;0
+3547650;Média Vulnerabilidade;583;241;2
+3547650;Alta Vulnerabilidade;0;0;0
+3547650;Muito Alta Vulnerabilidade;0;0;0
+3547700;Baixíssima Vulnerabilidade;0;0;0
+3547700;Muito Baixa Vulnerabilidade;9136;3591;21
+3547700;Baixa Vulnerabilidade;1184;463;2
+3547700;Média Vulnerabilidade;4082;1561;9
+3547700;Alta Vulnerabilidade;2974;1079;6
+3547700;Muito Alta Vulnerabilidade;0;0;0
+3547809;Baixíssima Vulnerabilidade;81845;32495;179
+3547809;Muito Baixa Vulnerabilidade;465041;177754;975
+3547809;Baixa Vulnerabilidade;52988;19908;112
+3547809;Média Vulnerabilidade;14239;5028;31
+3547809;Alta Vulnerabilidade;27929;9643;57
+3547809;Muito Alta Vulnerabilidade;98153;33597;195
+3547908;Baixíssima Vulnerabilidade;0;0;0
+3547908;Muito Baixa Vulnerabilidade;2530;966;8
+3547908;Baixa Vulnerabilidade;729;257;1
+3547908;Média Vulnerabilidade;1993;742;3
+3547908;Alta Vulnerabilidade;1504;601;2
+3547908;Muito Alta Vulnerabilidade;0;0;0
+3548005;Baixíssima Vulnerabilidade;0;0;0
+3548005;Muito Baixa Vulnerabilidade;7409;2653;18
+3548005;Baixa Vulnerabilidade;4341;1465;9
+3548005;Média Vulnerabilidade;978;355;2
+3548005;Alta Vulnerabilidade;10057;3400;15
+3548005;Muito Alta Vulnerabilidade;0;0;0
+3548054;Baixíssima Vulnerabilidade;0;0;0
+3548054;Muito Baixa Vulnerabilidade;2507;936;11
+3548054;Baixa Vulnerabilidade;199;63;1
+3548054;Média Vulnerabilidade;3394;1318;11
+3548054;Alta Vulnerabilidade;1493;534;5
+3548054;Muito Alta Vulnerabilidade;0;0;0
+3548104;Baixíssima Vulnerabilidade;0;0;0
+3548104;Muito Baixa Vulnerabilidade;1458;536;3
+3548104;Baixa Vulnerabilidade;599;210;1
+3548104;Média Vulnerabilidade;3929;1343;9
+3548104;Alta Vulnerabilidade;0;0;0
+3548104;Muito Alta Vulnerabilidade;0;0;0
+3548203;Baixíssima Vulnerabilidade;0;0;0
+3548203;Muito Baixa Vulnerabilidade;2729;1005;9
+3548203;Baixa Vulnerabilidade;640;234;2
+3548203;Média Vulnerabilidade;2400;873;7
+3548203;Alta Vulnerabilidade;956;340;3
+3548203;Muito Alta Vulnerabilidade;0;0;0
+3548302;Baixíssima Vulnerabilidade;0;0;0
+3548302;Muito Baixa Vulnerabilidade;122;46;1
+3548302;Baixa Vulnerabilidade;115;42;1
+3548302;Média Vulnerabilidade;1918;778;5
+3548302;Alta Vulnerabilidade;760;292;4
+3548302;Muito Alta Vulnerabilidade;0;0;0
+3548401;Baixíssima Vulnerabilidade;0;0;0
+3548401;Muito Baixa Vulnerabilidade;417;156;1
+3548401;Baixa Vulnerabilidade;0;0;0
+3548401;Média Vulnerabilidade;2132;790;4
+3548401;Alta Vulnerabilidade;1214;473;2
+3548401;Muito Alta Vulnerabilidade;0;0;0
+3548500;Baixíssima Vulnerabilidade;95718;40144;238
+3548500;Muito Baixa Vulnerabilidade;232084;93338;528
+3548500;Baixa Vulnerabilidade;24045;10210;55
+3548500;Média Vulnerabilidade;7450;2861;20
+3548500;Alta Vulnerabilidade;10446;3747;25
+3548500;Muito Alta Vulnerabilidade;45789;16713;106
+3548609;Baixíssima Vulnerabilidade;0;0;0
+3548609;Muito Baixa Vulnerabilidade;6451;2427;21
+3548609;Baixa Vulnerabilidade;1390;507;4
+3548609;Média Vulnerabilidade;2124;775;8
+3548609;Alta Vulnerabilidade;817;284;2
+3548609;Muito Alta Vulnerabilidade;0;0;0
+3548708;Baixíssima Vulnerabilidade;75769;28107;178
+3548708;Muito Baixa Vulnerabilidade;414463;157611;859
+3548708;Baixa Vulnerabilidade;73822;28554;151
+3548708;Média Vulnerabilidade;54453;19492;114
+3548708;Alta Vulnerabilidade;31075;11005;65
+3548708;Muito Alta Vulnerabilidade;157549;55038;297
+3548807;Baixíssima Vulnerabilidade;52426;19663;140
+3548807;Muito Baixa Vulnerabilidade;107655;40444;265
+3548807;Baixa Vulnerabilidade;4059;1576;11
+3548807;Média Vulnerabilidade;678;257;2
+3548807;Alta Vulnerabilidade;0;0;0
+3548807;Muito Alta Vulnerabilidade;0;0;0
+3548906;Baixíssima Vulnerabilidade;18349;7001;32
+3548906;Muito Baixa Vulnerabilidade;126728;48206;228
+3548906;Baixa Vulnerabilidade;45789;19722;91
+3548906;Média Vulnerabilidade;22503;7783;38
+3548906;Alta Vulnerabilidade;39049;13479;52
+3548906;Muito Alta Vulnerabilidade;362;111;3
+3549003;Baixíssima Vulnerabilidade;0;0;0
+3549003;Muito Baixa Vulnerabilidade;1086;432;3
+3549003;Baixa Vulnerabilidade;0;0;0
+3549003;Média Vulnerabilidade;1381;568;3
+3549003;Alta Vulnerabilidade;135;44;1
+3549003;Muito Alta Vulnerabilidade;0;0;0
+3549102;Baixíssima Vulnerabilidade;2410;859;5
+3549102;Muito Baixa Vulnerabilidade;53499;20586;103
+3549102;Baixa Vulnerabilidade;14166;5332;26
+3549102;Média Vulnerabilidade;16254;5625;27
+3549102;Alta Vulnerabilidade;5192;1980;9
+3549102;Muito Alta Vulnerabilidade;0;0;0
+3549201;Baixíssima Vulnerabilidade;0;0;0
+3549201;Muito Baixa Vulnerabilidade;131;48;1
+3549201;Baixa Vulnerabilidade;0;0;0
+3549201;Média Vulnerabilidade;2444;932;7
+3549201;Alta Vulnerabilidade;0;0;0
+3549201;Muito Alta Vulnerabilidade;0;0;0
+3549250;Baixíssima Vulnerabilidade;0;0;0
+3549250;Muito Baixa Vulnerabilidade;296;106;2
+3549250;Baixa Vulnerabilidade;0;0;0
+3549250;Média Vulnerabilidade;1182;446;2
+3549250;Alta Vulnerabilidade;345;126;1
+3549250;Muito Alta Vulnerabilidade;0;0;0
+3549300;Baixíssima Vulnerabilidade;0;0;0
+3549300;Muito Baixa Vulnerabilidade;423;169;3
+3549300;Baixa Vulnerabilidade;0;0;0
+3549300;Média Vulnerabilidade;1469;626;4
+3549300;Alta Vulnerabilidade;135;49;1
+3549300;Muito Alta Vulnerabilidade;0;0;0
+3549409;Baixíssima Vulnerabilidade;0;0;0
+3549409;Muito Baixa Vulnerabilidade;31142;11388;58
+3549409;Baixa Vulnerabilidade;4834;1728;9
+3549409;Média Vulnerabilidade;5204;1786;10
+3549409;Alta Vulnerabilidade;6806;2340;9
+3549409;Muito Alta Vulnerabilidade;0;0;0
+3549508;Baixíssima Vulnerabilidade;0;0;0
+3549508;Muito Baixa Vulnerabilidade;365;138;3
+3549508;Baixa Vulnerabilidade;302;111;1
+3549508;Média Vulnerabilidade;1118;396;3
+3549508;Alta Vulnerabilidade;5812;2022;10
+3549508;Muito Alta Vulnerabilidade;0;0;0
+3549607;Baixíssima Vulnerabilidade;0;0;0
+3549607;Muito Baixa Vulnerabilidade;418;164;1
+3549607;Baixa Vulnerabilidade;0;0;0
+3549607;Média Vulnerabilidade;2452;912;8
+3549607;Alta Vulnerabilidade;899;339;2
+3549607;Muito Alta Vulnerabilidade;0;0;0
+3549706;Baixíssima Vulnerabilidade;188;62;1
+3549706;Muito Baixa Vulnerabilidade;29577;11088;59
+3549706;Baixa Vulnerabilidade;2344;910;5
+3549706;Média Vulnerabilidade;14216;4877;27
+3549706;Alta Vulnerabilidade;5024;1601;7
+3549706;Muito Alta Vulnerabilidade;0;0;0
+3549805;Baixíssima Vulnerabilidade;51395;19934;115
+3549805;Muito Baixa Vulnerabilidade;224317;86665;498
+3549805;Baixa Vulnerabilidade;107949;44768;248
+3549805;Média Vulnerabilidade;35420;12978;72
+3549805;Alta Vulnerabilidade;56406;20619;101
+3549805;Muito Alta Vulnerabilidade;0;0;0
+3549904;Baixíssima Vulnerabilidade;85458;33034;231
+3549904;Muito Baixa Vulnerabilidade;353016;126417;719
+3549904;Baixa Vulnerabilidade;94587;35457;210
+3549904;Média Vulnerabilidade;67278;22333;133
+3549904;Alta Vulnerabilidade;84123;27057;143
+3549904;Muito Alta Vulnerabilidade;6441;2157;19
+3549953;Baixíssima Vulnerabilidade;0;0;0
+3549953;Muito Baixa Vulnerabilidade;4360;1543;12
+3549953;Baixa Vulnerabilidade;1860;683;5
+3549953;Média Vulnerabilidade;4270;1575;15
+3549953;Alta Vulnerabilidade;4944;1819;13
+3549953;Muito Alta Vulnerabilidade;0;0;0
+3550001;Baixíssima Vulnerabilidade;0;0;0
+3550001;Muito Baixa Vulnerabilidade;2963;1238;9
+3550001;Baixa Vulnerabilidade;0;0;0
+3550001;Média Vulnerabilidade;6781;2713;19
+3550001;Alta Vulnerabilidade;511;196;1
+3550001;Muito Alta Vulnerabilidade;0;0;0
+3550100;Baixíssima Vulnerabilidade;0;0;0
+3550100;Muito Baixa Vulnerabilidade;18259;6835;45
+3550100;Baixa Vulnerabilidade;1508;528;3
+3550100;Média Vulnerabilidade;9272;3442;22
+3550100;Alta Vulnerabilidade;7393;2408;12
+3550100;Muito Alta Vulnerabilidade;0;0;0
+3550209;Baixíssima Vulnerabilidade;0;0;0
+3550209;Muito Baixa Vulnerabilidade;9605;3486;21
+3550209;Baixa Vulnerabilidade;836;302;2
+3550209;Média Vulnerabilidade;11374;3897;24
+3550209;Alta Vulnerabilidade;9738;3427;18
+3550209;Muito Alta Vulnerabilidade;0;0;0
+3550308;Baixíssima Vulnerabilidade;1874333;808101;5816
+3550308;Muito Baixa Vulnerabilidade;4651411;1752049;9949
+3550308;Baixa Vulnerabilidade;1308816;510069;2859
+3550308;Média Vulnerabilidade;717837;254498;1464
+3550308;Alta Vulnerabilidade;1085667;381445;2114
+3550308;Muito Alta Vulnerabilidade;1703098;582319;3673
+3550407;Baixíssima Vulnerabilidade;412;152;1
+3550407;Muito Baixa Vulnerabilidade;24470;9224;59
+3550407;Baixa Vulnerabilidade;3457;1252;8
+3550407;Média Vulnerabilidade;3063;1094;5
+3550407;Alta Vulnerabilidade;4650;1557;7
+3550407;Muito Alta Vulnerabilidade;1506;441;1
+3550506;Baixíssima Vulnerabilidade;0;0;0
+3550506;Muito Baixa Vulnerabilidade;3009;1108;12
+3550506;Baixa Vulnerabilidade;0;0;0
+3550506;Média Vulnerabilidade;1757;630;7
+3550506;Alta Vulnerabilidade;2308;820;5
+3550506;Muito Alta Vulnerabilidade;0;0;0
+3550605;Baixíssima Vulnerabilidade;2467;904;7
+3550605;Muito Baixa Vulnerabilidade;46642;17298;86
+3550605;Baixa Vulnerabilidade;9293;3439;15
+3550605;Média Vulnerabilidade;10376;3388;24
+3550605;Alta Vulnerabilidade;5276;1760;9
+3550605;Muito Alta Vulnerabilidade;2216;698;6
+3550704;Baixíssima Vulnerabilidade;1149;428;5
+3550704;Muito Baixa Vulnerabilidade;30179;11337;101
+3550704;Baixa Vulnerabilidade;5770;2134;18
+3550704;Média Vulnerabilidade;3568;1216;8
+3550704;Alta Vulnerabilidade;13092;4472;30
+3550704;Muito Alta Vulnerabilidade;24678;8326;50
+3550803;Baixíssima Vulnerabilidade;0;0;0
+3550803;Muito Baixa Vulnerabilidade;5071;1934;11
+3550803;Baixa Vulnerabilidade;810;293;3
+3550803;Média Vulnerabilidade;4144;1512;8
+3550803;Alta Vulnerabilidade;215;71;1
+3550803;Muito Alta Vulnerabilidade;0;0;0
+3550902;Baixíssima Vulnerabilidade;0;0;0
+3550902;Muito Baixa Vulnerabilidade;9545;3597;23
+3550902;Baixa Vulnerabilidade;0;0;0
+3550902;Média Vulnerabilidade;2785;913;5
+3550902;Alta Vulnerabilidade;885;290;1
+3550902;Muito Alta Vulnerabilidade;0;0;0
+3551009;Baixíssima Vulnerabilidade;871;337;2
+3551009;Muito Baixa Vulnerabilidade;160874;62744;317
+3551009;Baixa Vulnerabilidade;28059;10474;51
+3551009;Média Vulnerabilidade;28541;10138;53
+3551009;Alta Vulnerabilidade;19992;6934;33
+3551009;Muito Alta Vulnerabilidade;84765;28704;160
+3551108;Baixíssima Vulnerabilidade;685;230;1
+3551108;Muito Baixa Vulnerabilidade;2339;834;7
+3551108;Baixa Vulnerabilidade;2584;953;4
+3551108;Média Vulnerabilidade;3239;1147;10
+3551108;Alta Vulnerabilidade;1219;456;3
+3551108;Muito Alta Vulnerabilidade;0;0;0
+3551207;Baixíssima Vulnerabilidade;0;0;0
+3551207;Muito Baixa Vulnerabilidade;472;189;2
+3551207;Baixa Vulnerabilidade;0;0;0
+3551207;Média Vulnerabilidade;1710;622;5
+3551207;Alta Vulnerabilidade;1381;519;3
+3551207;Muito Alta Vulnerabilidade;0;0;0
+3551306;Baixíssima Vulnerabilidade;0;0;0
+3551306;Muito Baixa Vulnerabilidade;1156;446;3
+3551306;Baixa Vulnerabilidade;0;0;0
+3551306;Média Vulnerabilidade;1683;692;4
+3551306;Alta Vulnerabilidade;285;108;1
+3551306;Muito Alta Vulnerabilidade;0;0;0
+3551405;Baixíssima Vulnerabilidade;0;0;0
+3551405;Muito Baixa Vulnerabilidade;2189;766;4
+3551405;Baixa Vulnerabilidade;0;0;0
+3551405;Média Vulnerabilidade;4381;1508;9
+3551405;Alta Vulnerabilidade;2046;655;3
+3551405;Muito Alta Vulnerabilidade;0;0;0
+3551504;Baixíssima Vulnerabilidade;810;290;1
+3551504;Muito Baixa Vulnerabilidade;5914;2032;10
+3551504;Baixa Vulnerabilidade;8573;2927;14
+3551504;Média Vulnerabilidade;4892;1638;11
+3551504;Alta Vulnerabilidade;23566;7990;36
+3551504;Muito Alta Vulnerabilidade;0;0;0
+3551603;Baixíssima Vulnerabilidade;0;0;0
+3551603;Muito Baixa Vulnerabilidade;17060;6769;47
+3551603;Baixa Vulnerabilidade;1940;702;4
+3551603;Média Vulnerabilidade;7009;2331;14
+3551603;Alta Vulnerabilidade;3074;1113;7
+3551603;Muito Alta Vulnerabilidade;0;0;0
+3551702;Baixíssima Vulnerabilidade;5399;1986;13
+3551702;Muito Baixa Vulnerabilidade;63859;23255;139
+3551702;Baixa Vulnerabilidade;15065;5633;36
+3551702;Média Vulnerabilidade;18029;6322;37
+3551702;Alta Vulnerabilidade;24167;8605;50
+3551702;Muito Alta Vulnerabilidade;0;0;0
+3551801;Baixíssima Vulnerabilidade;0;0;0
+3551801;Muito Baixa Vulnerabilidade;1826;633;2
+3551801;Baixa Vulnerabilidade;179;66;1
+3551801;Média Vulnerabilidade;6472;2335;18
+3551801;Alta Vulnerabilidade;3775;1311;8
+3551801;Muito Alta Vulnerabilidade;0;0;0
+3551900;Baixíssima Vulnerabilidade;0;0;0
+3551900;Muito Baixa Vulnerabilidade;2668;945;8
+3551900;Baixa Vulnerabilidade;996;314;2
+3551900;Média Vulnerabilidade;3370;1224;7
+3551900;Alta Vulnerabilidade;7423;2548;14
+3551900;Muito Alta Vulnerabilidade;0;0;0
+3552007;Baixíssima Vulnerabilidade;0;0;0
+3552007;Muito Baixa Vulnerabilidade;1647;603;3
+3552007;Baixa Vulnerabilidade;0;0;0
+3552007;Média Vulnerabilidade;4171;1487;15
+3552007;Alta Vulnerabilidade;202;80;1
+3552007;Muito Alta Vulnerabilidade;0;0;0
+3552106;Baixíssima Vulnerabilidade;212;75;1
+3552106;Muito Baixa Vulnerabilidade;20101;7749;63
+3552106;Baixa Vulnerabilidade;3083;1216;9
+3552106;Média Vulnerabilidade;10684;3862;34
+3552106;Alta Vulnerabilidade;4999;1884;14
+3552106;Muito Alta Vulnerabilidade;0;0;0
+3552205;Baixíssima Vulnerabilidade;63610;23655;112
+3552205;Muito Baixa Vulnerabilidade;369689;134684;549
+3552205;Baixa Vulnerabilidade;182069;68365;262
+3552205;Média Vulnerabilidade;23644;8065;38
+3552205;Alta Vulnerabilidade;67002;22376;96
+3552205;Muito Alta Vulnerabilidade;11731;3777;35
+3552304;Baixíssima Vulnerabilidade;0;0;0
+3552304;Muito Baixa Vulnerabilidade;1377;524;5
+3552304;Baixa Vulnerabilidade;0;0;0
+3552304;Média Vulnerabilidade;5395;2082;12
+3552304;Alta Vulnerabilidade;160;56;1
+3552304;Muito Alta Vulnerabilidade;0;0;0
+3552403;Baixíssima Vulnerabilidade;5313;1757;6
+3552403;Muito Baixa Vulnerabilidade;122124;43927;200
+3552403;Baixa Vulnerabilidade;61638;21878;87
+3552403;Média Vulnerabilidade;25661;8977;39
+3552403;Alta Vulnerabilidade;52932;18114;69
+3552403;Muito Alta Vulnerabilidade;10979;3670;20
+3552502;Baixíssima Vulnerabilidade;2848;987;8
+3552502;Muito Baixa Vulnerabilidade;126592;44608;253
+3552502;Baixa Vulnerabilidade;28103;10276;58
+3552502;Média Vulnerabilidade;61533;20750;120
+3552502;Alta Vulnerabilidade;65055;21820;116
+3552502;Muito Alta Vulnerabilidade;20714;6637;52
+3552551;Baixíssima Vulnerabilidade;0;0;0
+3552551;Muito Baixa Vulnerabilidade;225;77;1
+3552551;Baixa Vulnerabilidade;260;102;1
+3552551;Média Vulnerabilidade;2922;1100;7
+3552551;Alta Vulnerabilidade;0;0;0
+3552551;Muito Alta Vulnerabilidade;0;0;0
+3552601;Baixíssima Vulnerabilidade;0;0;0
+3552601;Muito Baixa Vulnerabilidade;4050;1617;11
+3552601;Baixa Vulnerabilidade;842;289;2
+3552601;Média Vulnerabilidade;5401;2085;14
+3552601;Alta Vulnerabilidade;553;195;2
+3552601;Muito Alta Vulnerabilidade;0;0;0
+3552700;Baixíssima Vulnerabilidade;0;0;0
+3552700;Muito Baixa Vulnerabilidade;3828;1428;10
+3552700;Baixa Vulnerabilidade;2132;837;5
+3552700;Média Vulnerabilidade;3948;1460;9
+3552700;Alta Vulnerabilidade;4569;1699;9
+3552700;Muito Alta Vulnerabilidade;154;55;1
+3552809;Baixíssima Vulnerabilidade;10804;3731;22
+3552809;Muito Baixa Vulnerabilidade;104601;38855;225
+3552809;Baixa Vulnerabilidade;53923;19960;113
+3552809;Média Vulnerabilidade;22507;8026;49
+3552809;Alta Vulnerabilidade;38960;14083;80
+3552809;Muito Alta Vulnerabilidade;41909;14551;91
+3552908;Baixíssima Vulnerabilidade;0;0;0
+3552908;Muito Baixa Vulnerabilidade;2494;964;7
+3552908;Baixa Vulnerabilidade;229;86;1
+3552908;Média Vulnerabilidade;2198;831;4
+3552908;Alta Vulnerabilidade;1154;376;2
+3552908;Muito Alta Vulnerabilidade;0;0;0
+3553005;Baixíssima Vulnerabilidade;0;0;0
+3553005;Muito Baixa Vulnerabilidade;2009;721;6
+3553005;Baixa Vulnerabilidade;1466;497;3
+3553005;Média Vulnerabilidade;1913;664;6
+3553005;Alta Vulnerabilidade;7183;2440;16
+3553005;Muito Alta Vulnerabilidade;0;0;0
+3553104;Baixíssima Vulnerabilidade;0;0;0
+3553104;Muito Baixa Vulnerabilidade;498;196;2
+3553104;Baixa Vulnerabilidade;0;0;0
+3553104;Média Vulnerabilidade;4110;1524;9
+3553104;Alta Vulnerabilidade;1069;366;3
+3553104;Muito Alta Vulnerabilidade;0;0;0
+3553203;Baixíssima Vulnerabilidade;0;0;0
+3553203;Muito Baixa Vulnerabilidade;2046;795;5
+3553203;Baixa Vulnerabilidade;751;274;2
+3553203;Média Vulnerabilidade;1809;679;5
+3553203;Alta Vulnerabilidade;843;319;2
+3553203;Muito Alta Vulnerabilidade;0;0;0
+3553302;Baixíssima Vulnerabilidade;158;57;1
+3553302;Muito Baixa Vulnerabilidade;14288;5192;30
+3553302;Baixa Vulnerabilidade;0;0;0
+3553302;Média Vulnerabilidade;4964;1746;10
+3553302;Alta Vulnerabilidade;1641;511;2
+3553302;Muito Alta Vulnerabilidade;0;0;0
+3553401;Baixíssima Vulnerabilidade;364;122;1
+3553401;Muito Baixa Vulnerabilidade;11392;4417;24
+3553401;Baixa Vulnerabilidade;969;364;2
+3553401;Média Vulnerabilidade;7230;2764;17
+3553401;Alta Vulnerabilidade;5213;1860;10
+3553401;Muito Alta Vulnerabilidade;0;0;0
+3553500;Baixíssima Vulnerabilidade;0;0;0
+3553500;Muito Baixa Vulnerabilidade;934;336;2
+3553500;Baixa Vulnerabilidade;0;0;0
+3553500;Média Vulnerabilidade;3124;1114;9
+3553500;Alta Vulnerabilidade;3704;1300;8
+3553500;Muito Alta Vulnerabilidade;0;0;0
+3553609;Baixíssima Vulnerabilidade;0;0;0
+3553609;Muito Baixa Vulnerabilidade;5404;1993;11
+3553609;Baixa Vulnerabilidade;960;349;2
+3553609;Média Vulnerabilidade;3534;1251;7
+3553609;Alta Vulnerabilidade;1538;497;3
+3553609;Muito Alta Vulnerabilidade;0;0;0
+3553658;Baixíssima Vulnerabilidade;0;0;0
+3553658;Muito Baixa Vulnerabilidade;299;95;2
+3553658;Baixa Vulnerabilidade;0;0;0
+3553658;Média Vulnerabilidade;2187;810;4
+3553658;Alta Vulnerabilidade;133;44;1
+3553658;Muito Alta Vulnerabilidade;0;0;0
+3553708;Baixíssima Vulnerabilidade;0;0;0
+3553708;Muito Baixa Vulnerabilidade;20100;8028;50
+3553708;Baixa Vulnerabilidade;5574;2122;11
+3553708;Média Vulnerabilidade;14314;5443;34
+3553708;Alta Vulnerabilidade;11901;4132;22
+3553708;Muito Alta Vulnerabilidade;0;0;0
+3553807;Baixíssima Vulnerabilidade;0;0;0
+3553807;Muito Baixa Vulnerabilidade;8216;3103;27
+3553807;Baixa Vulnerabilidade;736;265;2
+3553807;Média Vulnerabilidade;5974;2072;15
+3553807;Alta Vulnerabilidade;8013;2854;20
+3553807;Muito Alta Vulnerabilidade;0;0;0
+3553856;Baixíssima Vulnerabilidade;0;0;0
+3553856;Muito Baixa Vulnerabilidade;1912;645;4
+3553856;Baixa Vulnerabilidade;329;110;1
+3553856;Média Vulnerabilidade;1772;618;4
+3553856;Alta Vulnerabilidade;2776;932;7
+3553856;Muito Alta Vulnerabilidade;0;0;0
+3553906;Baixíssima Vulnerabilidade;0;0;0
+3553906;Muito Baixa Vulnerabilidade;1164;401;2
+3553906;Baixa Vulnerabilidade;0;0;0
+3553906;Média Vulnerabilidade;4279;1548;8
+3553906;Alta Vulnerabilidade;1032;358;3
+3553906;Muito Alta Vulnerabilidade;0;0;0
+3553955;Baixíssima Vulnerabilidade;0;0;0
+3553955;Muito Baixa Vulnerabilidade;5256;1832;10
+3553955;Baixa Vulnerabilidade;1570;519;3
+3553955;Média Vulnerabilidade;6734;2459;13
+3553955;Alta Vulnerabilidade;1219;390;2
+3553955;Muito Alta Vulnerabilidade;0;0;0
+3554003;Baixíssima Vulnerabilidade;4422;1543;9
+3554003;Muito Baixa Vulnerabilidade;50744;18918;127
+3554003;Baixa Vulnerabilidade;18459;6632;38
+3554003;Média Vulnerabilidade;12959;4546;32
+3554003;Alta Vulnerabilidade;35051;11827;63
+3554003;Muito Alta Vulnerabilidade;0;0;0
+3554102;Baixíssima Vulnerabilidade;14873;5484;32
+3554102;Muito Baixa Vulnerabilidade;193288;71537;404
+3554102;Baixa Vulnerabilidade;39071;15361;87
+3554102;Média Vulnerabilidade;31438;10588;63
+3554102;Alta Vulnerabilidade;29913;9483;49
+3554102;Muito Alta Vulnerabilidade;0;0;0
+3554201;Baixíssima Vulnerabilidade;0;0;0
+3554201;Muito Baixa Vulnerabilidade;191;65;1
+3554201;Baixa Vulnerabilidade;0;0;0
+3554201;Média Vulnerabilidade;3022;1055;7
+3554201;Alta Vulnerabilidade;657;231;2
+3554201;Muito Alta Vulnerabilidade;0;0;0
+3554300;Baixíssima Vulnerabilidade;0;0;0
+3554300;Muito Baixa Vulnerabilidade;4015;1538;9
+3554300;Baixa Vulnerabilidade;3036;1094;7
+3554300;Média Vulnerabilidade;5465;1978;12
+3554300;Alta Vulnerabilidade;9578;3486;17
+3554300;Muito Alta Vulnerabilidade;0;0;0
+3554409;Baixíssima Vulnerabilidade;0;0;0
+3554409;Muito Baixa Vulnerabilidade;5209;1988;11
+3554409;Baixa Vulnerabilidade;0;0;0
+3554409;Média Vulnerabilidade;1071;382;2
+3554409;Alta Vulnerabilidade;1343;471;2
+3554409;Muito Alta Vulnerabilidade;0;0;0
+3554508;Baixíssima Vulnerabilidade;265;104;1
+3554508;Muito Baixa Vulnerabilidade;22662;8810;44
+3554508;Baixa Vulnerabilidade;3594;1247;4
+3554508;Média Vulnerabilidade;5993;1997;8
+3554508;Alta Vulnerabilidade;4876;1621;6
+3554508;Muito Alta Vulnerabilidade;0;0;0
+3554607;Baixíssima Vulnerabilidade;0;0;0
+3554607;Muito Baixa Vulnerabilidade;0;0;0
+3554607;Baixa Vulnerabilidade;0;0;0
+3554607;Média Vulnerabilidade;1604;647;5
+3554607;Alta Vulnerabilidade;847;328;1
+3554607;Muito Alta Vulnerabilidade;0;0;0
+3554656;Baixíssima Vulnerabilidade;0;0;0
+3554656;Muito Baixa Vulnerabilidade;529;218;2
+3554656;Baixa Vulnerabilidade;0;0;0
+3554656;Média Vulnerabilidade;995;393;3
+3554656;Alta Vulnerabilidade;271;97;1
+3554656;Muito Alta Vulnerabilidade;0;0;0
+3554706;Baixíssima Vulnerabilidade;0;0;0
+3554706;Muito Baixa Vulnerabilidade;6089;2291;15
+3554706;Baixa Vulnerabilidade;0;0;0
+3554706;Média Vulnerabilidade;1722;625;4
+3554706;Alta Vulnerabilidade;1214;411;2
+3554706;Muito Alta Vulnerabilidade;0;0;0
+3554755;Baixíssima Vulnerabilidade;0;0;0
+3554755;Muito Baixa Vulnerabilidade;0;0;0
+3554755;Baixa Vulnerabilidade;0;0;0
+3554755;Média Vulnerabilidade;1476;528;3
+3554755;Alta Vulnerabilidade;204;70;1
+3554755;Muito Alta Vulnerabilidade;0;0;0
+3554805;Baixíssima Vulnerabilidade;5017;1657;11
+3554805;Muito Baixa Vulnerabilidade;22922;8130;50
+3554805;Baixa Vulnerabilidade;3004;996;6
+3554805;Média Vulnerabilidade;2969;989;6
+3554805;Alta Vulnerabilidade;6925;2217;14
+3554805;Muito Alta Vulnerabilidade;2787;902;7
+3554904;Baixíssima Vulnerabilidade;0;0;0
+3554904;Muito Baixa Vulnerabilidade;2191;807;6
+3554904;Baixa Vulnerabilidade;0;0;0
+3554904;Média Vulnerabilidade;3569;1398;7
+3554904;Alta Vulnerabilidade;803;294;2
+3554904;Muito Alta Vulnerabilidade;0;0;0
+3554953;Baixíssima Vulnerabilidade;0;0;0
+3554953;Muito Baixa Vulnerabilidade;1831;694;7
+3554953;Baixa Vulnerabilidade;0;0;0
+3554953;Média Vulnerabilidade;4095;1512;14
+3554953;Alta Vulnerabilidade;797;301;3
+3554953;Muito Alta Vulnerabilidade;0;0;0
+3555000;Baixíssima Vulnerabilidade;854;311;2
+3555000;Muito Baixa Vulnerabilidade;31544;12281;71
+3555000;Baixa Vulnerabilidade;3641;1502;8
+3555000;Média Vulnerabilidade;16657;6227;34
+3555000;Alta Vulnerabilidade;9479;3329;13
+3555000;Muito Alta Vulnerabilidade;0;0;0
+3555109;Baixíssima Vulnerabilidade;0;0;0
+3555109;Muito Baixa Vulnerabilidade;11473;4580;29
+3555109;Baixa Vulnerabilidade;1019;399;2
+3555109;Média Vulnerabilidade;1373;530;5
+3555109;Alta Vulnerabilidade;0;0;0
+3555109;Muito Alta Vulnerabilidade;0;0;0
+3555208;Baixíssima Vulnerabilidade;0;0;0
+3555208;Muito Baixa Vulnerabilidade;339;148;1
+3555208;Baixa Vulnerabilidade;0;0;0
+3555208;Média Vulnerabilidade;900;386;3
+3555208;Alta Vulnerabilidade;333;122;2
+3555208;Muito Alta Vulnerabilidade;0;0;0
+3555307;Baixíssima Vulnerabilidade;0;0;0
+3555307;Muito Baixa Vulnerabilidade;404;163;3
+3555307;Baixa Vulnerabilidade;0;0;0
+3555307;Média Vulnerabilidade;1109;490;3
+3555307;Alta Vulnerabilidade;152;58;1
+3555307;Muito Alta Vulnerabilidade;0;0;0
+3555356;Baixíssima Vulnerabilidade;0;0;0
+3555356;Muito Baixa Vulnerabilidade;0;0;0
+3555356;Baixa Vulnerabilidade;0;0;0
+3555356;Média Vulnerabilidade;2160;785;4
+3555356;Alta Vulnerabilidade;3201;1135;7
+3555356;Muito Alta Vulnerabilidade;0;0;0
+3555406;Baixíssima Vulnerabilidade;1098;436;6
+3555406;Muito Baixa Vulnerabilidade;35177;13687;145
+3555406;Baixa Vulnerabilidade;7118;2642;17
+3555406;Média Vulnerabilidade;7970;2835;21
+3555406;Alta Vulnerabilidade;19118;6668;43
+3555406;Muito Alta Vulnerabilidade;16095;5416;38
+3555505;Baixíssima Vulnerabilidade;0;0;0
+3555505;Muito Baixa Vulnerabilidade;750;269;3
+3555505;Baixa Vulnerabilidade;983;347;2
+3555505;Média Vulnerabilidade;1547;556;5
+3555505;Alta Vulnerabilidade;1661;599;5
+3555505;Muito Alta Vulnerabilidade;0;0;0
+3555604;Baixíssima Vulnerabilidade;0;0;0
+3555604;Muito Baixa Vulnerabilidade;5991;2276;14
+3555604;Baixa Vulnerabilidade;538;208;2
+3555604;Média Vulnerabilidade;2483;961;6
+3555604;Alta Vulnerabilidade;1086;426;2
+3555604;Muito Alta Vulnerabilidade;0;0;0
+3555703;Baixíssima Vulnerabilidade;0;0;0
+3555703;Muito Baixa Vulnerabilidade;0;0;0
+3555703;Baixa Vulnerabilidade;0;0;0
+3555703;Média Vulnerabilidade;935;345;2
+3555703;Alta Vulnerabilidade;668;240;1
+3555703;Muito Alta Vulnerabilidade;0;0;0
+3555802;Baixíssima Vulnerabilidade;0;0;0
+3555802;Muito Baixa Vulnerabilidade;3891;1518;10
+3555802;Baixa Vulnerabilidade;0;0;0
+3555802;Média Vulnerabilidade;4818;1881;11
+3555802;Alta Vulnerabilidade;0;0;0
+3555802;Muito Alta Vulnerabilidade;0;0;0
+3555901;Baixíssima Vulnerabilidade;0;0;0
+3555901;Muito Baixa Vulnerabilidade;0;0;0
+3555901;Baixa Vulnerabilidade;0;0;0
+3555901;Média Vulnerabilidade;1311;506;3
+3555901;Alta Vulnerabilidade;0;0;0
+3555901;Muito Alta Vulnerabilidade;0;0;0
+3556008;Baixíssima Vulnerabilidade;0;0;0
+3556008;Muito Baixa Vulnerabilidade;7506;2882;16
+3556008;Baixa Vulnerabilidade;257;91;1
+3556008;Média Vulnerabilidade;5377;2004;13
+3556008;Alta Vulnerabilidade;574;228;2
+3556008;Muito Alta Vulnerabilidade;0;0;0
+3556107;Baixíssima Vulnerabilidade;0;0;0
+3556107;Muito Baixa Vulnerabilidade;8955;3295;14
+3556107;Baixa Vulnerabilidade;1432;493;2
+3556107;Média Vulnerabilidade;1159;417;3
+3556107;Alta Vulnerabilidade;2421;933;4
+3556107;Muito Alta Vulnerabilidade;0;0;0
+3556206;Baixíssima Vulnerabilidade;26601;9260;50
+3556206;Muito Baixa Vulnerabilidade;77460;28960;134
+3556206;Baixa Vulnerabilidade;13825;5335;21
+3556206;Média Vulnerabilidade;5326;1752;7
+3556206;Alta Vulnerabilidade;1775;606;3
+3556206;Muito Alta Vulnerabilidade;0;0;0
+3556305;Baixíssima Vulnerabilidade;0;0;0
+3556305;Muito Baixa Vulnerabilidade;8425;3203;20
+3556305;Baixa Vulnerabilidade;1703;578;3
+3556305;Média Vulnerabilidade;4566;1696;10
+3556305;Alta Vulnerabilidade;6248;2168;11
+3556305;Muito Alta Vulnerabilidade;0;0;0
+3556354;Baixíssima Vulnerabilidade;0;0;0
+3556354;Muito Baixa Vulnerabilidade;3114;1091;9
+3556354;Baixa Vulnerabilidade;510;173;1
+3556354;Média Vulnerabilidade;2908;1031;11
+3556354;Alta Vulnerabilidade;3640;1247;7
+3556354;Muito Alta Vulnerabilidade;0;0;0
+3556404;Baixíssima Vulnerabilidade;0;0;0
+3556404;Muito Baixa Vulnerabilidade;18474;6933;40
+3556404;Baixa Vulnerabilidade;694;268;1
+3556404;Média Vulnerabilidade;17299;6157;26
+3556404;Alta Vulnerabilidade;3397;1180;6
+3556404;Muito Alta Vulnerabilidade;0;0;0
+3556453;Baixíssima Vulnerabilidade;6692;2176;20
+3556453;Muito Baixa Vulnerabilidade;21062;7475;53
+3556453;Baixa Vulnerabilidade;8431;3075;19
+3556453;Média Vulnerabilidade;3183;1165;7
+3556453;Alta Vulnerabilidade;10610;3640;20
+3556453;Muito Alta Vulnerabilidade;0;0;0
+3556503;Baixíssima Vulnerabilidade;463;145;1
+3556503;Muito Baixa Vulnerabilidade;58373;20751;124
+3556503;Baixa Vulnerabilidade;19384;6756;37
+3556503;Média Vulnerabilidade;8681;3243;18
+3556503;Alta Vulnerabilidade;12650;4410;25
+3556503;Muito Alta Vulnerabilidade;15337;4948;27
+3556602;Baixíssima Vulnerabilidade;0;0;0
+3556602;Muito Baixa Vulnerabilidade;6042;2149;13
+3556602;Baixa Vulnerabilidade;363;122;1
+3556602;Média Vulnerabilidade;955;359;3
+3556602;Alta Vulnerabilidade;2724;924;4
+3556602;Muito Alta Vulnerabilidade;0;0;0
+3556701;Baixíssima Vulnerabilidade;22317;7957;43
+3556701;Muito Baixa Vulnerabilidade;28867;10576;57
+3556701;Baixa Vulnerabilidade;18387;6524;27
+3556701;Média Vulnerabilidade;0;0;0
+3556701;Alta Vulnerabilidade;5935;2091;9
+3556701;Muito Alta Vulnerabilidade;0;0;0
+3556800;Baixíssima Vulnerabilidade;210;76;1
+3556800;Muito Baixa Vulnerabilidade;5541;2107;14
+3556800;Baixa Vulnerabilidade;2259;814;4
+3556800;Média Vulnerabilidade;4621;1577;9
+3556800;Alta Vulnerabilidade;4573;1594;9
+3556800;Muito Alta Vulnerabilidade;0;0;0
+3556909;Baixíssima Vulnerabilidade;0;0;0
+3556909;Muito Baixa Vulnerabilidade;3734;1377;8
+3556909;Baixa Vulnerabilidade;502;164;1
+3556909;Média Vulnerabilidade;1170;403;2
+3556909;Alta Vulnerabilidade;2641;899;4
+3556909;Muito Alta Vulnerabilidade;0;0;0
+3556958;Baixíssima Vulnerabilidade;0;0;0
+3556958;Muito Baixa Vulnerabilidade;249;93;1
+3556958;Baixa Vulnerabilidade;154;54;1
+3556958;Média Vulnerabilidade;1359;533;3
+3556958;Alta Vulnerabilidade;0;0;0
+3556958;Muito Alta Vulnerabilidade;0;0;0
+3557006;Baixíssima Vulnerabilidade;4606;1640;9
+3557006;Muito Baixa Vulnerabilidade;70115;24434;101
+3557006;Baixa Vulnerabilidade;33751;12401;52
+3557006;Média Vulnerabilidade;2360;764;6
+3557006;Alta Vulnerabilidade;10883;3497;16
+3557006;Muito Alta Vulnerabilidade;4465;1373;11
+3557105;Baixíssima Vulnerabilidade;2019;766;4
+3557105;Muito Baixa Vulnerabilidade;46540;18139;68
+3557105;Baixa Vulnerabilidade;19316;7756;26
+3557105;Média Vulnerabilidade;9123;3481;15
+3557105;Alta Vulnerabilidade;19360;7140;29
+3557105;Muito Alta Vulnerabilidade;0;0;0
+3557154;Baixíssima Vulnerabilidade;0;0;0
+3557154;Muito Baixa Vulnerabilidade;942;364;4
+3557154;Baixa Vulnerabilidade;104;39;1
+3557154;Média Vulnerabilidade;1535;609;4
+3557154;Alta Vulnerabilidade;0;0;0
+3557154;Muito Alta Vulnerabilidade;0;0;0
+3557204;Baixíssima Vulnerabilidade;0;0;0
+3557204;Muito Baixa Vulnerabilidade;4549;1703;11
+3557204;Baixa Vulnerabilidade;539;200;1
+3557204;Média Vulnerabilidade;3966;1365;8
+3557204;Alta Vulnerabilidade;2846;984;8
+3557204;Muito Alta Vulnerabilidade;0;0;0
+3557303;Baixíssima Vulnerabilidade;485;175;1
+3557303;Muito Baixa Vulnerabilidade;6343;2117;12
+3557303;Baixa Vulnerabilidade;624;211;1
+3557303;Média Vulnerabilidade;2968;1019;7
+3557303;Alta Vulnerabilidade;523;182;1
+3557303;Muito Alta Vulnerabilidade;0;0;0
