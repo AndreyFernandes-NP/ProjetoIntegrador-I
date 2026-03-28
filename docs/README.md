@@ -12,13 +12,12 @@ docs/
 ├── architecture/
 ├── data/
 ├── project/
-└── DOCS.md
+└── README.md
 ```
 
 ## Organização da documentação
 
 `analysis/`
-
 Contém os documentos relacionados à abordagem analítica e metodológica do projeto.
 
 Arquivos esperandos nessa pasta:
@@ -28,7 +27,6 @@ Arquivos esperandos nessa pasta:
 - `METODOLOGIA.md` — apresenta a metodologia geral adotada no desenvolvimento do trabalho
 
 `architecture/`
-
 Documenta a organização técnica do projeto e o fluxo de trabalho dos dados.
 
 Arquivos esperados nessa pasta:
@@ -37,7 +35,6 @@ Arquivos esperados nessa pasta:
 - `PIPELINE.md` — apresenta o fluxo do projeto, desde a obtenção dos dados até a análise e documentação dos resultados
 
 `data/`
-
 Reúne a documentação relacionada às bases de dados utilizadas no projeto.
 
 Arquivos esperados nessa pasta:
@@ -47,7 +44,6 @@ Arquivos esperados nessa pasta:
 - `TRATAMENTO_DE_DADOS.md` — registra os tratamentos, padronizações e transformações aplicadas aos dados
 
 `project/`
-
 Contém os documentos voltados à definição e ao planejamento geral do projeto.
 
 Arquivos esperados nessa pasta:
@@ -74,7 +70,7 @@ Sempre que possível, mudanças relevantes na organização, no escopo ou no uso
 
 ## Mapa de Documentação do Repositório
 
-- **Pastas**: [`DOCS.md`](docs/DOCS.md)
+- **Pastas**: [`data/`](data/README.md), [`docs/`](docs/README.md)
 - **Projeto**: [`CRONOGRAMA.md`](docs/project/CRONOGRAMA.md), [`ESCOPO.md`](docs/project/ESCOPO.md), [`OBJETIVOS.md`](docs/project/OBJETIVOS.md)
 - **Dados**: [`DICIONARIO_DE_DADOS.md`](docs/data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](docs/data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](docs/data/TRATAMENTO_DE_DADOS.md)
 - **Arquitetura**: [`ARQUITETURA.md`](docs/architecture/ARQUITETURA.md), [`PIPELINE.md`](docs/architecture/PIPELINE.md)
