@@ -1,15 +1,77 @@
-# Projeto Integrador (PUC-SP)
-Este é um projeto integrador aplicando conhecimentos de Machine Learning no processamento e uso de dados disponíveis do estado de São Paulo.
-Feito para o curso de Pós-Graduação em Inteligência Artificial na PUC-SP em Python.
+# Projeto Integrador I (PUC-SP)
 
-Esse projeto busca a correlação entre municipios com maior vulnerabilidade social e pior estrutura urbana tendem a apresentar uma maior pressão sobre os serviços de saúde em São Paulo.
+Este repositório contém o desenvolvimento do Projeto Integrador I da Pós-Graduação em Inteligência Artificial da **PUC-SP**. O projeto tem como foco a análise de dados públicos do estado de São Paulo para investigar a relação entre vulnerabilidade social, infraestrutura urbana e pressão sobre os serviços públicos de saúde.
 
-**Requisitos**
+## Objetivo
+
+Analisar se municípios com maior vulnerabilidade social e piores condições de infraestrutura urbana tendem a apresentar maior pressão sobre os serviços públicos de saúde no estado de São Paulo. Além da análise correlacional, o projeto também busca construir uma abordagem preditiva supervisionada capaz de apoiar a identificação de municípios com maior tendência de pressão sobre a rede hospitalar, contribuindo para a tomada de decisão e o planejamento de estratégias de atendimento.
+
+## Hipótese
+
+A hipótese central do projeto é que municípios com maior vulnerabilidade social e estrutura urbana mais precária tendem a apresentar maior pressão sobre os serviços públicos de saúde.
+
+## Mapa de Documentação do Repositório
+
+- **Projeto**: [`CRONOGRAMA.md`](docs/project/CRONOGRAMA.md), [`ESCOPO.md`](docs/project/ESCOPO.md), [`OBJETIVOS.md`](docs/project/OBJETIVOS.md)
+- **Dados**: [`DICIONARIO_DE_DADOS.md`](docs/data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](docs/data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](docs/data/TRATAMENTO_DE_DADOS.md)
+- **Arquitetura**: [`ARQUITETURA.md`](docs/architecture/ARQUITETURA.md), [`PIPELINE.md`](docs/architecture/PIPELINE.md)
+- **Análise**: [`ABORDAGEM_ANALITICA.md`](docs/analysis/ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](docs/analysis/HIPOTESES.md), [`METODOLOGIA.md`](docs/analysis/METODOLOGIA.md)
+
+## Escopo atual
+
+Nesta etapa, o projeto está concentrado em:
+
+- levantamento e integração de bases públicas do estado de São Paulo
+- padronização e tratamento dos dados
+- análise exploratória dos indicadores selecionados
+- identificação de correlações entre vulnerabilidade, infraestrutura e saúde
+- preparação da base para análises estatísticas e modelos preditivos
+- desenvolvimento inicial de modelos supervisionados para apoio à análise preditiva
+
+## Requisitos
+
 - Python 3.x
-- Dependências instaladas [```pip install -r requirements.txt```]
-- Ambiente virtual [recomendado]
+- Bibliotecas listadas em `requirements.txt`
+- Ambiente Virtual [Recomendado]
 
-## Instruções de setup local (wip)
+## Estrutura do repositório
+
+```text
+ProjetoIntegrador-I/
+├── data/
+|   ├── clean/
+|   |   ├── inst_hospitalares_sp-clean.csv
+|   |   └── ipvs_esp-merge.csv
+|   ├── processed/
+|   ├── raw/
+|   |   ├── codigos_ibge_sp.csv
+|   |   ├── inst_hospitalares_sp-raw.csv
+|   |   └── ipvs_esp-raw.csv
+|   └── data_cleaner+merger.py
+├── docs/
+|   ├── analysis/
+|   |   ├── ABORDAGEM_ANALITICA.md
+|   |   ├── HIPOTESES.md
+|   |   └── METODOLOGIA.md
+|   ├── architecture/
+|   |   ├── ARQUITETURA.md
+|   |   └── PIPELINE.md
+|   ├── data/
+|   |   ├── DICIONARIO_DE_DADOS.md
+|   |   ├── FONTES_DE_DADOS.md
+|   |   └── TRATAMENTO_DE_DADOS.md
+|   └── project/
+|       ├── CRONOGRAMA.md
+|       ├── ESCOPO.md
+|       └── OBJETIVOS.md
+├── notebooks/
+├── src/
+├── requirements.txt
+└── README.md
+```
+> A estrutura do repositório poderá ser expandida ao longo do projeto para acomodar documentação, scripts de processamento, análises e resultados.
+
+## Setup local
 
 1. **Clone o repositório**
    ```bash
@@ -20,7 +82,7 @@ Esse projeto busca a correlação entre municipios com maior vulnerabilidade soc
    ```bash
     python -m venv env
     ```
-3. **Abra/Nunca esqueça de sempre abrir o virtual environment**
+3. **Ative o ambiente virtual**
    ```bash
     env/Scripts/activate.bat
     ```
@@ -29,3 +91,18 @@ Esse projeto busca a correlação entre municipios com maior vulnerabilidade soc
    pip install -r requirements.txt
     ```
 ****
+
+## Organização do projeto
+
+A documentação complementar do projeto será mantida na pasta docs, incluindo informações sobre:
+
+- escopo e objetivos
+- fontes de dados
+- arquitetura do projeto
+- pipeline de dados
+- dicionário de dados
+- metodologia e análise
+
+## Observações
+
+Este projeto está em desenvolvimento e pode passar por mudanças de escopo, estrutura e documentação ao longo da evolução das análises.
