@@ -2,11 +2,11 @@
 
 ## Mapa de Documentação do Repositório
 
-- **Pastas**: [`data/`](data/README.md), [`docs/`](docs/README.md)
-- **Projeto**: [`CRONOGRAMA.md`](docs/project/CRONOGRAMA.md), [`ESCOPO.md`](docs/project/ESCOPO.md), [`OBJETIVOS.md`](docs/project/OBJETIVOS.md)
-- **Dados**: [`DICIONARIO_DE_DADOS.md`](docs/data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](docs/data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](docs/data/TRATAMENTO_DE_DADOS.md)
-- **Arquitetura**: [`ARQUITETURA.md`](docs/architecture/ARQUITETURA.md), [`PIPELINE.md`](docs/architecture/PIPELINE.md)
-- **Análise**: [`ABORDAGEM_ANALITICA.md`](docs/analysis/ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](docs/analysis/HIPOTESES.md), [`METODOLOGIA.md`](docs/analysis/METODOLOGIA.md)
+- **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
+- **Projeto**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
+- **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
+- **Arquitetura**: [`ARQUITETURA.md`](../architecture/ARQUITETURA.md), [`PIPELINE.md`](../architecture/PIPELINE.md)
+- **Análise**: [`ABORDAGEM_ANALITICA.md`](ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](HIPOTESES.md), [`METODOLOGIA.md`](METODOLOGIA.md)
 
 ## Visão geral
 
