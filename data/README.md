@@ -28,6 +28,9 @@ Esses arquivos representam saídas intermediárias após etapas iniciais de padr
 `processed/`
 Reservada para bases mais consolidadas, preparadas para análise exploratória, integração entre indicadores e futuras etapas de modelagem.
 
+`amogus/`
+A pasta mais suspeita desse projeto, pro que será que ela serve?
+
 ## Script auxiliar
 
 `data_cleaner+merger.py`
