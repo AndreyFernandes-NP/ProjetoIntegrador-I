@@ -1,0 +1,4165 @@
+municipio;tipo;estadual;federal;municipal;particular;total
+ADAMANTINA;clinica;0;0;3;18;21
+ADAMANTINA;consultorio;0;0;0;131;131
+ADAMANTINA;diagnose_terapia;0;0;1;17;18
+ADAMANTINA;hospital;0;0;0;2;2
+ADAMANTINA;outros;0;0;3;2;5
+ADAMANTINA;ubs;0;0;9;0;9
+ADAMANTINA;saude_mental;0;0;1;0;1
+ADAMANTINA;unidade_movel;1;0;1;1;3
+ADAMANTINA;vigilancia;0;0;3;0;3
+ADOLFO;clinica;0;0;1;0;1
+ADOLFO;consultorio;0;0;0;1;1
+ADOLFO;diagnose_terapia;0;0;0;1;1
+ADOLFO;outros;0;0;1;0;1
+ADOLFO;ubs;0;0;1;0;1
+AGUAI;clinica;0;0;1;3;4
+AGUAI;consultorio;0;0;0;47;47
+AGUAI;diagnose_terapia;0;0;2;5;7
+AGUAI;hospital;0;0;1;0;1
+AGUAI;outros;0;0;2;4;6
+AGUAI;pronto_atendimento;0;0;1;0;1
+AGUAI;ubs;1;0;6;0;7
+AGUAI;saude_mental;0;0;1;0;1
+AGUAI;unidade_movel;0;0;1;0;1
+AGUAI;vigilancia;0;0;2;0;2
+AGUAS DA PRATA;clinica;0;0;0;1;1
+AGUAS DA PRATA;consultorio;0;0;0;1;1
+AGUAS DA PRATA;outros;0;0;1;0;1
+AGUAS DA PRATA;ubs;0;0;3;0;3
+AGUAS DE LINDOIA;clinica;0;0;0;7;7
+AGUAS DE LINDOIA;consultorio;0;0;0;34;34
+AGUAS DE LINDOIA;diagnose_terapia;0;0;0;4;4
+AGUAS DE LINDOIA;hospital;0;0;0;1;1
+AGUAS DE LINDOIA;outros;0;0;2;2;4
+AGUAS DE LINDOIA;ubs;0;0;5;0;5
+AGUAS DE LINDOIA;saude_mental;0;0;1;0;1
+AGUAS DE SANTA BARBARA;consultorio;0;0;0;5;5
+AGUAS DE SANTA BARBARA;diagnose_terapia;0;0;0;1;1
+AGUAS DE SANTA BARBARA;outros;0;0;1;0;1
+AGUAS DE SANTA BARBARA;ubs;0;0;4;0;4
+AGUAS DE SAO PEDRO;consultorio;0;0;0;2;2
+AGUAS DE SAO PEDRO;outros;0;0;1;0;1
+AGUAS DE SAO PEDRO;pronto_atendimento;0;0;1;0;1
+AGUAS DE SAO PEDRO;ubs;0;0;1;0;1
+AGUDOS;clinica;0;0;2;2;4
+AGUDOS;consultorio;0;0;0;25;25
+AGUDOS;diagnose_terapia;0;0;0;1;1
+AGUDOS;hospital;0;0;0;1;1
+AGUDOS;outros;0;0;1;0;1
+AGUDOS;pronto_atendimento;0;0;1;0;1
+AGUDOS;ubs;0;0;7;0;7
+AGUDOS;saude_mental;0;0;1;0;1
+AGUDOS;unidade_movel;0;0;1;0;1
+ALAMBARI;clinica;0;0;0;1;1
+ALAMBARI;consultorio;0;0;0;2;2
+ALAMBARI;outros;0;0;2;0;2
+ALAMBARI;ubs;0;0;4;0;4
+ALAMBARI;unidade_movel;0;0;1;0;1
+ALFREDO MARCONDES;consultorio;0;0;0;2;2
+ALFREDO MARCONDES;outros;0;0;2;0;2
+ALFREDO MARCONDES;ubs;0;0;2;0;2
+ALFREDO MARCONDES;vigilancia;0;0;2;0;2
+ALTAIR;clinica;0;0;1;0;1
+ALTAIR;consultorio;0;0;0;1;1
+ALTAIR;outros;0;0;2;0;2
+ALTAIR;ubs;0;0;3;0;3
+ALTAIR;unidade_movel;0;0;1;0;1
+ALTINOPOLIS;clinica;0;0;3;6;9
+ALTINOPOLIS;consultorio;0;0;0;27;27
+ALTINOPOLIS;diagnose_terapia;0;0;1;0;1
+ALTINOPOLIS;hospital;0;0;0;1;1
+ALTINOPOLIS;outros;0;0;2;0;2
+ALTINOPOLIS;ubs;0;0;8;0;8
+ALTINOPOLIS;unidade_movel;0;0;1;0;1
+ALTINOPOLIS;vigilancia;0;0;1;0;1
+ALTO ALEGRE;clinica;0;0;1;0;1
+ALTO ALEGRE;consultorio;0;0;0;2;2
+ALTO ALEGRE;hospital;0;0;1;0;1
+ALTO ALEGRE;outros;0;0;1;0;1
+ALTO ALEGRE;ubs;0;0;3;0;3
+ALUMINIO;clinica;0;0;1;6;7
+ALUMINIO;consultorio;0;0;1;4;5
+ALUMINIO;diagnose_terapia;0;0;0;1;1
+ALUMINIO;outros;0;0;2;0;2
+ALUMINIO;pronto_atendimento;0;0;1;0;1
+ALUMINIO;ubs;0;0;2;0;2
+ALVARES FLORENCE;clinica;0;0;1;0;1
+ALVARES FLORENCE;consultorio;0;0;0;1;1
+ALVARES FLORENCE;outros;0;0;1;0;1
+ALVARES FLORENCE;ubs;0;0;3;0;3
+ALVARES MACHADO;clinica;0;0;2;3;5
+ALVARES MACHADO;consultorio;0;0;0;5;5
+ALVARES MACHADO;diagnose_terapia;0;0;0;4;4
+ALVARES MACHADO;hospital;0;0;0;1;1
+ALVARES MACHADO;outros;0;0;3;0;3
+ALVARES MACHADO;ubs;0;0;7;0;7
+ALVARES MACHADO;saude_mental;0;0;1;0;1
+ALVARO DE CARVALHO;outros;0;0;1;0;1
+ALVARO DE CARVALHO;ubs;2;0;1;0;3
+ALVINLANDIA;outros;0;0;2;0;2
+ALVINLANDIA;ubs;0;0;1;0;1
+AMERICANA;clinica;0;0;4;46;50
+AMERICANA;consultorio;0;0;0;968;968
+AMERICANA;diagnose_terapia;0;0;0;52;52
+AMERICANA;hospital;0;0;1;5;6
+AMERICANA;outros;0;0;5;9;14
+AMERICANA;pronto_atendimento;0;0;3;0;3
+AMERICANA;ubs;1;0;21;0;22
+AMERICANA;saude_mental;0;0;3;0;3
+AMERICANA;unidade_movel;1;0;0;0;1
+AMERICANA;vigilancia;0;0;1;0;1
+AMERICO BRASILIENSE;clinica;0;0;2;3;5
+AMERICO BRASILIENSE;consultorio;0;0;0;11;11
+AMERICO BRASILIENSE;diagnose_terapia;0;0;0;1;1
+AMERICO BRASILIENSE;hospital;2;0;0;0;2
+AMERICO BRASILIENSE;outros;0;0;6;0;6
+AMERICO BRASILIENSE;pronto_atendimento;0;0;0;1;1
+AMERICO BRASILIENSE;ubs;0;0;6;0;6
+AMERICO BRASILIENSE;saude_mental;0;0;1;0;1
+AMERICO BRASILIENSE;unidade_movel;0;0;2;0;2
+AMERICO BRASILIENSE;vigilancia;0;0;2;0;2
+AMERICO DE CAMPOS;clinica;0;0;1;1;2
+AMERICO DE CAMPOS;consultorio;0;0;0;3;3
+AMERICO DE CAMPOS;diagnose_terapia;0;0;0;1;1
+AMERICO DE CAMPOS;outros;0;0;1;1;2
+AMERICO DE CAMPOS;ubs;0;0;2;0;2
+AMERICO DE CAMPOS;vigilancia;0;0;1;0;1
+AMPARO;clinica;1;0;6;18;25
+AMPARO;consultorio;0;0;0;223;223
+AMPARO;diagnose_terapia;0;0;1;37;38
+AMPARO;hospital;0;0;0;3;3
+AMPARO;outros;0;0;5;6;11
+AMPARO;pronto_atendimento;0;0;1;1;2
+AMPARO;ubs;0;0;16;0;16
+AMPARO;saude_mental;0;0;2;0;2
+AMPARO;unidade_movel;0;0;1;1;2
+AMPARO;vigilancia;0;0;1;0;1
+ANALANDIA;consultorio;0;0;0;3;3
+ANALANDIA;diagnose_terapia;0;0;0;1;1
+ANALANDIA;outros;0;0;2;0;2
+ANALANDIA;ubs;0;0;2;0;2
+ANDRADINA;clinica;1;0;6;11;18
+ANDRADINA;consultorio;0;0;0;258;258
+ANDRADINA;diagnose_terapia;0;0;1;10;11
+ANDRADINA;hospital;0;0;0;2;2
+ANDRADINA;outros;0;0;4;7;11
+ANDRADINA;pronto_atendimento;0;0;1;1;2
+ANDRADINA;ubs;1;0;6;0;7
+ANDRADINA;saude_mental;0;0;2;0;2
+ANDRADINA;unidade_movel;0;0;0;22;22
+ANDRADINA;vigilancia;0;0;2;0;2
+APIAI;clinica;0;0;5;0;5
+APIAI;consultorio;0;0;0;26;26
+APIAI;diagnose_terapia;0;0;1;3;4
+APIAI;hospital;0;0;0;1;1
+APIAI;outros;0;0;3;0;3
+APIAI;ubs;0;0;9;0;9
+APIAI;saude_mental;0;0;1;0;1
+APIAI;unidade_movel;0;0;1;0;1
+ARACARIGUAMA;clinica;0;0;2;2;4
+ARACARIGUAMA;consultorio;0;0;0;11;11
+ARACARIGUAMA;diagnose_terapia;0;0;0;2;2
+ARACARIGUAMA;outros;0;0;2;0;2
+ARACARIGUAMA;pronto_atendimento;0;0;1;0;1
+ARACARIGUAMA;ubs;0;0;3;0;3
+ARACARIGUAMA;saude_mental;0;0;1;0;1
+ARACARIGUAMA;unidade_movel;0;0;1;1;2
+ARACATUBA;clinica;5;0;7;52;64
+ARACATUBA;consultorio;3;0;5;489;497
+ARACATUBA;diagnose_terapia;1;0;1;33;35
+ARACATUBA;hospital;0;0;0;4;4
+ARACATUBA;outros;4;0;3;24;31
+ARACATUBA;pronto_atendimento;0;0;1;1;2
+ARACATUBA;ubs;1;0;20;0;21
+ARACATUBA;saude_mental;0;0;3;0;3
+ARACATUBA;unidade_movel;1;0;3;2;6
+ARACATUBA;vigilancia;1;0;2;0;3
+ARACOIABA DA SERRA;clinica;0;0;2;5;7
+ARACOIABA DA SERRA;consultorio;0;0;0;9;9
+ARACOIABA DA SERRA;diagnose_terapia;0;0;0;2;2
+ARACOIABA DA SERRA;hospital;0;0;0;8;8
+ARACOIABA DA SERRA;outros;0;0;3;2;5
+ARACOIABA DA SERRA;pronto_atendimento;0;0;1;0;1
+ARACOIABA DA SERRA;ubs;0;0;8;0;8
+ARACOIABA DA SERRA;saude_mental;0;0;1;0;1
+ARAMINA;consultorio;0;0;3;3;6
+ARAMINA;diagnose_terapia;0;0;1;0;1
+ARAMINA;outros;0;0;2;1;3
+ARAMINA;ubs;0;0;5;0;5
+ARAMINA;vigilancia;0;0;1;0;1
+ARANDU;consultorio;0;0;0;2;2
+ARANDU;hospital;0;0;1;0;1
+ARANDU;outros;0;0;1;0;1
+ARANDU;ubs;0;0;1;0;1
+ARAPEI;outros;0;0;1;0;1
+ARAPEI;ubs;0;0;2;0;2
+ARARAQUARA;clinica;1;0;12;83;96
+ARARAQUARA;consultorio;1;0;3;721;725
+ARARAQUARA;diagnose_terapia;1;0;3;24;28
+ARARAQUARA;hospital;0;0;2;7;9
+ARARAQUARA;outros;4;0;10;14;28
+ARARAQUARA;pronto_atendimento;0;0;3;1;4
+ARARAQUARA;ubs;4;0;37;0;41
+ARARAQUARA;saude_mental;0;0;2;0;2
+ARARAQUARA;unidade_movel;1;0;12;3;16
+ARARAQUARA;vigilancia;0;0;3;0;3
+ARARAS;clinica;0;0;3;32;35
+ARARAS;consultorio;0;0;0;258;258
+ARARAS;diagnose_terapia;0;0;0;14;14
+ARARAS;hospital;0;0;0;4;4
+ARARAS;outros;0;0;3;8;11
+ARARAS;pronto_atendimento;0;0;1;0;1
+ARARAS;ubs;0;0;26;0;26
+ARARAS;saude_mental;0;0;3;0;3
+ARARAS;unidade_movel;0;0;5;0;5
+ARARAS;vigilancia;0;0;2;0;2
+ARCO-IRIS;outros;0;0;1;0;1
+ARCO-IRIS;ubs;0;0;1;0;1
+AREALVA;clinica;0;0;0;1;1
+AREALVA;hospital;0;0;0;1;1
+AREALVA;outros;0;0;3;2;5
+AREALVA;ubs;0;0;5;0;5
+AREALVA;unidade_movel;0;0;1;0;1
+AREIAS;outros;0;0;2;0;2
+AREIAS;ubs;0;0;2;0;2
+AREIOPOLIS;clinica;0;0;1;1;2
+AREIOPOLIS;consultorio;0;0;0;5;5
+AREIOPOLIS;diagnose_terapia;0;0;0;2;2
+AREIOPOLIS;outros;0;0;2;0;2
+AREIOPOLIS;ubs;0;0;3;0;3
+AREIOPOLIS;unidade_movel;0;0;1;0;1
+ARIRANHA;clinica;0;0;1;0;1
+ARIRANHA;consultorio;0;0;0;6;6
+ARIRANHA;diagnose_terapia;0;0;1;1;2
+ARIRANHA;outros;0;0;1;0;1
+ARIRANHA;pronto_atendimento;0;0;1;0;1
+ARIRANHA;ubs;0;0;3;0;3
+ARTUR NOGUEIRA;clinica;0;0;2;8;10
+ARTUR NOGUEIRA;consultorio;0;0;0;62;62
+ARTUR NOGUEIRA;diagnose_terapia;0;0;1;7;8
+ARTUR NOGUEIRA;hospital;0;0;1;0;1
+ARTUR NOGUEIRA;outros;0;0;4;4;8
+ARTUR NOGUEIRA;ubs;0;0;13;4;17
+ARTUR NOGUEIRA;saude_mental;0;0;1;0;1
+ARTUR NOGUEIRA;unidade_movel;0;0;1;0;1
+ARUJA;clinica;0;0;3;23;26
+ARUJA;consultorio;0;0;0;39;39
+ARUJA;diagnose_terapia;0;0;0;8;8
+ARUJA;hospital;0;0;1;0;1
+ARUJA;outros;0;0;2;2;4
+ARUJA;pronto_atendimento;0;0;0;3;3
+ARUJA;ubs;0;0;8;0;8
+ARUJA;unidade_movel;0;0;1;0;1
+ARUJA;vigilancia;0;0;1;0;1
+ASPASIA;outros;0;0;1;0;1
+ASPASIA;ubs;0;0;1;0;1
+ASSIS;clinica;1;0;13;27;41
+ASSIS;consultorio;0;0;0;425;425
+ASSIS;diagnose_terapia;0;0;0;21;21
+ASSIS;hospital;1;0;0;9;10
+ASSIS;outros;3;0;10;9;22
+ASSIS;pronto_atendimento;0;0;2;0;2
+ASSIS;ubs;1;0;22;0;23
+ASSIS;saude_mental;0;0;3;0;3
+ASSIS;unidade_movel;0;0;2;0;2
+ATIBAIA;clinica;1;0;5;62;68
+ATIBAIA;consultorio;0;0;0;309;309
+ATIBAIA;diagnose_terapia;1;0;3;46;50
+ATIBAIA;hospital;0;0;0;6;6
+ATIBAIA;outros;0;0;4;17;21
+ATIBAIA;pronto_atendimento;0;0;1;0;1
+ATIBAIA;ubs;0;0;18;0;18
+ATIBAIA;saude_mental;0;0;3;0;3
+ATIBAIA;unidade_movel;0;0;4;0;4
+ATIBAIA;vigilancia;0;0;2;0;2
+AURIFLAMA;clinica;0;0;1;1;2
+AURIFLAMA;consultorio;0;0;0;19;19
+AURIFLAMA;diagnose_terapia;0;0;0;3;3
+AURIFLAMA;hospital;0;0;0;1;1
+AURIFLAMA;outros;0;0;2;0;2
+AURIFLAMA;ubs;0;0;5;0;5
+AURIFLAMA;vigilancia;0;0;1;0;1
+AVAI;outros;0;0;1;0;1
+AVAI;ubs;0;0;3;0;3
+AVANHANDAVA;clinica;0;0;1;1;2
+AVANHANDAVA;consultorio;0;0;0;4;4
+AVANHANDAVA;diagnose_terapia;0;0;0;1;1
+AVANHANDAVA;outros;0;0;2;2;4
+AVANHANDAVA;ubs;1;0;4;0;5
+AVARE;clinica;1;0;6;9;16
+AVARE;consultorio;0;0;1;254;255
+AVARE;diagnose_terapia;0;0;0;19;19
+AVARE;hospital;0;0;0;1;1
+AVARE;outros;1;0;2;9;12
+AVARE;pronto_atendimento;0;0;1;0;1
+AVARE;ubs;3;0;18;0;21
+AVARE;saude_mental;0;0;1;0;1
+AVARE;unidade_movel;0;0;2;0;2
+AVARE;vigilancia;0;0;2;0;2
+BADY BASSITT;clinica;0;0;1;2;3
+BADY BASSITT;consultorio;0;0;0;8;8
+BADY BASSITT;diagnose_terapia;0;0;0;1;1
+BADY BASSITT;outros;0;0;1;0;1
+BADY BASSITT;pronto_atendimento;0;0;1;0;1
+BADY BASSITT;ubs;0;0;3;0;3
+BALBINOS;outros;0;0;1;0;1
+BALBINOS;ubs;2;0;2;0;4
+BALSAMO;consultorio;0;0;0;1;1
+BALSAMO;diagnose_terapia;0;0;0;1;1
+BALSAMO;outros;0;0;1;0;1
+BALSAMO;ubs;0;0;5;0;5
+BANANAL;clinica;0;0;2;1;3
+BANANAL;consultorio;0;0;0;2;2
+BANANAL;diagnose_terapia;0;0;0;1;1
+BANANAL;outros;0;0;3;0;3
+BANANAL;ubs;0;0;6;0;6
+BANANAL;saude_mental;0;0;1;0;1
+BANANAL;unidade_movel;0;0;1;0;1
+BANANAL;vigilancia;0;0;1;0;1
+BARAO DE ANTONINA;outros;0;0;2;0;2
+BARAO DE ANTONINA;ubs;0;0;2;0;2
+BARBOSA;outros;0;0;2;0;2
+BARBOSA;ubs;0;0;1;0;1
+BARIRI;clinica;0;0;3;4;7
+BARIRI;consultorio;0;0;0;66;66
+BARIRI;diagnose_terapia;0;0;1;23;24
+BARIRI;hospital;0;0;0;1;1
+BARIRI;outros;0;0;2;4;6
+BARIRI;ubs;0;0;7;0;7
+BARIRI;saude_mental;0;0;1;0;1
+BARIRI;vigilancia;0;0;2;0;2
+BARRA BONITA;clinica;0;0;1;6;7
+BARRA BONITA;consultorio;0;0;0;78;78
+BARRA BONITA;diagnose_terapia;0;0;1;11;12
+BARRA BONITA;hospital;0;0;0;1;1
+BARRA BONITA;outros;0;0;3;2;5
+BARRA BONITA;ubs;0;0;8;0;8
+BARRA BONITA;saude_mental;0;0;1;0;1
+BARRA DO CHAPEU;outros;0;0;3;0;3
+BARRA DO CHAPEU;pronto_atendimento;0;0;1;0;1
+BARRA DO CHAPEU;ubs;0;0;3;0;3
+BARRA DO TURVO;outros;0;0;1;0;1
+BARRA DO TURVO;pronto_atendimento;0;0;1;0;1
+BARRA DO TURVO;ubs;0;0;5;0;5
+BARRA DO TURVO;unidade_movel;0;0;1;0;1
+BARRETOS;clinica;2;0;6;34;42
+BARRETOS;consultorio;0;0;1;242;243
+BARRETOS;diagnose_terapia;0;0;1;11;12
+BARRETOS;hospital;1;0;0;5;6
+BARRETOS;outros;5;0;6;5;16
+BARRETOS;pronto_atendimento;0;0;1;1;2
+BARRETOS;ubs;0;0;18;0;18
+BARRETOS;saude_mental;0;0;1;0;1
+BARRETOS;unidade_movel;0;0;4;1;5
+BARRETOS;vigilancia;0;0;1;0;1
+BARRINHA;clinica;0;0;5;5;10
+BARRINHA;consultorio;0;0;0;21;21
+BARRINHA;diagnose_terapia;0;0;2;4;6
+BARRINHA;outros;0;0;2;0;2
+BARRINHA;pronto_atendimento;0;0;0;1;1
+BARRINHA;ubs;0;0;7;1;8
+BARRINHA;unidade_movel;0;0;1;0;1
+BARRINHA;vigilancia;0;0;3;0;3
+BARUERI;clinica;0;0;8;106;114
+BARUERI;consultorio;0;0;6;514;520
+BARUERI;diagnose_terapia;0;0;1;21;22
+BARUERI;hospital;1;0;2;6;9
+BARUERI;outros;0;0;8;18;26
+BARUERI;pronto_atendimento;0;0;6;1;7
+BARUERI;ubs;0;0;21;0;21
+BARUERI;saude_mental;0;0;3;0;3
+BARUERI;unidade_movel;0;0;0;1;1
+BARUERI;vigilancia;0;0;2;0;2
+BASTOS;clinica;0;0;4;8;12
+BASTOS;consultorio;0;0;0;14;14
+BASTOS;diagnose_terapia;0;0;2;2;4
+BASTOS;hospital;0;0;0;1;1
+BASTOS;outros;0;0;6;0;6
+BASTOS;pronto_atendimento;0;0;1;0;1
+BASTOS;ubs;0;0;6;0;6
+BASTOS;saude_mental;0;0;1;0;1
+BASTOS;vigilancia;0;0;1;0;1
+BATATAIS;clinica;0;0;4;6;10
+BATATAIS;consultorio;0;0;1;275;276
+BATATAIS;diagnose_terapia;0;0;1;9;10
+BATATAIS;hospital;0;0;0;1;1
+BATATAIS;outros;0;0;5;6;11
+BATATAIS;pronto_atendimento;0;0;1;1;2
+BATATAIS;ubs;0;0;9;0;9
+BATATAIS;saude_mental;0;0;1;0;1
+BATATAIS;unidade_movel;0;0;2;0;2
+BATATAIS;vigilancia;0;0;1;0;1
+BAURU;clinica;2;0;13;79;94
+BAURU;consultorio;0;0;0;799;799
+BAURU;diagnose_terapia;1;0;0;37;38
+BAURU;hospital;7;0;0;7;14
+BAURU;outros;4;1;8;26;39
+BAURU;pronto_atendimento;0;0;5;0;5
+BAURU;ubs;5;0;25;1;31
+BAURU;saude_mental;0;0;5;0;5
+BAURU;unidade_movel;0;0;11;1;12
+BAURU;vigilancia;0;0;4;0;4
+BEBEDOURO;clinica;0;0;5;60;65
+BEBEDOURO;consultorio;0;0;1;268;269
+BEBEDOURO;diagnose_terapia;0;0;1;12;13
+BEBEDOURO;hospital;1;0;1;6;8
+BEBEDOURO;outros;0;0;4;5;9
+BEBEDOURO;pronto_atendimento;0;0;1;0;1
+BEBEDOURO;ubs;0;0;18;0;18
+BEBEDOURO;saude_mental;0;0;2;0;2
+BEBEDOURO;unidade_movel;0;0;0;1;1
+BENTO DE ABREU;outros;0;0;1;0;1
+BENTO DE ABREU;ubs;0;0;1;0;1
+BERNARDINO DE CAMPOS;clinica;0;0;2;1;3
+BERNARDINO DE CAMPOS;consultorio;0;0;0;7;7
+BERNARDINO DE CAMPOS;diagnose_terapia;0;0;0;3;3
+BERNARDINO DE CAMPOS;hospital;0;0;0;1;1
+BERNARDINO DE CAMPOS;outros;0;0;1;0;1
+BERNARDINO DE CAMPOS;ubs;1;0;3;0;4
+BERNARDINO DE CAMPOS;saude_mental;0;0;1;0;1
+BERNARDINO DE CAMPOS;unidade_movel;0;0;1;0;1
+BERTIOGA;clinica;0;0;5;11;16
+BERTIOGA;consultorio;0;0;0;33;33
+BERTIOGA;diagnose_terapia;0;0;0;8;8
+BERTIOGA;hospital;0;0;1;0;1
+BERTIOGA;outros;0;0;3;34;37
+BERTIOGA;ubs;0;0;7;0;7
+BERTIOGA;saude_mental;0;0;1;0;1
+BERTIOGA;unidade_movel;0;0;3;2;5
+BERTIOGA;vigilancia;0;0;2;0;2
+BILAC;consultorio;0;0;1;5;6
+BILAC;diagnose_terapia;0;0;0;1;1
+BILAC;hospital;0;0;0;1;1
+BILAC;outros;0;0;2;2;4
+BILAC;ubs;0;0;1;0;1
+BIRIGUI;clinica;1;0;6;35;42
+BIRIGUI;consultorio;0;0;7;219;226
+BIRIGUI;diagnose_terapia;0;0;0;24;24
+BIRIGUI;hospital;0;0;0;2;2
+BIRIGUI;outros;0;0;1;15;16
+BIRIGUI;pronto_atendimento;0;0;1;0;1
+BIRIGUI;ubs;1;0;12;0;13
+BIRITIBA-MIRIM;clinica;0;0;1;2;3
+BIRITIBA-MIRIM;consultorio;0;0;0;7;7
+BIRITIBA-MIRIM;diagnose_terapia;0;0;0;1;1
+BIRITIBA-MIRIM;outros;0;0;3;0;3
+BIRITIBA-MIRIM;pronto_atendimento;0;0;1;0;1
+BIRITIBA-MIRIM;ubs;0;0;6;0;6
+BIRITIBA-MIRIM;saude_mental;0;0;1;0;1
+BIRITIBA-MIRIM;unidade_movel;0;0;1;0;1
+BIRITIBA-MIRIM;vigilancia;0;0;1;0;1
+BOA ESPERANCA DO SUL;clinica;0;0;1;0;1
+BOA ESPERANCA DO SUL;consultorio;0;0;0;7;7
+BOA ESPERANCA DO SUL;diagnose_terapia;0;0;2;0;2
+BOA ESPERANCA DO SUL;hospital;0;0;0;1;1
+BOA ESPERANCA DO SUL;outros;0;0;3;0;3
+BOA ESPERANCA DO SUL;ubs;0;0;4;0;4
+BOA ESPERANCA DO SUL;unidade_movel;0;0;1;0;1
+BOCAINA;clinica;0;0;1;2;3
+BOCAINA;consultorio;0;0;0;15;15
+BOCAINA;diagnose_terapia;0;0;0;2;2
+BOCAINA;hospital;0;0;0;1;1
+BOCAINA;outros;0;0;1;0;1
+BOCAINA;ubs;0;0;4;0;4
+BOFETE;clinica;0;0;0;1;1
+BOFETE;consultorio;0;0;0;2;2
+BOFETE;diagnose_terapia;0;0;0;1;1
+BOFETE;pronto_atendimento;0;0;1;0;1
+BOFETE;ubs;0;0;7;0;7
+BOFETE;unidade_movel;0;0;1;0;1
+BOFETE;vigilancia;0;0;1;0;1
+BOITUVA;clinica;0;0;2;19;21
+BOITUVA;consultorio;0;1;0;91;92
+BOITUVA;diagnose_terapia;0;0;0;13;13
+BOITUVA;hospital;0;0;0;1;1
+BOITUVA;outros;0;0;5;3;8
+BOITUVA;pronto_atendimento;0;0;1;0;1
+BOITUVA;ubs;0;0;9;0;9
+BOITUVA;saude_mental;0;0;2;0;2
+BOITUVA;unidade_movel;0;0;2;0;2
+BOM JESUS DOS PERDOES;clinica;0;0;0;1;1
+BOM JESUS DOS PERDOES;consultorio;0;0;0;12;12
+BOM JESUS DOS PERDOES;diagnose_terapia;0;0;1;4;5
+BOM JESUS DOS PERDOES;outros;0;0;1;1;2
+BOM JESUS DOS PERDOES;ubs;0;0;4;0;4
+BOM JESUS DOS PERDOES;unidade_movel;0;0;1;0;1
+BOM SUCESSO DE ITARARE;outros;0;0;3;0;3
+BOM SUCESSO DE ITARARE;ubs;0;0;2;0;2
+BOM SUCESSO DE ITARARE;unidade_movel;0;0;1;0;1
+BOM SUCESSO DE ITARARE;vigilancia;0;0;1;0;1
+BORA;outros;0;0;1;0;1
+BORA;ubs;0;0;1;0;1
+BORACEIA;consultorio;0;0;0;1;1
+BORACEIA;outros;0;0;2;0;2
+BORACEIA;pronto_atendimento;0;0;1;0;1
+BORACEIA;ubs;0;0;2;0;2
+BORBOREMA;clinica;0;0;1;7;8
+BORBOREMA;consultorio;0;0;0;18;18
+BORBOREMA;diagnose_terapia;0;0;0;3;3
+BORBOREMA;hospital;0;0;0;1;1
+BORBOREMA;outros;0;0;1;0;1
+BORBOREMA;pronto_atendimento;0;0;1;0;1
+BORBOREMA;ubs;0;0;6;0;6
+BORBOREMA;saude_mental;0;0;1;0;1
+BOREBI;clinica;0;0;1;0;1
+BOREBI;outros;0;0;1;0;1
+BOREBI;ubs;0;0;2;0;2
+BOTUCATU;clinica;4;0;3;34;41
+BOTUCATU;consultorio;1;0;1;715;717
+BOTUCATU;diagnose_terapia;0;0;0;11;11
+BOTUCATU;hospital;1;0;1;3;5
+BOTUCATU;outros;3;0;8;10;21
+BOTUCATU;ubs;1;0;20;1;22
+BOTUCATU;saude_mental;2;0;2;0;4
+BOTUCATU;unidade_movel;0;0;3;0;3
+BOTUCATU;vigilancia;0;0;1;0;1
+BRAGANCA PAULISTA;clinica;0;0;7;94;101
+BRAGANCA PAULISTA;consultorio;0;0;1;348;349
+BRAGANCA PAULISTA;diagnose_terapia;1;0;0;30;31
+BRAGANCA PAULISTA;hospital;0;0;0;7;7
+BRAGANCA PAULISTA;outros;0;0;7;15;22
+BRAGANCA PAULISTA;pronto_atendimento;0;0;2;1;3
+BRAGANCA PAULISTA;ubs;0;0;29;0;29
+BRAGANCA PAULISTA;saude_mental;0;0;2;0;2
+BRAGANCA PAULISTA;unidade_movel;1;0;6;0;7
+BRAGANCA PAULISTA;vigilancia;0;0;2;0;2
+BRAUNA;diagnose_terapia;0;0;0;1;1
+BRAUNA;outros;0;0;2;0;2
+BRAUNA;ubs;0;0;1;0;1
+BREJO ALEGRE;outros;0;0;2;0;2
+BREJO ALEGRE;ubs;0;0;2;0;2
+BREJO ALEGRE;vigilancia;0;0;1;0;1
+BRODOWSKI;clinica;0;0;3;2;5
+BRODOWSKI;consultorio;0;0;0;39;39
+BRODOWSKI;diagnose_terapia;0;0;0;6;6
+BRODOWSKI;outros;0;0;1;0;1
+BRODOWSKI;pronto_atendimento;0;0;1;0;1
+BRODOWSKI;ubs;0;0;6;0;6
+BRODOWSKI;unidade_movel;0;0;1;0;1
+BROTAS;clinica;0;0;0;1;1
+BROTAS;consultorio;0;0;0;65;65
+BROTAS;diagnose_terapia;0;0;0;6;6
+BROTAS;hospital;0;0;0;1;1
+BROTAS;outros;0;0;2;1;3
+BROTAS;ubs;0;0;7;0;7
+BROTAS;saude_mental;0;0;1;0;1
+BURI;clinica;0;0;2;1;3
+BURI;consultorio;0;0;0;2;2
+BURI;diagnose_terapia;0;0;0;2;2
+BURI;outros;0;0;6;1;7
+BURI;pronto_atendimento;0;0;1;0;1
+BURI;ubs;0;0;9;0;9
+BURI;saude_mental;0;0;1;0;1
+BURITAMA;clinica;0;0;3;4;7
+BURITAMA;consultorio;0;0;0;19;19
+BURITAMA;diagnose_terapia;0;0;0;1;1
+BURITAMA;hospital;0;0;0;1;1
+BURITAMA;outros;0;0;3;0;3
+BURITAMA;ubs;0;0;2;0;2
+BURITAMA;saude_mental;0;0;1;0;1
+BURITAMA;vigilancia;0;0;1;0;1
+BURITIZAL;consultorio;0;0;0;4;4
+BURITIZAL;diagnose_terapia;0;0;0;2;2
+BURITIZAL;outros;0;0;1;0;1
+BURITIZAL;ubs;0;0;2;0;2
+CABRALIA PAULISTA;clinica;0;0;1;0;1
+CABRALIA PAULISTA;outros;0;0;1;0;1
+CABRALIA PAULISTA;ubs;0;0;2;0;2
+CABREUVA;clinica;0;0;5;10;15
+CABREUVA;consultorio;0;0;0;8;8
+CABREUVA;diagnose_terapia;0;0;0;6;6
+CABREUVA;hospital;0;0;0;2;2
+CABREUVA;outros;0;0;4;1;5
+CABREUVA;pronto_atendimento;0;0;1;0;1
+CABREUVA;ubs;0;0;8;0;8
+CABREUVA;saude_mental;0;0;1;0;1
+CACAPAVA;clinica;0;0;5;20;25
+CACAPAVA;consultorio;0;0;0;287;287
+CACAPAVA;diagnose_terapia;0;0;0;7;7
+CACAPAVA;hospital;0;0;0;4;4
+CACAPAVA;outros;0;0;6;5;11
+CACAPAVA;pronto_atendimento;0;0;1;0;1
+CACAPAVA;ubs;0;0;21;0;21
+CACAPAVA;saude_mental;0;0;3;0;3
+CACAPAVA;unidade_movel;0;0;3;0;3
+CACAPAVA;vigilancia;0;0;3;0;3
+CACHOEIRA PAULISTA;clinica;0;0;3;10;13
+CACHOEIRA PAULISTA;consultorio;0;0;0;40;40
+CACHOEIRA PAULISTA;diagnose_terapia;0;0;0;3;3
+CACHOEIRA PAULISTA;hospital;0;0;0;1;1
+CACHOEIRA PAULISTA;outros;0;0;5;7;12
+CACHOEIRA PAULISTA;ubs;0;0;11;0;11
+CACHOEIRA PAULISTA;saude_mental;0;0;1;0;1
+CACONDE;clinica;0;0;2;5;7
+CACONDE;consultorio;0;0;0;23;23
+CACONDE;diagnose_terapia;0;0;1;7;8
+CACONDE;hospital;0;0;0;1;1
+CACONDE;outros;0;0;2;1;3
+CACONDE;ubs;0;0;7;0;7
+CAFELANDIA;clinica;0;0;0;3;3
+CAFELANDIA;consultorio;0;0;0;30;30
+CAFELANDIA;diagnose_terapia;0;0;0;4;4
+CAFELANDIA;hospital;0;0;0;1;1
+CAFELANDIA;outros;0;0;2;0;2
+CAFELANDIA;ubs;0;0;7;0;7
+CAFELANDIA;saude_mental;0;0;1;0;1
+CAIABU;clinica;0;0;1;0;1
+CAIABU;outros;0;0;2;0;2
+CAIABU;ubs;0;0;2;0;2
+CAIABU;vigilancia;0;0;1;0;1
+CAIEIRAS;clinica;0;0;4;27;31
+CAIEIRAS;consultorio;0;0;0;42;42
+CAIEIRAS;diagnose_terapia;0;0;0;6;6
+CAIEIRAS;hospital;1;0;0;2;3
+CAIEIRAS;outros;0;0;4;5;9
+CAIEIRAS;pronto_atendimento;0;0;1;1;2
+CAIEIRAS;ubs;0;0;16;1;17
+CAIEIRAS;saude_mental;0;0;2;0;2
+CAIEIRAS;vigilancia;0;0;3;0;3
+CAIUA;outros;0;0;1;0;1
+CAIUA;ubs;2;0;3;0;5
+CAIUA;vigilancia;0;0;1;0;1
+CAJAMAR;clinica;0;0;2;26;28
+CAJAMAR;consultorio;0;0;0;61;61
+CAJAMAR;diagnose_terapia;0;0;0;8;8
+CAJAMAR;hospital;0;0;1;1;2
+CAJAMAR;outros;0;0;4;2;6
+CAJAMAR;pronto_atendimento;0;0;1;0;1
+CAJAMAR;ubs;0;0;11;0;11
+CAJAMAR;saude_mental;0;0;2;0;2
+CAJAMAR;vigilancia;0;0;2;0;2
+CAJATI;clinica;0;0;3;6;9
+CAJATI;consultorio;0;0;0;14;14
+CAJATI;diagnose_terapia;0;0;0;4;4
+CAJATI;outros;0;0;6;0;6
+CAJATI;pronto_atendimento;0;0;1;0;1
+CAJATI;ubs;0;0;11;0;11
+CAJATI;saude_mental;0;0;1;0;1
+CAJATI;unidade_movel;0;0;1;0;1
+CAJATI;vigilancia;0;0;1;0;1
+CAJOBI;clinica;0;0;0;1;1
+CAJOBI;consultorio;0;0;0;2;2
+CAJOBI;diagnose_terapia;0;0;0;1;1
+CAJOBI;hospital;0;0;0;1;1
+CAJOBI;outros;0;0;3;0;3
+CAJOBI;ubs;0;0;3;0;3
+CAJOBI;unidade_movel;0;0;1;0;1
+CAJURU;clinica;0;0;4;12;16
+CAJURU;consultorio;0;0;0;47;47
+CAJURU;diagnose_terapia;0;0;1;2;3
+CAJURU;hospital;0;0;0;1;1
+CAJURU;outros;0;0;3;0;3
+CAJURU;pronto_atendimento;0;0;1;0;1
+CAJURU;ubs;0;0;8;0;8
+CAJURU;unidade_movel;0;0;2;1;3
+CAJURU;vigilancia;0;0;1;0;1
+CAMPINA DO MONTE ALEGRE;outros;0;0;2;1;3
+CAMPINA DO MONTE ALEGRE;ubs;0;0;2;0;2
+CAMPINAS;clinica;1;0;22;331;354
+CAMPINAS;consultorio;2;0;0;2445;2447
+CAMPINAS;diagnose_terapia;1;0;2;173;176
+CAMPINAS;hospital;1;0;2;34;37
+CAMPINAS;outros;5;0;13;111;129
+CAMPINAS;pronto_atendimento;0;0;4;1;5
+CAMPINAS;ubs;0;0;71;0;71
+CAMPINAS;saude_mental;0;0;14;0;14
+CAMPINAS;unidade_movel;0;0;17;4;21
+CAMPINAS;vigilancia;0;0;8;0;8
+CAMPO LIMPO PAULISTA;clinica;0;0;4;16;20
+CAMPO LIMPO PAULISTA;consultorio;0;0;0;16;16
+CAMPO LIMPO PAULISTA;diagnose_terapia;0;0;0;5;5
+CAMPO LIMPO PAULISTA;hospital;0;0;1;0;1
+CAMPO LIMPO PAULISTA;outros;0;0;3;2;5
+CAMPO LIMPO PAULISTA;ubs;0;0;9;0;9
+CAMPO LIMPO PAULISTA;saude_mental;0;0;1;0;1
+CAMPO LIMPO PAULISTA;vigilancia;0;0;1;0;1
+CAMPOS DO JORDAO;clinica;0;0;3;8;11
+CAMPOS DO JORDAO;consultorio;0;0;0;57;57
+CAMPOS DO JORDAO;diagnose_terapia;0;0;0;6;6
+CAMPOS DO JORDAO;hospital;0;0;1;1;2
+CAMPOS DO JORDAO;outros;0;0;2;2;4
+CAMPOS DO JORDAO;ubs;0;0;15;0;15
+CAMPOS DO JORDAO;saude_mental;0;0;1;0;1
+CAMPOS DO JORDAO;unidade_movel;0;0;3;1;4
+CAMPOS DO JORDAO;vigilancia;0;0;1;0;1
+CAMPOS NOVOS PAULISTA;clinica;0;0;1;0;1
+CAMPOS NOVOS PAULISTA;outros;0;0;1;0;1
+CAMPOS NOVOS PAULISTA;ubs;0;0;3;0;3
+CANANEIA;clinica;0;0;0;1;1
+CANANEIA;consultorio;0;0;0;4;4
+CANANEIA;outros;0;0;1;0;1
+CANANEIA;ubs;0;0;6;0;6
+CANAS;outros;0;0;1;0;1
+CANAS;ubs;0;0;2;0;2
+CANDIDO MOTA;clinica;0;0;2;4;6
+CANDIDO MOTA;consultorio;0;0;0;57;57
+CANDIDO MOTA;diagnose_terapia;0;0;0;16;16
+CANDIDO MOTA;hospital;0;0;0;1;1
+CANDIDO MOTA;outros;0;0;4;1;5
+CANDIDO MOTA;ubs;0;0;6;0;6
+CANDIDO MOTA;saude_mental;0;0;1;0;1
+CANDIDO RODRIGUES;outros;0;0;1;0;1
+CANDIDO RODRIGUES;ubs;0;0;1;0;1
+CANITAR;diagnose_terapia;0;0;1;0;1
+CANITAR;outros;0;0;1;0;1
+CANITAR;ubs;0;0;3;0;3
+CAPAO BONITO;clinica;0;0;6;6;12
+CAPAO BONITO;consultorio;0;0;0;27;27
+CAPAO BONITO;diagnose_terapia;0;0;1;4;5
+CAPAO BONITO;hospital;0;0;0;1;1
+CAPAO BONITO;outros;0;0;6;4;10
+CAPAO BONITO;ubs;0;0;10;0;10
+CAPAO BONITO;saude_mental;0;0;1;0;1
+CAPAO BONITO;unidade_movel;0;0;1;0;1
+CAPELA DO ALTO;clinica;0;0;2;2;4
+CAPELA DO ALTO;consultorio;0;0;0;5;5
+CAPELA DO ALTO;diagnose_terapia;0;0;0;1;1
+CAPELA DO ALTO;outros;0;0;2;0;2
+CAPELA DO ALTO;pronto_atendimento;0;0;1;0;1
+CAPELA DO ALTO;ubs;2;0;4;0;6
+CAPELA DO ALTO;saude_mental;0;0;1;0;1
+CAPIVARI;clinica;0;0;3;11;14
+CAPIVARI;consultorio;0;0;0;96;96
+CAPIVARI;diagnose_terapia;0;0;3;25;28
+CAPIVARI;hospital;0;0;0;2;2
+CAPIVARI;outros;0;0;1;4;5
+CAPIVARI;pronto_atendimento;0;0;0;1;1
+CAPIVARI;ubs;0;0;8;0;8
+CAPIVARI;saude_mental;0;0;2;0;2
+CARAGUATATUBA;clinica;0;0;9;48;57
+CARAGUATATUBA;consultorio;0;6;0;116;122
+CARAGUATATUBA;diagnose_terapia;0;2;0;25;27
+CARAGUATATUBA;hospital;2;0;0;4;6
+CARAGUATATUBA;outros;1;0;6;18;25
+CARAGUATATUBA;pronto_atendimento;0;0;3;0;3
+CARAGUATATUBA;ubs;2;0;13;1;16
+CARAGUATATUBA;saude_mental;0;0;2;0;2
+CARAGUATATUBA;unidade_movel;0;0;4;3;7
+CARAGUATATUBA;vigilancia;1;0;1;0;2
+CARAPICUIBA;clinica;1;0;4;33;38
+CARAPICUIBA;consultorio;0;0;0;73;73
+CARAPICUIBA;diagnose_terapia;0;0;0;13;13
+CARAPICUIBA;hospital;1;0;0;1;2
+CARAPICUIBA;outros;0;0;5;3;8
+CARAPICUIBA;pronto_atendimento;0;0;2;0;2
+CARAPICUIBA;ubs;0;0;17;0;17
+CARAPICUIBA;saude_mental;0;0;3;0;3
+CARAPICUIBA;unidade_movel;0;0;9;0;9
+CARAPICUIBA;vigilancia;0;0;2;0;2
+CARDOSO;consultorio;0;0;0;10;10
+CARDOSO;diagnose_terapia;0;0;1;2;3
+CARDOSO;hospital;0;0;0;1;1
+CARDOSO;outros;0;0;2;0;2
+CARDOSO;ubs;0;0;6;0;6
+CARDOSO;unidade_movel;0;0;1;0;1
+CASA BRANCA;clinica;2;0;1;7;10
+CASA BRANCA;consultorio;0;0;0;63;63
+CASA BRANCA;diagnose_terapia;0;0;0;7;7
+CASA BRANCA;hospital;1;0;0;1;2
+CASA BRANCA;outros;0;0;2;3;5
+CASA BRANCA;pronto_atendimento;0;0;1;0;1
+CASA BRANCA;ubs;1;0;7;0;8
+CASA BRANCA;saude_mental;1;0;1;0;2
+CASA BRANCA;vigilancia;0;0;1;0;1
+CASSIA DOS COQUEIROS;clinica;0;0;1;0;1
+CASSIA DOS COQUEIROS;outros;0;0;2;0;2
+CASSIA DOS COQUEIROS;ubs;0;0;2;0;2
+CASTILHO;clinica;0;0;0;4;4
+CASTILHO;consultorio;0;0;0;21;21
+CASTILHO;diagnose_terapia;0;0;1;2;3
+CASTILHO;hospital;0;0;0;1;1
+CASTILHO;ubs;0;0;5;0;5
+CASTILHO;vigilancia;0;0;1;0;1
+CATANDUVA;clinica;1;0;6;265;272
+CATANDUVA;consultorio;0;0;0;289;289
+CATANDUVA;diagnose_terapia;0;0;0;18;18
+CATANDUVA;hospital;0;0;0;12;12
+CATANDUVA;outros;0;0;6;11;17
+CATANDUVA;pronto_atendimento;0;0;1;0;1
+CATANDUVA;ubs;0;0;23;0;23
+CATANDUVA;saude_mental;0;0;3;0;3
+CATANDUVA;unidade_movel;0;0;4;0;4
+CATANDUVA;vigilancia;0;0;1;0;1
+CATIGUA;clinica;0;0;1;0;1
+CATIGUA;consultorio;0;0;0;7;7
+CATIGUA;diagnose_terapia;0;0;0;1;1
+CATIGUA;outros;0;0;1;0;1
+CATIGUA;ubs;0;0;2;0;2
+CATIGUA;unidade_movel;0;0;1;0;1
+CEDRAL;clinica;0;0;1;3;4
+CEDRAL;consultorio;0;0;0;7;7
+CEDRAL;diagnose_terapia;0;0;0;1;1
+CEDRAL;outros;0;0;1;0;1
+CEDRAL;ubs;0;0;3;2;5
+CEDRAL;unidade_movel;0;0;1;0;1
+CEDRAL;vigilancia;0;0;1;0;1
+CERQUEIRA CESAR;clinica;0;0;0;2;2
+CERQUEIRA CESAR;consultorio;0;0;0;16;16
+CERQUEIRA CESAR;diagnose_terapia;0;0;0;5;5
+CERQUEIRA CESAR;hospital;0;0;0;1;1
+CERQUEIRA CESAR;outros;0;0;1;0;1
+CERQUEIRA CESAR;ubs;2;0;7;4;13
+CERQUEIRA CESAR;unidade_movel;0;0;1;0;1
+CERQUILHO;clinica;0;0;5;17;22
+CERQUILHO;consultorio;0;0;0;114;114
+CERQUILHO;diagnose_terapia;0;0;1;6;7
+CERQUILHO;hospital;0;0;0;1;1
+CERQUILHO;outros;0;0;3;2;5
+CERQUILHO;ubs;0;0;9;0;9
+CERQUILHO;saude_mental;0;0;1;0;1
+CESARIO LANGE;clinica;0;0;3;1;4
+CESARIO LANGE;consultorio;0;0;0;9;9
+CESARIO LANGE;diagnose_terapia;0;0;0;2;2
+CESARIO LANGE;hospital;0;0;0;1;1
+CESARIO LANGE;outros;0;0;2;0;2
+CESARIO LANGE;ubs;0;0;4;0;4
+CESARIO LANGE;saude_mental;0;0;1;0;1
+CHARQUEADA;clinica;0;0;1;3;4
+CHARQUEADA;consultorio;0;0;0;8;8
+CHARQUEADA;diagnose_terapia;0;0;0;2;2
+CHARQUEADA;hospital;0;0;0;2;2
+CHARQUEADA;outros;0;0;1;0;1
+CHARQUEADA;ubs;0;0;5;0;5
+CHARQUEADA;saude_mental;0;0;1;0;1
+CLEMENTINA;consultorio;0;1;0;4;5
+CLEMENTINA;diagnose_terapia;0;0;0;1;1
+CLEMENTINA;hospital;0;0;0;1;1
+CLEMENTINA;outros;0;0;2;1;3
+CLEMENTINA;ubs;0;0;1;0;1
+CLEMENTINA;vigilancia;0;0;1;0;1
+COLINA;clinica;0;0;1;1;2
+COLINA;consultorio;0;0;0;34;34
+COLINA;diagnose_terapia;0;0;0;3;3
+COLINA;hospital;0;0;0;1;1
+COLINA;outros;0;0;2;1;3
+COLINA;pronto_atendimento;0;0;1;0;1
+COLINA;ubs;0;0;6;0;6
+COLINA;unidade_movel;0;0;1;0;1
+COLOMBIA;clinica;0;0;0;1;1
+COLOMBIA;consultorio;0;0;0;3;3
+COLOMBIA;diagnose_terapia;0;0;1;1;2
+COLOMBIA;outros;0;0;2;0;2
+COLOMBIA;ubs;0;0;4;0;4
+COLOMBIA;unidade_movel;0;0;1;0;1
+CONCHAL;clinica;0;0;1;2;3
+CONCHAL;consultorio;0;0;0;19;19
+CONCHAL;diagnose_terapia;0;0;0;4;4
+CONCHAL;hospital;0;0;0;1;1
+CONCHAL;outros;0;0;2;0;2
+CONCHAL;ubs;0;0;7;1;8
+CONCHAL;saude_mental;0;0;1;0;1
+CONCHAL;unidade_movel;0;0;2;0;2
+CONCHAL;vigilancia;0;0;1;0;1
+CONCHAS;clinica;0;0;1;1;2
+CONCHAS;consultorio;0;0;0;23;23
+CONCHAS;diagnose_terapia;0;0;1;6;7
+CONCHAS;hospital;0;0;1;0;1
+CONCHAS;outros;0;0;3;0;3
+CONCHAS;ubs;0;0;7;0;7
+CORDEIROPOLIS;clinica;0;0;3;7;10
+CORDEIROPOLIS;consultorio;0;0;0;30;30
+CORDEIROPOLIS;diagnose_terapia;0;0;1;3;4
+CORDEIROPOLIS;outros;0;0;3;0;3
+CORDEIROPOLIS;pronto_atendimento;0;0;1;0;1
+CORDEIROPOLIS;ubs;0;0;7;0;7
+CORDEIROPOLIS;saude_mental;0;0;1;0;1
+CORDEIROPOLIS;unidade_movel;0;0;1;0;1
+COROADOS;outros;0;0;1;0;1
+COROADOS;ubs;0;0;1;0;1
+CORONEL MACEDO;outros;0;0;3;0;3
+CORONEL MACEDO;ubs;0;0;3;0;3
+CORUMBATAI;consultorio;0;0;0;1;1
+CORUMBATAI;outros;0;0;1;0;1
+CORUMBATAI;ubs;0;0;2;0;2
+CORUMBATAI;unidade_movel;0;0;1;0;1
+COSMOPOLIS;clinica;0;0;4;14;18
+COSMOPOLIS;consultorio;0;0;0;38;38
+COSMOPOLIS;diagnose_terapia;0;0;0;6;6
+COSMOPOLIS;hospital;0;0;0;1;1
+COSMOPOLIS;outros;0;0;4;3;7
+COSMOPOLIS;ubs;0;0;9;0;9
+COSMOPOLIS;saude_mental;0;0;2;0;2
+COSMOPOLIS;vigilancia;0;0;2;0;2
+COSMORAMA;clinica;0;0;1;0;1
+COSMORAMA;consultorio;0;0;0;1;1
+COSMORAMA;diagnose_terapia;0;0;0;2;2
+COSMORAMA;outros;0;0;2;0;2
+COSMORAMA;ubs;0;0;3;1;4
+COTIA;clinica;0;0;8;36;44
+COTIA;consultorio;0;0;0;187;187
+COTIA;diagnose_terapia;0;0;0;18;18
+COTIA;hospital;1;0;0;4;5
+COTIA;outros;0;0;4;8;12
+COTIA;pronto_atendimento;0;0;4;0;4
+COTIA;ubs;0;0;26;5;31
+COTIA;saude_mental;0;0;3;0;3
+COTIA;unidade_movel;0;0;5;0;5
+COTIA;vigilancia;0;0;4;0;4
+CRAVINHOS;clinica;0;0;6;2;8
+CRAVINHOS;consultorio;0;1;0;61;62
+CRAVINHOS;diagnose_terapia;0;0;0;4;4
+CRAVINHOS;hospital;0;0;0;1;1
+CRAVINHOS;outros;0;0;2;12;14
+CRAVINHOS;pronto_atendimento;0;0;1;0;1
+CRAVINHOS;ubs;0;0;7;0;7
+CRAVINHOS;unidade_movel;0;0;1;0;1
+CRAVINHOS;vigilancia;0;0;4;0;4
+CRISTAIS PAULISTA;clinica;0;0;1;0;1
+CRISTAIS PAULISTA;consultorio;0;1;0;5;6
+CRISTAIS PAULISTA;diagnose_terapia;0;0;1;0;1
+CRISTAIS PAULISTA;outros;0;0;1;0;1
+CRISTAIS PAULISTA;ubs;0;0;4;0;4
+CRUZALIA;outros;0;0;1;0;1
+CRUZALIA;ubs;0;0;2;0;2
+CRUZEIRO;clinica;0;0;9;67;76
+CRUZEIRO;consultorio;0;1;0;201;202
+CRUZEIRO;diagnose_terapia;0;0;1;24;25
+CRUZEIRO;hospital;0;0;0;3;3
+CRUZEIRO;outros;0;0;5;10;15
+CRUZEIRO;ubs;0;0;14;0;14
+CRUZEIRO;saude_mental;0;0;1;0;1
+CRUZEIRO;unidade_movel;0;0;2;2;4
+CRUZEIRO;vigilancia;0;0;1;0;1
+CUBATAO;clinica;0;0;7;13;20
+CUBATAO;consultorio;0;0;0;110;110
+CUBATAO;diagnose_terapia;0;0;1;8;9
+CUBATAO;hospital;0;0;1;0;1
+CUBATAO;outros;0;0;3;1;4
+CUBATAO;pronto_atendimento;0;0;3;1;4
+CUBATAO;ubs;0;0;18;0;18
+CUBATAO;saude_mental;0;0;3;0;3
+CUBATAO;unidade_movel;0;0;3;0;3
+CUBATAO;vigilancia;0;0;1;0;1
+CUNHA;clinica;0;0;1;2;3
+CUNHA;consultorio;0;0;0;7;7
+CUNHA;diagnose_terapia;0;0;1;2;3
+CUNHA;hospital;0;0;0;1;1
+CUNHA;outros;0;0;2;1;3
+CUNHA;ubs;0;0;7;0;7
+CUNHA;saude_mental;0;0;1;0;1
+CUNHA;unidade_movel;0;0;1;0;1
+DESCALVADO;clinica;0;0;3;5;8
+DESCALVADO;consultorio;0;0;0;106;106
+DESCALVADO;diagnose_terapia;0;0;0;4;4
+DESCALVADO;hospital;0;0;0;1;1
+DESCALVADO;outros;0;0;2;4;6
+DESCALVADO;pronto_atendimento;0;0;1;1;2
+DESCALVADO;ubs;0;0;11;0;11
+DESCALVADO;saude_mental;0;0;1;0;1
+DESCALVADO;vigilancia;0;0;1;0;1
+DIADEMA;clinica;1;0;2;51;54
+DIADEMA;consultorio;0;0;0;101;101
+DIADEMA;diagnose_terapia;0;0;0;13;13
+DIADEMA;hospital;1;0;2;2;5
+DIADEMA;outros;1;0;5;7;13
+DIADEMA;pronto_atendimento;0;0;3;2;5
+DIADEMA;ubs;1;0;21;0;22
+DIADEMA;saude_mental;0;0;5;0;5
+DIADEMA;unidade_movel;0;0;12;0;12
+DIADEMA;vigilancia;0;0;2;0;2
+DIRCE REIS;outros;0;0;2;0;2
+DIRCE REIS;ubs;0;0;1;0;1
+DIVINOLANDIA;clinica;0;0;0;8;8
+DIVINOLANDIA;consultorio;0;0;0;3;3
+DIVINOLANDIA;hospital;0;0;0;1;1
+DIVINOLANDIA;outros;0;0;1;1;2
+DIVINOLANDIA;ubs;0;0;7;0;7
+DIVINOLANDIA;unidade_movel;0;0;1;1;2
+DOBRADA;clinica;0;0;0;3;3
+DOBRADA;consultorio;0;0;0;3;3
+DOBRADA;diagnose_terapia;0;0;0;2;2
+DOBRADA;outros;0;0;2;3;5
+DOBRADA;ubs;0;0;2;0;2
+DOIS CORREGOS;clinica;0;0;1;5;6
+DOIS CORREGOS;consultorio;0;0;0;30;30
+DOIS CORREGOS;diagnose_terapia;0;0;0;6;6
+DOIS CORREGOS;hospital;0;0;0;1;1
+DOIS CORREGOS;outros;0;0;3;0;3
+DOIS CORREGOS;ubs;0;0;5;0;5
+DOIS CORREGOS;saude_mental;0;0;1;0;1
+DOLCINOPOLIS;outros;0;0;1;0;1
+DOLCINOPOLIS;ubs;0;0;2;0;2
+DOURADO;clinica;0;0;0;3;3
+DOURADO;consultorio;0;0;0;7;7
+DOURADO;diagnose_terapia;0;0;0;1;1
+DOURADO;hospital;0;0;1;0;1
+DOURADO;outros;0;0;1;0;1
+DOURADO;pronto_atendimento;0;0;1;0;1
+DOURADO;ubs;0;0;4;0;4
+DRACENA;clinica;1;0;1;20;22
+DRACENA;consultorio;0;0;0;216;216
+DRACENA;diagnose_terapia;0;0;2;11;13
+DRACENA;hospital;0;0;0;1;1
+DRACENA;outros;0;0;1;6;7
+DRACENA;pronto_atendimento;0;0;1;1;2
+DRACENA;ubs;1;0;12;0;13
+DRACENA;saude_mental;0;0;2;0;2
+DRACENA;vigilancia;0;0;1;0;1
+DUARTINA;clinica;0;0;0;1;1
+DUARTINA;consultorio;0;0;0;36;36
+DUARTINA;diagnose_terapia;0;0;0;5;5
+DUARTINA;hospital;0;0;0;1;1
+DUARTINA;outros;0;0;1;0;1
+DUARTINA;ubs;0;0;4;0;4
+DUARTINA;saude_mental;0;0;1;0;1
+DUARTINA;unidade_movel;0;0;1;0;1
+DUMONT;consultorio;0;0;0;1;1
+DUMONT;outros;0;0;2;0;2
+DUMONT;ubs;0;0;2;0;2
+DUMONT;unidade_movel;0;0;1;0;1
+ECHAPORA;consultorio;0;0;0;1;1
+ECHAPORA;diagnose_terapia;0;0;0;1;1
+ECHAPORA;outros;0;0;2;0;2
+ECHAPORA;pronto_atendimento;0;0;1;0;1
+ECHAPORA;ubs;0;0;2;0;2
+ELDORADO;clinica;0;0;1;0;1
+ELDORADO;consultorio;0;0;0;1;1
+ELDORADO;diagnose_terapia;0;0;0;1;1
+ELDORADO;outros;0;0;2;0;2
+ELDORADO;pronto_atendimento;0;0;1;0;1
+ELDORADO;ubs;0;0;9;0;9
+ELDORADO;saude_mental;0;0;1;0;1
+ELDORADO;vigilancia;0;0;1;0;1
+ELIAS FAUSTO;clinica;0;0;1;2;3
+ELIAS FAUSTO;consultorio;0;0;0;5;5
+ELIAS FAUSTO;diagnose_terapia;0;0;0;2;2
+ELIAS FAUSTO;outros;0;0;2;0;2
+ELIAS FAUSTO;pronto_atendimento;0;0;1;0;1
+ELIAS FAUSTO;ubs;0;0;5;0;5
+ELISIARIO;consultorio;0;0;0;1;1
+ELISIARIO;outros;0;0;1;0;1
+ELISIARIO;ubs;0;0;1;0;1
+ELISIARIO;unidade_movel;0;0;1;0;1
+EMBAUBA;consultorio;0;0;0;1;1
+EMBAUBA;diagnose_terapia;0;0;0;2;2
+EMBAUBA;outros;0;0;1;0;1
+EMBAUBA;ubs;0;0;1;0;1
+EMBU DAS ARTES;clinica;0;0;7;7;14
+EMBU DAS ARTES;consultorio;0;1;0;138;139
+EMBU DAS ARTES;diagnose_terapia;0;0;0;2;2
+EMBU DAS ARTES;hospital;0;0;2;1;3
+EMBU DAS ARTES;outros;0;0;7;0;7
+EMBU DAS ARTES;pronto_atendimento;0;0;1;0;1
+EMBU DAS ARTES;ubs;0;0;19;0;19
+EMBU DAS ARTES;saude_mental;0;0;3;0;3
+EMBU DAS ARTES;unidade_movel;0;0;4;0;4
+EMBU DAS ARTES;vigilancia;0;0;3;0;3
+EMBU-GUACU;clinica;0;0;4;8;12
+EMBU-GUACU;consultorio;0;0;0;10;10
+EMBU-GUACU;diagnose_terapia;0;0;0;2;2
+EMBU-GUACU;outros;0;0;3;4;7
+EMBU-GUACU;pronto_atendimento;0;0;1;0;1
+EMBU-GUACU;ubs;0;0;13;0;13
+EMBU-GUACU;saude_mental;0;0;1;0;1
+EMBU-GUACU;unidade_movel;0;0;3;0;3
+EMBU-GUACU;vigilancia;0;0;1;0;1
+EMILIANOPOLIS;consultorio;0;0;0;1;1
+EMILIANOPOLIS;outros;0;0;1;1;2
+EMILIANOPOLIS;ubs;0;0;1;0;1
+EMILIANOPOLIS;vigilancia;0;0;1;0;1
+ENGENHEIRO COELHO;clinica;0;0;1;4;5
+ENGENHEIRO COELHO;consultorio;0;0;0;32;32
+ENGENHEIRO COELHO;diagnose_terapia;0;0;1;1;2
+ENGENHEIRO COELHO;outros;0;0;4;0;4
+ENGENHEIRO COELHO;pronto_atendimento;0;0;1;0;1
+ENGENHEIRO COELHO;ubs;0;0;5;0;5
+ENGENHEIRO COELHO;saude_mental;0;0;1;0;1
+ESPIRITO SANTO DO PINHAL;clinica;0;0;1;26;27
+ESPIRITO SANTO DO PINHAL;consultorio;0;0;0;134;134
+ESPIRITO SANTO DO PINHAL;diagnose_terapia;0;0;2;4;6
+ESPIRITO SANTO DO PINHAL;hospital;0;0;0;3;3
+ESPIRITO SANTO DO PINHAL;outros;0;0;3;3;6
+ESPIRITO SANTO DO PINHAL;ubs;0;0;7;0;7
+ESPIRITO SANTO DO PINHAL;saude_mental;0;0;2;0;2
+ESPIRITO SANTO DO PINHAL;unidade_movel;0;0;1;0;1
+ESPIRITO SANTO DO TURVO;diagnose_terapia;0;0;0;1;1
+ESPIRITO SANTO DO TURVO;outros;0;0;1;0;1
+ESPIRITO SANTO DO TURVO;ubs;0;0;3;0;3
+ESTRELA D OESTE;clinica;0;0;0;4;4
+ESTRELA D OESTE;consultorio;0;0;0;15;15
+ESTRELA D OESTE;diagnose_terapia;0;0;0;1;1
+ESTRELA D OESTE;hospital;0;0;0;1;1
+ESTRELA D OESTE;outros;0;0;2;0;2
+ESTRELA D OESTE;ubs;0;0;3;0;3
+ESTRELA D OESTE;unidade_movel;0;0;1;0;1
+ESTRELA DO NORTE;outros;0;0;1;0;1
+ESTRELA DO NORTE;ubs;0;0;1;0;1
+EUCLIDES DA CUNHA PAULISTA;clinica;0;0;1;1;2
+EUCLIDES DA CUNHA PAULISTA;consultorio;0;0;0;6;6
+EUCLIDES DA CUNHA PAULISTA;diagnose_terapia;0;0;0;1;1
+EUCLIDES DA CUNHA PAULISTA;outros;0;0;3;0;3
+EUCLIDES DA CUNHA PAULISTA;ubs;0;0;5;0;5
+EUCLIDES DA CUNHA PAULISTA;vigilancia;0;0;1;0;1
+FARTURA;clinica;0;0;0;3;3
+FARTURA;consultorio;0;0;0;22;22
+FARTURA;diagnose_terapia;0;0;0;4;4
+FARTURA;hospital;0;0;0;1;1
+FARTURA;outros;0;0;2;7;9
+FARTURA;ubs;0;0;4;0;4
+FARTURA;unidade_movel;0;0;1;0;1
+FARTURA;vigilancia;0;0;1;0;1
+FERNANDÓPOLIS;clinica;2;0;5;166;173
+FERNANDÓPOLIS;consultorio;0;0;0;276;276
+FERNANDÓPOLIS;diagnose_terapia;0;0;1;28;29
+FERNANDÓPOLIS;hospital;0;0;0;3;3
+FERNANDÓPOLIS;outros;0;0;8;24;32
+FERNANDÓPOLIS;pronto_atendimento;0;0;1;0;1
+FERNANDÓPOLIS;ubs;0;0;18;0;18
+FERNANDÓPOLIS;saude_mental;0;0;2;0;2
+FERNANDÓPOLIS;unidade_movel;0;0;4;0;4
+FERNANDÓPOLIS;vigilancia;0;0;1;0;1
+FERNANDO PRESTES;clinica;0;0;1;0;1
+FERNANDO PRESTES;consultorio;0;0;0;3;3
+FERNANDO PRESTES;diagnose_terapia;0;0;0;1;1
+FERNANDO PRESTES;outros;0;0;1;0;1
+FERNANDO PRESTES;ubs;0;0;3;0;3
+FERNÃO;outros;0;0;2;0;2
+FERNÃO;ubs;0;0;1;0;1
+FERRAZ DE VASCONCELOS;clinica;0;0;8;5;13
+FERRAZ DE VASCONCELOS;consultorio;0;0;0;26;26
+FERRAZ DE VASCONCELOS;diagnose_terapia;0;0;0;7;7
+FERRAZ DE VASCONCELOS;hospital;1;0;0;0;1
+FERRAZ DE VASCONCELOS;outros;0;0;5;1;6
+FERRAZ DE VASCONCELOS;ubs;0;0;14;0;14
+FERRAZ DE VASCONCELOS;saude_mental;0;0;2;0;2
+FERRAZ DE VASCONCELOS;unidade_movel;0;0;4;0;4
+FERRAZ DE VASCONCELOS;vigilancia;0;0;3;0;3
+FLORA RICA;clinica;0;0;1;0;1
+FLORA RICA;outros;0;0;1;0;1
+FLORA RICA;ubs;0;0;1;0;1
+FLOREAL;consultorio;0;0;0;1;1
+FLOREAL;outros;0;0;1;0;1
+FLOREAL;ubs;0;0;1;0;1
+FLÓRIDA PAULISTA;consultorio;0;0;0;6;6
+FLÓRIDA PAULISTA;diagnose_terapia;0;0;1;3;4
+FLÓRIDA PAULISTA;hospital;0;0;0;1;1
+FLÓRIDA PAULISTA;outros;0;0;2;2;4
+FLÓRIDA PAULISTA;ubs;1;0;5;0;6
+FLÓRIDA PAULISTA;saude_mental;0;0;1;0;1
+FLORÍNEA;clinica;0;0;1;0;1
+FLORÍNEA;diagnose_terapia;0;0;1;0;1
+FLORÍNEA;outros;0;0;3;0;3
+FLORÍNEA;ubs;1;0;2;0;3
+FRANCA;clinica;1;0;7;68;76
+FRANCA;consultorio;1;0;2;347;350
+FRANCA;diagnose_terapia;0;0;2;23;25
+FRANCA;hospital;0;0;0;4;4
+FRANCA;outros;4;0;6;15;25
+FRANCA;pronto_atendimento;0;0;4;0;4
+FRANCA;ubs;1;0;23;0;24
+FRANCA;saude_mental;0;0;2;0;2
+FRANCA;unidade_movel;1;0;5;1;7
+FRANCA;vigilancia;0;0;3;0;3
+FRANCISCO MORATO;clinica;0;0;2;6;8
+FRANCISCO MORATO;consultorio;0;0;0;46;46
+FRANCISCO MORATO;diagnose_terapia;0;0;1;4;5
+FRANCISCO MORATO;hospital;1;0;0;1;2
+FRANCISCO MORATO;outros;0;0;3;4;7
+FRANCISCO MORATO;pronto_atendimento;0;0;1;0;1
+FRANCISCO MORATO;ubs;0;0;13;0;13
+FRANCISCO MORATO;saude_mental;0;0;3;0;3
+FRANCISCO MORATO;unidade_movel;0;0;1;0;1
+FRANCISCO MORATO;vigilancia;0;0;1;0;1
+FRANCO DA ROCHA;clinica;1;0;6;9;16
+FRANCO DA ROCHA;consultorio;1;0;3;53;57
+FRANCO DA ROCHA;diagnose_terapia;0;0;1;10;11
+FRANCO DA ROCHA;hospital;2;0;0;1;3
+FRANCO DA ROCHA;outros;2;0;7;1;10
+FRANCO DA ROCHA;pronto_atendimento;0;0;1;0;1
+FRANCO DA ROCHA;ubs;7;0;16;0;23
+FRANCO DA ROCHA;saude_mental;0;0;3;0;3
+FRANCO DA ROCHA;vigilancia;1;0;1;0;2
+GABRIEL MONTEIRO;clinica;0;0;1;0;1
+GABRIEL MONTEIRO;outros;0;0;1;1;2
+GABRIEL MONTEIRO;ubs;0;0;1;0;1
+GALIA;consultorio;0;0;0;5;5
+GALIA;hospital;0;0;0;1;1
+GALIA;outros;0;0;2;0;2
+GALIA;ubs;2;0;2;0;4
+GARCA;clinica;0;0;4;4;8
+GARCA;consultorio;0;0;0;45;45
+GARCA;diagnose_terapia;0;0;0;8;8
+GARCA;hospital;0;0;0;3;3
+GARCA;outros;0;0;3;2;5
+GARCA;pronto_atendimento;0;0;1;0;1
+GARCA;ubs;0;0;13;0;13
+GARCA;saude_mental;0;0;2;0;2
+GARCA;unidade_movel;0;0;1;0;1
+GARCA;vigilancia;0;0;1;0;1
+GASTAO VIDIGAL;outros;0;0;1;0;1
+GASTAO VIDIGAL;ubs;0;0;1;0;1
+GAVIAO PEIXOTO;consultorio;0;0;0;1;1
+GAVIAO PEIXOTO;outros;0;0;1;0;1
+GAVIAO PEIXOTO;pronto_atendimento;0;0;1;0;1
+GAVIAO PEIXOTO;ubs;0;0;3;0;3
+GENERAL SALGADO;clinica;0;0;1;2;3
+GENERAL SALGADO;consultorio;0;0;0;8;8
+GENERAL SALGADO;diagnose_terapia;0;0;1;3;4
+GENERAL SALGADO;hospital;0;0;0;1;1
+GENERAL SALGADO;outros;0;0;2;0;2
+GENERAL SALGADO;pronto_atendimento;0;0;1;0;1
+GENERAL SALGADO;ubs;0;0;5;0;5
+GETULINA;consultorio;0;0;0;11;11
+GETULINA;hospital;0;0;0;1;1
+GETULINA;outros;0;0;1;0;1
+GETULINA;ubs;1;0;5;0;6
+GLICERIO;outros;0;0;1;0;1
+GLICERIO;ubs;0;0;2;0;2
+GUAICARA;clinica;0;0;1;0;1
+GUAICARA;consultorio;0;0;0;7;7
+GUAICARA;diagnose_terapia;0;0;0;1;1
+GUAICARA;outros;0;0;1;0;1
+GUAICARA;ubs;0;0;5;0;5
+GUAIMBE;outros;0;0;2;0;2
+GUAIMBE;pronto_atendimento;0;0;1;0;1
+GUAIMBE;ubs;0;0;3;0;3
+GUAIRA;clinica;0;0;2;10;12
+GUAIRA;consultorio;0;0;0;68;68
+GUAIRA;diagnose_terapia;0;0;1;5;6
+GUAIRA;hospital;0;0;0;1;1
+GUAIRA;outros;0;0;3;2;5
+GUAIRA;ubs;0;0;7;0;7
+GUAIRA;saude_mental;0;0;1;0;1
+GUAIRA;unidade_movel;0;0;1;0;1
+GUAPIACU;clinica;0;0;0;2;2
+GUAPIACU;consultorio;0;0;0;7;7
+GUAPIACU;diagnose_terapia;0;0;0;1;1
+GUAPIACU;outros;0;0;2;0;2
+GUAPIACU;pronto_atendimento;0;0;1;0;1
+GUAPIACU;ubs;0;0;9;0;9
+GUAPIACU;saude_mental;0;0;1;0;1
+GUAPIARA;clinica;0;0;1;1;2
+GUAPIARA;consultorio;0;0;0;1;1
+GUAPIARA;diagnose_terapia;0;0;1;2;3
+GUAPIARA;hospital;0;0;1;0;1
+GUAPIARA;outros;0;0;4;0;4
+GUAPIARA;ubs;0;0;7;0;7
+GUAPIARA;saude_mental;0;0;1;0;1
+GUAPIARA;unidade_movel;0;0;1;0;1
+GUARA;clinica;0;0;2;2;4
+GUARA;consultorio;0;0;0;41;41
+GUARA;diagnose_terapia;0;0;0;3;3
+GUARA;hospital;0;0;0;1;1
+GUARA;outros;0;0;4;0;4
+GUARA;pronto_atendimento;0;0;1;0;1
+GUARA;ubs;0;0;7;0;7
+GUARA;saude_mental;0;0;1;0;1
+GUARA;vigilancia;0;0;1;0;1
+GUARACAI;clinica;0;0;0;1;1
+GUARACAI;consultorio;0;0;0;6;6
+GUARACAI;hospital;0;0;0;1;1
+GUARACAI;outros;0;0;2;0;2
+GUARACAI;ubs;0;0;2;0;2
+GUARACAI;vigilancia;0;0;1;0;1
+GUARACI;clinica;0;0;1;0;1
+GUARACI;consultorio;0;0;0;7;7
+GUARACI;diagnose_terapia;0;0;1;2;3
+GUARACI;outros;0;0;1;2;3
+GUARACI;pronto_atendimento;0;0;1;0;1
+GUARACI;ubs;0;0;3;0;3
+GUARACI;unidade_movel;0;0;1;0;1
+GUARANI DOESTE;consultorio;0;0;0;1;1
+GUARANI DOESTE;diagnose_terapia;0;0;0;1;1
+GUARANI DOESTE;outros;0;0;1;0;1
+GUARANI DOESTE;ubs;0;0;1;0;1
+GUARANI DOESTE;vigilancia;0;0;1;0;1
+GUARANTA;outros;0;0;2;0;2
+GUARANTA;pronto_atendimento;0;0;1;0;1
+GUARANTA;ubs;0;0;3;0;3
+GUARARAPES;clinica;0;0;0;4;4
+GUARARAPES;consultorio;0;10;0;48;58
+GUARARAPES;diagnose_terapia;0;0;0;9;9
+GUARARAPES;hospital;0;0;0;1;1
+GUARARAPES;outros;0;0;2;2;4
+GUARARAPES;ubs;0;0;4;0;4
+GUARARAPES;saude_mental;0;0;1;0;1
+GUARARAPES;vigilancia;0;0;1;0;1
+GUARAREMA;clinica;0;0;1;4;5
+GUARAREMA;consultorio;0;0;0;7;7
+GUARAREMA;diagnose_terapia;0;0;0;2;2
+GUARAREMA;hospital;0;0;0;1;1
+GUARAREMA;outros;0;0;2;1;3
+GUARAREMA;ubs;0;0;3;0;3
+GUARAREMA;saude_mental;0;0;1;0;1
+GUARAREMA;unidade_movel;0;0;1;0;1
+GUARAREMA;vigilancia;0;0;1;0;1
+GUARATINGUETA;clinica;0;0;4;37;41
+GUARATINGUETA;consultorio;1;0;1;306;308
+GUARATINGUETA;diagnose_terapia;0;0;1;21;22
+GUARATINGUETA;hospital;0;1;0;5;6
+GUARATINGUETA;outros;1;0;4;22;27
+GUARATINGUETA;pronto_atendimento;0;0;1;0;1
+GUARATINGUETA;ubs;0;0;18;0;18
+GUARATINGUETA;saude_mental;0;0;2;0;2
+GUARATINGUETA;unidade_movel;0;0;4;1;5
+GUARATINGUETA;vigilancia;1;0;0;0;1
+GUAREI;consultorio;0;0;0;1;1
+GUAREI;diagnose_terapia;0;0;0;7;7
+GUAREI;outros;0;0;3;0;3
+GUAREI;pronto_atendimento;0;0;1;0;1
+GUAREI;ubs;2;0;5;0;7
+GUAREI;saude_mental;0;0;1;0;1
+GUAREI;unidade_movel;0;0;1;0;1
+GUARIBA;clinica;0;0;4;10;14
+GUARIBA;consultorio;0;0;0;33;33
+GUARIBA;diagnose_terapia;0;0;1;2;3
+GUARIBA;hospital;0;0;0;1;1
+GUARIBA;outros;0;0;2;0;2
+GUARIBA;ubs;1;0;6;0;7
+GUARIBA;saude_mental;0;0;1;0;1
+GUARIBA;unidade_movel;0;0;1;0;1
+GUARUJA;clinica;0;0;11;72;83
+GUARUJA;consultorio;0;0;0;235;235
+GUARUJA;diagnose_terapia;0;0;1;47;48
+GUARUJA;hospital;1;0;1;5;7
+GUARUJA;outros;0;0;7;23;30
+GUARUJA;pronto_atendimento;0;0;5;2;7
+GUARUJA;ubs;0;0;23;1;24
+GUARUJA;saude_mental;0;0;4;0;4
+GUARUJA;unidade_movel;0;0;13;1;14
+GUARUJA;vigilancia;0;0;2;0;2
+GUARULHOS;clinica;3;0;18;305;326
+GUARULHOS;consultorio;0;0;0;412;412
+GUARULHOS;diagnose_terapia;0;0;2;67;69
+GUARULHOS;hospital;2;0;3;13;18
+GUARULHOS;outros;1;0;11;44;56
+GUARULHOS;pronto_atendimento;0;0;9;1;10
+GUARULHOS;ubs;4;0;69;2;75
+GUARULHOS;saude_mental;0;0;8;0;8
+GUARULHOS;unidade_movel;0;0;23;2;25
+GUARULHOS;vigilancia;0;0;3;0;3
+GUATAPARA;clinica;0;0;1;0;1
+GUATAPARA;consultorio;0;0;0;1;1
+GUATAPARA;outros;0;0;3;0;3
+GUATAPARA;pronto_atendimento;0;0;1;0;1
+GUATAPARA;ubs;0;0;4;0;4
+GUATAPARA;unidade_movel;0;0;1;0;1
+GUZOLANDIA;outros;0;0;1;0;1
+GUZOLANDIA;ubs;0;0;2;0;2
+HERCULANDIA;clinica;0;0;1;0;1
+HERCULANDIA;consultorio;0;0;0;5;5
+HERCULANDIA;diagnose_terapia;0;0;0;1;1
+HERCULANDIA;hospital;0;0;0;1;1
+HERCULANDIA;outros;0;0;2;0;2
+HERCULANDIA;pronto_atendimento;0;0;1;0;1
+HERCULANDIA;ubs;0;0;4;0;4
+HERCULANDIA;saude_mental;0;0;1;0;1
+HERCULANDIA;vigilancia;0;0;1;0;1
+HOLAMBRA;clinica;0;0;1;3;4
+HOLAMBRA;consultorio;0;0;0;27;27
+HOLAMBRA;diagnose_terapia;0;0;0;1;1
+HOLAMBRA;outros;0;0;2;1;3
+HOLAMBRA;ubs;0;0;4;0;4
+HOLAMBRA;saude_mental;0;0;1;0;1
+HORTOLANDIA;clinica;0;0;7;50;57
+HORTOLANDIA;consultorio;0;0;0;109;109
+HORTOLANDIA;diagnose_terapia;0;0;0;23;23
+HORTOLANDIA;hospital;0;0;1;1;2
+HORTOLANDIA;outros;0;0;4;5;9
+HORTOLANDIA;pronto_atendimento;0;0;3;0;3
+HORTOLANDIA;ubs;4;0;17;0;21
+HORTOLANDIA;saude_mental;0;0;3;0;3
+HORTOLANDIA;unidade_movel;0;0;11;0;11
+HORTOLANDIA;vigilancia;0;0;1;0;1
+IACANGA;clinica;0;0;0;2;2
+IACANGA;consultorio;0;0;0;9;9
+IACANGA;hospital;0;0;0;1;1
+IACANGA;outros;0;0;2;1;3
+IACANGA;ubs;0;0;4;0;4
+IACANGA;saude_mental;0;0;1;0;1
+IACANGA;unidade_movel;0;0;1;0;1
+IACRI;diagnose_terapia;0;0;0;1;1
+IACRI;outros;0;0;2;1;3
+IACRI;pronto_atendimento;0;0;1;0;1
+IACRI;ubs;0;0;2;0;2
+IARAS;diagnose_terapia;0;0;0;1;1
+IARAS;outros;0;0;2;0;2
+IARAS;ubs;2;0;4;0;6
+IBATE;clinica;0;0;1;3;4
+IBATE;consultorio;0;0;0;36;36
+IBATE;diagnose_terapia;0;0;0;5;5
+IBATE;hospital;0;0;1;0;1
+IBATE;outros;0;0;2;0;2
+IBATE;ubs;0;0;9;1;10
+IBATE;vigilancia;0;0;1;0;1
+IBIRA;clinica;0;0;1;0;1
+IBIRA;consultorio;0;0;0;10;10
+IBIRA;diagnose_terapia;0;0;0;6;6
+IBIRA;hospital;0;0;0;1;1
+IBIRA;outros;0;0;1;0;1
+IBIRA;ubs;0;0;3;0;3
+IBIRA;unidade_movel;0;0;1;0;1
+IBIRAREMA;diagnose_terapia;0;0;0;1;1
+IBIRAREMA;outros;0;0;2;0;2
+IBIRAREMA;ubs;0;0;4;0;4
+IBITINGA;clinica;0;0;3;15;18
+IBITINGA;consultorio;0;0;0;129;129
+IBITINGA;diagnose_terapia;0;0;0;12;12
+IBITINGA;hospital;0;0;0;2;2
+IBITINGA;outros;0;0;2;5;7
+IBITINGA;pronto_atendimento;0;0;2;0;2
+IBITINGA;ubs;0;0;13;0;13
+IBITINGA;saude_mental;0;0;1;0;1
+IBITINGA;unidade_movel;0;0;1;0;1
+IBITINGA;vigilancia;0;0;3;0;3
+IBIUNA;clinica;0;0;3;8;11
+IBIUNA;consultorio;0;0;0;19;19
+IBIUNA;diagnose_terapia;0;0;0;2;2
+IBIUNA;hospital;0;0;1;2;3
+IBIUNA;outros;0;0;1;4;5
+IBIUNA;ubs;0;0;16;0;16
+IBIUNA;saude_mental;0;0;2;0;2
+IBIUNA;unidade_movel;0;0;1;0;1
+IBIUNA;vigilancia;0;0;1;0;1
+ICEM;clinica;0;0;0;5;5
+ICEM;consultorio;0;0;0;6;6
+ICEM;diagnose_terapia;0;0;1;2;3
+ICEM;outros;0;0;2;0;2
+ICEM;ubs;1;0;5;0;6
+ICEM;unidade_movel;0;0;1;0;1
+IEPE;clinica;0;0;1;1;2
+IEPE;consultorio;0;0;0;6;6
+IEPE;diagnose_terapia;0;0;0;2;2
+IEPE;hospital;0;0;1;0;1
+IEPE;outros;0;0;2;7;9
+IEPE;ubs;0;0;4;0;4
+IEPE;vigilancia;0;0;1;0;1
+IGARACU DO TIETE;clinica;0;0;2;1;3
+IGARACU DO TIETE;consultorio;0;0;0;9;9
+IGARACU DO TIETE;outros;0;0;1;0;1
+IGARACU DO TIETE;pronto_atendimento;0;0;1;0;1
+IGARACU DO TIETE;ubs;0;0;4;0;4
+IGARACU DO TIETE;saude_mental;0;0;1;0;1
+IGARAPAVA;clinica;0;0;3;5;8
+IGARAPAVA;consultorio;0;0;0;51;51
+IGARAPAVA;diagnose_terapia;0;0;0;4;4
+IGARAPAVA;hospital;0;0;1;0;1
+IGARAPAVA;outros;0;0;5;0;5
+IGARAPAVA;ubs;0;0;8;0;8
+IGARAPAVA;saude_mental;0;0;1;0;1
+IGARATA;clinica;0;0;0;1;1
+IGARATA;consultorio;0;0;0;1;1
+IGARATA;diagnose_terapia;0;0;1;2;3
+IGARATA;outros;0;0;3;0;3
+IGARATA;ubs;0;0;4;0;4
+IGARATA;unidade_movel;0;0;1;0;1
+IGUAPE;clinica;0;0;2;5;7
+IGUAPE;consultorio;0;0;0;8;8
+IGUAPE;diagnose_terapia;0;0;0;3;3
+IGUAPE;outros;0;0;1;1;2
+IGUAPE;pronto_atendimento;0;0;1;0;1
+IGUAPE;ubs;0;0;9;0;9
+IGUAPE;saude_mental;0;0;1;0;1
+IGUAPE;vigilancia;0;0;1;0;1
+ILHABELA;clinica;0;0;4;4;8
+ILHABELA;consultorio;0;0;0;8;8
+ILHABELA;diagnose_terapia;0;0;0;4;4
+ILHABELA;hospital;0;0;1;0;1
+ILHABELA;outros;0;0;8;3;11
+ILHABELA;ubs;0;0;12;1;13
+ILHABELA;saude_mental;0;0;1;0;1
+ILHABELA;unidade_movel;0;0;2;0;2
+ILHABELA;vigilancia;0;0;2;0;2
+ILHA COMPRIDA;clinica;0;0;0;1;1
+ILHA COMPRIDA;consultorio;0;0;0;1;1
+ILHA COMPRIDA;diagnose_terapia;0;0;0;1;1
+ILHA COMPRIDA;outros;0;0;2;0;2
+ILHA COMPRIDA;pronto_atendimento;0;0;1;0;1
+ILHA COMPRIDA;ubs;0;0;7;0;7
+ILHA SOLTEIRA;clinica;0;0;4;16;20
+ILHA SOLTEIRA;consultorio;0;0;0;94;94
+ILHA SOLTEIRA;diagnose_terapia;0;0;0;8;8
+ILHA SOLTEIRA;hospital;0;0;0;1;1
+ILHA SOLTEIRA;outros;0;0;3;0;3
+ILHA SOLTEIRA;ubs;0;0;7;1;8
+ILHA SOLTEIRA;saude_mental;0;0;1;0;1
+INDAIATUBA;clinica;0;0;7;69;76
+INDAIATUBA;consultorio;0;0;1;272;273
+INDAIATUBA;diagnose_terapia;0;0;1;31;32
+INDAIATUBA;hospital;0;0;1;5;6
+INDAIATUBA;outros;0;0;5;29;34
+INDAIATUBA;pronto_atendimento;0;0;1;1;2
+INDAIATUBA;ubs;0;0;17;0;17
+INDAIATUBA;saude_mental;0;0;3;0;3
+INDAIATUBA;unidade_movel;0;0;1;3;4
+INDAIATUBA;vigilancia;0;0;1;0;1
+INDIANA;clinica;0;0;1;0;1
+INDIANA;consultorio;0;0;0;3;3
+INDIANA;outros;0;0;1;0;1
+INDIANA;ubs;0;0;3;0;3
+INDIANA;vigilancia;0;0;1;0;1
+INDIAPORA;clinica;0;0;0;1;1
+INDIAPORA;consultorio;0;0;0;2;2
+INDIAPORA;hospital;0;0;0;1;1
+INDIAPORA;outros;0;0;1;0;1
+INDIAPORA;ubs;0;0;2;0;2
+INUBIA PAULISTA;outros;0;0;1;0;1
+INUBIA PAULISTA;ubs;0;0;1;0;1
+IPAUSSU;clinica;0;0;0;1;1
+IPAUSSU;consultorio;0;0;0;7;7
+IPAUSSU;diagnose_terapia;0;0;0;3;3
+IPAUSSU;hospital;0;0;0;1;1
+IPAUSSU;outros;0;0;1;3;4
+IPAUSSU;ubs;0;0;3;0;3
+IPAUSSU;saude_mental;0;0;1;0;1
+IPAUSSU;unidade_movel;0;0;1;0;1
+IPERO;clinica;0;0;1;1;2
+IPERO;consultorio;0;0;0;14;14
+IPERO;diagnose_terapia;0;0;0;2;2
+IPERO;outros;0;0;4;0;4
+IPERO;pronto_atendimento;0;0;2;0;2
+IPERO;ubs;0;0;5;1;6
+IPERO;saude_mental;0;0;1;0;1
+IPERO;unidade_movel;0;0;1;0;1
+IPEUNA;clinica;0;0;1;0;1
+IPEUNA;outros;0;0;2;0;2
+IPEUNA;ubs;0;0;3;0;3
+IPEUNA;unidade_movel;0;0;1;0;1
+IPEUNA;vigilancia;0;0;1;0;1
+IPIGUA;clinica;0;0;1;0;1
+IPIGUA;outros;0;0;1;0;1
+IPIGUA;ubs;0;0;1;0;1
+IPORANGA;outros;0;0;1;0;1
+IPORANGA;pronto_atendimento;0;0;1;0;1
+IPORANGA;ubs;0;0;2;0;2
+IPORANGA;unidade_movel;0;0;1;0;1
+IPUA;clinica;0;0;1;0;1
+IPUA;consultorio;0;0;0;51;51
+IPUA;diagnose_terapia;0;0;0;3;3
+IPUA;hospital;0;0;0;1;1
+IPUA;outros;0;0;1;0;1
+IPUA;pronto_atendimento;0;0;1;0;1
+IPUA;ubs;0;0;7;0;7
+IPUA;saude_mental;0;0;1;0;1
+IRACEMAPOLIS;clinica;0;0;2;3;5
+IRACEMAPOLIS;consultorio;0;0;0;12;12
+IRACEMAPOLIS;diagnose_terapia;0;0;0;6;6
+IRACEMAPOLIS;outros;0;0;2;0;2
+IRACEMAPOLIS;pronto_atendimento;0;0;1;0;1
+IRACEMAPOLIS;ubs;0;0;4;0;4
+IRACEMAPOLIS;saude_mental;0;0;1;0;1
+IRAPUA;consultorio;0;0;0;4;4
+IRAPUA;diagnose_terapia;0;0;0;2;2
+IRAPUA;outros;0;0;1;0;1
+IRAPUA;ubs;0;0;3;0;3
+IRAPUA;unidade_movel;0;0;1;0;1
+IRAPURU;consultorio;0;0;0;1;1
+IRAPURU;outros;0;0;1;0;1
+IRAPURU;pronto_atendimento;0;0;1;0;1
+IRAPURU;ubs;0;0;3;2;5
+IRAPURU;vigilancia;0;0;1;0;1
+ITABERA;clinica;0;0;2;2;4
+ITABERA;consultorio;0;0;0;2;2
+ITABERA;diagnose_terapia;0;0;0;2;2
+ITABERA;hospital;0;0;1;0;1
+ITABERA;outros;0;0;5;0;5
+ITABERA;ubs;0;0;9;0;9
+ITABERA;saude_mental;0;0;1;0;1
+ITAI;clinica;0;0;2;2;4
+ITAI;consultorio;0;0;0;3;3
+ITAI;diagnose_terapia;0;0;0;6;6
+ITAI;hospital;0;0;0;1;1
+ITAI;outros;0;0;5;0;5
+ITAI;ubs;0;0;5;1;6
+ITAI;saude_mental;0;0;1;0;1
+ITAI;unidade_movel;0;0;1;0;1
+ITAI;vigilancia;0;0;1;0;1
+ITAJOBI;clinica;0;0;1;3;4
+ITAJOBI;consultorio;0;0;0;15;15
+ITAJOBI;diagnose_terapia;0;0;0;4;4
+ITAJOBI;hospital;0;0;0;1;1
+ITAJOBI;outros;0;0;3;0;3
+ITAJOBI;pronto_atendimento;0;0;1;0;1
+ITAJOBI;ubs;0;0;5;0;5
+ITAJOBI;saude_mental;0;0;1;0;1
+ITAJU;outros;0;0;1;0;1
+ITAJU;ubs;0;0;1;0;1
+ITANHAEM;clinica;0;0;7;17;24
+ITANHAEM;consultorio;0;0;0;34;34
+ITANHAEM;diagnose_terapia;0;0;1;5;6
+ITANHAEM;hospital;0;0;1;2;3
+ITANHAEM;outros;0;0;7;7;14
+ITANHAEM;pronto_atendimento;0;0;1;0;1
+ITANHAEM;ubs;0;0;11;0;11
+ITANHAEM;saude_mental;0;0;3;0;3
+ITANHAEM;unidade_movel;0;0;7;0;7
+ITAOCA;outros;0;0;2;0;2
+ITAOCA;ubs;0;0;1;0;1
+ITAOCA;unidade_movel;0;0;1;0;1
+ITAPECERICA DA SERRA;clinica;0;0;2;21;23
+ITAPECERICA DA SERRA;consultorio;0;0;0;36;36
+ITAPECERICA DA SERRA;diagnose_terapia;0;0;1;3;4
+ITAPECERICA DA SERRA;hospital;0;0;1;3;5
+ITAPECERICA DA SERRA;outros;0;0;1;8;9
+ITAPECERICA DA SERRA;pronto_atendimento;0;0;2;0;2
+ITAPECERICA DA SERRA;ubs;0;0;14;1;15
+ITAPECERICA DA SERRA;saude_mental;0;0;1;0;1
+ITAPECERICA DA SERRA;unidade_movel;0;0;2;0;2
+ITAPECERICA DA SERRA;vigilancia;0;0;1;0;1
+ITAPETININGA;clinica;0;0;1;11;12
+ITAPETININGA;consultorio;0;0;1;359;360
+ITAPETININGA;diagnose_terapia;0;0;1;18;19
+ITAPETININGA;hospital;0;0;0;2;2
+ITAPETININGA;outros;0;0;7;18;25
+ITAPETININGA;ubs;0;0;19;3;22
+ITAPETININGA;saude_mental;0;0;3;0;3
+ITAPETININGA;unidade_movel;0;0;9;1;10
+ITAPETININGA;vigilancia;0;0;1;0;1
+ITAPEVA;clinica;0;0;1;5;6
+ITAPEVA;consultorio;0;0;0;257;257
+ITAPEVA;diagnose_terapia;0;0;0;8;8
+ITAPEVA;hospital;0;0;1;2;3
+ITAPEVA;outros;0;0;7;11;18
+ITAPEVA;pronto_atendimento;0;0;1;0;1
+ITAPEVA;ubs;0;0;24;1;25
+ITAPEVA;saude_mental;0;0;2;0;2
+ITAPEVA;unidade_movel;0;0;2;0;2
+ITAPEVA;vigilancia;0;0;1;0;1
+ITAPEVI;clinica;0;0;1;6;7
+ITAPEVI;consultorio;0;0;0;58;58
+ITAPEVI;diagnose_terapia;0;0;0;8;8
+ITAPEVI;hospital;0;0;1;2;3
+ITAPEVI;outros;0;0;5;2;7
+ITAPEVI;pronto_atendimento;0;0;4;2;6
+ITAPEVI;ubs;0;0;15;0;15
+ITAPEVI;saude_mental;0;0;3;0;3
+ITAPEVI;unidade_movel;0;0;8;0;8
+ITAPEVI;vigilancia;0;0;3;0;3
+ITAPIRA;clinica;0;0;6;12;18
+ITAPIRA;consultorio;0;0;0;125;125
+ITAPIRA;diagnose_terapia;0;0;0;10;10
+ITAPIRA;hospital;0;0;1;3;4
+ITAPIRA;outros;0;0;3;1;4
+ITAPIRA;ubs;0;0;13;1;14
+ITAPIRA;saude_mental;0;0;2;0;2
+ITAPIRA;unidade_movel;0;0;2;0;2
+ITAPIRAPUA PAULISTA;clinica;0;0;1;0;1
+ITAPIRAPUA PAULISTA;outros;0;0;3;0;3
+ITAPIRAPUA PAULISTA;ubs;0;0;2;0;2
+ITAPIRAPUA PAULISTA;unidade_movel;0;0;1;0;1
+ITAPOLIS;clinica;0;0;3;9;12
+ITAPOLIS;consultorio;0;0;0;81;81
+ITAPOLIS;diagnose_terapia;0;0;0;6;6
+ITAPOLIS;hospital;0;0;0;1;1
+ITAPOLIS;outros;0;0;1;1;2
+ITAPOLIS;ubs;0;0;8;0;8
+ITAPOLIS;saude_mental;0;0;1;0;1
+ITAPOLIS;unidade_movel;0;0;1;0;1
+ITAPORANGA;clinica;0;0;2;2;4
+ITAPORANGA;consultorio;0;0;0;6;6
+ITAPORANGA;diagnose_terapia;0;0;0;2;2
+ITAPORANGA;hospital;0;0;0;1;1
+ITAPORANGA;outros;0;0;4;1;5
+ITAPORANGA;ubs;0;0;4;0;4
+ITAPORANGA;unidade_movel;0;0;1;0;1
+ITAPUI;clinica;0;0;1;1;2
+ITAPUI;consultorio;0;0;0;2;2
+ITAPUI;diagnose_terapia;0;0;0;3;3
+ITAPUI;hospital;0;0;1;0;1
+ITAPUI;outros;0;0;1;0;1
+ITAPUI;pronto_atendimento;0;0;1;0;1
+ITAPUI;ubs;0;0;4;0;4
+ITAPUI;saude_mental;0;0;1;0;1
+ITAPUI;unidade_movel;0;0;1;0;1
+ITAPURA;diagnose_terapia;0;0;0;1;1
+ITAPURA;outros;0;0;2;0;2
+ITAPURA;ubs;0;0;2;0;2
+ITAPURA;vigilancia;0;0;1;0;1
+ITAQUAQUECETUBA;clinica;0;0;4;18;22
+ITAQUAQUECETUBA;consultorio;0;0;1;49;50
+ITAQUAQUECETUBA;diagnose_terapia;0;0;0;8;8
+ITAQUAQUECETUBA;hospital;0;0;1;0;1
+ITAQUAQUECETUBA;outros;0;0;5;2;7
+ITAQUAQUECETUBA;pronto_atendimento;0;0;3;2;5
+ITAQUAQUECETUBA;ubs;0;0;19;0;19
+ITAQUAQUECETUBA;saude_mental;0;0;2;0;2
+ITAQUAQUECETUBA;unidade_movel;0;0;7;0;7
+ITAQUAQUECETUBA;vigilancia;0;0;2;0;2
+ITARARE;clinica;0;0;4;5;9
+ITARARE;consultorio;0;0;1;54;55
+ITARARE;diagnose_terapia;0;0;0;6;6
+ITARARE;hospital;0;0;0;1;1
+ITARARE;outros;0;0;5;2;7
+ITARARE;ubs;0;0;12;0;12
+ITARARE;saude_mental;0;0;1;0;1
+ITARARE;unidade_movel;0;0;1;0;1
+ITARIRI;consultorio;0;0;0;1;1
+ITARIRI;diagnose_terapia;0;0;0;1;1
+ITARIRI;outros;0;0;2;1;3
+ITARIRI;pronto_atendimento;0;0;1;0;1
+ITARIRI;ubs;0;0;7;0;7
+ITATIBA;clinica;0;0;7;42;49
+ITATIBA;consultorio;0;0;0;137;137
+ITATIBA;diagnose_terapia;0;0;0;19;19
+ITATIBA;hospital;0;0;0;3;3
+ITATIBA;outros;0;0;3;5;8
+ITATIBA;pronto_atendimento;0;0;1;1;2
+ITATIBA;ubs;0;0;25;0;25
+ITATIBA;saude_mental;0;0;2;0;2
+ITATIBA;unidade_movel;0;0;2;0;2
+ITATIBA;vigilancia;0;0;2;0;2
+ITATINGA;consultorio;0;0;0;16;16
+ITATINGA;diagnose_terapia;0;0;0;2;2
+ITATINGA;hospital;0;0;0;1;1
+ITATINGA;outros;0;0;2;0;2
+ITATINGA;ubs;0;0;3;1;4
+ITIRAPINA;clinica;0;0;1;0;1
+ITIRAPINA;consultorio;0;0;0;17;17
+ITIRAPINA;diagnose_terapia;0;0;0;2;2
+ITIRAPINA;hospital;0;0;1;0;1
+ITIRAPINA;outros;0;0;1;1;2
+ITIRAPINA;ubs;0;0;4;2;6
+ITIRAPINA;unidade_movel;0;0;1;0;1
+ITIRAPINA;vigilancia;0;0;1;0;1
+ITIRAPUA;clinica;0;0;2;0;2
+ITIRAPUA;outros;0;0;1;0;1
+ITIRAPUA;ubs;0;0;3;0;3
+ITIRAPUA;vigilancia;0;0;1;0;1
+ITOBI;clinica;0;0;0;1;1
+ITOBI;consultorio;0;0;0;2;2
+ITOBI;diagnose_terapia;0;0;0;1;1
+ITOBI;outros;0;0;1;0;1
+ITOBI;ubs;0;0;2;0;2
+ITU;clinica;0;0;1;16;17
+ITU;consultorio;0;0;0;214;214
+ITU;diagnose_terapia;0;0;2;28;30
+ITU;hospital;0;0;1;2;3
+ITU;outros;0;0;7;14;21
+ITU;pronto_atendimento;0;0;3;0;3
+ITU;ubs;0;0;17;0;17
+ITU;saude_mental;0;0;2;0;2
+ITU;unidade_movel;0;0;2;0;2
+ITU;vigilancia;0;0;1;0;1
+ITUPEVA;clinica;0;0;6;15;21
+ITUPEVA;consultorio;0;0;4;37;41
+ITUPEVA;diagnose_terapia;0;0;0;5;5
+ITUPEVA;hospital;0;0;1;1;2
+ITUPEVA;outros;0;0;3;3;6
+ITUPEVA;ubs;0;0;12;1;13
+ITUPEVA;saude_mental;0;0;1;0;1
+ITUPEVA;unidade_movel;0;0;0;1;1
+ITUVERAVA;clinica;0;0;1;2;3
+ITUVERAVA;consultorio;0;0;0;203;203
+ITUVERAVA;diagnose_terapia;0;0;1;10;11
+ITUVERAVA;hospital;0;0;0;2;2
+ITUVERAVA;outros;0;0;2;3;5
+ITUVERAVA;ubs;0;0;12;0;12
+ITUVERAVA;saude_mental;0;0;1;0;1
+ITUVERAVA;unidade_movel;0;0;1;1;2
+ITUVERAVA;vigilancia;0;0;1;0;1
+JABORANDI;clinica;0;0;1;0;1
+JABORANDI;consultorio;0;0;1;4;5
+JABORANDI;diagnose_terapia;0;0;0;1;1
+JABORANDI;hospital;0;0;1;0;1
+JABORANDI;outros;0;0;2;0;2
+JABORANDI;ubs;0;0;3;0;3
+JABORANDI;unidade_movel;0;0;1;0;1
+JABOTICABAL;clinica;0;0;5;28;33
+JABOTICABAL;consultorio;0;0;1;179;180
+JABOTICABAL;diagnose_terapia;0;0;1;7;8
+JABOTICABAL;hospital;0;0;0;2;2
+JABOTICABAL;outros;0;0;4;10;14
+JABOTICABAL;pronto_atendimento;0;0;1;2;3
+JABOTICABAL;ubs;0;0;12;0;12
+JABOTICABAL;saude_mental;0;0;1;0;1
+JABOTICABAL;unidade_movel;0;0;4;0;4
+JABOTICABAL;vigilancia;0;0;1;0;1
+JACAREI;clinica;0;0;3;55;58
+JACAREI;consultorio;0;0;1;393;394
+JACAREI;diagnose_terapia;0;0;2;37;39
+JACAREI;hospital;0;0;0;6;6
+JACAREI;outros;0;0;5;17;22
+JACAREI;pronto_atendimento;0;0;2;2;4
+JACAREI;ubs;0;0;19;0;19
+JACAREI;saude_mental;0;0;3;0;3
+JACAREI;unidade_movel;0;0;4;0;4
+JACAREI;vigilancia;0;0;1;0;1
+JACI;clinica;0;0;0;2;2
+JACI;hospital;0;0;0;1;1
+JACI;outros;0;0;1;0;1
+JACI;ubs;0;0;3;0;3
+JACUPIRANGA;clinica;0;0;1;0;1
+JACUPIRANGA;consultorio;0;0;0;9;9
+JACUPIRANGA;diagnose_terapia;0;0;1;2;3
+JACUPIRANGA;outros;0;0;2;0;2
+JACUPIRANGA;pronto_atendimento;0;0;1;0;1
+JACUPIRANGA;ubs;0;0;7;0;7
+JACUPIRANGA;vigilancia;0;0;1;0;1
+JAGUARIUNA;clinica;0;0;6;32;38
+JAGUARIUNA;consultorio;0;0;0;60;60
+JAGUARIUNA;diagnose_terapia;0;0;1;11;12
+JAGUARIUNA;hospital;0;0;1;1;2
+JAGUARIUNA;outros;0;0;6;4;10
+JAGUARIUNA;pronto_atendimento;0;0;1;0;1
+JAGUARIUNA;ubs;0;0;12;0;12
+JAGUARIUNA;saude_mental;0;0;1;0;1
+JAGUARIUNA;unidade_movel;0;0;3;1;4
+JAGUARIUNA;vigilancia;0;0;1;0;1
+JALES;clinica;0;0;1;6;7
+JALES;consultorio;0;0;0;160;160
+JALES;diagnose_terapia;0;0;1;16;17
+JALES;hospital;0;0;0;2;2
+JALES;outros;0;0;1;4;5
+JALES;pronto_atendimento;0;0;1;0;1
+JALES;ubs;0;0;12;0;12
+JALES;saude_mental;0;0;1;0;1
+JALES;unidade_movel;0;0;3;0;3
+JALES;vigilancia;0;0;1;1;2
+JAMBEIRO;clinica;0;0;1;1;2
+JAMBEIRO;consultorio;0;0;0;2;2
+JAMBEIRO;outros;0;0;1;0;1
+JAMBEIRO;ubs;0;0;3;0;3
+JAMBEIRO;unidade_movel;0;0;1;0;1
+JANDIRA;clinica;0;0;5;19;24
+JANDIRA;consultorio;0;0;0;26;26
+JANDIRA;diagnose_terapia;0;0;0;1;1
+JANDIRA;hospital;0;0;0;1;1
+JANDIRA;outros;0;0;5;2;7
+JANDIRA;pronto_atendimento;0;0;1;0;1
+JANDIRA;ubs;0;0;10;0;10
+JANDIRA;saude_mental;0;0;1;0;1
+JANDIRA;unidade_movel;0;0;4;0;4
+JANDIRA;vigilancia;0;0;3;0;3
+JARDINOPOLIS;clinica;0;0;4;9;13
+JARDINOPOLIS;consultorio;0;0;1;41;42
+JARDINOPOLIS;diagnose_terapia;0;0;0;3;3
+JARDINOPOLIS;outros;0;0;4;1;5
+JARDINOPOLIS;pronto_atendimento;0;0;1;0;1
+JARDINOPOLIS;ubs;0;0;11;1;12
+JARDINOPOLIS;unidade_movel;0;0;1;0;1
+JARDINOPOLIS;vigilancia;0;0;1;0;1
+JARINU;clinica;0;0;2;3;5
+JARINU;consultorio;0;0;0;12;12
+JARINU;diagnose_terapia;0;0;0;4;4
+JARINU;hospital;0;0;0;1;1
+JARINU;outros;0;0;3;0;3
+JARINU;ubs;0;0;6;0;6
+JARINU;saude_mental;0;0;1;0;1
+JARINU;unidade_movel;0;0;1;0;1
+JARINU;vigilancia;0;0;1;0;1
+JAU;clinica;0;0;10;116;126
+JAU;consultorio;0;0;0;332;332
+JAU;diagnose_terapia;0;0;1;17;18
+JAU;hospital;0;0;0;4;4
+JAU;outros;0;0;6;9;15
+JAU;pronto_atendimento;0;0;2;0;2
+JAU;ubs;0;0;18;0;18
+JAU;saude_mental;0;0;2;0;2
+JAU;unidade_movel;0;0;4;0;4
+JAU;vigilancia;0;0;1;0;1
+JERIQUARA;outros;0;0;1;0;1
+JERIQUARA;ubs;0;0;2;0;2
+JOANOPOLIS;consultorio;0;0;0;14;14
+JOANOPOLIS;diagnose_terapia;0;0;0;2;2
+JOANOPOLIS;hospital;0;0;0;1;1
+JOANOPOLIS;outros;0;0;2;5;7
+JOANOPOLIS;ubs;0;0;2;0;2
+JOANOPOLIS;unidade_movel;0;0;1;0;1
+JOANOPOLIS;vigilancia;0;0;1;0;1
+JOAO RAMALHO;consultorio;0;0;0;1;1
+JOAO RAMALHO;outros;0;0;1;0;1
+JOAO RAMALHO;ubs;0;0;3;0;3
+JOAO RAMALHO;vigilancia;0;0;1;0;1
+JOSE BONIFACIO;clinica;0;0;2;4;6
+JOSE BONIFACIO;consultorio;0;0;0;63;63
+JOSE BONIFACIO;diagnose_terapia;0;0;1;4;5
+JOSE BONIFACIO;hospital;0;0;0;1;1
+JOSE BONIFACIO;outros;0;0;2;2;4
+JOSE BONIFACIO;ubs;0;0;8;0;8
+JOSE BONIFACIO;unidade_movel;0;0;1;0;1
+JULIO MESQUITA;clinica;0;0;0;1;1
+JULIO MESQUITA;outros;0;0;1;0;1
+JULIO MESQUITA;ubs;0;0;2;0;2
+JUMIRIM;consultorio;0;0;0;2;2
+JUMIRIM;outros;0;0;2;0;2
+JUMIRIM;ubs;0;0;1;0;1
+JUNDIAI;clinica;0;0;14;291;305
+JUNDIAI;consultorio;0;0;0;1623;1623
+JUNDIAI;diagnose_terapia;0;0;1;73;74
+JUNDIAI;hospital;0;0;1;11;12
+JUNDIAI;outros;0;0;9;47;56
+JUNDIAI;pronto_atendimento;0;0;5;2;7
+JUNDIAI;ubs;0;0;35;1;36
+JUNDIAI;saude_mental;0;0;4;0;4
+JUNDIAI;unidade_movel;0;0;6;1;7
+JUNDIAI;vigilancia;0;0;4;0;4
+JUNQUEIROPOLIS;clinica;0;0;1;0;1
+JUNQUEIROPOLIS;consultorio;0;0;0;15;15
+JUNQUEIROPOLIS;diagnose_terapia;0;0;2;2;4
+JUNQUEIROPOLIS;hospital;0;0;0;2;2
+JUNQUEIROPOLIS;outros;0;0;3;1;4
+JUNQUEIROPOLIS;pronto_atendimento;0;0;1;0;1
+JUNQUEIROPOLIS;ubs;0;0;9;1;10
+JUNQUEIROPOLIS;saude_mental;0;0;1;0;1
+JUQUIA;consultorio;0;0;0;2;2
+JUQUIA;diagnose_terapia;0;0;1;1;2
+JUQUIA;outros;0;0;3;0;3
+JUQUIA;pronto_atendimento;0;0;1;0;1
+JUQUIA;ubs;0;0;7;0;7
+JUQUIA;vigilancia;0;0;1;0;1
+JUQUITIBA;clinica;0;0;1;0;1
+JUQUITIBA;consultorio;0;0;0;3;3
+JUQUITIBA;diagnose_terapia;0;0;0;2;2
+JUQUITIBA;outros;0;0;1;0;1
+JUQUITIBA;ubs;0;0;10;0;10
+JUQUITIBA;saude_mental;0;0;1;0;1
+JUQUITIBA;unidade_movel;0;0;2;0;2
+LAGOINHA;clinica;0;0;0;1;1
+LAGOINHA;consultorio;0;0;0;1;1
+LAGOINHA;outros;0;0;2;0;2
+LAGOINHA;ubs;0;0;4;0;4
+LAGOINHA;unidade_movel;0;0;1;0;1
+LARANJAL PAULISTA;clinica;0;0;2;3;5
+LARANJAL PAULISTA;consultorio;0;0;0;75;75
+LARANJAL PAULISTA;diagnose_terapia;0;0;2;6;8
+LARANJAL PAULISTA;hospital;0;0;0;1;1
+LARANJAL PAULISTA;outros;0;0;2;1;3
+LARANJAL PAULISTA;ubs;0;0;8;0;8
+LARANJAL PAULISTA;saude_mental;0;0;1;0;1
+LAVINIA;outros;0;0;2;0;2
+LAVINIA;ubs;0;0;2;4;6
+LAVINIA;vigilancia;0;0;1;0;1
+LAVRINHAS;clinica;0;0;1;0;1
+LAVRINHAS;consultorio;0;0;0;1;1
+LAVRINHAS;diagnose_terapia;0;0;1;0;1
+LAVRINHAS;outros;0;0;1;1;2
+LAVRINHAS;ubs;0;0;4;0;4
+LEME;clinica;0;0;7;22;29
+LEME;consultorio;0;0;2;171;173
+LEME;diagnose_terapia;0;0;0;18;18
+LEME;hospital;0;0;0;2;2
+LEME;outros;0;0;2;3;5
+LEME;pronto_atendimento;0;0;1;1;2
+LEME;ubs;0;0;18;0;18
+LEME;saude_mental;0;0;3;0;3
+LEME;unidade_movel;0;0;0;1;1
+LEME;vigilancia;0;0;3;0;3
+LENCOIS PAULISTA;clinica;0;0;3;18;21
+LENCOIS PAULISTA;consultorio;0;0;1;250;251
+LENCOIS PAULISTA;diagnose_terapia;0;0;0;29;29
+LENCOIS PAULISTA;hospital;0;0;0;2;2
+LENCOIS PAULISTA;outros;0;0;3;7;10
+LENCOIS PAULISTA;pronto_atendimento;0;0;1;0;1
+LENCOIS PAULISTA;ubs;0;0;12;0;12
+LENCOIS PAULISTA;saude_mental;0;0;1;0;1
+LENCOIS PAULISTA;unidade_movel;0;0;2;1;3
+LIMEIRA;clinica;0;0;6;54;60
+LIMEIRA;consultorio;0;0;0;849;849
+LIMEIRA;diagnose_terapia;0;0;3;117;120
+LIMEIRA;hospital;0;0;0;4;4
+LIMEIRA;outros;0;0;4;44;48
+LIMEIRA;pronto_atendimento;0;0;1;0;1
+LIMEIRA;ubs;0;0;34;4;38
+LIMEIRA;saude_mental;0;0;3;0;3
+LIMEIRA;unidade_movel;0;0;4;0;4
+LIMEIRA;vigilancia;0;0;3;0;3
+LINDOIA;clinica;0;0;2;0;2
+LINDOIA;consultorio;0;0;0;8;8
+LINDOIA;diagnose_terapia;0;0;0;3;3
+LINDOIA;outros;0;0;1;0;1
+LINDOIA;ubs;0;0;4;0;4
+LINDOIA;unidade_movel;0;0;1;0;1
+LINDOIA;vigilancia;0;0;1;0;1
+LINS;clinica;0;0;6;29;35
+LINS;consultorio;0;0;0;510;510
+LINS;diagnose_terapia;0;0;2;34;36
+LINS;hospital;0;0;1;3;4
+LINS;outros;0;0;6;6;12
+LINS;ubs;0;0;15;1;16
+LINS;saude_mental;0;0;3;0;3
+LINS;unidade_movel;0;0;0;1;1
+LORENA;clinica;0;0;5;24;29
+LORENA;consultorio;0;0;1;253;254
+LORENA;diagnose_terapia;0;0;2;16;18
+LORENA;hospital;0;0;0;3;3
+LORENA;outros;0;0;3;25;28
+LORENA;ubs;0;0;18;0;18
+LORENA;saude_mental;0;0;1;0;1
+LORENA;unidade_movel;0;0;1;1;2
+LOURDES;outros;0;0;2;0;2
+LOURDES;ubs;0;0;2;0;2
+LOUVEIRA;clinica;0;0;3;11;14
+LOUVEIRA;consultorio;0;0;0;23;23
+LOUVEIRA;diagnose_terapia;0;0;1;5;6
+LOUVEIRA;hospital;0;0;1;1;2
+LOUVEIRA;outros;0;0;1;1;2
+LOUVEIRA;ubs;0;0;6;0;6
+LOUVEIRA;saude_mental;0;0;1;0;1
+LOUVEIRA;vigilancia;0;0;1;0;1
+LUCELIA;clinica;0;0;0;1;1
+LUCELIA;consultorio;0;0;0;27;27
+LUCELIA;diagnose_terapia;0;0;0;4;4
+LUCELIA;hospital;0;0;0;1;1
+LUCELIA;outros;0;0;4;0;4
+LUCELIA;ubs;0;0;5;1;6
+LUCELIA;saude_mental;0;0;1;0;1
+LUCIANOPOLIS;outros;0;0;2;0;2
+LUCIANOPOLIS;ubs;0;0;1;0;1
+LUIZ ANTONIO;clinica;0;0;1;1;2
+LUIZ ANTONIO;consultorio;0;0;0;11;11
+LUIZ ANTONIO;diagnose_terapia;0;0;1;1;2
+LUIZ ANTONIO;outros;0;0;4;0;4
+LUIZ ANTONIO;ubs;0;0;8;0;8
+LUIZ ANTONIO;unidade_movel;0;0;1;0;1
+LUIZ ANTONIO;vigilancia;0;0;1;0;1
+LUIZIANIA;clinica;0;0;0;1;1
+LUIZIANIA;consultorio;0;0;0;3;3
+LUIZIANIA;outros;0;0;2;1;3
+LUIZIANIA;ubs;0;0;1;0;1
+LUPERCIO;outros;0;0;2;0;2
+LUPERCIO;ubs;0;0;2;0;2
+LUTECIA;consultorio;0;0;0;1;1
+LUTECIA;outros;0;0;2;0;2
+LUTECIA;ubs;0;0;1;0;1
+MACATUBA;clinica;0;0;4;13;17
+MACATUBA;consultorio;0;0;0;18;18
+MACATUBA;diagnose_terapia;0;0;1;2;3
+MACATUBA;hospital;0;0;0;1;1
+MACATUBA;outros;0;0;1;0;1
+MACATUBA;ubs;0;0;4;0;4
+MACATUBA;saude_mental;0;0;1;0;1
+MACATUBA;vigilancia;0;0;1;0;1
+MACAUBAL;clinica;0;0;1;0;1
+MACAUBAL;consultorio;0;0;0;5;5
+MACAUBAL;diagnose_terapia;0;0;0;2;2
+MACAUBAL;hospital;0;0;0;1;1
+MACAUBAL;outros;0;0;1;0;1
+MACAUBAL;ubs;0;0;2;0;2
+MACEDONIA;consultorio;0;0;0;2;2
+MACEDONIA;outros;0;0;1;0;1
+MACEDONIA;ubs;0;0;1;0;1
+MAGDA;clinica;0;0;1;0;1
+MAGDA;consultorio;0;0;0;1;1
+MAGDA;outros;0;0;1;0;1
+MAGDA;ubs;0;0;1;0;1
+MAIRINQUE;clinica;0;0;3;12;15
+MAIRINQUE;consultorio;0;0;1;39;40
+MAIRINQUE;diagnose_terapia;0;0;0;1;1
+MAIRINQUE;outros;0;0;2;0;2
+MAIRINQUE;pronto_atendimento;0;0;1;0;1
+MAIRINQUE;ubs;0;0;12;1;13
+MAIRINQUE;saude_mental;0;0;1;0;1
+MAIRINQUE;unidade_movel;0;0;1;0;1
+MAIRIPORA;clinica;0;0;5;8;13
+MAIRIPORA;consultorio;0;0;0;8;8
+MAIRIPORA;diagnose_terapia;0;0;0;3;3
+MAIRIPORA;hospital;0;0;1;1;2
+MAIRIPORA;outros;0;0;4;6;10
+MAIRIPORA;pronto_atendimento;0;0;1;0;1
+MAIRIPORA;ubs;0;0;16;0;16
+MAIRIPORA;saude_mental;0;0;3;0;3
+MAIRIPORA;vigilancia;0;0;1;0;1
+MANDURI;outros;0;0;1;0;1
+MANDURI;ubs;0;0;3;1;4
+MANDURI;vigilancia;0;0;1;0;1
+MARABA PAULISTA;outros;0;0;1;0;1
+MARABA PAULISTA;ubs;0;0;3;0;3
+MARABA PAULISTA;vigilancia;0;0;1;0;1
+MARACAI;clinica;0;0;0;2;2
+MARACAI;consultorio;0;0;0;3;3
+MARACAI;diagnose_terapia;0;0;0;4;4
+MARACAI;hospital;0;0;0;1;1
+MARACAI;outros;0;0;3;1;4
+MARACAI;ubs;0;0;4;0;4
+MARACAI;saude_mental;0;0;1;0;1
+MARAPOAMA;clinica;0;0;1;0;1
+MARAPOAMA;diagnose_terapia;0;0;0;1;1
+MARAPOAMA;outros;0;0;1;0;1
+MARAPOAMA;ubs;0;0;1;0;1
+MARIAPOLIS;consultorio;0;0;0;1;1
+MARIAPOLIS;outros;0;0;1;0;1
+MARIAPOLIS;ubs;0;0;2;0;2
+MARILIA;clinica;0;0;8;32;40
+MARILIA;consultorio;0;0;1;959;960
+MARILIA;diagnose_terapia;0;0;1;33;34
+MARILIA;hospital;0;0;0;7;7
+MARILIA;outros;0;0;8;8;16
+MARILIA;pronto_atendimento;0;0;2;2;4
+MARILIA;ubs;0;0;57;2;59
+MARILIA;saude_mental;0;0;2;1;3
+MARILIA;unidade_movel;0;0;8;1;9
+MARILIA;vigilancia;0;0;2;0;2
+MARINOPOLIS;outros;0;0;1;0;1
+MARINOPOLIS;ubs;0;0;2;0;2
+MARTINOPOLIS;clinica;0;0;0;4;4
+MARTINOPOLIS;consultorio;0;0;0;19;19
+MARTINOPOLIS;diagnose_terapia;0;0;1;3;4
+MARTINOPOLIS;hospital;0;0;0;1;1
+MARTINOPOLIS;outros;0;0;3;0;3
+MARTINOPOLIS;ubs;0;0;11;1;12
+MARTINOPOLIS;saude_mental;0;0;2;0;2
+MARTINOPOLIS;vigilancia;0;0;1;0;1
+MATAO;clinica;0;0;6;32;38
+MATAO;consultorio;0;0;1;204;205
+MATAO;diagnose_terapia;0;0;0;12;12
+MATAO;hospital;0;0;0;1;1
+MATAO;outros;0;0;2;1;3
+MATAO;pronto_atendimento;0;0;0;1;1
+MATAO;ubs;0;0;19;0;19
+MATAO;saude_mental;0;0;2;0;2
+MATAO;unidade_movel;0;0;3;1;4
+MAUA;clinica;0;0;6;34;40
+MAUA;consultorio;0;0;1;246;247
+MAUA;diagnose_terapia;0;0;1;35;36
+MAUA;hospital;0;0;1;3;4
+MAUA;outros;0;0;5;6;11
+MAUA;pronto_atendimento;0;0;4;2;6
+MAUA;ubs;0;0;24;0;24
+MAUA;saude_mental;0;0;3;0;3
+MAUA;unidade_movel;0;0;17;1;18
+MAUA;vigilancia;0;0;2;0;2
+MENDONCA;consultorio;0;0;0;2;2
+MENDONCA;diagnose_terapia;0;0;0;1;1
+MENDONCA;outros;0;0;2;0;2
+MENDONCA;ubs;0;0;2;0;2
+MERIDIANO;clinica;0;0;1;0;1
+MERIDIANO;consultorio;0;0;1;1;2
+MERIDIANO;outros;0;0;2;0;2
+MERIDIANO;ubs;0;0;2;0;2
+MESOPOLIS;consultorio;0;0;0;1;1
+MESOPOLIS;outros;0;0;1;0;1
+MESOPOLIS;ubs;0;0;1;0;1
+MIGUELOPOLIS;clinica;0;0;1;0;1
+MIGUELOPOLIS;consultorio;0;0;1;1;2
+MIGUELOPOLIS;outros;0;0;2;0;2
+MIGUELOPOLIS;ubs;0;0;2;0;2
+MINEIROS DO TIETE;clinica;0;0;3;3;6
+MINEIROS DO TIETE;consultorio;0;0;0;40;40
+MINEIROS DO TIETE;diagnose_terapia;0;0;0;4;4
+MINEIROS DO TIETE;hospital;0;0;0;1;1
+MINEIROS DO TIETE;outros;0;0;1;1;2
+MINEIROS DO TIETE;pronto_atendimento;0;0;1;0;1
+MINEIROS DO TIETE;ubs;0;0;8;0;8
+MINEIROS DO TIETE;saude_mental;0;0;1;0;1
+MINEIROS DO TIETE;unidade_movel;0;0;1;0;1
+MIRACATU;clinica;0;0;1;0;1
+MIRACATU;consultorio;0;0;0;3;3
+MIRACATU;diagnose_terapia;0;0;0;1;1
+MIRACATU;hospital;0;0;0;1;1
+MIRACATU;outros;0;0;1;0;1
+MIRACATU;pronto_atendimento;0;0;1;0;1
+MIRACATU;ubs;0;0;9;0;9
+MIRACATU;saude_mental;0;0;1;0;1
+MIRACATU;vigilancia;0;0;1;0;1
+MIRA ESTRELA;clinica;0;0;1;0;1
+MIRA ESTRELA;consultorio;0;0;0;1;1
+MIRA ESTRELA;outros;0;0;2;0;2
+MIRA ESTRELA;ubs;0;0;1;0;1
+MIRANDOPOLIS;clinica;0;0;1;2;3
+MIRANDOPOLIS;consultorio;0;0;0;46;46
+MIRANDOPOLIS;diagnose_terapia;0;0;1;8;9
+MIRANDOPOLIS;hospital;0;0;1;0;1
+MIRANDOPOLIS;outros;0;0;4;0;4
+MIRANDOPOLIS;pronto_atendimento;0;0;1;0;1
+MIRANDOPOLIS;ubs;0;0;6;2;8
+MIRANDOPOLIS;saude_mental;0;0;1;0;1
+MIRANDOPOLIS;vigilancia;0;0;1;0;1
+MIRANTE DO PARANAPANEMA;clinica;0;0;2;2;4
+MIRANTE DO PARANAPANEMA;consultorio;0;0;0;7;7
+MIRANTE DO PARANAPANEMA;diagnose_terapia;0;0;0;1;1
+MIRANTE DO PARANAPANEMA;outros;0;0;3;0;3
+MIRANTE DO PARANAPANEMA;pronto_atendimento;0;0;1;0;1
+MIRANTE DO PARANAPANEMA;ubs;0;0;8;0;8
+MIRANTE DO PARANAPANEMA;saude_mental;0;0;1;0;1
+MIRANTE DO PARANAPANEMA;vigilancia;0;0;1;0;1
+MIRASSOL;clinica;0;0;5;15;20
+MIRASSOL;consultorio;0;0;1;114;115
+MIRASSOL;diagnose_terapia;0;0;0;10;10
+MIRASSOL;hospital;0;0;0;2;2
+MIRASSOL;outros;0;0;2;6;8
+MIRASSOL;pronto_atendimento;0;0;1;0;1
+MIRASSOL;ubs;0;0;7;0;7
+MIRASSOL;saude_mental;0;0;1;0;1
+MIRASSOL;unidade_movel;0;0;1;0;1
+MIRASSOLANDIA;outros;0;0;1;0;1
+MIRASSOLANDIA;ubs;0;0;1;0;1
+MOCOCA;clinica;0;0;4;101;105
+MOCOCA;consultorio;0;0;1;130;131
+MOCOCA;diagnose_terapia;0;0;1;11;12
+MOCOCA;hospital;0;0;0;1;1
+MOCOCA;outros;0;0;4;5;9
+MOCOCA;pronto_atendimento;0;0;1;1;2
+MOCOCA;ubs;0;0;13;0;13
+MOCOCA;saude_mental;0;0;5;0;5
+MOCOCA;unidade_movel;0;0;1;0;1
+MOCOCA;vigilancia;0;0;3;0;3
+MOGI DAS CRUZES;clinica;0;0;11;212;223
+MOGI DAS CRUZES;consultorio;0;0;2;192;194
+MOGI DAS CRUZES;diagnose_terapia;0;0;1;25;26
+MOGI DAS CRUZES;hospital;0;0;2;6;8
+MOGI DAS CRUZES;outros;0;0;5;17;22
+MOGI DAS CRUZES;pronto_atendimento;0;0;4;0;4
+MOGI DAS CRUZES;ubs;0;0;37;0;37
+MOGI DAS CRUZES;saude_mental;0;0;2;0;2
+MOGI DAS CRUZES;unidade_movel;0;0;10;1;11
+MOGI DAS CRUZES;vigilancia;0;0;2;1;3
+MOGI GUACU;clinica;0;0;5;45;50
+MOGI GUACU;consultorio;0;0;0;321;321
+MOGI GUACU;diagnose_terapia;0;0;0;30;30
+MOGI GUACU;hospital;0;0;1;2;3
+MOGI GUACU;outros;0;0;5;8;13
+MOGI GUACU;pronto_atendimento;0;0;2;0;2
+MOGI GUACU;ubs;0;0;23;0;23
+MOGI GUACU;saude_mental;0;0;3;0;3
+MOGI GUACU;unidade_movel;0;0;4;0;4
+MOGI MIRIM;clinica;0;0;3;15;18
+MOGI MIRIM;consultorio;0;0;0;216;216
+MOGI MIRIM;diagnose_terapia;0;0;1;22;23
+MOGI MIRIM;hospital;0;0;0;3;3
+MOGI MIRIM;outros;0;0;4;4;8
+MOGI MIRIM;pronto_atendimento;0;0;1;0;1
+MOGI MIRIM;ubs;0;0;14;3;17
+MOGI MIRIM;saude_mental;0;0;3;0;3
+MOGI MIRIM;unidade_movel;0;0;2;0;2
+MOMBUCA;outros;0;0;2;0;2
+MOMBUCA;ubs;0;0;2;0;2
+MONCOES;consultorio;0;0;0;1;1
+MONCOES;diagnose_terapia;0;0;2;0;2
+MONCOES;outros;0;0;2;0;2
+MONCOES;ubs;0;0;2;0;2
+MONGAGUA;clinica;0;0;3;9;12
+MONGAGUA;consultorio;0;0;0;6;6
+MONGAGUA;diagnose_terapia;0;0;0;3;3
+MONGAGUA;hospital;0;0;1;0;1
+MONGAGUA;outros;0;1;3;0;4
+MONGAGUA;pronto_atendimento;0;0;2;0;2
+MONGAGUA;ubs;0;0;10;0;10
+MONGAGUA;unidade_movel;0;0;4;0;4
+MONGAGUA;vigilancia;0;0;1;0;1
+MONTE ALEGRE DO SUL;clinica;0;0;1;0;1
+MONTE ALEGRE DO SUL;consultorio;0;0;0;9;9
+MONTE ALEGRE DO SUL;diagnose_terapia;0;0;1;1;2
+MONTE ALEGRE DO SUL;outros;0;0;2;1;3
+MONTE ALEGRE DO SUL;pronto_atendimento;0;0;1;0;1
+MONTE ALEGRE DO SUL;ubs;0;0;3;0;3
+MONTE ALEGRE DO SUL;unidade_movel;0;0;1;0;1
+MONTE ALEGRE DO SUL;vigilancia;0;0;1;0;1
+MONTE ALTO;clinica;0;0;6;54;60
+MONTE ALTO;consultorio;0;0;1;162;163
+MONTE ALTO;diagnose_terapia;0;0;0;3;3
+MONTE ALTO;hospital;0;0;0;2;2
+MONTE ALTO;outros;0;0;3;9;12
+MONTE ALTO;pronto_atendimento;0;0;2;0;2
+MONTE ALTO;ubs;0;0;8;0;8
+MONTE ALTO;saude_mental;0;0;1;0;1
+MONTE ALTO;unidade_movel;0;0;3;0;3
+MONTE ALTO;vigilancia;0;0;1;0;1
+MONTE APRAZIVEL;clinica;0;0;0;8;8
+MONTE APRAZIVEL;consultorio;0;0;0;35;35
+MONTE APRAZIVEL;diagnose_terapia;0;0;0;2;2
+MONTE APRAZIVEL;hospital;0;0;0;1;1
+MONTE APRAZIVEL;outros;0;0;1;1;2
+MONTE APRAZIVEL;ubs;0;0;7;0;7
+MONTE APRAZIVEL;unidade_movel;0;0;1;0;1
+MONTE APRAZIVEL;vigilancia;0;0;1;0;1
+MONTE AZUL PAULISTA;clinica;0;0;0;6;6
+MONTE AZUL PAULISTA;consultorio;0;0;0;36;36
+MONTE AZUL PAULISTA;diagnose_terapia;0;0;0;6;6
+MONTE AZUL PAULISTA;hospital;0;0;0;2;2
+MONTE AZUL PAULISTA;outros;0;0;2;1;3
+MONTE AZUL PAULISTA;pronto_atendimento;0;0;1;0;1
+MONTE AZUL PAULISTA;ubs;0;0;7;2;9
+MONTE CASTELO;diagnose_terapia;0;0;1;0;1
+MONTE CASTELO;outros;0;0;2;0;2
+MONTE CASTELO;ubs;0;0;2;0;2
+MONTE CASTELO;vigilancia;0;0;1;0;1
+MONTEIRO LOBATO;clinica;0;0;0;1;1
+MONTEIRO LOBATO;consultorio;0;0;0;2;2
+MONTEIRO LOBATO;outros;0;0;3;0;3
+MONTEIRO LOBATO;pronto_atendimento;0;0;1;0;1
+MONTEIRO LOBATO;ubs;0;0;1;0;1
+MONTE MOR;clinica;0;0;3;4;7
+MONTE MOR;consultorio;0;0;0;41;41
+MONTE MOR;diagnose_terapia;0;0;0;7;7
+MONTE MOR;hospital;0;0;0;1;1
+MONTE MOR;outros;0;0;3;2;5
+MONTE MOR;pronto_atendimento;0;0;1;0;1
+MONTE MOR;ubs;0;0;11;0;11
+MONTE MOR;saude_mental;0;0;1;0;1
+MONTE MOR;vigilancia;0;0;2;0;2
+MORRO AGUDO;clinica;0;0;1;3;4
+MORRO AGUDO;consultorio;0;0;0;60;60
+MORRO AGUDO;diagnose_terapia;0;0;0;8;8
+MORRO AGUDO;hospital;0;0;0;1;1
+MORRO AGUDO;outros;0;0;4;4;8
+MORRO AGUDO;ubs;0;0;13;0;13
+MORRO AGUDO;saude_mental;0;0;1;0;1
+MORUNGABA;clinica;0;0;2;3;5
+MORUNGABA;consultorio;0;0;0;7;7
+MORUNGABA;diagnose_terapia;0;0;0;4;4
+MORUNGABA;hospital;0;0;1;0;1
+MORUNGABA;outros;0;0;1;0;1
+MORUNGABA;ubs;0;0;5;0;5
+MORUNGABA;saude_mental;0;0;1;0;1
+MORUNGABA;vigilancia;0;0;1;0;1
+MOTUCA;consultorio;0;0;0;1;1
+MOTUCA;outros;0;0;2;0;2
+MOTUCA;ubs;0;0;2;0;2
+MOTUCA;vigilancia;0;0;1;0;1
+MURUTINGA DO SUL;clinica;0;0;0;1;1
+MURUTINGA DO SUL;consultorio;0;0;0;1;1
+MURUTINGA DO SUL;diagnose_terapia;0;0;0;1;1
+MURUTINGA DO SUL;outros;0;0;2;0;2
+MURUTINGA DO SUL;ubs;0;0;1;0;1
+NANTES;diagnose_terapia;0;0;1;0;1
+NANTES;outros;0;0;2;0;2
+NANTES;ubs;0;0;2;0;2
+NANTES;vigilancia;0;0;1;0;1
+NARANDIBA;clinica;0;0;1;0;1
+NARANDIBA;outros;0;0;2;0;2
+NARANDIBA;ubs;0;0;2;0;2
+NARANDIBA;vigilancia;0;0;1;0;1
+NATIVIDADE DA SERRA;outros;0;0;2;0;2
+NATIVIDADE DA SERRA;ubs;0;0;3;0;3
+NATIVIDADE DA SERRA;unidade_movel;0;0;1;0;1
+NAZARE PAULISTA;clinica;0;0;0;3;3
+NAZARE PAULISTA;consultorio;0;0;0;1;1
+NAZARE PAULISTA;diagnose_terapia;0;0;0;1;1
+NAZARE PAULISTA;hospital;0;0;1;0;1
+NAZARE PAULISTA;outros;0;0;1;0;1
+NAZARE PAULISTA;ubs;0;0;2;0;2
+NAZARE PAULISTA;unidade_movel;0;0;1;0;1
+NEVES PAULISTA;consultorio;0;0;0;6;6
+NEVES PAULISTA;diagnose_terapia;0;0;0;1;1
+NEVES PAULISTA;hospital;0;0;1;0;1
+NEVES PAULISTA;outros;0;0;1;0;1
+NEVES PAULISTA;ubs;0;0;5;0;5
+NEVES PAULISTA;unidade_movel;0;0;1;0;1
+NHANDEARA;clinica;0;0;0;4;4
+NHANDEARA;consultorio;0;0;0;28;28
+NHANDEARA;diagnose_terapia;0;0;0;3;3
+NHANDEARA;hospital;0;0;0;2;2
+NHANDEARA;outros;0;0;1;0;1
+NHANDEARA;ubs;0;0;5;0;5
+NHANDEARA;unidade_movel;0;0;1;1;2
+NIPOA;consultorio;0;0;0;3;3
+NIPOA;outros;0;0;1;0;1
+NIPOA;ubs;0;0;1;0;1
+NOVA ALIANCA;clinica;0;0;1;0;1
+NOVA ALIANCA;consultorio;0;0;0;1;1
+NOVA ALIANCA;outros;0;0;1;0;1
+NOVA ALIANCA;ubs;0;0;2;0;2
+NOVA CAMPINA;outros;0;0;4;0;4
+NOVA CAMPINA;ubs;0;0;5;0;5
+NOVA CAMPINA;unidade_movel;0;0;1;0;1
+NOVA CANAA PAULISTA;outros;0;0;1;0;1
+NOVA CANAA PAULISTA;ubs;0;0;2;0;2
+NOVA CASTILHO;outros;0;0;2;0;2
+NOVA CASTILHO;ubs;0;0;1;0;1
+NOVA EUROPA;clinica;0;0;0;2;2
+NOVA EUROPA;consultorio;0;0;0;14;14
+NOVA EUROPA;diagnose_terapia;0;0;0;1;1
+NOVA EUROPA;hospital;0;0;1;0;1
+NOVA EUROPA;outros;0;0;1;0;1
+NOVA EUROPA;pronto_atendimento;0;0;1;0;1
+NOVA EUROPA;ubs;0;0;5;0;5
+NOVA GRANADA;clinica;0;0;0;9;9
+NOVA GRANADA;consultorio;0;0;0;12;12
+NOVA GRANADA;diagnose_terapia;0;0;0;3;3
+NOVA GRANADA;hospital;0;0;1;0;1
+NOVA GRANADA;outros;0;0;1;0;1
+NOVA GRANADA;pronto_atendimento;0;0;1;0;1
+NOVA GRANADA;ubs;0;0;8;0;8
+NOVA GRANADA;saude_mental;0;0;1;0;1
+NOVA GRANADA;unidade_movel;0;0;1;0;1
+NOVA GRANADA;vigilancia;0;0;1;0;1
+NOVA GUATAPORANGA;clinica;0;0;1;0;1
+NOVA GUATAPORANGA;outros;0;0;2;0;2
+NOVA GUATAPORANGA;ubs;0;0;1;0;1
+NOVA GUATAPORANGA;vigilancia;0;0;1;0;1
+NOVA INDEPENDENCIA;consultorio;0;0;0;2;2
+NOVA INDEPENDENCIA;diagnose_terapia;0;0;1;1;2
+NOVA INDEPENDENCIA;outros;0;0;2;0;2
+NOVA INDEPENDENCIA;ubs;0;0;2;1;3
+NOVAIS;clinica;0;0;1;0;1
+NOVAIS;diagnose_terapia;0;0;0;1;1
+NOVAIS;outros;0;0;1;0;1
+NOVAIS;ubs;0;0;1;0;1
+NOVA LUZITANIA;consultorio;0;0;0;1;1
+NOVA LUZITANIA;diagnose_terapia;0;0;0;1;1
+NOVA LUZITANIA;outros;0;0;2;0;2
+NOVA LUZITANIA;ubs;0;0;1;0;1
+NOVA ODESSA;clinica;0;0;3;5;8
+NOVA ODESSA;consultorio;0;0;0;66;66
+NOVA ODESSA;diagnose_terapia;0;0;0;5;5
+NOVA ODESSA;hospital;0;0;1;0;1
+NOVA ODESSA;outros;0;0;5;0;5
+NOVA ODESSA;pronto_atendimento;0;0;1;0;1
+NOVA ODESSA;ubs;0;0;7;0;7
+NOVA ODESSA;saude_mental;0;0;1;0;1
+NOVO HORIZONTE;clinica;0;0;2;24;26
+NOVO HORIZONTE;consultorio;0;0;0;80;80
+NOVO HORIZONTE;diagnose_terapia;0;0;2;6;8
+NOVO HORIZONTE;hospital;0;0;0;2;2
+NOVO HORIZONTE;outros;0;0;1;4;5
+NOVO HORIZONTE;ubs;0;0;8;0;8
+NOVO HORIZONTE;saude_mental;0;0;1;0;1
+NOVO HORIZONTE;unidade_movel;0;0;1;0;1
+NUPORANGA;consultorio;0;0;8;0;8
+NUPORANGA;diagnose_terapia;0;0;1;8;9
+NUPORANGA;outros;0;0;1;0;1
+NUPORANGA;pronto_atendimento;0;0;0;1;1
+NUPORANGA;ubs;0;0;6;0;6
+OCAUCU;outros;0;0;1;0;1
+OCAUCU;ubs;0;0;3;0;3
+OLEO;outros;0;0;1;0;1
+OLEO;ubs;0;0;4;0;4
+OLIMPIA;clinica;0;0;4;25;29
+OLIMPIA;consultorio;0;0;0;126;126
+OLIMPIA;diagnose_terapia;0;0;3;12;15
+OLIMPIA;hospital;0;0;0;2;2
+OLIMPIA;outros;0;0;7;3;10
+OLIMPIA;pronto_atendimento;0;0;1;2;3
+OLIMPIA;ubs;0;0;9;1;10
+OLIMPIA;saude_mental;0;0;1;0;1
+OLIMPIA;unidade_movel;0;0;1;0;1
+ONDA VERDE;clinica;0;0;1;0;1
+ONDA VERDE;consultorio;0;0;0;1;1
+ONDA VERDE;diagnose_terapia;0;0;0;1;1
+ONDA VERDE;outros;0;0;2;0;2
+ONDA VERDE;ubs;0;0;2;0;2
+ORIENTE;consultorio;0;0;0;7;7
+ORIENTE;outros;0;0;2;0;2
+ORIENTE;pronto_atendimento;0;0;1;0;1
+ORIENTE;ubs;0;0;3;0;3
+ORINDIUVA;clinica;0;0;1;0;1
+ORINDIUVA;consultorio;0;0;0;8;8
+ORINDIUVA;diagnose_terapia;0;0;0;2;2
+ORINDIUVA;outros;0;0;2;1;3
+ORINDIUVA;ubs;0;0;1;0;1
+ORINDIUVA;saude_mental;0;0;1;0;1
+ORINDIUVA;unidade_movel;0;0;1;0;1
+ORLANDIA;clinica;0;0;4;48;52
+ORLANDIA;consultorio;0;0;0;151;151
+ORLANDIA;diagnose_terapia;0;0;1;11;12
+ORLANDIA;hospital;0;0;1;0;1
+ORLANDIA;outros;0;0;2;3;5
+ORLANDIA;pronto_atendimento;0;0;1;0;1
+ORLANDIA;ubs;0;0;5;1;6
+ORLANDIA;saude_mental;0;0;2;0;2
+ORLANDIA;unidade_movel;0;0;1;1;2
+OSASCO;clinica;0;0;1;414;426
+OSASCO;consultorio;0;0;0;644;644
+OSASCO;diagnose_terapia;0;0;0;50;50
+OSASCO;hospital;0;0;2;7;10
+OSASCO;outros;0;0;7;10;19
+OSASCO;pronto_atendimento;0;0;9;4;13
+OSASCO;ubs;0;0;1;36;37
+OSASCO;saude_mental;0;0;3;0;3
+OSASCO;unidade_movel;0;0;11;1;12
+OSASCO;vigilancia;0;0;1;4;5
+OSCAR BRESSANE;outros;0;0;2;0;2
+OSCAR BRESSANE;ubs;0;0;1;0;1
+OSCAR BRESSANE;unidade_movel;0;0;1;0;1
+OSVALDO CRUZ;clinica;0;0;3;20;23
+OSVALDO CRUZ;consultorio;0;0;0;49;49
+OSVALDO CRUZ;diagnose_terapia;0;0;1;17;18
+OSVALDO CRUZ;hospital;0;0;0;1;1
+OSVALDO CRUZ;outros;0;0;3;4;7
+OSVALDO CRUZ;ubs;0;0;1;9;10
+OSVALDO CRUZ;saude_mental;0;0;1;0;1
+OSVALDO CRUZ;unidade_movel;0;0;0;1;1
+OURINHOS;clinica;0;0;7;16;23
+OURINHOS;consultorio;0;0;0;388;388
+OURINHOS;diagnose_terapia;0;0;0;45;45
+OURINHOS;hospital;0;0;1;5;6
+OURINHOS;outros;0;0;5;7;12
+OURINHOS;pronto_atendimento;0;0;1;0;1
+OURINHOS;ubs;0;0;1;18;19
+OURINHOS;saude_mental;0;0;3;0;3
+OURINHOS;unidade_movel;0;0;3;1;4
+OURINHOS;vigilancia;0;0;1;0;1
+OUROESTE;clinica;0;0;1;0;1
+OUROESTE;consultorio;0;0;0;25;25
+OUROESTE;diagnose_terapia;0;0;0;3;3
+OUROESTE;hospital;0;0;1;0;1
+OUROESTE;outros;0;0;1;0;1
+OUROESTE;ubs;0;0;0;4;4
+OUROESTE;vigilancia;0;0;1;0;1
+OURO VERDE;consultorio;0;0;0;1;1
+OURO VERDE;diagnose_terapia;0;0;2;1;3
+OURO VERDE;outros;0;0;1;0;1
+OURO VERDE;ubs;0;0;0;4;4
+OURO VERDE;vigilancia;0;0;1;0;1
+PACAEMBU;consultorio;0;0;0;18;18
+PACAEMBU;diagnose_terapia;0;0;0;2;2
+PACAEMBU;outros;0;0;2;1;3
+PACAEMBU;pronto_atendimento;0;0;1;0;1
+PACAEMBU;ubs;0;0;4;4;8
+PACAEMBU;saude_mental;0;0;1;0;1
+PACAEMBU;unidade_movel;0;0;0;2;2
+PALESTINA;clinica;0;0;1;1;2
+PALESTINA;consultorio;0;0;0;10;10
+PALESTINA;diagnose_terapia;0;0;0;7;7
+PALESTINA;outros;0;0;1;0;1
+PALESTINA;ubs;0;0;0;4;4
+PALESTINA;unidade_movel;0;0;1;0;1
+PALMARES PAULISTA;clinica;0;0;1;2;3
+PALMARES PAULISTA;consultorio;0;0;0;9;9
+PALMARES PAULISTA;diagnose_terapia;0;0;0;4;4
+PALMARES PAULISTA;outros;0;0;1;0;1
+PALMARES PAULISTA;ubs;0;0;0;4;4
+PALMEIRA D OESTE;clinica;0;0;0;1;1
+PALMEIRA D OESTE;consultorio;0;0;0;6;6
+PALMEIRA D OESTE;diagnose_terapia;0;0;0;1;1
+PALMEIRA D OESTE;hospital;0;0;0;1;1
+PALMEIRA D OESTE;outros;0;0;1;0;1
+PALMEIRA D OESTE;ubs;0;0;0;4;4
+PALMEIRA D OESTE;unidade_movel;0;0;0;1;1
+PALMEIRA D OESTE;vigilancia;0;0;1;0;1
+PALMITAL;clinica;0;0;2;3;5
+PALMITAL;consultorio;0;0;0;31;31
+PALMITAL;diagnose_terapia;0;0;0;5;5
+PALMITAL;hospital;0;0;0;1;1
+PALMITAL;outros;0;0;4;0;4
+PALMITAL;ubs;0;0;0;6;6
+PALMITAL;unidade_movel;0;0;1;0;1
+PALMITAL;vigilancia;0;0;1;0;1
+PANORAMA;clinica;0;0;0;1;1
+PANORAMA;consultorio;0;0;0;6;6
+PANORAMA;diagnose_terapia;0;0;1;2;3
+PANORAMA;outros;0;0;1;0;1
+PANORAMA;pronto_atendimento;0;0;1;0;1
+PANORAMA;ubs;0;0;0;6;6
+PANORAMA;saude_mental;0;0;1;0;1
+PANORAMA;vigilancia;0;0;1;0;1
+PARAGUACU PAULISTA;clinica;0;0;3;6;9
+PARAGUACU PAULISTA;consultorio;0;0;0;92;92
+PARAGUACU PAULISTA;diagnose_terapia;0;0;0;12;12
+PARAGUACU PAULISTA;hospital;0;0;0;1;1
+PARAGUACU PAULISTA;outros;0;0;6;0;6
+PARAGUACU PAULISTA;ubs;0;0;1;12;13
+PARAGUACU PAULISTA;saude_mental;0;0;1;0;1
+PARAGUACU PAULISTA;unidade_movel;0;0;1;0;1
+PARAIBUNA;consultorio;0;0;0;6;6
+PARAIBUNA;diagnose_terapia;0;0;0;3;3
+PARAIBUNA;outros;0;0;1;0;1
+PARAIBUNA;pronto_atendimento;0;0;1;0;1
+PARAIBUNA;ubs;0;0;0;6;6
+PARAIBUNA;saude_mental;0;0;1;0;1
+PARAIBUNA;unidade_movel;0;0;1;1;2
+PARAIBUNA;vigilancia;0;0;1;0;1
+PARAISO;consultorio;0;0;0;9;9
+PARAISO;diagnose_terapia;0;0;0;2;2
+PARAISO;outros;0;0;2;0;2
+PARAISO;ubs;0;0;0;2;2
+PARAISO;vigilancia;0;0;1;0;1
+PARANAPANEMA;clinica;0;0;0;1;1
+PARANAPANEMA;consultorio;0;0;0;26;26
+PARANAPANEMA;diagnose_terapia;0;0;0;4;4
+PARANAPANEMA;hospital;0;0;1;0;1
+PARANAPANEMA;outros;0;0;1;11;12
+PARANAPANEMA;ubs;0;0;0;6;6
+PARANAPANEMA;saude_mental;0;0;1;0;1
+PARANAPANEMA;unidade_movel;0;0;1;0;1
+PARANAPUA;outros;0;0;1;0;1
+PARANAPUA;ubs;0;0;0;1;1
+PARAPUA;consultorio;0;0;0;4;4
+PARAPUA;diagnose_terapia;0;0;0;1;1
+PARAPUA;hospital;0;0;0;1;1
+PARAPUA;outros;0;0;1;0;1
+PARAPUA;ubs;0;0;0;4;4
+PARAPUA;vigilancia;0;0;1;0;1
+PARDINHO;consultorio;0;0;0;1;1
+PARDINHO;outros;0;0;1;0;1
+PARDINHO;ubs;0;0;0;1;1
+PARDINHO;unidade_movel;0;0;1;0;1
+PARIQUERA-ACU;clinica;0;0;2;1;5
+PARIQUERA-ACU;consultorio;0;0;0;11;11
+PARIQUERA-ACU;diagnose_terapia;0;0;0;5;5
+PARIQUERA-ACU;hospital;0;0;1;0;1
+PARIQUERA-ACU;outros;0;0;1;0;1
+PARIQUERA-ACU;ubs;0;0;0;8;8
+PARIQUERA-ACU;saude_mental;0;0;1;0;1
+PARIQUERA-ACU;unidade_movel;0;0;0;1;1
+PARISI;outros;0;0;1;0;1
+PARISI;ubs;0;0;0;1;1
+PATROCINIO PAULISTA;clinica;0;0;1;1;2
+PATROCINIO PAULISTA;consultorio;0;0;1;3;4
+PATROCINIO PAULISTA;diagnose_terapia;0;0;1;1;2
+PATROCINIO PAULISTA;hospital;0;0;0;1;1
+PATROCINIO PAULISTA;outros;0;0;2;0;2
+PATROCINIO PAULISTA;ubs;0;0;0;7;7
+PATROCINIO PAULISTA;unidade_movel;0;0;1;0;1
+PAULICEIA;diagnose_terapia;0;0;2;1;3
+PAULICEIA;outros;0;0;1;0;1
+PAULICEIA;ubs;0;0;0;3;3
+PAULICEIA;vigilancia;0;0;2;0;2
+PAULINIA;clinica;0;0;7;70;77
+PAULINIA;consultorio;0;0;0;127;127
+PAULINIA;diagnose_terapia;0;0;0;17;17
+PAULINIA;hospital;0;0;1;0;1
+PAULINIA;outros;0;0;4;6;10
+PAULINIA;pronto_atendimento;0;0;1;1;2
+PAULINIA;ubs;0;0;0;12;12
+PAULINIA;saude_mental;0;0;2;0;2
+PAULINIA;unidade_movel;0;0;2;1;3
+PAULINIA;vigilancia;0;0;1;0;1
+PAULISTANIA;outros;0;0;1;0;1
+PAULISTANIA;ubs;0;0;0;1;1
+PAULO DE FARIA;clinica;0;0;0;1;1
+PAULO DE FARIA;consultorio;0;0;0;2;2
+PAULO DE FARIA;diagnose_terapia;0;0;1;1;2
+PAULO DE FARIA;hospital;0;0;0;1;1
+PAULO DE FARIA;outros;0;0;1;0;1
+PAULO DE FARIA;ubs;0;0;1;1;2
+PAULO DE FARIA;unidade_movel;0;0;1;0;1
+PEDERNEIRAS;clinica;0;0;5;1;6
+PEDERNEIRAS;consultorio;0;0;0;68;68
+PEDERNEIRAS;diagnose_terapia;0;0;0;8;8
+PEDERNEIRAS;hospital;0;0;0;1;1
+PEDERNEIRAS;outros;0;0;2;3;5
+PEDERNEIRAS;ubs;0;0;0;14;14
+PEDERNEIRAS;saude_mental;0;0;1;0;1
+PEDERNEIRAS;unidade_movel;0;0;1;0;1
+PEDRA BELA;outros;0;0;2;0;2
+PEDRA BELA;ubs;0;0;0;2;2
+PEDRA BELA;unidade_movel;0;0;1;0;1
+PEDRANOPOLIS;consultorio;0;0;1;0;1
+PEDRANOPOLIS;outros;0;0;2;0;2
+PEDRANOPOLIS;ubs;0;0;3;0;3
+PEDREGULHO;clinica;0;0;3;0;3
+PEDREGULHO;consultorio;0;0;10;0;10
+PEDREGULHO;diagnose_terapia;0;0;3;0;3
+PEDREGULHO;hospital;0;0;1;0;1
+PEDREGULHO;outros;0;0;2;0;2
+PEDREGULHO;ubs;0;0;7;0;7
+PEDREGULHO;saude_mental;0;0;1;0;1
+PEDREIRA;clinica;0;0;2;9;11
+PEDREIRA;consultorio;0;0;46;0;46
+PEDREIRA;diagnose_terapia;0;0;13;0;13
+PEDREIRA;hospital;0;0;2;0;2
+PEDREIRA;outros;0;0;3;1;4
+PEDREIRA;ubs;0;0;10;0;10
+PEDREIRA;saude_mental;0;0;1;0;1
+PEDRINHAS PAULISTA;consultorio;0;0;1;0;1
+PEDRINHAS PAULISTA;diagnose_terapia;0;0;1;0;1
+PEDRINHAS PAULISTA;outros;0;0;4;0;4
+PEDRINHAS PAULISTA;ubs;0;0;2;0;2
+PEDRO DE TOLEDO;clinica;0;0;1;0;1
+PEDRO DE TOLEDO;consultorio;0;0;1;0;1
+PEDRO DE TOLEDO;outros;0;0;3;0;3
+PEDRO DE TOLEDO;ubs;0;0;7;0;7
+PEDRO DE TOLEDO;unidade_movel;0;0;1;0;1
+PEDRO DE TOLEDO;vigilancia;0;0;1;0;1
+PENAPOLIS;clinica;0;0;3;9;12
+PENAPOLIS;consultorio;0;0;187;0;187
+PENAPOLIS;diagnose_terapia;0;0;15;0;15
+PENAPOLIS;hospital;0;0;2;0;2
+PENAPOLIS;outros;0;0;16;12;28
+PENAPOLIS;pronto_atendimento;0;0;2;1;3
+PENAPOLIS;ubs;0;0;9;0;9
+PENAPOLIS;saude_mental;0;0;2;0;2
+PENAPOLIS;vigilancia;0;0;1;0;1
+PEREIRA BARRETO;clinica;0;0;2;7;9
+PEREIRA BARRETO;consultorio;0;0;66;0;66
+PEREIRA BARRETO;diagnose_terapia;0;0;6;4;10
+PEREIRA BARRETO;hospital;0;0;1;0;1
+PEREIRA BARRETO;outros;0;0;4;0;4
+PEREIRA BARRETO;ubs;0;0;6;0;6
+PEREIRA BARRETO;saude_mental;0;0;1;0;1
+PEREIRA BARRETO;vigilancia;0;0;1;0;1
+PEREIRAS;clinica;0;0;1;0;1
+PEREIRAS;consultorio;0;0;5;0;5
+PEREIRAS;diagnose_terapia;0;0;1;0;1
+PEREIRAS;outros;0;0;2;0;2
+PEREIRAS;ubs;0;0;4;0;4
+PERUIBE;clinica;0;0;5;25;30
+PERUIBE;consultorio;0;0;33;0;33
+PERUIBE;diagnose_terapia;0;0;9;0;9
+PERUIBE;hospital;0;0;1;0;1
+PERUIBE;outros;0;0;7;3;10
+PERUIBE;pronto_atendimento;0;0;1;0;1
+PERUIBE;ubs;0;0;14;0;14
+PERUIBE;saude_mental;0;0;1;0;1
+PERUIBE;unidade_movel;0;0;4;0;4
+PERUIBE;vigilancia;0;0;1;0;1
+PIACATU;clinica;0;0;1;0;1
+PIACATU;consultorio;0;0;5;0;5
+PIACATU;outros;0;0;3;1;4
+PIACATU;ubs;0;0;1;0;1
+PIACATU;vigilancia;0;0;1;0;1
+PIEDADE;clinica;0;0;2;14;16
+PIEDADE;consultorio;0;0;45;0;45
+PIEDADE;diagnose_terapia;0;0;4;0;4
+PIEDADE;hospital;0;0;1;0;1
+PIEDADE;outros;0;0;5;1;6
+PIEDADE;ubs;0;0;8;0;8
+PIEDADE;saude_mental;0;0;1;0;1
+PIEDADE;unidade_movel;0;0;1;0;1
+PILAR DO SUL;clinica;0;0;0;3;3
+PILAR DO SUL;consultorio;0;0;12;0;12
+PILAR DO SUL;diagnose_terapia;0;0;8;0;8
+PILAR DO SUL;hospital;0;0;1;0;1
+PILAR DO SUL;outros;0;0;3;1;4
+PILAR DO SUL;ubs;0;0;6;0;6
+PILAR DO SUL;saude_mental;0;0;1;0;1
+PILAR DO SUL;unidade_movel;0;0;1;0;1
+PINDAMONHANGABA;clinica;0;0;6;46;52
+PINDAMONHANGABA;consultorio;0;0;371;0;371
+PINDAMONHANGABA;diagnose_terapia;0;0;18;0;18
+PINDAMONHANGABA;hospital;0;0;2;0;2
+PINDAMONHANGABA;outros;0;0;16;10;26
+PINDAMONHANGABA;pronto_atendimento;0;0;3;0;3
+PINDAMONHANGABA;ubs;0;0;32;0;32
+PINDAMONHANGABA;saude_mental;0;0;3;0;3
+PINDAMONHANGABA;unidade_movel;0;0;3;0;3
+PINDAMONHANGABA;vigilancia;0;0;1;0;1
+PINDORAMA;consultorio;0;0;8;0;8
+PINDORAMA;diagnose_terapia;0;0;4;2;6
+PINDORAMA;outros;0;0;3;0;3
+PINDORAMA;ubs;0;0;4;0;4
+PINDORAMA;saude_mental;0;0;1;0;1
+PINDORAMA;unidade_movel;0;0;1;0;1
+PINDORAMA;vigilancia;0;0;1;0;1
+PINHALZINHO;clinica;0;0;0;6;6
+PINHALZINHO;consultorio;0;0;7;0;7
+PINHALZINHO;diagnose_terapia;0;0;2;0;2
+PINHALZINHO;outros;0;0;1;0;1
+PINHALZINHO;pronto_atendimento;0;0;1;0;1
+PINHALZINHO;ubs;0;0;4;0;4
+PINHALZINHO;unidade_movel;0;0;1;0;1
+PINHALZINHO;vigilancia;0;0;2;0;2
+PIQUEROBI;outros;0;0;1;0;1
+PIQUEROBI;ubs;0;0;2;0;2
+PIQUETE;clinica;0;0;1;0;1
+PIQUETE;consultorio;0;0;4;0;4
+PIQUETE;diagnose_terapia;0;0;1;0;1
+PIQUETE;outros;0;0;3;1;4
+PIQUETE;pronto_atendimento;0;0;1;0;1
+PIQUETE;ubs;0;0;5;0;5
+PIQUETE;unidade_movel;0;0;1;0;1
+PIRACAIA;clinica;0;0;0;18;18
+PIRACAIA;consultorio;0;0;8;0;8
+PIRACAIA;diagnose_terapia;0;0;3;2;5
+PIRACAIA;hospital;0;0;1;0;1
+PIRACAIA;outros;0;0;3;1;4
+PIRACAIA;ubs;0;0;4;0;4
+PIRACAIA;saude_mental;0;0;1;0;1
+PIRACAIA;unidade_movel;0;0;2;0;2
+PIRACICABA;clinica;0;0;1;17;18
+PIRACICABA;consultorio;0;0;909;0;909
+PIRACICABA;diagnose_terapia;0;0;85;0;85
+PIRACICABA;hospital;0;0;8;0;8
+PIRACICABA;outros;0;0;35;27;62
+PIRACICABA;pronto_atendimento;0;0;5;0;5
+PIRACICABA;ubs;0;0;77;0;77
+PIRACICABA;saude_mental;0;0;4;0;4
+PIRACICABA;unidade_movel;0;0;8;0;8
+PIRACICABA;vigilancia;0;0;1;0;1
+PIRAJU;clinica;0;0;2;16;18
+PIRAJU;consultorio;0;0;49;0;49
+PIRAJU;diagnose_terapia;0;0;9;0;9
+PIRAJU;hospital;0;0;1;0;1
+PIRAJU;outros;0;0;4;1;5
+PIRAJU;ubs;0;0;10;0;10
+PIRAJU;saude_mental;0;0;1;0;1
+PIRAJUI;clinica;0;0;5;0;5
+PIRAJUI;consultorio;0;0;44;0;44
+PIRAJUI;diagnose_terapia;0;0;3;2;5
+PIRAJUI;hospital;0;0;2;0;2
+PIRAJUI;outros;0;0;1;0;1
+PIRAJUI;ubs;0;0;12;0;12
+PIRAJUI;saude_mental;0;0;1;0;1
+PIRAJUI;unidade_movel;0;0;1;0;1
+PIRAJUI;vigilancia;0;0;1;0;1
+PIRANGI;clinica;0;0;2;1;3
+PIRANGI;consultorio;0;0;15;0;15
+PIRANGI;diagnose_terapia;0;0;2;0;2
+PIRANGI;hospital;0;0;1;0;1
+PIRANGI;outros;0;0;1;0;1
+PIRANGI;pronto_atendimento;0;0;1;0;1
+PIRANGI;ubs;0;0;3;0;3
+PIRAPORA DO BOM JESUS;clinica;0;0;1;1;2
+PIRAPORA DO BOM JESUS;consultorio;0;0;3;0;3
+PIRAPORA DO BOM JESUS;diagnose_terapia;0;0;1;0;1
+PIRAPORA DO BOM JESUS;outros;0;0;2;0;2
+PIRAPORA DO BOM JESUS;pronto_atendimento;0;0;1;0;1
+PIRAPORA DO BOM JESUS;ubs;0;0;4;0;4
+PIRAPORA DO BOM JESUS;unidade_movel;0;0;2;0;2
+PIRAPORA DO BOM JESUS;vigilancia;0;0;1;0;1
+PIRAPOZINHO;clinica;0;0;1;6;7
+PIRAPOZINHO;consultorio;0;0;13;0;13
+PIRAPOZINHO;diagnose_terapia;0;0;6;0;6
+PIRAPOZINHO;outros;0;0;2;0;2
+PIRAPOZINHO;pronto_atendimento;0;0;1;0;1
+PIRAPOZINHO;ubs;0;0;9;0;9
+PIRAPOZINHO;saude_mental;0;0;1;0;1
+PIRAPOZINHO;vigilancia;0;0;1;0;1
+PIRASSUNUNGA;clinica;0;0;4;17;21
+PIRASSUNUNGA;consultorio;0;0;259;0;259
+PIRASSUNUNGA;diagnose_terapia;0;0;11;9;20
+PIRASSUNUNGA;hospital;0;0;5;0;5
+PIRASSUNUNGA;outros;0;0;12;8;20
+PIRASSUNUNGA;pronto_atendimento;0;0;2;1;3
+PIRASSUNUNGA;ubs;0;0;16;1;17
+PIRASSUNUNGA;saude_mental;0;0;3;0;3
+PIRASSUNUNGA;unidade_movel;0;0;5;1;6
+PIRASSUNUNGA;vigilancia;0;0;1;0;1
+PIRATININGA;clinica;0;0;1;1;2
+PIRATININGA;consultorio;0;0;2;0;2
+PIRATININGA;diagnose_terapia;0;0;2;0;2
+PIRATININGA;hospital;0;0;1;0;1
+PIRATININGA;outros;0;0;2;0;2
+PIRATININGA;pronto_atendimento;0;0;1;0;1
+PIRATININGA;ubs;0;0;4;0;4
+PIRATININGA;unidade_movel;0;0;1;0;1
+PIRATININGA;vigilancia;0;0;2;0;2
+PITANGUEIRAS;clinica;0;0;2;10;12
+PITANGUEIRAS;consultorio;0;0;42;0;42
+PITANGUEIRAS;diagnose_terapia;0;0;5;0;5
+PITANGUEIRAS;hospital;0;0;2;0;2
+PITANGUEIRAS;outros;0;0;13;10;23
+PITANGUEIRAS;pronto_atendimento;0;0;1;0;1
+PITANGUEIRAS;ubs;0;0;7;0;7
+PITANGUEIRAS;saude_mental;0;0;1;0;1
+PITANGUEIRAS;unidade_movel;0;0;2;0;2
+PLANALTO;diagnose_terapia;0;0;1;0;1
+PLANALTO;outros;0;0;1;0;1
+PLANALTO;ubs;0;0;2;0;2
+PLANALTO;unidade_movel;0;0;1;0;1
+PLATINA;outros;0;0;1;0;1
+PLATINA;ubs;0;0;1;0;1
+POA;clinica;0;0;4;17;21
+POA;consultorio;0;0;42;0;42
+POA;diagnose_terapia;0;0;7;0;7
+POA;outros;0;0;4;0;4
+POA;pronto_atendimento;0;0;1;0;1
+POA;ubs;0;0;12;0;12
+POA;saude_mental;0;0;2;0;2
+POA;vigilancia;0;0;2;0;2
+POLONI;clinica;0;0;1;1;2
+POLONI;consultorio;0;0;5;0;5
+POLONI;diagnose_terapia;0;0;1;0;1
+POLONI;outros;0;0;1;0;1
+POLONI;ubs;0;0;1;0;1
+POMPEIA;clinica;0;0;7;5;12
+POMPEIA;consultorio;0;0;100;0;100
+POMPEIA;diagnose_terapia;0;0;2;0;2
+POMPEIA;hospital;0;0;1;0;1
+POMPEIA;outros;0;0;6;0;6
+POMPEIA;pronto_atendimento;0;0;1;0;1
+POMPEIA;ubs;0;0;10;0;10
+POMPEIA;saude_mental;0;0;1;0;1
+POMPEIA;unidade_movel;0;0;1;0;1
+POMPEIA;vigilancia;0;0;2;0;2
+PONGAI;outros;0;0;1;0;1
+PONGAI;ubs;0;0;1;0;1
+PONTAL;clinica;0;0;2;5;7
+PONTAL;consultorio;0;0;48;0;48
+PONTAL;diagnose_terapia;0;0;15;0;15
+PONTAL;hospital;0;0;1;0;1
+PONTAL;outros;0;0;5;2;7
+PONTAL;pronto_atendimento;0;0;1;0;1
+PONTAL;ubs;0;0;13;0;13
+PONTAL;saude_mental;0;0;1;0;1
+PONTAL;unidade_movel;0;0;1;0;1
+PONTAL;vigilancia;0;0;2;0;2
+PONTALINDA;outros;0;0;1;0;1
+PONTALINDA;ubs;0;0;1;0;1
+PONTES GESTAL;consultorio;0;0;1;0;1
+PONTES GESTAL;outros;0;0;1;0;1
+PONTES GESTAL;ubs;0;0;2;0;2
+POPULINA;consultorio;0;0;3;0;3
+POPULINA;diagnose_terapia;0;0;1;0;1
+POPULINA;hospital;0;0;1;0;1
+POPULINA;outros;0;0;2;0;2
+POPULINA;ubs;0;0;1;0;1
+PORANGABA;clinica;0;0;1;2;3
+PORANGABA;consultorio;0;0;6;0;6
+PORANGABA;diagnose_terapia;0;0;1;0;1
+PORANGABA;outros;0;0;2;0;2
+PORANGABA;pronto_atendimento;0;0;1;0;1
+PORANGABA;ubs;0;0;3;0;3
+PORTO FELIZ;clinica;0;0;1;16;17
+PORTO FELIZ;consultorio;0;0;64;0;64
+PORTO FELIZ;diagnose_terapia;0;0;6;0;6
+PORTO FELIZ;hospital;0;0;1;0;1
+PORTO FELIZ;outros;0;0;6;1;7
+PORTO FELIZ;pronto_atendimento;0;0;1;0;1
+PORTO FELIZ;ubs;0;0;10;1;11
+PORTO FELIZ;saude_mental;0;0;1;0;1
+PORTO FELIZ;vigilancia;0;0;1;0;1
+PORTO FERREIRA;clinica;0;0;3;14;17
+PORTO FERREIRA;consultorio;0;0;170;0;170
+PORTO FERREIRA;diagnose_terapia;0;0;17;0;17
+PORTO FERREIRA;hospital;0;0;1;0;1
+PORTO FERREIRA;outros;0;0;5;2;7
+PORTO FERREIRA;pronto_atendimento;0;0;1;0;1
+PORTO FERREIRA;ubs;0;0;12;0;12
+PORTO FERREIRA;saude_mental;0;0;1;0;1
+PORTO FERREIRA;vigilancia;0;0;2;0;2
+POTIM;clinica;0;0;1;1;2
+POTIM;consultorio;0;0;0;1;1
+POTIM;diagnose_terapia;0;0;0;2;2
+POTIM;hospital;0;0;0;0;0
+POTIM;outros;0;0;7;1;8
+POTIM;pronto_atendimento;0;0;0;0;0
+POTIM;ubs;0;0;2;7;9
+POTIM;saude_mental;0;0;1;0;1
+POTIRENDABA;clinica;1;0;1;2;3
+POTIRENDABA;consultorio;0;0;0;11;11
+POTIRENDABA;diagnose_terapia;0;0;0;3;3
+POTIRENDABA;hospital;0;0;0;1;1
+POTIRENDABA;outros;0;0;2;0;2
+POTIRENDABA;pronto_atendimento;0;0;0;0;0
+POTIRENDABA;ubs;0;0;0;4;4
+POTIRENDABA;saude_mental;0;0;0;0;0
+PRACINHA;clinica;0;0;0;0;0
+PRACINHA;consultorio;0;0;0;0;0
+PRACINHA;diagnose_terapia;0;0;0;0;0
+PRACINHA;hospital;0;0;0;0;0
+PRACINHA;outros;0;0;0;1;1
+PRACINHA;pronto_atendimento;0;0;0;0;0
+PRACINHA;ubs;0;0;1;1;2
+PRACINHA;saude_mental;0;0;0;0;0
+PRADOPOLIS;clinica;0;0;1;3;4
+PRADOPOLIS;consultorio;0;0;0;16;16
+PRADOPOLIS;diagnose_terapia;0;0;0;2;2
+PRADOPOLIS;hospital;0;0;0;0;0
+PRADOPOLIS;outros;0;0;3;0;3
+PRADOPOLIS;pronto_atendimento;0;0;1;1;2
+PRADOPOLIS;ubs;0;0;0;3;3
+PRADOPOLIS;saude_mental;0;0;0;0;0
+PRAIA GRANDE;clinica;0;0;8;80;88
+PRAIA GRANDE;consultorio;0;0;0;167;167
+PRAIA GRANDE;diagnose_terapia;0;0;0;34;34
+PRAIA GRANDE;hospital;1;0;2;4;7
+PRAIA GRANDE;outros;0;0;4;18;22
+PRAIA GRANDE;pronto_atendimento;0;0;2;3;5
+PRAIA GRANDE;ubs;0;0;1;31;32
+PRAIA GRANDE;saude_mental;0;0;4;0;4
+PRAIA GRANDE;unidade_movel;0;0;0;13;13
+PRAIA GRANDE;vigilancia;0;0;1;0;1
+PRATANIA;clinica;0;0;1;0;1
+PRATANIA;consultorio;0;0;0;1;1
+PRATANIA;diagnose_terapia;0;0;0;0;0
+PRATANIA;hospital;0;0;0;0;0
+PRATANIA;outros;0;0;1;0;1
+PRATANIA;pronto_atendimento;0;0;0;0;0
+PRATANIA;ubs;0;0;0;1;1
+PRATANIA;saude_mental;0;0;0;0;0
+PRESIDENTE ALVES;clinica;0;0;0;0;0
+PRESIDENTE ALVES;consultorio;0;0;0;0;0
+PRESIDENTE ALVES;diagnose_terapia;0;0;0;0;0
+PRESIDENTE ALVES;hospital;0;0;0;0;0
+PRESIDENTE ALVES;outros;0;0;1;0;1
+PRESIDENTE ALVES;pronto_atendimento;0;0;0;0;0
+PRESIDENTE ALVES;ubs;0;0;0;2;2
+PRESIDENTE ALVES;saude_mental;0;0;0;0;0
+PRESIDENTE BERNARDES;clinica;0;0;0;5;5
+PRESIDENTE BERNARDES;consultorio;0;0;0;13;13
+PRESIDENTE BERNARDES;diagnose_terapia;0;0;0;2;2
+PRESIDENTE BERNARDES;hospital;0;0;0;1;1
+PRESIDENTE BERNARDES;outros;0;0;2;0;2
+PRESIDENTE BERNARDES;pronto_atendimento;0;0;2;7;9
+PRESIDENTE BERNARDES;ubs;0;0;0;13;13
+PRESIDENTE BERNARDES;saude_mental;0;0;0;1;1
+PRESIDENTE EPITACIO;clinica;0;0;1;3;4
+PRESIDENTE EPITACIO;consultorio;0;0;0;48;48
+PRESIDENTE EPITACIO;diagnose_terapia;0;0;0;11;11
+PRESIDENTE EPITACIO;hospital;0;0;0;1;1
+PRESIDENTE EPITACIO;outros;0;0;2;2;4
+PRESIDENTE EPITACIO;pronto_atendimento;0;0;0;0;0
+PRESIDENTE EPITACIO;ubs;0;0;0;13;13
+PRESIDENTE EPITACIO;saude_mental;0;0;0;1;1
+PRESIDENTE EPITACIO;vigilancia;0;0;2;0;2
+PRESIDENTE PRUDENTE;clinica;2;0;7;98;107
+PRESIDENTE PRUDENTE;consultorio;0;0;0;946;946
+PRESIDENTE PRUDENTE;diagnose_terapia;2;0;1;43;46
+PRESIDENTE PRUDENTE;hospital;2;0;0;12;14
+PRESIDENTE PRUDENTE;outros;2;0;6;40;48
+PRESIDENTE PRUDENTE;pronto_atendimento;0;0;0;4;4
+PRESIDENTE PRUDENTE;ubs;2;0;0;32;34
+PRESIDENTE PRUDENTE;saude_mental;0;0;0;4;4
+PRESIDENTE PRUDENTE;unidade_movel;0;0;0;2;2
+PRESIDENTE PRUDENTE;vigilancia;0;0;1;0;1
+PRESIDENTE VENCESLAU;clinica;0;0;4;0;4
+PRESIDENTE VENCESLAU;consultorio;0;0;0;92;92
+PRESIDENTE VENCESLAU;diagnose_terapia;0;0;0;9;9
+PRESIDENTE VENCESLAU;hospital;0;0;0;1;1
+PRESIDENTE VENCESLAU;outros;0;0;1;2;4
+PRESIDENTE VENCESLAU;pronto_atendimento;0;0;0;0;0
+PRESIDENTE VENCESLAU;ubs;0;0;2;10;12
+PRESIDENTE VENCESLAU;saude_mental;0;0;1;0;1
+PRESIDENTE VENCESLAU;unidade_movel;0;0;0;1;1
+PRESIDENTE VENCESLAU;vigilancia;0;0;1;0;1
+PROMISSAO;clinica;1;0;2;3;6
+PROMISSAO;consultorio;0;0;0;52;52
+PROMISSAO;diagnose_terapia;0;0;0;6;6
+PROMISSAO;hospital;1;0;0;0;1
+PROMISSAO;outros;0;0;1;1;2
+PROMISSAO;pronto_atendimento;0;0;0;0;0
+PROMISSAO;ubs;0;0;0;11;11
+PROMISSAO;saude_mental;0;0;0;1;1
+QUADRA;clinica;0;0;0;0;0
+QUADRA;consultorio;0;0;0;1;1
+QUADRA;diagnose_terapia;0;0;0;0;0
+QUADRA;hospital;0;0;0;0;0
+QUADRA;outros;0;0;2;0;2
+QUADRA;pronto_atendimento;0;0;0;0;0
+QUADRA;ubs;0;0;1;1;2
+QUADRA;saude_mental;0;0;0;0;0
+QUADRA;unidade_movel;0;0;0;1;1
+QUATA;clinica;0;0;1;1;2
+QUATA;consultorio;0;0;0;21;21
+QUATA;diagnose_terapia;0;0;1;2;3
+QUATA;hospital;0;0;0;0;0
+QUATA;outros;0;0;3;1;4
+QUATA;pronto_atendimento;0;0;1;1;2
+QUATA;ubs;0;0;0;5;5
+QUATA;saude_mental;0;0;1;0;1
+QUATA;vigilancia;0;0;1;0;1
+QUEIROZ;clinica;0;0;0;0;0
+QUEIROZ;consultorio;0;0;0;0;0
+QUEIROZ;diagnose_terapia;0;0;0;0;0
+QUEIROZ;hospital;0;0;0;0;0
+QUEIROZ;outros;0;0;1;0;1
+QUEIROZ;pronto_atendimento;0;0;0;0;0
+QUEIROZ;ubs;0;0;1;2;3
+QUEIROZ;saude_mental;0;0;0;0;0
+QUELUZ;clinica;0;0;1;1;2
+QUELUZ;consultorio;0;0;0;0;0
+QUELUZ;diagnose_terapia;0;0;0;0;0
+QUELUZ;hospital;0;0;1;0;1
+QUELUZ;outros;0;0;4;0;4
+QUELUZ;pronto_atendimento;0;0;0;0;0
+QUELUZ;ubs;0;0;0;4;4
+QUELUZ;saude_mental;0;0;0;0;0
+QUELUZ;unidade_movel;0;0;0;1;1
+QUINTANA;clinica;0;0;0;0;0
+QUINTANA;consultorio;0;0;0;7;7
+QUINTANA;diagnose_terapia;0;0;0;1;1
+QUINTANA;hospital;0;0;0;0;0
+QUINTANA;outros;0;0;3;0;3
+QUINTANA;pronto_atendimento;0;0;1;0;1
+QUINTANA;ubs;0;0;0;4;4
+QUINTANA;saude_mental;0;0;0;0;0
+QUINTANA;vigilancia;0;0;1;0;1
+RAFARD;clinica;0;0;0;0;0
+RAFARD;consultorio;0;0;0;1;1
+RAFARD;diagnose_terapia;0;0;0;0;0
+RAFARD;hospital;0;0;0;0;0
+RAFARD;outros;0;0;1;0;1
+RAFARD;pronto_atendimento;0;0;0;0;0
+RAFARD;ubs;0;0;0;3;3
+RAFARD;saude_mental;0;0;0;0;0
+RANCHARIA;clinica;0;0;0;6;6
+RANCHARIA;consultorio;0;0;0;52;52
+RANCHARIA;diagnose_terapia;0;0;0;8;8
+RANCHARIA;hospital;0;0;0;1;1
+RANCHARIA;outros;0;0;2;0;2
+RANCHARIA;pronto_atendimento;0;0;0;0;0
+RANCHARIA;ubs;0;0;1;11;12
+RANCHARIA;saude_mental;0;0;2;0;2
+RANCHARIA;vigilancia;0;0;1;0;1
+REDENCAO DA SERRA;clinica;0;0;0;0;0
+REDENCAO DA SERRA;consultorio;0;0;0;1;1
+REDENCAO DA SERRA;diagnose_terapia;0;0;0;0;0
+REDENCAO DA SERRA;hospital;0;0;0;0;0
+REDENCAO DA SERRA;outros;0;0;1;0;1
+REDENCAO DA SERRA;pronto_atendimento;0;0;0;0;0
+REDENCAO DA SERRA;ubs;0;0;0;2;2
+REDENCAO DA SERRA;unidade_movel;0;0;0;1;1
+REGENTE FEIJO;clinica;0;0;0;0;0
+REGENTE FEIJO;consultorio;0;0;0;20;20
+REGENTE FEIJO;diagnose_terapia;0;0;0;4;4
+REGENTE FEIJO;hospital;0;0;0;1;1
+REGENTE FEIJO;outros;0;0;1;0;1
+REGENTE FEIJO;pronto_atendimento;0;0;0;0;0
+REGENTE FEIJO;ubs;0;0;0;9;9
+REGENTE FEIJO;saude_mental;0;0;1;0;1
+REGENTE FEIJO;unidade_movel;0;0;1;0;1
+REGINOPOLIS;clinica;0;0;1;0;1
+REGINOPOLIS;consultorio;0;0;0;3;3
+REGINOPOLIS;diagnose_terapia;0;0;0;1;1
+REGINOPOLIS;hospital;0;0;0;0;0
+REGINOPOLIS;outros;0;0;1;0;1
+REGINOPOLIS;pronto_atendimento;0;0;0;0;0
+REGINOPOLIS;ubs;0;0;2;2;4
+REGINOPOLIS;saude_mental;0;0;0;0;0
+REGISTRO;clinica;0;0;6;23;29
+REGISTRO;consultorio;0;0;0;64;64
+REGISTRO;diagnose_terapia;0;0;1;14;15
+REGISTRO;hospital;1;0;0;2;3
+REGISTRO;outros;0;0;3;1;13
+REGISTRO;pronto_atendimento;0;0;1;0;1
+REGISTRO;ubs;1;0;1;18;19
+REGISTRO;saude_mental;0;0;2;0;2
+REGISTRO;vigilancia;0;0;2;0;2
+RESTINGA;clinica;0;0;1;0;1
+RESTINGA;consultorio;0;0;0;0;0
+RESTINGA;diagnose_terapia;0;0;0;0;0
+RESTINGA;hospital;0;0;0;0;0
+RESTINGA;outros;0;0;1;0;1
+RESTINGA;pronto_atendimento;0;0;1;0;1
+RESTINGA;ubs;0;0;0;3;3
+RESTINGA;saude_mental;0;0;0;0;0
+RESTINGA;vigilancia;0;0;1;0;1
+RIBEIRA;clinica;0;0;1;0;1
+RIBEIRA;consultorio;0;0;0;0;0
+RIBEIRA;diagnose_terapia;0;0;0;0;0
+RIBEIRA;hospital;0;0;0;0;0
+RIBEIRA;outros;0;0;2;0;2
+RIBEIRA;pronto_atendimento;0;0;0;1;1
+RIBEIRA;ubs;0;0;0;3;3
+RIBEIRA;saude_mental;0;0;0;0;0
+RIBEIRA;unidade_movel;0;0;1;0;1
+RIBEIRAO BONITO;clinica;0;0;1;2;3
+RIBEIRAO BONITO;consultorio;0;0;0;25;25
+RIBEIRAO BONITO;diagnose_terapia;0;0;0;0;0
+RIBEIRAO BONITO;hospital;0;0;0;1;1
+RIBEIRAO BONITO;outros;0;0;1;0;1
+RIBEIRAO BONITO;pronto_atendimento;0;0;1;0;1
+RIBEIRAO BONITO;ubs;0;0;0;3;3
+RIBEIRAO BONITO;saude_mental;0;0;0;0;0
+RIBEIRAO BRANCO;clinica;0;0;0;3;3
+RIBEIRAO BRANCO;consultorio;0;0;0;2;2
+RIBEIRAO BRANCO;diagnose_terapia;0;0;0;1;1
+RIBEIRAO BRANCO;hospital;0;0;1;0;1
+RIBEIRAO BRANCO;outros;0;0;4;0;4
+RIBEIRAO BRANCO;pronto_atendimento;0;0;0;0;0
+RIBEIRAO BRANCO;ubs;0;0;0;5;5
+RIBEIRAO BRANCO;saude_mental;0;0;0;0;0
+RIBEIRAO BRANCO;unidade_movel;0;0;1;0;1
+RIBEIRAO CORRENTE;clinica;0;0;1;0;1
+RIBEIRAO CORRENTE;consultorio;0;0;0;1;1
+RIBEIRAO CORRENTE;diagnose_terapia;0;0;0;0;0
+RIBEIRAO CORRENTE;hospital;0;0;0;0;0
+RIBEIRAO CORRENTE;outros;0;0;1;0;1
+RIBEIRAO CORRENTE;pronto_atendimento;0;0;0;0;0
+RIBEIRAO CORRENTE;ubs;0;0;0;2;2
+RIBEIRAO CORRENTE;saude_mental;0;0;0;0;0
+RIBEIRAO DO SUL;clinica;0;0;1;0;1
+RIBEIRAO DO SUL;consultorio;0;0;0;0;0
+RIBEIRAO DO SUL;diagnose_terapia;0;0;0;0;0
+RIBEIRAO DO SUL;hospital;0;0;0;0;0
+RIBEIRAO DO SUL;outros;0;0;1;0;1
+RIBEIRAO DO SUL;pronto_atendimento;0;0;0;0;0
+RIBEIRAO DO SUL;ubs;0;0;0;1;1
+RIBEIRAO DO SUL;saude_mental;0;0;0;0;0
+RIBEIRAO DOS INDIOS;clinica;0;0;0;0;0
+RIBEIRAO DOS INDIOS;consultorio;0;0;0;0;0
+RIBEIRAO DOS INDIOS;diagnose_terapia;0;0;0;0;0
+RIBEIRAO DOS INDIOS;hospital;0;0;0;0;0
+RIBEIRAO DOS INDIOS;outros;0;0;1;0;1
+RIBEIRAO DOS INDIOS;pronto_atendimento;0;0;0;0;0
+RIBEIRAO DOS INDIOS;ubs;0;0;0;1;1
+RIBEIRAO DOS INDIOS;saude_mental;0;0;0;0;0
+RIBEIRAO GRANDE;clinica;0;0;1;1;2
+RIBEIRAO GRANDE;outros;0;0;2;0;2
+RIBEIRAO GRANDE;ubs;0;0;1;0;1
+RIBEIRAO PIRES;clinica;0;0;4;36;40
+RIBEIRAO PIRES;consultorio;0;0;0;68;68
+RIBEIRAO PIRES;diagnose_terapia;0;0;0;12;12
+RIBEIRAO PIRES;hospital;0;0;1;1;2
+RIBEIRAO PIRES;outros;0;0;3;3;6
+RIBEIRAO PIRES;pronto_atendimento;0;0;1;0;1
+RIBEIRAO PIRES;ubs;0;0;12;0;12
+RIBEIRAO PIRES;saude_mental;0;0;3;0;3
+RIBEIRAO PIRES;vigilancia;0;0;1;0;1
+RIBEIRAO PRETO;clinica;0;0;11;652;667
+RIBEIRAO PRETO;consultorio;0;0;0;2095;2095
+RIBEIRAO PRETO;diagnose_terapia;0;0;1;110;113
+RIBEIRAO PRETO;hospital;0;0;3;21;25
+RIBEIRAO PRETO;outros;0;0;6;96;105
+RIBEIRAO PRETO;pronto_atendimento;0;0;4;3;7
+RIBEIRAO PRETO;ubs;0;0;3;49;52
+RIBEIRAO PRETO;saude_mental;0;0;5;1;6
+RIBEIRAO PRETO;unidade_movel;0;0;18;4;22
+RIBEIRAO PRETO;vigilancia;0;0;1;0;1
+RIVERSUL;outros;0;0;2;0;2
+RIVERSUL;pronto_atendimento;0;0;1;0;1
+RIVERSUL;ubs;0;0;1;0;1
+RIFAINA;clinica;0;0;2;0;2
+RIFAINA;diagnose_terapia;0;0;1;1;2
+RIFAINA;outros;0;0;1;0;1
+RIFAINA;ubs;0;0;2;0;2
+RINCAO;clinica;0;0;1;0;1
+RINCAO;consultorio;0;0;0;5;5
+RINCAO;diagnose_terapia;0;0;1;1;2
+RINCAO;outros;0;0;1;0;1
+RINCAO;pronto_atendimento;0;0;1;0;1
+RINCAO;ubs;0;0;3;0;3
+RINOPOLIS;clinica;0;0;1;0;1
+RINOPOLIS;consultorio;0;0;0;1;1
+RINOPOLIS;diagnose_terapia;0;0;0;2;2
+RINOPOLIS;hospital;0;0;1;0;1
+RINOPOLIS;outros;0;0;1;0;1
+RINOPOLIS;ubs;0;0;4;0;4
+RIO CLARO;clinica;0;0;5;111;117
+RIO CLARO;consultorio;0;0;2;562;564
+RIO CLARO;diagnose_terapia;0;0;1;41;43
+RIO CLARO;hospital;0;0;0;5;5
+RIO CLARO;outros;0;0;10;12;22
+RIO CLARO;pronto_atendimento;0;0;2;0;2
+RIO CLARO;ubs;0;0;2;21;24
+RIO CLARO;saude_mental;0;0;3;0;3
+RIO CLARO;unidade_movel;0;0;3;0;3
+RIO CLARO;vigilancia;0;0;2;0;2
+RIO DAS PEDRAS;clinica;0;0;1;8;9
+RIO DAS PEDRAS;consultorio;0;0;0;72;72
+RIO DAS PEDRAS;diagnose_terapia;0;0;0;4;4
+RIO DAS PEDRAS;hospital;0;0;0;2;2
+RIO DAS PEDRAS;outros;0;0;1;0;1
+RIO DAS PEDRAS;ubs;0;0;3;0;3
+RIO DAS PEDRAS;saude_mental;0;0;1;0;1
+RIO GRANDE DA SERRA;clinica;0;0;2;1;3
+RIO GRANDE DA SERRA;consultorio;0;0;1;2;3
+RIO GRANDE DA SERRA;diagnose_terapia;0;0;0;1;1
+RIO GRANDE DA SERRA;outros;0;0;3;0;3
+RIO GRANDE DA SERRA;pronto_atendimento;0;0;1;0;1
+RIO GRANDE DA SERRA;ubs;0;0;8;0;8
+RIO GRANDE DA SERRA;saude_mental;0;0;1;0;1
+RIO GRANDE DA SERRA;vigilancia;0;0;1;0;1
+RIOLANDIA;clinica;0;0;1;1;2
+RIOLANDIA;consultorio;0;0;0;2;2
+RIOLANDIA;diagnose_terapia;0;0;0;1;1
+RIOLANDIA;hospital;0;0;0;1;1
+RIOLANDIA;outros;0;0;1;0;1
+RIOLANDIA;ubs;0;0;2;4;6
+RIOLANDIA;saude_mental;0;0;1;0;1
+RIOLANDIA;unidade_movel;0;0;1;0;1
+ROSANA;clinica;0;0;0;2;2
+ROSANA;consultorio;0;0;0;16;16
+ROSANA;diagnose_terapia;0;0;0;5;5
+ROSANA;hospital;0;0;1;0;1
+ROSANA;outros;0;0;1;1;2
+ROSANA;ubs;0;0;0;9;9
+ROSANA;saude_mental;0;0;1;0;1
+ROSEIRA;clinica;0;0;1;2;3
+ROSEIRA;consultorio;0;0;0;2;2
+ROSEIRA;diagnose_terapia;0;0;0;2;2
+ROSEIRA;outros;0;0;2;0;2
+ROSEIRA;ubs;0;0;0;5;5
+ROSEIRA;unidade_movel;0;0;0;1;1
+RUBIACEA;consultorio;0;0;0;1;1
+RUBIACEA;outros;0;0;1;0;1
+RUBIACEA;ubs;0;0;0;2;2
+RUBIACEA;vigilancia;0;0;1;0;1
+RUBINEIA;outros;0;0;1;0;1
+RUBINEIA;ubs;0;0;0;2;2
+SABINO;consultorio;0;0;0;2;2
+SABINO;outros;0;0;2;0;2
+SABINO;ubs;0;0;0;3;3
+SAGRES;outros;0;0;1;0;1
+SAGRES;ubs;0;0;0;1;1
+SALES;diagnose_terapia;0;0;0;2;2
+SALES;outros;0;0;1;0;1
+SALES;ubs;0;0;0;3;3
+SALES OLIVEIRA;clinica;0;0;0;3;3
+SALES OLIVEIRA;consultorio;0;0;0;36;36
+SALES OLIVEIRA;diagnose_terapia;0;0;1;4;5
+SALES OLIVEIRA;hospital;0;0;0;1;1
+SALES OLIVEIRA;outros;0;0;2;1;3
+SALES OLIVEIRA;pronto_atendimento;0;0;1;0;1
+SALES OLIVEIRA;ubs;0;0;0;4;4
+SALES OLIVEIRA;vigilancia;0;0;1;0;1
+SALESOPOLIS;clinica;0;0;1;0;1
+SALESOPOLIS;consultorio;0;0;0;3;3
+SALESOPOLIS;diagnose_terapia;0;0;1;0;1
+SALESOPOLIS;hospital;0;0;0;1;1
+SALESOPOLIS;outros;0;0;3;0;3
+SALESOPOLIS;ubs;0;0;0;2;2
+SALESOPOLIS;unidade_movel;0;0;1;0;1
+SALESOPOLIS;vigilancia;0;0;2;0;2
+SALMOURAO;outros;0;0;1;0;1
+SALMOURAO;ubs;0;0;3;0;3
+SALTINHO;clinica;0;0;1;0;1
+SALTINHO;consultorio;0;0;0;3;3
+SALTINHO;diagnose_terapia;0;0;0;1;1
+SALTINHO;outros;0;0;1;0;1
+SALTINHO;ubs;0;0;0;2;2
+SALTO;clinica;0;0;28;21;28
+SALTO;consultorio;0;0;1;166;167
+SALTO;diagnose_terapia;0;0;0;6;6
+SALTO;hospital;0;0;1;0;1
+SALTO;outros;0;0;7;6;13
+SALTO;ubs;0;0;10;0;10
+SALTO;saude_mental;0;0;3;0;3
+SALTO;unidade_movel;0;0;1;0;1
+SALTO;vigilancia;0;0;2;0;2
+SALTO DE PIRAPORA;clinica;0;0;6;5;6
+SALTO DE PIRAPORA;consultorio;0;0;0;50;50
+SALTO DE PIRAPORA;diagnose_terapia;0;0;1;6;7
+SALTO DE PIRAPORA;hospital;0;0;1;1;2
+SALTO DE PIRAPORA;outros;0;0;3;5;8
+SALTO DE PIRAPORA;ubs;0;0;10;0;10
+SALTO DE PIRAPORA;saude_mental;0;0;2;0;2
+SALTO DE PIRAPORA;vigilancia;0;0;2;0;2
+SALTO GRANDE;consultorio;0;0;0;1;1
+SALTO GRANDE;diagnose_terapia;0;0;0;3;3
+SALTO GRANDE;hospital;0;0;0;1;1
+SALTO GRANDE;outros;0;0;1;0;1
+SALTO GRANDE;ubs;0;0;0;3;3
+SANDOVALINA;consultorio;0;0;0;1;1
+SANDOVALINA;outros;0;0;1;0;1
+SANDOVALINA;ubs;0;0;0;2;2
+SANTA ADELIA;clinica;0;0;2;1;2
+SANTA ADELIA;consultorio;0;0;0;23;23
+SANTA ADELIA;diagnose_terapia;0;0;0;3;3
+SANTA ADELIA;hospital;0;0;0;1;1
+SANTA ADELIA;outros;0;0;3;0;3
+SANTA ADELIA;ubs;0;0;0;6;6
+SANTA ALBERTINA;consultorio;0;0;0;3;3
+SANTA ALBERTINA;diagnose_terapia;0;0;0;1;1
+SANTA ALBERTINA;outros;0;0;1;0;1
+SANTA ALBERTINA;ubs;0;0;0;2;2
+SANTA ALBERTINA;unidade_movel;0;0;0;1;1
+SANTA BARBARA D OESTE;clinica;0;0;5;29;35
+SANTA BARBARA D OESTE;consultorio;0;0;0;300;300
+SANTA BARBARA D OESTE;diagnose_terapia;0;0;1;25;26
+SANTA BARBARA D OESTE;hospital;0;0;0;3;3
+SANTA BARBARA D OESTE;outros;0;0;3;6;9
+SANTA BARBARA D OESTE;pronto_atendimento;0;0;2;0;2
+SANTA BARBARA D OESTE;ubs;0;0;0;18;18
+SANTA BARBARA D OESTE;saude_mental;0;0;3;0;3
+SANTA BARBARA D OESTE;unidade_movel;0;0;1;0;1
+SANTA BARBARA D OESTE;vigilancia;0;0;1;0;1
+SANTA BRANCA;clinica;0;0;0;3;3
+SANTA BRANCA;consultorio;0;0;0;3;3
+SANTA BRANCA;diagnose_terapia;0;0;0;1;1
+SANTA BRANCA;outros;0;0;1;0;1
+SANTA BRANCA;pronto_atendimento;0;0;1;0;1
+SANTA BRANCA;ubs;0;0;0;2;2
+SANTA BRANCA;unidade_movel;0;0;1;0;1
+SANTA BRANCA;vigilancia;0;0;1;0;1
+SANTA CLARA D OESTE;clinica;0;0;0;1;1
+SANTA CLARA D OESTE;consultorio;0;0;0;1;1
+SANTA CLARA D OESTE;outros;0;0;1;0;1
+SANTA CLARA D OESTE;ubs;0;0;0;1;1
+SANTA CRUZ DA CONCEICAO;diagnose_terapia;0;0;0;1;1
+SANTA CRUZ DA CONCEICAO;outros;0;0;1;0;1
+SANTA CRUZ DA CONCEICAO;ubs;0;0;0;2;2
+SANTA CRUZ DA ESPERANCA;clinica;0;0;0;1;1
+SANTA CRUZ DA ESPERANCA;outros;0;0;2;0;2
+SANTA CRUZ DA ESPERANCA;pronto_atendimento;0;0;1;0;1
+SANTA CRUZ DA ESPERANCA;ubs;0;0;0;2;2
+SANTA CRUZ DA ESPERANCA;unidade_movel;0;0;0;1;1
+SANTA CRUZ DA ESPERANCA;vigilancia;0;0;1;0;1
+SANTA CRUZ DAS PALMEIRAS;clinica;0;0;9;8;9
+SANTA CRUZ DAS PALMEIRAS;consultorio;0;0;0;50;50
+SANTA CRUZ DAS PALMEIRAS;diagnose_terapia;0;0;0;7;7
+SANTA CRUZ DAS PALMEIRAS;hospital;0;0;0;1;1
+SANTA CRUZ DAS PALMEIRAS;outros;0;0;2;0;2
+SANTA CRUZ DAS PALMEIRAS;pronto_atendimento;0;0;0;1;1
+SANTA CRUZ DAS PALMEIRAS;ubs;0;0;0;6;6
+SANTA CRUZ DAS PALMEIRAS;saude_mental;0;0;1;0;1
+SANTA CRUZ DAS PALMEIRAS;unidade_movel;0;0;2;0;2
+SANTA CRUZ DO RIO PARDO;clinica;0;0;16;14;16
+SANTA CRUZ DO RIO PARDO;consultorio;0;0;1;126;127
+SANTA CRUZ DO RIO PARDO;diagnose_terapia;0;0;3;10;13
+SANTA CRUZ DO RIO PARDO;hospital;0;0;0;1;1
+SANTA CRUZ DO RIO PARDO;outros;0;0;3;5;8
+SANTA CRUZ DO RIO PARDO;pronto_atendimento;0;0;1;0;1
+SANTA CRUZ DO RIO PARDO;ubs;0;0;0;10;10
+SANTA CRUZ DO RIO PARDO;saude_mental;0;0;1;0;1
+SANTA CRUZ DO RIO PARDO;unidade_movel;0;0;3;0;3
+SANTA ERNESTINA;consultorio;0;0;0;4;4
+SANTA ERNESTINA;outros;0;0;1;0;1
+SANTA ERNESTINA;ubs;0;0;0;1;1
+SANTA FE DO SUL;clinica;0;0;5;29;34
+SANTA FE DO SUL;consultorio;0;0;0;86;86
+SANTA FE DO SUL;diagnose_terapia;0;0;1;9;10
+SANTA FE DO SUL;hospital;0;0;0;1;1
+SANTA FE DO SUL;outros;0;0;3;7;10
+SANTA FE DO SUL;pronto_atendimento;0;0;2;0;2
+SANTA FE DO SUL;ubs;0;0;0;9;9
+SANTA FE DO SUL;saude_mental;0;0;1;0;1
+SANTA FE DO SUL;unidade_movel;0;0;1;2;3
+SANTA FE DO SUL;vigilancia;0;0;1;0;1
+SANTA GERTRUDES;clinica;0;0;7;3;7
+SANTA GERTRUDES;consultorio;0;0;1;27;28
+SANTA GERTRUDES;diagnose_terapia;0;0;1;2;3
+SANTA GERTRUDES;outros;0;0;2;1;3
+SANTA GERTRUDES;pronto_atendimento;0;0;1;0;1
+SANTA GERTRUDES;ubs;0;0;0;5;5
+SANTA GERTRUDES;saude_mental;0;0;1;0;1
+SANTA GERTRUDES;unidade_movel;0;0;1;0;1
+SANTA ISABEL;clinica;0;0;9;6;9
+SANTA ISABEL;consultorio;0;0;0;18;18
+SANTA ISABEL;diagnose_terapia;0;0;0;2;2
+SANTA ISABEL;hospital;0;0;0;1;1
+SANTA ISABEL;outros;0;0;4;3;7
+SANTA ISABEL;pronto_atendimento;0;0;1;0;1
+SANTA ISABEL;ubs;0;0;0;12;12
+SANTA ISABEL;saude_mental;0;0;1;0;1
+SANTA ISABEL;unidade_movel;0;0;2;0;2
+SANTA LUCIA;clinica;0;0;1;0;1
+SANTA LUCIA;outros;0;0;1;0;1
+SANTA LUCIA;pronto_atendimento;0;0;1;0;1
+SANTA LUCIA;ubs;0;0;0;2;2
+SANTA MARIA DA SERRA;clinica;0;0;1;0;1
+SANTA MARIA DA SERRA;consultorio;0;0;0;2;2
+SANTA MARIA DA SERRA;outros;0;0;1;0;1
+SANTA MARIA DA SERRA;ubs;0;0;3;0;3
+SANTA MARIA DA SERRA;vigilancia;0;0;1;0;1
+SANTA MERCEDES;clinica;0;0;1;0;1
+SANTA MERCEDES;consultorio;0;0;0;2;2
+SANTA MERCEDES;outros;0;0;1;0;1
+SANTA MERCEDES;ubs;0;0;3;0;3
+SANTA MERCEDES;vigilancia;0;0;1;0;1
+SANTANA DA PONTE PENSA;clinica;0;0;1;0;1
+SANTANA DA PONTE PENSA;outros;0;0;1;0;1
+SANTANA DA PONTE PENSA;ubs;0;0;1;0;1
+SANTANA DE PARNAIBA;clinica;0;0;4;17;21
+SANTANA DE PARNAIBA;consultorio;0;0;0;39;39
+SANTANA DE PARNAIBA;diagnose_terapia;0;0;0;5;5
+SANTANA DE PARNAIBA;hospital;0;0;2;0;2
+SANTANA DE PARNAIBA;outros;0;0;4;8;12
+SANTANA DE PARNAIBA;pronto_atendimento;0;0;2;0;2
+SANTANA DE PARNAIBA;ubs;0;0;13;0;13
+SANTANA DE PARNAIBA;saude_mental;0;0;3;0;3
+SANTANA DE PARNAIBA;unidade_movel;0;0;2;0;2
+SANTA RITA D OESTE;clinica;0;0;1;0;1
+SANTA RITA D OESTE;outros;0;0;2;0;2
+SANTA RITA D OESTE;ubs;0;0;1;0;1
+SANTA RITA DO PASSA QUATRO;clinica;0;0;3;6;9
+SANTA RITA DO PASSA QUATRO;consultorio;0;0;0;58;58
+SANTA RITA DO PASSA QUATRO;diagnose_terapia;0;0;0;4;4
+SANTA RITA DO PASSA QUATRO;hospital;1;0;0;1;2
+SANTA RITA DO PASSA QUATRO;outros;0;0;1;2;3
+SANTA RITA DO PASSA QUATRO;ubs;0;0;6;0;6
+SANTA RITA DO PASSA QUATRO;saude_mental;1;0;0;0;1
+SANTA RITA DO PASSA QUATRO;unidade_movel;0;0;1;0;1
+SANTA ROSA DE VITERBO;clinica;0;0;1;5;6
+SANTA ROSA DE VITERBO;consultorio;0;0;0;56;56
+SANTA ROSA DE VITERBO;diagnose_terapia;0;0;0;3;3
+SANTA ROSA DE VITERBO;hospital;0;0;0;1;1
+SANTA ROSA DE VITERBO;outros;0;0;1;0;1
+SANTA ROSA DE VITERBO;pronto_atendimento;0;0;1;0;1
+SANTA ROSA DE VITERBO;ubs;0;0;4;0;4
+SANTA ROSA DE VITERBO;saude_mental;0;0;1;0;1
+SANTA ROSA DE VITERBO;unidade_movel;0;0;1;0;1
+SANTA ROSA DE VITERBO;vigilancia;0;0;2;0;2
+SANTA SALETE;outros;0;0;1;0;1
+SANTA SALETE;ubs;0;0;1;0;1
+SANTO ANASTACIO;clinica;0;0;1;2;3
+SANTO ANASTACIO;consultorio;0;0;0;33;33
+SANTO ANASTACIO;diagnose_terapia;0;0;0;3;3
+SANTO ANASTACIO;hospital;0;0;0;1;1
+SANTO ANASTACIO;outros;0;0;1;0;1
+SANTO ANASTACIO;ubs;0;0;6;0;6
+SANTO ANASTACIO;saude_mental;0;0;1;0;1
+SANTO ANASTACIO;vigilancia;0;0;1;0;1
+SANTO ANDRE;clinica;0;0;14;753;767
+SANTO ANDRE;consultorio;0;0;0;173;173
+SANTO ANDRE;diagnose_terapia;1;0;1;51;53
+SANTO ANDRE;hospital;2;0;2;12;16
+SANTO ANDRE;outros;1;0;8;62;71
+SANTO ANDRE;pronto_atendimento;0;0;7;3;10
+SANTO ANDRE;ubs;1;0;35;1;37
+SANTO ANDRE;saude_mental;0;0;5;0;5
+SANTO ANDRE;unidade_movel;0;0;20;1;21
+SANTO ANDRE;vigilancia;1;0;1;0;2
+SANTO ANTONIO DA ALEGRIA;clinica;0;0;2;1;3
+SANTO ANTONIO DA ALEGRIA;consultorio;0;0;0;2;2
+SANTO ANTONIO DA ALEGRIA;diagnose_terapia;0;0;2;1;3
+SANTO ANTONIO DA ALEGRIA;outros;0;0;4;0;4
+SANTO ANTONIO DA ALEGRIA;ubs;0;0;6;0;6
+SANTO ANTONIO DA ALEGRIA;unidade_movel;0;0;1;0;1
+SANTO ANTONIO DA ALEGRIA;vigilancia;0;0;1;0;1
+SANTO ANTONIO DE POSSE;clinica;0;0;2;6;8
+SANTO ANTONIO DE POSSE;consultorio;0;0;0;22;22
+SANTO ANTONIO DE POSSE;diagnose_terapia;0;0;0;4;4
+SANTO ANTONIO DE POSSE;outros;0;0;2;1;3
+SANTO ANTONIO DE POSSE;pronto_atendimento;0;0;1;0;1
+SANTO ANTONIO DE POSSE;ubs;0;0;7;0;7
+SANTO ANTONIO DE POSSE;saude_mental;0;0;1;0;1
+SANTO ANTONIO DO ARACANGUA;diagnose_terapia;0;0;0;1;1
+SANTO ANTONIO DO ARACANGUA;outros;0;0;1;0;1
+SANTO ANTONIO DO ARACANGUA;ubs;0;0;3;0;3
+SANTO ANTONIO DO JARDIM;clinica;0;0;1;0;1
+SANTO ANTONIO DO JARDIM;consultorio;0;0;0;3;3
+SANTO ANTONIO DO JARDIM;outros;0;0;1;0;1
+SANTO ANTONIO DO JARDIM;ubs;0;0;2;0;2
+SANTO ANTONIO DO JARDIM;unidade_movel;0;0;1;0;1
+SANTO ANTONIO DO PINHAL;clinica;0;0;1;1;2
+SANTO ANTONIO DO PINHAL;consultorio;0;0;0;1;1
+SANTO ANTONIO DO PINHAL;outros;0;0;4;0;4
+SANTO ANTONIO DO PINHAL;pronto_atendimento;0;0;1;0;1
+SANTO ANTONIO DO PINHAL;ubs;0;0;10;0;10
+SANTO ANTONIO DO PINHAL;unidade_movel;0;0;1;0;1
+SANTO EXPEDITO;clinica;0;0;1;0;1
+SANTO EXPEDITO;outros;0;0;2;0;2
+SANTO EXPEDITO;ubs;0;0;2;0;2
+SANTO EXPEDITO;vigilancia;0;0;1;0;1
+SANTOPOLIS DO AGUAPEI;outros;0;0;1;0;1
+SANTOPOLIS DO AGUAPEI;ubs;0;0;1;0;1
+SANTOPOLIS DO AGUAPEI;vigilancia;0;0;1;0;1
+SANTOS;clinica;0;0;15;231;247
+SANTOS;consultorio;0;0;1;1402;1403
+SANTOS;diagnose_terapia;0;0;1;84;86
+SANTOS;hospital;0;0;3;23;28
+SANTOS;outros;0;0;5;44;53
+SANTOS;pronto_atendimento;0;0;4;0;4
+SANTOS;ubs;0;0;35;0;36
+SANTOS;saude_mental;0;0;9;0;9
+SANTOS;unidade_movel;0;0;21;8;29
+SAO BENTO DO SAPUCAI;consultorio;0;0;0;8;8
+SAO BENTO DO SAPUCAI;diagnose_terapia;0;0;0;1;1
+SAO BENTO DO SAPUCAI;hospital;0;0;0;1;1
+SAO BENTO DO SAPUCAI;outros;0;0;1;3;4
+SAO BENTO DO SAPUCAI;pronto_atendimento;0;0;1;0;1
+SAO BENTO DO SAPUCAI;ubs;0;0;4;0;4
+SAO BENTO DO SAPUCAI;unidade_movel;0;0;1;0;1
+SAO BERNARDO DO CAMPO;clinica;0;0;388;753;767
+SAO BERNARDO DO CAMPO;consultorio;0;0;0;651;652
+SAO BERNARDO DO CAMPO;diagnose_terapia;0;0;2;51;53
+SAO BERNARDO DO CAMPO;hospital;0;0;5;20;25
+SAO BERNARDO DO CAMPO;outros;0;0;9;47;57
+SAO BERNARDO DO CAMPO;pronto_atendimento;0;0;11;1;12
+SAO BERNARDO DO CAMPO;ubs;0;0;36;1;38
+SAO BERNARDO DO CAMPO;saude_mental;0;0;9;0;9
+SAO BERNARDO DO CAMPO;unidade_movel;0;0;16;2;18
+SAO BERNARDO DO CAMPO;vigilancia;0;0;6;0;6
+SAO CAETANO DO SUL;clinica;0;0;22;209;231
+SAO CAETANO DO SUL;consultorio;0;0;0;543;543
+SAO CAETANO DO SUL;diagnose_terapia;0;0;1;32;33
+SAO CAETANO DO SUL;hospital;0;0;2;7;9
+SAO CAETANO DO SUL;outros;1;0;7;32;40
+SAO CAETANO DO SUL;pronto_atendimento;0;0;1;0;1
+SAO CAETANO DO SUL;ubs;0;0;15;0;15
+SAO CAETANO DO SUL;saude_mental;0;0;3;0;3
+SAO CAETANO DO SUL;unidade_movel;0;0;6;2;8
+SAO CAETANO DO SUL;vigilancia;0;0;2;0;2
+SAO CARLOS;clinica;2;1;7;145;155
+SAO CARLOS;consultorio;0;0;1;811;812
+SAO CARLOS;diagnose_terapia;1;1;0;41;43
+SAO CARLOS;hospital;1;0;0;4;5
+SAO CARLOS;outros;0;0;5;24;29
+SAO CARLOS;pronto_atendimento;0;0;3;1;4
+SAO CARLOS;ubs;0;0;34;0;34
+SAO CARLOS;saude_mental;0;0;3;0;3
+SAO CARLOS;unidade_movel;1;0;10;2;13
+SAO FRANCISCO;consultorio;0;0;0;1;1
+SAO FRANCISCO;outros;0;0;2;0;2
+SAO FRANCISCO;ubs;0;0;2;0;2
+SAO JOAO DA BOA VISTA;clinica;3;0;6;30;39
+SAO JOAO DA BOA VISTA;consultorio;0;0;0;588;588
+SAO JOAO DA BOA VISTA;diagnose_terapia;0;0;1;19;20
+SAO JOAO DA BOA VISTA;hospital;0;0;0;5;5
+SAO JOAO DA BOA VISTA;outros;3;0;5;22;30
+SAO JOAO DA BOA VISTA;pronto_atendimento;0;0;1;0;1
+SAO JOAO DA BOA VISTA;ubs;0;0;14;0;14
+SAO JOAO DA BOA VISTA;saude_mental;0;0;3;0;3
+SAO JOAO DA BOA VISTA;unidade_movel;0;0;2;3;5
+SAO JOAO DA BOA VISTA;vigilancia;0;0;2;0;2
+SAO JOAO DAS DUAS PONTES;outros;0;0;1;0;1
+SAO JOAO DAS DUAS PONTES;ubs;0;0;1;0;1
+SAO JOAO DE IRACEMA;outros;0;0;2;0;2
+SAO JOAO DE IRACEMA;ubs;0;0;2;0;2
+SAO JOAO DO PAU D ALHO;clinica;0;0;1;0;1
+SAO JOAO DO PAU D ALHO;consultorio;0;0;0;2;2
+SAO JOAO DO PAU D ALHO;outros;0;0;2;0;2
+SAO JOAO DO PAU D ALHO;ubs;0;0;1;0;1
+SAO JOAQUIM DA BARRA;clinica;0;0;4;3;7
+SAO JOAQUIM DA BARRA;consultorio;0;0;0;156;156
+SAO JOAQUIM DA BARRA;diagnose_terapia;0;0;1;29;30
+SAO JOAQUIM DA BARRA;hospital;0;0;0;1;1
+SAO JOAQUIM DA BARRA;outros;0;0;1;1;2
+SAO JOAQUIM DA BARRA;pronto_atendimento;0;0;1;0;1
+SAO JOAQUIM DA BARRA;ubs;0;0;10;0;10
+SAO JOAQUIM DA BARRA;saude_mental;0;0;1;0;1
+SAO JOAQUIM DA BARRA;unidade_movel;0;0;1;0;1
+SAO JOSE DA BELA VISTA;clinica;0;0;1;0;1
+SAO JOSE DA BELA VISTA;outros;0;0;1;0;1
+SAO JOSE DA BELA VISTA;pronto_atendimento;0;0;1;0;1
+SAO JOSE DA BELA VISTA;ubs;0;0;5;0;5
+SAO JOSE DO BARREIRO;consultorio;0;0;0;1;1
+SAO JOSE DO BARREIRO;outros;0;0;1;0;1
+SAO JOSE DO BARREIRO;ubs;0;0;3;0;3
+SAO JOSE DO RIO PARDO;clinica;0;0;5;31;36
+SAO JOSE DO RIO PARDO;consultorio;0;0;0;118;118
+SAO JOSE DO RIO PARDO;diagnose_terapia;0;0;2;24;26
+SAO JOSE DO RIO PARDO;hospital;0;0;0;2;2
+SAO JOSE DO RIO PARDO;outros;0;0;1;7;8
+SAO JOSE DO RIO PARDO;pronto_atendimento;0;0;1;0;1
+SAO JOSE DO RIO PARDO;ubs;0;0;11;0;11
+SAO JOSE DO RIO PARDO;saude_mental;0;0;1;0;1
+SAO JOSE DO RIO PARDO;unidade_movel;0;0;2;2;4
+SAO JOSE DO RIO PARDO;vigilancia;0;0;1;0;1
+SAO JOSE DO RIO PRETO;clinica;4;0;11;249;264
+SAO JOSE DO RIO PRETO;consultorio;0;0;1;911;912
+SAO JOSE DO RIO PRETO;diagnose_terapia;2;0;2;116;120
+SAO JOSE DO RIO PRETO;hospital;1;0;1;22;24
+SAO JOSE DO RIO PRETO;outros;6;0;11;37;54
+SAO JOSE DO RIO PRETO;pronto_atendimento;0;0;5;1;6
+SAO JOSE DO RIO PRETO;ubs;0;0;30;0;33
+SAO JOSE DO RIO PRETO;saude_mental;0;0;7;0;7
+SAO JOSE DO RIO PRETO;unidade_movel;0;0;14;1;15
+SAO JOSE DO RIO PRETO;vigilancia;1;0;1;0;2
+SAO JOSE DOS CAMPOS;clinica;2;0;16;374;392
+SAO JOSE DOS CAMPOS;consultorio;0;0;0;1054;1054
+SAO JOSE DOS CAMPOS;diagnose_terapia;0;0;1;91;92
+SAO JOSE DOS CAMPOS;hospital;1;1;3;21;26
+SAO JOSE DOS CAMPOS;outros;2;0;4;65;71
+SAO JOSE DOS CAMPOS;pronto_atendimento;0;0;5;3;8
+SAO JOSE DOS CAMPOS;ubs;0;0;40;0;42
+SAO JOSE DOS CAMPOS;saude_mental;0;0;4;0;4
+SAO JOSE DOS CAMPOS;unidade_movel;0;0;9;9;18
+SAO JOSE DOS CAMPOS;vigilancia;1;0;1;0;2
+SAO LOURENCO DA SERRA;clinica;0;0;1;2;3
+SAO LOURENCO DA SERRA;diagnose_terapia;0;0;0;2;2
+SAO LOURENCO DA SERRA;outros;0;0;1;2;3
+SAO LOURENCO DA SERRA;pronto_atendimento;0;0;1;0;1
+SAO LOURENCO DA SERRA;ubs;0;0;3;0;3
+SAO LOURENCO DA SERRA;unidade_movel;0;0;1;2;3
+SAO LUIZ DO PARAITINGA;consultorio;0;0;0;1;1
+SAO LUIZ DO PARAITINGA;hospital;0;0;0;1;1
+SAO LUIZ DO PARAITINGA;outros;0;0;2;0;2
+SAO LUIZ DO PARAITINGA;ubs;0;0;4;0;4
+SAO LUIZ DO PARAITINGA;unidade_movel;0;0;1;0;1
+SAO MANUEL;clinica;0;0;2;2;4
+SAO MANUEL;consultorio;0;0;2;86;88
+SAO MANUEL;diagnose_terapia;0;0;1;5;6
+SAO MANUEL;hospital;0;0;0;1;1
+SAO MANUEL;outros;0;0;5;0;5
+SAO MANUEL;ubs;0;0;7;0;7
+SAO MANUEL;saude_mental;0;0;1;0;1
+SAO MANUEL;unidade_movel;0;0;0;1;1
+SAO MANUEL;vigilancia;0;0;1;0;1
+SAO MIGUEL ARCANJO;clinica;0;0;2;2;4
+SAO MIGUEL ARCANJO;consultorio;0;0;0;29;29
+SAO MIGUEL ARCANJO;diagnose_terapia;0;0;0;4;4
+SAO MIGUEL ARCANJO;hospital;0;0;0;1;1
+SAO MIGUEL ARCANJO;outros;0;0;4;13;17
+SAO MIGUEL ARCANJO;ubs;0;0;10;0;10
+SAO MIGUEL ARCANJO;saude_mental;0;0;1;0;1
+SAO PAULO;clinica;20;1;183;5776;5980
+SAO PAULO;consultorio;19;1;1;16750;16771
+SAO PAULO;diagnose_terapia;9;0;9;983;1001
+SAO PAULO;hospital;37;3;39;192;271
+SAO PAULO;outros;24;0;51;985;1060
+SAO PAULO;pronto_atendimento;0;0;59;12;71
+SAO PAULO;ubs;14;0;482;22;518
+SAO PAULO;saude_mental;2;0;104;0;106
+SAO PAULO;unidade_movel;1;0;165;47;213
+SAO PAULO;vigilancia;0;0;30;0;30
+SAO PEDRO;clinica;0;0;1;9;10
+SAO PEDRO;consultorio;0;0;0;74;74
+SAO PEDRO;diagnose_terapia;0;0;0;3;3
+SAO PEDRO;hospital;0;0;0;1;1
+SAO PEDRO;outros;0;0;1;2;3
+SAO PEDRO;pronto_atendimento;0;0;1;0;1
+SAO PEDRO;ubs;0;0;11;0;11
+SAO PEDRO;saude_mental;0;0;1;0;1
+SAO PEDRO;unidade_movel;0;0;2;0;2
+SAO PEDRO DO TURVO;diagnose_terapia;0;0;0;1;1
+SAO PEDRO DO TURVO;outros;0;0;2;0;2
+SAO PEDRO DO TURVO;ubs;0;0;4;0;4
+SAO ROQUE;clinica;0;0;4;32;36
+SAO ROQUE;consultorio;0;0;1;226;227
+SAO ROQUE;diagnose_terapia;0;0;0;13;13
+SAO ROQUE;hospital;0;0;0;3;3
+SAO ROQUE;outros;0;0;6;27;33
+SAO ROQUE;ubs;0;0;13;0;13
+SAO ROQUE;saude_mental;0;0;2;0;2
+SAO ROQUE;vigilancia;0;0;1;0;1
+SAO SEBASTIAO;clinica;0;0;8;10;18
+SAO SEBASTIAO;consultorio;0;0;0;136;136
+SAO SEBASTIAO;diagnose_terapia;0;0;1;12;13
+SAO SEBASTIAO;hospital;0;0;1;1;2
+SAO SEBASTIAO;outros;0;0;7;4;11
+SAO SEBASTIAO;pronto_atendimento;0;0;1;0;1
+SAO SEBASTIAO;ubs;0;0;30;0;30
+SAO SEBASTIAO;saude_mental;0;0;3;0;3
+SAO SEBASTIAO;unidade_movel;0;0;6;0;6
+SAO SEBASTIAO;vigilancia;0;0;2;0;2
+SAO SEBASTIAO DA GRAMA;clinica;0;0;0;2;2
+SAO SEBASTIAO DA GRAMA;consultorio;0;0;0;25;25
+SAO SEBASTIAO DA GRAMA;diagnose_terapia;0;0;0;6;6
+SAO SEBASTIAO DA GRAMA;hospital;0;0;0;1;1
+SAO SEBASTIAO DA GRAMA;outros;0;0;2;0;2
+SAO SEBASTIAO DA GRAMA;pronto_atendimento;0;0;1;0;1
+SAO SEBASTIAO DA GRAMA;ubs;0;0;5;0;5
+SAO SIMAO;clinica;0;0;3;1;4
+SAO SIMAO;consultorio;0;0;0;21;21
+SAO SIMAO;diagnose_terapia;0;0;0;5;5
+SAO SIMAO;hospital;0;0;0;1;1
+SAO SIMAO;outros;0;0;2;0;2
+SAO SIMAO;ubs;0;0;4;0;4
+SAO SIMAO;unidade_movel;0;0;1;0;1
+SAO SIMAO;vigilancia;0;0;2;0;2
+SAO VICENTE;clinica;0;0;12;33;45
+SAO VICENTE;consultorio;0;0;1;115;116
+SAO VICENTE;diagnose_terapia;0;0;1;18;19
+SAO VICENTE;hospital;1;0;3;3;7
+SAO VICENTE;outros;0;0;8;6;14
+SAO VICENTE;pronto_atendimento;0;0;3;1;4
+SAO VICENTE;ubs;0;0;27;0;31
+SAO VICENTE;saude_mental;0;0;5;0;5
+SAO VICENTE;unidade_movel;0;0;9;0;9
+SAO VICENTE;vigilancia;0;0;1;0;1
+SARAPUI;consultorio;0;0;0;1;1
+SARAPUI;diagnose_terapia;0;0;1;1;2
+SARAPUI;outros;0;0;2;0;2
+SARAPUI;ubs;0;0;4;0;4
+SARAPUI;unidade_movel;0;0;2;0;2
+SARUTAIA;outros;0;0;1;0;1
+SARUTAIA;ubs;0;0;1;0;1
+SEBASTIANOPOLIS DO SUL;clinica;0;0;0;1;1
+SEBASTIANOPOLIS DO SUL;outros;0;0;1;1;2
+SEBASTIANOPOLIS DO SUL;ubs;0;0;1;0;1
+SERRA AZUL;clinica;0;0;1;0;1
+SERRA AZUL;consultorio;0;0;0;3;3
+SERRA AZUL;diagnose_terapia;0;0;0;1;1
+SERRA AZUL;outros;0;0;1;1;2
+SERRA AZUL;ubs;0;0;5;0;8
+SERRA AZUL;unidade_movel;0;0;1;0;1
+SERRA AZUL;vigilancia;0;0;1;0;1
+SERRANA;clinica;0;0;5;12;17
+SERRANA;consultorio;0;0;0;35;35
+SERRANA;hospital;1;0;0;1;2
+SERRANA;outros;0;0;4;1;5
+SERRANA;pronto_atendimento;0;0;1;0;1
+SERRANA;ubs;0;0;7;0;7
+SERRANA;saude_mental;0;0;1;0;1
+SERRANA;unidade_movel;0;0;1;0;1
+SERRANA;vigilancia;0;0;2;0;2
+SERRA NEGRA;clinica;1;2;3;0;3
+SERRA NEGRA;consultorio;0;54;0;0;54
+SERRA NEGRA;diagnose_terapia;2;8;0;0;10
+SERRA NEGRA;hospital;0;1;0;0;1
+SERRA NEGRA;outros;1;12;0;0;13
+SERRA NEGRA;ubs;11;0;0;0;11
+SERRA NEGRA;saude_mental;1;0;0;0;1
+SERRA NEGRA;vigilancia;1;0;0;0;1
+SERTAOZINHO;clinica;8;66;0;0;74
+SERTAOZINHO;consultorio;1;1;362;0;364
+SERTAOZINHO;diagnose_terapia;0;27;0;0;27
+SERTAOZINHO;hospital;0;3;0;0;3
+SERTAOZINHO;outros;5;7;0;0;12
+SERTAOZINHO;pronto_atendimento;1;1;0;0;2
+SERTAOZINHO;ubs;10;0;0;0;10
+SERTAOZINHO;saude_mental;2;0;0;0;2
+SERTAOZINHO;unidade_movel;3;0;0;0;3
+SERTAOZINHO;vigilancia;4;0;0;0;4
+SETE BARRAS;clinica;0;0;0;0;1
+SETE BARRAS;consultorio;0;0;0;0;1
+SETE BARRAS;outros;1;0;0;0;1
+SETE BARRAS;pronto_atendimento;1;0;0;0;1
+SETE BARRAS;ubs;5;0;0;0;5
+SETE BARRAS;unidade_movel;1;0;0;0;1
+SEVERINIA;clinica;0;0;0;0;2
+SEVERINIA;consultorio;0;0;0;0;4
+SEVERINIA;diagnose_terapia;1;1;0;0;2
+SEVERINIA;outros;2;0;0;0;2
+SEVERINIA;pronto_atendimento;1;0;0;0;1
+SEVERINIA;ubs;3;0;0;0;3
+SEVERINIA;unidade_movel;1;0;0;0;1
+SILVEIRAS;consultorio;0;6;0;0;6
+SILVEIRAS;diagnose_terapia;1;0;0;0;1
+SILVEIRAS;outros;1;0;0;0;1
+SILVEIRAS;ubs;4;0;0;0;4
+SOCORRO;clinica;3;3;3;0;6
+SOCORRO;consultorio;0;57;0;0;57
+SOCORRO;diagnose_terapia;1;5;0;0;6
+SOCORRO;hospital;0;1;0;0;1
+SOCORRO;outros;5;2;0;0;7
+SOCORRO;ubs;15;0;0;0;15
+SOCORRO;saude_mental;1;0;0;0;1
+SOCORRO;unidade_movel;1;0;0;0;1
+SOROCABA;clinica;2;0;6;270;278
+SOROCABA;consultorio;0;2;1122;0;1124
+SOROCABA;diagnose_terapia;1;0;108;0;110
+SOROCABA;hospital;3;0;18;0;21
+SOROCABA;outros;5;0;41;4;50
+SOROCABA;pronto_atendimento;0;3;3;0;6
+SOROCABA;ubs;5;0;33;0;38
+SOROCABA;saude_mental;0;7;1;0;8
+SOROCABA;unidade_movel;0;11;5;0;16
+SOROCABA;vigilancia;0;1;0;0;1
+SUD MENNUCCI;clinica;0;0;0;0;2
+SUD MENNUCCI;consultorio;0;0;0;0;4
+SUD MENNUCCI;diagnose_terapia;0;0;0;0;1
+SUD MENNUCCI;hospital;0;0;0;0;1
+SUD MENNUCCI;outros;1;0;0;0;1
+SUD MENNUCCI;ubs;2;0;0;0;2
+SUD MENNUCCI;vigilancia;1;0;0;0;1
+SUMARE;clinica;8;76;0;0;84
+SUMARE;consultorio;3;134;0;0;137
+SUMARE;diagnose_terapia;0;32;0;0;32
+SUMARE;hospital;1;0;2;0;3
+SUMARE;outros;0;3;7;0;10
+SUMARE;pronto_atendimento;4;2;0;0;6
+SUMARE;ubs;1;23;1;0;25
+SUMARE;saude_mental;0;3;0;0;3
+SUMARE;unidade_movel;1;1;0;0;2
+SUMARE;vigilancia;3;0;0;0;3
+SUZANO;clinica;8;120;0;0;128
+SUZANO;consultorio;0;168;0;0;168
+SUZANO;diagnose_terapia;1;20;0;0;21
+SUZANO;hospital;1;0;3;0;4
+SUZANO;outros;0;4;5;0;9
+SUZANO;pronto_atendimento;2;1;0;0;3
+SUZANO;ubs;1;24;0;0;25
+SUZANO;saude_mental;0;4;0;0;4
+SUZANO;unidade_movel;0;5;0;0;5
+SUZANO;vigilancia;0;2;0;0;2
+SUZANAPOLIS;clinica;0;1;0;0;1
+SUZANAPOLIS;outros;2;0;0;0;2
+SUZANAPOLIS;ubs;1;0;0;0;1
+TABAPUA;clinica;2;1;0;0;3
+TABAPUA;consultorio;0;10;0;0;10
+TABAPUA;diagnose_terapia;1;2;0;0;3
+TABAPUA;hospital;0;1;0;0;1
+TABAPUA;outros;1;0;0;0;1
+TABAPUA;ubs;2;0;0;0;2
+TABAPUA;unidade_movel;1;0;0;0;1
+TABATINGA;clinica;0;0;0;0;8
+TABATINGA;consultorio;0;31;0;0;31
+TABATINGA;diagnose_terapia;1;5;0;0;6
+TABATINGA;hospital;0;1;0;0;1
+TABATINGA;outros;1;0;0;0;1
+TABATINGA;pronto_atendimento;1;0;0;0;1
+TABATINGA;ubs;5;0;0;0;5
+TABATINGA;vigilancia;1;0;0;0;1
+TABOAO DA SERRA;clinica;1;8;46;0;55
+TABOAO DA SERRA;consultorio;2;82;0;0;84
+TABOAO DA SERRA;diagnose_terapia;0;8;0;0;8
+TABOAO DA SERRA;hospital;1;1;1;0;3
+TABOAO DA SERRA;outros;4;3;0;0;7
+TABOAO DA SERRA;pronto_atendimento;2;0;0;0;2
+TABOAO DA SERRA;ubs;14;0;0;0;14
+TABOAO DA SERRA;saude_mental;3;0;0;0;3
+TABOAO DA SERRA;unidade_movel;6;0;0;0;6
+TABOAO DA SERRA;vigilancia;4;0;0;0;4
+TACIBA;clinica;1;0;0;0;1
+TACIBA;outros;1;0;0;0;1
+TACIBA;ubs;4;0;0;0;4
+TAGUAI;consultorio;0;6;0;0;6
+TAGUAI;diagnose_terapia;0;4;0;0;4
+TAGUAI;hospital;0;1;0;0;1
+TAGUAI;outros;1;1;0;0;2
+TAGUAI;ubs;5;0;0;0;5
+TAGUAI;unidade_movel;1;0;0;0;1
+TAIACU;clinica;1;1;0;0;2
+TAIACU;consultorio;0;4;0;0;4
+TAIACU;diagnose_terapia;0;1;0;0;1
+TAIACU;outros;2;0;0;0;2
+TAIACU;ubs;3;0;0;0;3
+TAIUVA;consultorio;0;10;0;0;10
+TAIUVA;diagnose_terapia;0;4;0;0;4
+TAIUVA;outros;1;0;0;0;1
+TAIUVA;ubs;1;2;0;0;3
+TAMBAU;clinica;2;1;0;0;3
+TAMBAU;consultorio;0;41;0;0;41
+TAMBAU;diagnose_terapia;0;12;0;0;12
+TAMBAU;hospital;0;1;0;0;1
+TAMBAU;outros;3;2;0;0;5
+TAMBAU;pronto_atendimento;1;0;0;0;1
+TAMBAU;ubs;9;0;0;0;9
+TAMBAU;unidade_movel;1;0;0;0;1
+TANABI;clinica;1;14;0;0;15
+TANABI;consultorio;1;22;0;0;23
+TANABI;diagnose_terapia;0;4;0;0;4
+TANABI;hospital;0;1;0;0;1
+TANABI;outros;2;0;0;0;2
+TANABI;ubs;11;0;0;0;11
+TANABI;saude_mental;1;0;0;0;1
+TANABI;unidade_movel;1;0;0;0;1
+TAPIRAI;consultorio;0;0;0;2;2
+TAPIRAI;outros;0;0;0;3;3
+TAPIRAI;pronto_atendimento;0;0;0;1;1
+TAPIRAI;ubs;0;0;0;3;3
+TAPIRATIBA;clinica;0;0;0;1;1
+TAPIRATIBA;consultorio;0;0;0;6;6
+TAPIRATIBA;diagnose_terapia;0;0;1;1;2
+TAPIRATIBA;hospital;0;0;0;1;1
+TAPIRATIBA;outros;0;0;2;1;3
+TAPIRATIBA;ubs;0;0;0;5;5
+TAPIRATIBA;saude_mental;0;0;1;0;1
+TAQUARAL;outros;0;0;0;2;2
+TAQUARAL;pronto_atendimento;0;0;0;1;1
+TAQUARAL;ubs;0;0;0;1;1
+TAQUARITINGA;clinica;1;0;0;8;11
+TAQUARITINGA;consultorio;1;0;0;146;147
+TAQUARITINGA;diagnose_terapia;0;0;0;9;9
+TAQUARITINGA;hospital;0;0;0;2;2
+TAQUARITINGA;outros;0;0;2;5;7
+TAQUARITINGA;pronto_atendimento;0;0;0;1;1
+TAQUARITINGA;ubs;0;0;0;10;10
+TAQUARITINGA;saude_mental;0;0;0;2;2
+TAQUARITINGA;unidade_movel;0;0;1;2;3
+TAQUARITINGA;vigilancia;0;0;0;1;1
+TAQUARITUBA;clinica;0;0;0;1;1
+TAQUARITUBA;consultorio;0;0;0;11;11
+TAQUARITUBA;diagnose_terapia;0;0;0;5;5
+TAQUARITUBA;hospital;0;0;0;1;1
+TAQUARITUBA;outros;0;0;1;0;1
+TAQUARITUBA;ubs;0;0;1;6;7
+TAQUARITUBA;saude_mental;0;0;0;1;1
+TAQUARITUBA;unidade_movel;0;0;0;1;1
+TAQUARIVAI;outros;0;0;0;3;3
+TAQUARIVAI;pronto_atendimento;0;0;0;1;1
+TAQUARIVAI;ubs;0;0;0;3;3
+TARABAI;clinica;0;0;0;1;1
+TARABAI;consultorio;0;0;0;1;1
+TARABAI;outros;0;0;0;1;1
+TARABAI;ubs;0;0;0;4;4
+TARUMA;clinica;0;0;0;1;1
+TARUMA;consultorio;0;0;0;7;7
+TARUMA;diagnose_terapia;0;0;0;3;3
+TARUMA;outros;0;0;0;5;5
+TARUMA;pronto_atendimento;0;0;0;1;1
+TARUMA;ubs;0;0;0;4;4
+TARUMA;saude_mental;0;0;0;1;1
+TARUMA;unidade_movel;0;0;0;1;1
+TATUI;clinica;0;0;9;28;37
+TATUI;consultorio;0;1;0;359;360
+TATUI;diagnose_terapia;0;0;0;22;22
+TATUI;hospital;0;0;0;2;2
+TATUI;outros;0;0;4;6;10
+TATUI;pronto_atendimento;0;0;0;1;1
+TATUI;ubs;0;0;0;20;20
+TATUI;saude_mental;0;0;0;3;3
+TATUI;unidade_movel;0;0;6;2;8
+TATUI;vigilancia;0;0;0;1;1
+TAUBATE;clinica;2;0;11;260;273
+TAUBATE;consultorio;0;0;0;598;598
+TAUBATE;diagnose_terapia;1;0;0;43;44
+TAUBATE;hospital;1;0;1;9;11
+TAUBATE;outros;3;0;6;39;48
+TAUBATE;pronto_atendimento;0;0;0;4;4
+TAUBATE;ubs;0;3;46;0;49
+TAUBATE;saude_mental;0;0;0;3;3
+TAUBATE;unidade_movel;0;0;8;2;10
+TAUBATE;vigilancia;0;0;0;1;1
+TEJUPA;outros;0;0;0;1;1
+TEJUPA;ubs;0;0;0;3;3
+TEODORO SAMPAIO;clinica;0;0;0;4;4
+TEODORO SAMPAIO;consultorio;0;0;0;28;28
+TEODORO SAMPAIO;diagnose_terapia;0;0;2;1;3
+TEODORO SAMPAIO;hospital;0;0;0;1;1
+TEODORO SAMPAIO;outros;0;0;2;0;2
+TEODORO SAMPAIO;ubs;0;1;11;1;12
+TEODORO SAMPAIO;saude_mental;0;0;1;0;1
+TEODORO SAMPAIO;vigilancia;0;0;1;0;1
+TERRA ROXA;clinica;0;0;1;0;1
+TERRA ROXA;consultorio;0;0;0;6;6
+TERRA ROXA;diagnose_terapia;0;0;1;0;1
+TERRA ROXA;hospital;0;0;0;1;1
+TERRA ROXA;outros;0;0;2;0;2
+TERRA ROXA;pronto_atendimento;0;0;1;0;1
+TERRA ROXA;ubs;0;0;5;0;5
+TIETE;clinica;0;0;3;13;16
+TIETE;consultorio;0;0;0;119;119
+TIETE;diagnose_terapia;0;0;1;18;19
+TIETE;hospital;0;0;0;1;1
+TIETE;outros;0;0;5;4;9
+TIETE;ubs;0;0;7;0;7
+TIETE;saude_mental;0;0;1;0;1
+TIMBURI;outros;0;1;1;0;2
+TIMBURI;ubs;0;0;1;0;1
+TIMBURI;unidade_movel;0;0;1;0;1
+TORRE DE PEDRA;outros;0;1;1;0;3
+TORRE DE PEDRA;ubs;0;0;1;0;1
+TORRINHA;consultorio;0;0;0;2;2
+TORRINHA;diagnose_terapia;0;0;0;1;1
+TORRINHA;hospital;0;0;0;1;1
+TORRINHA;outros;0;0;2;0;2
+TORRINHA;ubs;0;0;2;0;2
+TORRINHA;vigilancia;0;0;1;0;1
+TRABIJU;outros;0;0;0;1;1
+TRABIJU;ubs;0;0;0;1;1
+TREMEMBE;clinica;0;1;12;0;13
+TREMEMBE;consultorio;0;0;0;10;10
+TREMEMBE;diagnose_terapia;0;0;1;1;2
+TREMEMBE;hospital;0;0;0;1;1
+TREMEMBE;outros;0;0;3;1;4
+TREMEMBE;pronto_atendimento;0;0;1;0;1
+TREMEMBE;ubs;0;0;5;0;5
+TREMEMBE;unidade_movel;0;0;1;0;1
+TREMEMBE;vigilancia;0;0;2;0;2
+TRES FRONTEIRAS;clinica;0;0;1;0;1
+TRES FRONTEIRAS;diagnose_terapia;0;0;0;1;1
+TRES FRONTEIRAS;outros;0;0;2;0;2
+TRES FRONTEIRAS;ubs;0;0;2;0;2
+TUIUTI;clinica;0;0;1;0;1
+TUIUTI;consultorio;0;0;0;1;1
+TUIUTI;diagnose_terapia;0;0;0;1;1
+TUIUTI;outros;0;0;2;0;2
+TUIUTI;ubs;0;0;1;0;1
+TUIUTI;unidade_movel;0;0;1;0;1
+TUPA;clinica;0;0;4;24;28
+TUPA;consultorio;0;0;0;217;217
+TUPA;diagnose_terapia;0;0;1;11;12
+TUPA;hospital;1;0;0;2;3
+TUPA;outros;1;0;7;5;13
+TUPA;pronto_atendimento;0;0;1;0;1
+TUPA;ubs;0;0;15;0;15
+TUPA;saude_mental;0;0;1;0;1
+TUPA;vigilancia;0;0;1;0;1
+TUPI PAULISTA;clinica;0;0;1;1;2
+TUPI PAULISTA;consultorio;0;0;0;40;40
+TUPI PAULISTA;diagnose_terapia;0;0;0;3;3
+TUPI PAULISTA;hospital;0;0;0;1;1
+TUPI PAULISTA;outros;0;0;2;0;2
+TUPI PAULISTA;pronto_atendimento;0;0;1;0;1
+TUPI PAULISTA;ubs;2;0;5;0;7
+TUPI PAULISTA;vigilancia;0;0;2;0;2
+TURIUBA;outros;0;0;1;0;1
+TURIUBA;ubs;0;0;1;0;1
+TURMALINA;clinica;0;0;1;0;1
+TURMALINA;outros;0;0;1;0;1
+TURMALINA;ubs;0;0;2;0;2
+UBARANA;diagnose_terapia;0;0;0;1;1
+UBARANA;outros;0;0;1;0;1
+UBARANA;ubs;0;0;1;0;1
+UBATUBA;clinica;0;0;3;9;12
+UBATUBA;consultorio;0;0;0;36;36
+UBATUBA;diagnose_terapia;0;0;0;7;7
+UBATUBA;hospital;0;0;0;2;2
+UBATUBA;outros;0;1;3;8;12
+UBATUBA;ubs;0;0;21;0;21
+UBATUBA;saude_mental;0;0;1;0;1
+UBATUBA;unidade_movel;0;0;5;0;5
+UBIRAJARA;outros;0;0;2;0;2
+UBIRAJARA;ubs;0;0;3;0;3
+UCHOA;clinica;0;0;0;2;2
+UCHOA;consultorio;0;0;0;19;19
+UCHOA;diagnose_terapia;0;0;0;2;2
+UCHOA;outros;0;0;3;0;3
+UCHOA;ubs;0;0;3;0;3
+UCHOA;saude_mental;0;0;1;0;1
+UNIAO PAULISTA;outros;0;0;2;0;2
+UNIAO PAULISTA;ubs;0;0;1;0;1
+URANIA;clinica;0;0;1;0;1
+URANIA;consultorio;0;0;0;2;2
+URANIA;diagnose_terapia;0;0;0;2;2
+URANIA;hospital;0;0;0;1;1
+URANIA;outros;0;0;1;0;1
+URANIA;ubs;0;0;3;0;3
+URANIA;unidade_movel;0;0;1;0;1
+URU;outros;0;0;2;0;2
+URU;ubs;0;0;1;0;1
+URUPES;clinica;0;0;1;4;5
+URUPES;consultorio;0;0;1;14;15
+URUPES;diagnose_terapia;0;0;0;1;1
+URUPES;hospital;0;0;0;1;1
+URUPES;outros;0;0;2;1;3
+URUPES;pronto_atendimento;0;0;1;0;1
+URUPES;ubs;0;0;6;0;6
+URUPES;unidade_movel;0;0;1;0;1
+VALENTIM GENTIL;consultorio;0;0;0;18;18
+VALENTIM GENTIL;diagnose_terapia;0;0;0;1;1
+VALENTIM GENTIL;outros;0;0;3;0;3
+VALENTIM GENTIL;ubs;0;0;6;0;6
+VALINHOS;clinica;0;0;12;63;75
+VALINHOS;consultorio;0;0;0;408;408
+VALINHOS;diagnose_terapia;0;0;1;21;22
+VALINHOS;hospital;0;0;0;2;2
+VALINHOS;outros;0;0;6;10;16
+VALINHOS;pronto_atendimento;0;0;2;0;2
+VALINHOS;ubs;0;0;15;0;15
+VALINHOS;saude_mental;0;0;3;0;3
+VALINHOS;unidade_movel;0;0;1;0;1
+VALINHOS;vigilancia;0;0;2;0;2
+VALPARAISO;clinica;0;0;2;4;6
+VALPARAISO;consultorio;0;0;0;31;31
+VALPARAISO;diagnose_terapia;0;0;0;2;2
+VALPARAISO;hospital;0;0;0;1;1
+VALPARAISO;outros;0;0;3;0;3
+VALPARAISO;ubs;2;0;5;0;7
+VALPARAISO;saude_mental;0;0;1;0;1
+VARGEM;diagnose_terapia;0;0;0;1;1
+VARGEM;outros;0;0;1;0;1
+VARGEM;ubs;0;0;3;0;3
+VARGEM;unidade_movel;0;0;1;0;1
+VARGEM GRANDE DO SUL;clinica;0;0;3;14;17
+VARGEM GRANDE DO SUL;consultorio;0;0;0;99;99
+VARGEM GRANDE DO SUL;diagnose_terapia;0;0;0;6;6
+VARGEM GRANDE DO SUL;hospital;0;0;0;1;1
+VARGEM GRANDE DO SUL;outros;0;0;2;2;4
+VARGEM GRANDE DO SUL;pronto_atendimento;0;0;1;0;1
+VARGEM GRANDE DO SUL;ubs;0;0;10;0;10
+VARGEM GRANDE DO SUL;saude_mental;0;0;1;0;1
+VARGEM GRANDE DO SUL;unidade_movel;0;0;1;0;1
+VARGEM GRANDE PAULISTA;clinica;0;0;4;23;27
+VARGEM GRANDE PAULISTA;consultorio;0;0;0;13;13
+VARGEM GRANDE PAULISTA;diagnose_terapia;0;0;0;1;1
+VARGEM GRANDE PAULISTA;hospital;0;0;0;1;1
+VARGEM GRANDE PAULISTA;outros;0;0;2;4;6
+VARGEM GRANDE PAULISTA;pronto_atendimento;0;0;1;0;1
+VARGEM GRANDE PAULISTA;ubs;0;0;8;0;8
+VARGEM GRANDE PAULISTA;saude_mental;0;0;1;0;1
+VARGEM GRANDE PAULISTA;unidade_movel;0;0;1;1;2
+VARGEM GRANDE PAULISTA;vigilancia;0;0;3;0;3
+VARZEA PAULISTA;clinica;0;0;3;14;17
+VARZEA PAULISTA;consultorio;0;0;0;13;13
+VARZEA PAULISTA;diagnose_terapia;0;0;0;7;7
+VARZEA PAULISTA;hospital;1;0;0;0;1
+VARZEA PAULISTA;outros;0;0;3;1;4
+VARZEA PAULISTA;pronto_atendimento;0;0;1;0;1
+VARZEA PAULISTA;ubs;0;0;13;0;13
+VARZEA PAULISTA;saude_mental;0;0;2;0;2
+VARZEA PAULISTA;unidade_movel;0;0;1;0;1
+VARZEA PAULISTA;vigilancia;0;0;1;0;1
+VERA CRUZ;clinica;0;0;0;4;4
+VERA CRUZ;consultorio;0;0;1;9;10
+VERA CRUZ;outros;0;0;1;0;1
+VERA CRUZ;pronto_atendimento;0;0;1;0;1
+VERA CRUZ;ubs;0;0;3;0;3
+VINHEDO;clinica;0;0;5;41;46
+VINHEDO;consultorio;0;0;1;302;303
+VINHEDO;diagnose_terapia;0;0;0;21;21
+VINHEDO;hospital;0;0;0;1;1
+VINHEDO;outros;0;0;3;6;9
+VINHEDO;pronto_atendimento;0;0;2;0;2
+VINHEDO;ubs;0;0;8;0;8
+VINHEDO;saude_mental;0;0;2;0;2
+VINHEDO;vigilancia;0;0;1;0;1
+VIRADOURO;clinica;0;0;4;2;6
+VIRADOURO;consultorio;0;0;0;23;23
+VIRADOURO;diagnose_terapia;0;0;0;4;4
+VIRADOURO;hospital;0;0;0;1;1
+VIRADOURO;outros;0;0;5;4;9
+VIRADOURO;pronto_atendimento;0;0;1;0;1
+VIRADOURO;ubs;0;0;5;0;5
+VISTA ALEGRE DO ALTO;clinica;0;0;1;0;1
+VISTA ALEGRE DO ALTO;consultorio;0;0;0;5;5
+VISTA ALEGRE DO ALTO;diagnose_terapia;0;0;0;1;1
+VISTA ALEGRE DO ALTO;outros;0;0;1;0;1
+VISTA ALEGRE DO ALTO;ubs;0;0;2;0;2
+VISTA ALEGRE DO ALTO;vigilancia;0;0;1;0;1
+VITORIA BRASIL;clinica;0;0;1;0;1
+VITORIA BRASIL;outros;0;0;1;0;1
+VITORIA BRASIL;ubs;0;0;1;0;1
+VOTORANTIM;clinica;0;0;3;15;18
+VOTORANTIM;consultorio;0;0;0;76;76
+VOTORANTIM;diagnose_terapia;0;0;0;20;20
+VOTORANTIM;hospital;1;0;1;0;2
+VOTORANTIM;outros;0;0;5;2;7
+VOTORANTIM;pronto_atendimento;0;0;2;0;2
+VOTORANTIM;ubs;1;0;17;0;18
+VOTORANTIM;saude_mental;0;0;3;0;3
+VOTORANTIM;unidade_movel;0;0;2;3;5
+VOTORANTIM;vigilancia;0;0;1;0;1
+VOTUPORANGA;clinica;1;0;6;56;63
+VOTUPORANGA;consultorio;0;0;0;409;409
+VOTUPORANGA;diagnose_terapia;0;0;2;28;30
+VOTUPORANGA;hospital;0;0;0;2;2
+VOTUPORANGA;outros;1;0;8;11;20
+VOTUPORANGA;pronto_atendimento;0;0;2;0;2
+VOTUPORANGA;ubs;0;0;14;0;14
+VOTUPORANGA;saude_mental;0;0;3;0;3
+VOTUPORANGA;unidade_movel;0;0;5;1;6
+VOTUPORANGA;vigilancia;0;0;1;0;1
+ZACARIAS;outros;0;0;2;0;2
+ZACARIAS;ubs;0;0;1;0;1
+CHAVANTES;consultorio;0;0;0;15;15
+CHAVANTES;diagnose_terapia;0;0;0;2;2
+CHAVANTES;hospital;0;0;0;1;1
+CHAVANTES;outros;0;0;1;0;1
+CHAVANTES;ubs;0;0;4;0;4
+CHAVANTES;saude_mental;0;0;1;0;1
+CHAVANTES;vigilancia;0;0;1;0;1
+ESTIVA GERBI;clinica;0;0;1;1;2
+ESTIVA GERBI;consultorio;0;0;1;3;4
+ESTIVA GERBI;diagnose_terapia;0;0;1;1;2
+ESTIVA GERBI;outros;0;0;2;0;2
+ESTIVA GERBI;pronto_atendimento;0;0;1;0;1
+ESTIVA GERBI;ubs;0;0;5;0;5
+ESTIVA GERBI;unidade_movel;0;0;1;0;1
