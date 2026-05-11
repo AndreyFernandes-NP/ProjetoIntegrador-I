@@ -40,10 +40,23 @@ merge:
   saida: main_dataframe.csv
 
 fontes:
+  - nome: municipios
+    arquivo: municipios.csv
+    merge: true
+    colunas_uteis: ['latitude', 'longitude']
+    notas: 'Base de dados de todas as cidades do estado de SP, com seus respectivos
+      códigos IBGE e coordenadas geográficas, extraída do IBGE'
+    transformacoes:
+      codigo_ibge:
+        tipo: mapa_ibge
+        rename: municipio
+    qualidade:
   - nome: estabelecimentos_saude
     arquivo: estabelecimentos_saude.csv
     merge: true
-    colunas_uteis: ['consultorio_total', 'hospital_total', 'outros_total', 'pronto_atendimento_total']
+    colunas_uteis: ['hospital_estadual', 'hospital_federal', 'hospital_municipal',
+      'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal',
+      'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total']
     notas: 'Dados dos tipos e quantidade de estabelecimentos de saúde por município
       de SP, 2022, extraídos do CNES'
     transformacoes:
@@ -64,7 +77,7 @@ fontes:
     notas: 'Dados de estabelecimentos de saúde geolocalizados extraídos através do
       QGIS, utilizando o plugin MMQGIS para cruzar os dados de estabelecimentos de
       saúde do CNES com as coordenadas geográficas dos municípios de SP'
-    transformacoes: # É, temos uns probleminhas de dados aqui, lidar com isso em call
+    transformacoes:
       latitude:
         cast: float64
       longitude:
@@ -72,7 +85,7 @@ fontes:
     qualidade:
   - nome: inst_hospitalares_sp
     arquivo: inst_hospitalares_sp.csv
-    merge: true
+    merge: false
     colunas_uteis: ['Instituições Hospitalares']
     notas: 'Dados da quantidade de instituições hospitalares por município de SP,
       2022'
@@ -86,7 +99,9 @@ fontes:
   - nome: ipvs_esp
     arquivo: ipvs_esp.csv
     merge: true
-    colunas_uteis: ['alta vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_domicilios', 'alta vulnerabilidade_n_setores']
+    colunas_uteis: ['baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_domicilios',
+      'baixa vulnerabilidade_n_domicilios', 'media vulnerabilidade_n_domicilios',
+      'alta vulnerabilidade_n_domicilios', 'muito alta vulnerabilidade_n_domicilios']
     notas: 'Dados do Índice Paulista de Vulnerabilidade Social (IPVS) por setor censitário,
       2022, fornecido pela Fundação Seade e IBGE'
     transformacoes:
@@ -105,7 +120,7 @@ fontes:
   - nome: sia_cnv_qgsp
     arquivo: sia_cnv_qgsp.csv
     merge: true
-    colunas_uteis: ['vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'terapias especializadas']
+    colunas_uteis: ['vigilancia em saude', 'consultas / atendimentos / acompanhamentos']
     notas: 'Dados da Rede de Atenção à Saúde (SIA) por município de SP, 2022'
     transformacoes:
       Município gestor:
@@ -119,7 +134,10 @@ fontes:
   - nome: sih_cnv_spgsp
     arquivo: sih_cnv_spgsp.csv
     merge: true
-    colunas_uteis: ['diagnostico por tomografia', 'transplante de orgaos, tecidos e celulas', 'outras cirurgias']
+    colunas_uteis: ['diagnostico em laboratorio clinico', 'diagnostico por radiologia',
+      'diagnostico por teste rapido', 'tratamentos clinicos (outras especialidades)',
+      'parto e nascimento', 'cirurgia obstetrica', 'pequenas cirurgias e cirurgias
+          de pele, tecido subcutaneo e mucosa', 'acoes relacionadas ao atendimento']
     notas: 'Dados do Sistema de Informações Hospitalares (SIH) por município de SP,
       2022'
     transformacoes:
@@ -132,7 +150,8 @@ fontes:
     arquivo: tabela30_SP_internacao.csv
     merge: false
     colunas_uteis: []
-    notas: 'Tabela de Internações por tipo de serviço ou equipamento do município de SP, 2022, extraída do Tabnet do DATASUS'
+    notas: 'Tabela de Internações por tipo de serviço ou equipamento do município
+      de SP, 2022, extraída do Tabnet do DATASUS'
     transformacoes:
       Internação x tipo de Serviços ou Equipamentos:
         tipo: purge
@@ -144,6 +163,18 @@ fontes:
         cast: Int64
       Privado/SUS:
         cast: Int64
+    qualidade:
+  - nome: finbra_2022SP
+    arquivo: finbra_2022SP.csv
+    merge: true
+    colunas_uteis: ['populacao', 'receita_anual']
+    notas: 'Dados da Finbra 2022 por município de SP, extraídos do site da Secretaria da Fazenda do Estado de São Paulo'
+    transformacoes:
+      cod_ibge:
+        tipo: mapa_ibge
+        rename: municipio
+      valor:
+        rename: receita_anual
     qualidade:
 
   # ── Template para novas fontes ───────────────────────────────────────────
