@@ -28,10 +28,12 @@ from validator import validate_quality
 from register_source import create_template
 from transformer import load_refs, transform, careful_load_csv
 from merger import run_merge, load_merge_config
+from calculator import calculate_ids, append_dimensions
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 RAW_DIR     = PATHS.data_raw
 CLEAN_DIR   = PATHS.data_clean
+PROC_DIR = PATHS.data_processed
 
 # Utils
 
@@ -125,6 +127,9 @@ def process_csv(fonte: dict, fonte_cfg: dict, dfs_ref: dict, dry_run: bool = Fal
         df = transform(df, fonte_cfg, dfs_ref)
         print(f"[Transform] concluído para '{nome}'")
     
+    # Etapa 2.1: inicialização de colunas IDS (se declaradas no YAML)
+    append_dimensions(fonte_cfg)
+    
     # Etapa 3: validação de qualidade
     validate_quality(df, nome, fonte_cfg, fail_on_error=not dry_run)
 
@@ -186,9 +191,16 @@ def pipeline(force_save: bool = False):
 
     # Etapa 4: merge final
     merge_config = load_merge_config(CONFIG_PATH)
-    merged = run_merge(config=merge_config)
+    merged, destino = run_merge(config=merge_config)
 
     if merged is not None:
+        # Etapa 5: calcular IDS
+        merged = calculate_ids(merged, keep_intermeds=False)
+
+        # Etapa 6: salvar o resultado final
+        merged.to_csv(destino, index=False, encoding="utf-8", sep=";")
+
+        print(f"\n[Salvo] {destino.relative_to(PATHS.root)}")
         print(f"\n[Merge] Merge final concluído com {len(merged)} linhas x {len(merged.columns)} colunas.")
 
 if __name__ == "__main__":

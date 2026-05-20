@@ -105,7 +105,8 @@ def generate_block(nome: str, arquivo: str) -> dict:
         "colunas_uteis": [],
         "notas": "",
         "transformacoes": None,
-        "qualidade": None
+        "qualidade": None,
+        "ids": None
     }
 
 def create_template(nome: str, arquivo: str) -> None:

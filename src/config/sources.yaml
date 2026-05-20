@@ -28,6 +28,14 @@
 #   cols_nao_nulas      : colunas que independentemente não podem ser nulas
 #   cols_numericas      : colunas que precisam ser algum tipo numérico
 #
+# Bloco IDS (por dimensionalidade):
+#   dimensões:
+#     infraestrutura      : colunas que devem ser relacionadas à infraestrutura de saúde do município
+#     vulnerabilidade     : colunas que devem ser relacionadas à vulnerabilidade social do município
+#     serviços            : colunas que devem ser relacionadas aos serviços ofertados de saúde do município
+#     renda:
+#       coluna_valor      : coluna relacionada à receita anual do município
+#
 # Bloco merge (nível raiz):
 #   chave       : coluna comum usada para unir os DFs de dados
 #   como        : tipo de join — left | right | inner | outer (padrão: left)
@@ -51,6 +59,7 @@ fontes:
         tipo: mapa_ibge
         rename: municipio
     qualidade:
+    ids:
   - nome: estabelecimentos_saude
     arquivo: estabelecimentos_saude.csv
     merge: true
@@ -70,6 +79,19 @@ fontes:
       cols_obrigatorias: ['municipio']
       cols_unicas: ['municipio']
       cols_nao_nulas: ['municipio']
+    ids:
+      infraestrutura:
+        hospital_estadual: 0.9
+        hospital_federal: 0.9
+        hospital_municipal: 1.1
+        hospital_particular: 0.5
+        clinica_estadual: 0.45
+        clinica_federal: 0.45
+        clinica_municipal: 0.55
+        clinica_particular: 0.25
+        consultorio_total: 0.15
+        pronto_atendimento_total: 0.65
+        unidade_movel_total: 0.3
   - nome: healthcare_final_latlon
     arquivo: healthcare_final_latlon.csv
     merge: false
@@ -83,6 +105,7 @@ fontes:
       longitude:
         cast: float64
     qualidade:
+    ids:
   - nome: inst_hospitalares_sp
     arquivo: inst_hospitalares_sp.csv
     merge: false
@@ -96,12 +119,13 @@ fontes:
         cast: Int64
         rename: Instituições Hospitalares
     qualidade:
+    ids:
   - nome: ipvs_esp
     arquivo: ipvs_esp.csv
     merge: true
-    colunas_uteis: ['baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_domicilios',
-      'baixa vulnerabilidade_n_domicilios', 'media vulnerabilidade_n_domicilios',
-      'alta vulnerabilidade_n_domicilios', 'muito alta vulnerabilidade_n_domicilios']
+    colunas_uteis: ['baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas',
+      'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas',
+      'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas']
     notas: 'Dados do Índice Paulista de Vulnerabilidade Social (IPVS) por setor censitário,
       2022, fornecido pela Fundação Seade e IBGE'
     transformacoes:
@@ -117,6 +141,14 @@ fontes:
       cols_unicas: ['municipio']
       cols_nao_nulas: ['municipio']
       cols_numericas: ['n_pessoas', 'n_domicilios', 'n_setores']
+    ids:
+      vulnerabilidade:
+        baixissima vulnerabilidade_n_pessoas: 0.0
+        muito baixa vulnerabilidade_n_pessoas: 0.15
+        baixa vulnerabilidade_n_pessoas: 0.3
+        media vulnerabilidade_n_pessoas: 0.5
+        alta vulnerabilidade_n_pessoas: 0.75
+        muito alta vulnerabilidade_n_pessoas: 1.0
   - nome: sia_cnv_qgsp
     arquivo: sia_cnv_qgsp.csv
     merge: true
@@ -131,6 +163,10 @@ fontes:
       Total:
         cast: Int64
     qualidade:
+    ids:
+      serviços:
+        vigilancia em saude: 0.6
+        consultas / atendimentos / acompanhamentos: 1.0
   - nome: sih_cnv_spgsp
     arquivo: sih_cnv_spgsp.csv
     merge: true
@@ -146,6 +182,16 @@ fontes:
       Total:
         cast: Int64
     qualidade:
+    ids:
+      serviços:
+        diagnostico em laboratorio clinico: 0.55
+        diagnostico por radiologia: 0.55
+        diagnostico por teste rapido: 0.25
+        tratamentos clinicos (outras especialidades): 0.4
+        parto e nascimento: 0.5
+        cirurgia obstetrica: 0.4
+        pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa: 0.25
+        acoes relacionadas ao atendimento: 0.2
   - nome: tabela30_SP_internacao
     arquivo: tabela30_SP_internacao.csv
     merge: false
@@ -164,6 +210,7 @@ fontes:
       Privado/SUS:
         cast: Int64
     qualidade:
+    ids:
   - nome: finbra_2022SP
     arquivo: finbra_2022SP.csv
     merge: true
@@ -174,8 +221,13 @@ fontes:
         tipo: mapa_ibge
         rename: municipio
       valor:
+        cast: float64
         rename: receita_anual
     qualidade:
+      cols_numericas: ['receita_anual']
+    ids:
+      renda:
+        coluna_valor: receita_anual
 
   # ── Template para novas fontes ───────────────────────────────────────────
   # - nome: nome_da_fonte
@@ -198,3 +250,13 @@ fontes:
   #     cols_unicas: []
   #     cols_nao_nulas: []
   #     cols_numericas: []
+  #   ids:
+  #     dimensoes:
+  #       infraestrutura:
+  #         coluna_x: peso_x
+  #       vulnerabilidade:
+  #         coluna_y: peso_y
+  #       serviços:
+  #         coluna_z: peso_z
+  #       renda:
+  #         coluna_valor: coluna_de_receita_anual
