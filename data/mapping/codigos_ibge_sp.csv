@@ -1,648 +1,646 @@
-cod_ibge;municipio;area_km;cod_ra;ra;cod_rm;rm;cod_drs;drs;cod_r_saude;r_saude
-35;Estado de S„o Paulo;248219,48;;Estado de S„o Paulo;;Estado de S„o Paulo;;Estado de S„o Paulo;;Estado de S„o Paulo
-3500000;Sem especificaÁ„o de municÌpio;;;Sem especificaÁ„o de municÌpio;;Sem especificaÁ„o de municÌpio;;Sem especificaÁ„o de municÌpio;;Sem especificaÁ„o de municÌpio
-3500105;Adamantina;411,987;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3500204;Adolfo;211,055;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3500303;AguaÌ;474,554;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3500402;¡guas da Prata;142,673;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3500501;¡guas de LindÛia;60,126;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35074;Circuito das ¡guas
-3500550;¡guas de Santa B·rbara;404,463;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3500600;¡guas de S„o Pedro;3,612;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3500709;Agudos;966,708;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3500758;Alambari;159,6;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3500808;Alfredo Marcondes;118,915;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3500907;Altair;313,007;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3501004;AltinÛpolis;928,956;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3501103;Alto Alegre;318,574;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3501152;AlumÌnio;83,619;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3501202;¡lvares Florence;362,411;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3501301;¡lvares Machado;347,647;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3501400;¡lvaro de Carvalho;153,662;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3501509;Alvinl‚ndia;84,879;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3501608;Americana;133,912;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3501707;AmÈrico Brasiliense;122,958;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3501806;AmÈrico de Campos;252,876;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3501905;Amparo;445,323;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35074;Circuito das ¡guas
-3502002;Anal‚ndia;325,953;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35104;Rio Claro
-3502101;Andradina;964,226;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3502200;Angatuba;1027,288;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35161;Itapetininga
-3502309;Anhembi;736,557;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3502408;Anhumas;320,84;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3502507;Aparecida;120,89;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3502606;Aparecida d'Oeste;179,004;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3502705;ApiaÌ;974,322;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3502754;AraÁariguama;145,204;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3502804;AraÁatuba;1167,126;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3502903;AraÁoiaba da Serra;255,305;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3503000;Aramina;202,829;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35083;Alta Mogiana
-3503109;Arandu;285,908;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3503158;ArapeÌ;156,903;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3503208;Araraquara;1003,625;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3503307;Araras;644,831;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35101;Araras
-3503356;Arco-Õris;264,904;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3503406;Arealva;506,226;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3503505;Areias;305,227;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3503604;AreiÛpolis;85,907;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3503703;Ariranha;132,624;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3503802;Artur Nogueira;178,026;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3503901;Aruj·;96,167;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3503950;Asp·sia;69,373;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3504008;Assis;460,609;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3504107;Atibaia;478,521;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3504206;Auriflama;434,498;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3504305;AvaÌ;540,689;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3504404;Avanhandava;338,37;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3504503;AvarÈ;1213,055;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3504602;Bady Bassitt;110,372;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3504701;Balbinos;91,635;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3504800;B·lsamo;149,881;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3504909;Bananal;616,429;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3505005;Bar„o de Antonina;153,142;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3505104;Barbosa;205,212;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3505203;Bariri;444,405;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3505302;Barra Bonita;150,121;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3505351;Barra do ChapÈu;405,681;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3505401;Barra do Turvo;1007,684;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3505500;Barretos;1566,161;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3505609;Barrinha;146,025;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3505708;Barueri;65,701;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3505807;Bastos;170,912;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3505906;Batatais;849,526;15;RA Franca;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3506003;Bauru;667,684;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3506102;Bebedouro;683,192;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35052;Sul - Barretos
-3506201;Bento de Abreu;301,687;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3506300;Bernardino de Campos;244,158;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3506359;Bertioga;491,546;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3506409;Bilac;158,025;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3506508;Birigui;530,031;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3506607;Biritiba Mirim;317,406;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3506706;Boa EsperanÁa do Sul;690,748;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3506805;Bocaina;363,926;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3506904;Bofete;653,541;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3507001;Boituva;248,954;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3507100;Bom Jesus dos Perdıes;108,366;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3507159;Bom Sucesso de ItararÈ;133,578;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3507209;Bor·;118,951;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3507308;BoracÈia;122,11;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3507407;Borborema;552,256;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35032;Centro Oeste do DRS III
-3507456;Borebi;347,989;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3507506;Botucatu;1482,642;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3507605;BraganÁa Paulista;512,584;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3507704;Bra˙na;195,176;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3507753;Brejo Alegre;105,689;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3507803;Brodowski;278,458;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3507902;Brotas;1101,373;6;RA Campinas;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3508009;Buri;1196,463;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3508108;Buritama;326,921;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3508207;Buritizal;266,42;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35083;Alta Mogiana
-3508306;Cabr·lia Paulista;239,974;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3508405;Cabre˙va;260,234;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3508504;CaÁapava;368,99;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3508603;Cachoeira Paulista;287,99;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3508702;Caconde;468,214;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3508801;Cafel‚ndia;920,28;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3508900;Caiabu;253,352;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3509007;Caieiras;97,642;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35012;Franco da Rocha
-3509106;Caiu·;551,159;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35114;Extremo Oeste Paulista
-3509205;Cajamar;131,386;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35012;Franco da Rocha
-3509254;Cajati;454,489;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3509304;Cajobi;176,929;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3509403;Cajuru;660,088;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3509452;Campina do Monte Alegre;184,479;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35161;Itapetininga
-3509502;Campinas;794,571;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3509601;Campo Limpo Paulista;79,403;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3509700;Campos do Jord„o;289,981;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3509809;Campos Novos Paulista;484,199;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3509908;CananÈia;1237,354;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3509957;Canas;53,261;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3510005;C‚ndido Mota;595,811;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3510104;C‚ndido Rodrigues;70,892;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35033;Norte do DRS III
-3510153;Canitar;57,459;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3510203;Cap„o Bonito;1640,229;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35161;Itapetininga
-3510302;Capela do Alto;169,89;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3510401;Capivari;322,878;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3510500;Caraguatatuba;484,947;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35173;Litoral Norte
-3510609;CarapicuÌba;34,546;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3510708;Cardoso;639,248;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3510807;Casa Branca;864,225;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3510906;C·ssia dos Coqueiros;191,683;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3511003;Castilho;1065,318;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3511102;Catanduva;290,596;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3511201;Catigu·;148,393;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3511300;Cedral;197,838;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3511409;Cerqueira CÈsar;511,621;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3511508;Cerquilho;127,803;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3511607;Ces·rio Lange;190,392;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3511706;Charqueada;175,846;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3511904;Clementina;168,59;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3512001;Colina;422,303;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3512100;ColÙmbia;728,648;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3512209;Conchal;182,793;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35101;Araras
-3512308;Conchas;466,12;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3512407;CordeirÛpolis;137,579;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35102;Limeira
-3512506;Coroados;246,825;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3512605;Coronel Macedo;303,83;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3512704;CorumbataÌ;278,622;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35104;Rio Claro
-3512803;CosmÛpolis;154,665;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3512902;Cosmorama;441,68;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3513009;Cotia;323,994;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3513108;Cravinhos;311,423;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3513207;Cristais Paulista;385,23;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3513306;Cruz·lia;149,33;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3513405;Cruzeiro;305,699;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3513504;Cubat„o;142,879;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3513603;Cunha;1407,25;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3513702;Descalvado;753,706;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35034;CoraÁ„o do DRS III
-3513801;Diadema;30,732;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3513850;Dirce Reis;88,133;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3513900;Divinol‚ndia;223,749;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3514007;Dobrada;149,729;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35033;Norte do DRS III
-3514106;Dois CÛrregos;632,972;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3514205;DolcinÛpolis;77,939;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3514304;Dourado;205,874;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35034;CoraÁ„o do DRS III
-3514403;Dracena;487,688;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3514502;Duartina;264,557;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3514601;Dumont;111,376;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3514700;Echapor„;515,258;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3514809;Eldorado;1654,256;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3514908;Elias Fausto;202,36;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3514924;Elisi·rio;93,98;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3514957;Emba˙ba;83,129;14;RA Barretos;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3515004;Embu das Artes;70,398;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3515103;Embu-GuaÁu;155,641;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3515129;EmilianÛpolis;225,167;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3515152;Engenheiro Coelho;109,941;6;RA Campinas;3;RM Campinas;11;DRS Piracicaba;35102;Limeira
-3515186;EspÌrito Santo do Pinhal;389,235;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3515194;EspÌrito Santo do Turvo;193,666;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3515202;Estrela d'Oeste;296,281;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3515301;Estrela do Norte;264,987;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3515350;Euclides da Cunha Paulista;573,894;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35115;Pontal do Paranapanema
-3515400;Fartura;429,171;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3515509;FernandÛpolis;549,797;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3515608;Fernando Prestes;169,99;13;RA Central;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3515657;Fern„o;100,504;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3515707;Ferraz de Vasconcelos;29,547;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3515806;Flora Rica;224,711;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3515905;Floreal;204,236;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3516002;FlÛrida Paulista;524,138;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3516101;FlorÌnea;225,886;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3516200;Franca;605,679;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3516309;Francisco Morato;49,001;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35012;Franco da Rocha
-3516408;Franco da Rocha;132,775;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35012;Franco da Rocha
-3516507;Gabriel Monteiro;138,681;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3516606;G·lia;355,914;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3516705;GarÁa;555,807;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3516804;Gast„o Vidigal;180,569;10;RA AraÁatuba;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3516853;Gavi„o Peixoto;243,766;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3516903;General Salgado;494,376;10;RA AraÁatuba;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3517000;Getulina;676,755;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3517109;GlicÈrio;272,8;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3517208;GuaiÁara;277,154;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3517307;GuaimbÍ;217,811;8;RA Bauru;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3517406;GuaÌra;1258,465;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3517505;GuapiaÁu;325,126;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3517604;Guapiara;408,292;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3517703;Guar·;362,183;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35083;Alta Mogiana
-3517802;GuaraÁaÌ;569,197;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3517901;Guaraci;641,501;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3518008;Guarani d'Oeste;85,7;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3518107;Guarant„;461,746;8;RA Bauru;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3518206;Guararapes;955,637;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3518305;Guararema;270,816;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3518404;Guaratinguet·;752,636;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3518503;GuareÌ;567,884;5;RA Sorocaba;9;Demais municÌpios;6;DRS Sorocaba;35161;Itapetininga
-3518602;Guariba;270,289;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3518701;Guaruj·;144,794;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3518800;Guarulhos;318,675;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3518859;Guatapar·;413,567;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3518909;Guzol‚ndia;252,477;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3519006;Hercul‚ndia;364,252;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3519055;Holambra;65,577;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3519071;Hortol‚ndia;62,416;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3519105;Iacanga;547,393;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3519204;Iacri;321,948;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3519253;Iaras;401,381;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3519303;IbatÈ;290,977;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35034;CoraÁ„o do DRS III
-3519402;Ibir·;271,912;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3519501;Ibirarema;228,23;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3519600;Ibitinga;689,391;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35032;Centro Oeste do DRS III
-3519709;Ibi˙na;1058,082;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3519808;IcÈm;362,355;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3519907;IepÍ;594,974;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35113;Alto Capivari
-3520004;IgaraÁu do TietÍ;97,747;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3520103;Igarapava;468,355;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35083;Alta Mogiana
-3520202;Igarat·;292,953;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3520301;Iguape;1978,795;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3520400;Ilhabela;346,389;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35173;Litoral Norte
-3520426;Ilha Comprida;196,567;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3520442;Ilha Solteira;652,641;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3520509;Indaiatuba;311,545;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3520608;Indiana;129,367;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3520707;Indiapor„;279,606;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3520806;In˙bia Paulista;87,119;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3520905;Ipaussu;209,554;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3521002;IperÛ;170,289;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3521101;Ipe˙na;190,01;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35104;Rio Claro
-3521150;Ipigu·;136,028;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3521200;Iporanga;1152,059;16;RA Itapeva;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3521309;Ipu„;466,461;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35082;Alta Anhanguera
-3521408;Iracem·polis;115,118;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35102;Limeira
-3521507;Irapu„;257,612;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3521606;Irapuru;214,461;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3521705;Itaber·;1100,247;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3521804;ItaÌ;1092,884;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3521903;Itajobi;502,066;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3522000;Itaju;230,355;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3522109;ItanhaÈm;601,711;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3522158;Itaoca;183,015;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3522208;Itapecerica da Serra;150,742;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3522307;Itapetininga;1789,35;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3522406;Itapeva;1826,258;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3522505;Itapevi;82,658;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3522604;Itapira;518,416;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35141;Baixa Mogiana
-3522653;Itapirapu„ Paulista;406,478;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3522703;It·polis;996,747;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35032;Centro Oeste do DRS III
-3522802;Itaporanga;507,997;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3522901;ItapuÌ;140,023;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3523008;Itapura;301,653;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3523107;Itaquaquecetuba;82,622;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3523206;ItararÈ;1003,86;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3523305;Itariri;273,667;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3523404;Itatiba;322,269;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3523503;Itatinga;979,817;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3523602;Itirapina;564,603;6;RA Campinas;9;Demais municÌpios;11;DRS Piracicaba;35104;Rio Claro
-3523701;Itirapu„;161,118;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3523800;Itobi;138,986;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3523909;Itu;640,719;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3524006;Itupeva;200,876;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3524105;Ituverava;704,659;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35083;Alta Mogiana
-3524204;Jaborandi;273,438;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35051;Norte - Barretos
-3524303;Jaboticabal;706,602;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3524402;JacareÌ;464,272;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3524501;Jaci;145,133;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3524600;Jacupiranga;704,136;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3524709;Jaguari˙na;141,391;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3524808;Jales;368,574;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3524907;Jambeiro;184,413;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3525003;Jandira;17,449;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3525102;JardinÛpolis;501,87;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3525201;Jarinu;207,549;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3525300;Ja˙;687,103;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3525409;Jeriquara;141,971;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3525508;JoanÛpolis;374,293;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3525607;Jo„o Ramalho;415,452;12;RA MarÌlia;9;Demais municÌpios;2;DRS Presidente Prudente;35113;Alto Capivari
-3525706;JosÈ Bonif·cio;860,2;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3525805;J˙lio Mesquita;128,183;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3525854;Jumirim;56,685;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3525904;JundiaÌ;431,204;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3526001;JunqueirÛpolis;582,565;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3526100;Juqui·;812,799;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3526209;Juquitiba;522,169;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3526308;Lagoinha;255,472;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3526407;Laranjal Paulista;384,274;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3526506;LavÌnia;537,675;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3526605;Lavrinhas;167,067;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3526704;Leme;402,871;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35101;Araras
-3526803;LenÁÛis Paulista;809,541;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3526902;Limeira;580,711;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35102;Limeira
-3527009;LindÛia;48,756;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35074;Circuito das ¡guas
-3527108;Lins;570,058;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3527207;Lorena;414,16;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3527256;Lourdes;113,94;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3527306;Louveira;55,738;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3527405;LucÈlia;314,81;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3527504;LucianÛpolis;189,536;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3527603;LuÌs AntÙnio;598,257;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3527702;Luizi‚nia;166,576;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3527801;LupÈrcio;155,171;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3527900;LutÈcia;475,226;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3528007;Macatuba;224,514;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3528106;Macaubal;248,087;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3528205;MacedÙnia;327,567;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3528304;Magda;312,282;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3528403;Mairinque;210,149;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3528502;Mairipor„;320,697;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35012;Franco da Rocha
-3528601;Manduri;229,046;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3528700;Marab· Paulista;919,519;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35114;Extremo Oeste Paulista
-3528809;MaracaÌ;533,498;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3528858;Marapoama;111,267;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3528908;Mari·polis;186,544;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3529005;MarÌlia;1170,515;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3529104;MarinÛpolis;77,827;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3529203;MartinÛpolis;1254,032;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3529302;Mat„o;524,899;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35033;Norte do DRS III
-3529401;Mau·;61,937;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3529500;MendonÁa;195,151;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3529609;Meridiano;228,199;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3529658;MesÛpolis;148,636;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3529708;MiguelÛpolis;820,849;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35083;Alta Mogiana
-3529807;Mineiros do TietÍ;213,242;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3529906;Miracatu;1001,484;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3530003;Mira Estrela;216,825;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3530102;MirandÛpolis;917,694;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3530201;Mirante do Paranapanema;1238,931;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35115;Pontal do Paranapanema
-3530300;Mirassol;243,228;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3530409;Mirassol‚ndia;166,125;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3530508;Mococa;855,156;6;RA Campinas;6;RM Ribeir„o Preto;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3530607;Mogi das Cruzes;712,541;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3530706;Mogi GuaÁu;812,753;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35141;Baixa Mogiana
-3530805;Mogi Mirim;497,708;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35141;Baixa Mogiana
-3530904;Mombuca;133,698;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3531001;MonÁıes;104,352;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3531100;Mongagu·;142,755;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3531209;Monte Alegre do Sul;110,308;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35074;Circuito das ¡guas
-3531308;Monte Alto;346,95;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3531407;Monte AprazÌvel;495,559;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3531506;Monte Azul Paulista;263,463;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35052;Sul - Barretos
-3531605;Monte Castelo;233,547;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3531704;Monteiro Lobato;332,742;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3531803;Monte Mor;240,566;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3531902;Morro Agudo;1388,127;15;RA Franca;6;RM Ribeir„o Preto;4;DRS Franca;35082;Alta Anhanguera
-3532009;Morungaba;146,752;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3532058;Motuca;228,7;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3532108;Murutinga do Sul;250,873;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3532157;Nantes;286,647;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35113;Alto Capivari
-3532207;Narandiba;357,325;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3532306;Natividade da Serra;833,372;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3532405;NazarÈ Paulista;326,254;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3532504;Neves Paulista;219,05;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3532603;Nhandeara;436,159;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3532702;Nipo„;137,609;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3532801;Nova AlianÁa;217,515;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3532827;Nova Campina;385,375;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3532843;Nova Cana„ Paulista;124,473;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35152;Santa FÈ do Sul
-3532868;Nova Castilho;183,396;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3532900;Nova Europa;160,25;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35032;Centro Oeste do DRS III
-3533007;Nova Granada;531,796;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3533106;Nova Guataporanga;34,158;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3533205;Nova IndependÍncia;265,029;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3533254;Novais;117,772;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3533304;Nova Luzit‚nia;73,816;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3533403;Nova Odessa;73,788;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3533502;Novo Horizonte;931,743;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3533601;Nuporanga;348,265;15;RA Franca;6;RM Ribeir„o Preto;4;DRS Franca;35082;Alta Anhanguera
-3533700;OcauÁu;301,036;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3533809;”leo;198,938;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3533908;OlÌmpia;802,555;14;RA Barretos;9;RM S„o JosÈ do Rio Preto;16;DRS Barretos;35051;Norte - Barretos
-3534005;Onda Verde;242,946;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3534104;Oriente;218,668;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3534203;Orindi˙va;247,378;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3534302;Orl‚ndia;291,765;15;RA Franca;6;RM Ribeir„o Preto;4;DRS Franca;35082;Alta Anhanguera
-3534401;Osasco;64,954;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3534500;Oscar Bressane;222,13;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3534609;Osvaldo Cruz;248,038;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3534708;Ourinhos;295,818;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3534757;Ouroeste;288,648;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3534807;Ouro Verde;266,778;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3534906;Pacaembu;339,375;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3535002;Palestina;697,701;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3535101;Palmares Paulista;82,125;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3535200;Palmeira d'Oeste;318,74;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3535309;Palmital;548,407;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3535408;Panorama;356,05;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3535507;ParaguaÁu Paulista;1001,492;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3535606;Paraibuna;809,576;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3535705;ParaÌso;155,186;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3535804;Paranapanema;1018,724;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3535903;Paranapu„;140,354;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3536000;Parapu„;366,664;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3536109;Pardinho;209,894;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3536208;Pariquera-AÁu;359,414;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3536257;Parisi;84,737;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3536307;PatrocÌnio Paulista;602,848;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3536406;PaulicÈia;374,091;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3536505;PaulÌnia;138,777;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3536570;Paulist‚nia;256,178;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3536604;Paulo de Faria;737,986;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3536703;Pederneiras;727,482;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3536802;Pedra Bela;158,587;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3536901;PedranÛpolis;260,101;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3537008;Pedregulho;712,604;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3537107;Pedreira;108,817;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3537156;Pedrinhas Paulista;152,309;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3537206;Pedro de Toledo;670,44;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3537305;Pen·polis;711,314;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3537404;Pereira Barreto;974,247;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3537503;Pereiras;223,136;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3537602;PeruÌbe;326,216;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3537701;Piacatu;232,488;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3537800;Piedade;746,868;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3537909;Pilar do Sul;681,248;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3538006;Pindamonhangaba;731,355;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3538105;Pindorama;184,825;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3538204;Pinhalzinho;154,529;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3538303;Piquerobi;482,769;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35114;Extremo Oeste Paulista
-3538501;Piquete;175,996;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3538600;Piracaia;385,568;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3538709;Piracicaba;1378,069;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3538808;Piraju;504,591;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3538907;PirajuÌ;823,758;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3539004;Pirangi;215,809;14;RA Barretos;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3539103;Pirapora do Bom Jesus;108,489;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3539202;Pirapozinho;477,673;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3539301;Pirassununga;727,118;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35101;Araras
-3539400;Piratininga;402,409;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3539509;Pitangueiras;430,638;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3539608;Planalto;289,825;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3539707;Platina;327,48;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3539806;Po·;17,264;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3539905;Poloni;135,119;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3540002;PompÈia;784,674;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3540101;PongaÌ;183,399;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3540200;Pontal;356,371;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3540259;Pontalinda;209,525;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3540309;Pontes Gestal;217,505;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3540408;Populina;315,938;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3540507;Porangaba;265,689;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3540606;Porto Feliz;556,706;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3540705;Porto Ferreira;244,906;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35034;CoraÁ„o do DRS III
-3540754;Potim;44,643;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3540804;Potirendaba;342,492;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3540853;Pracinha;63,054;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3540903;PradÛpolis;167,378;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3541000;Praia Grande;149,652;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3541059;Prat‚nia;175,1;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3541109;Presidente Alves;286,642;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3541208;Presidente Bernardes;749,233;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3541307;Presidente Epit·cio;1260,281;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35114;Extremo Oeste Paulista
-3541406;Presidente Prudente;560,637;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3541505;Presidente Venceslau;755,203;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35114;Extremo Oeste Paulista
-3541604;Promiss„o;779,2;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3541653;Quadra;205,672;5;RA Sorocaba;9;Demais municÌpios;6;DRS Sorocaba;35161;Itapetininga
-3541703;Quat·;651,341;12;RA MarÌlia;9;Demais municÌpios;2;DRS Presidente Prudente;35113;Alto Capivari
-3541802;Queiroz;234,914;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3541901;Queluz;249,399;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3542008;Quintana;318,937;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3542107;Rafard;121,645;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3542206;Rancharia;1587,498;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35113;Alto Capivari
-3542305;RedenÁ„o da Serra;309,441;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3542404;Regente FeijÛ;263,313;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3542503;ReginÛpolis;410,406;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35062;Bauru
-3542602;Registro;722,201;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3542701;Restinga;245,746;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3542800;Ribeira;335,759;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3542909;Ribeir„o Bonito;471,553;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35034;CoraÁ„o do DRS III
-3543006;Ribeir„o Branco;697,5;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3543105;Ribeir„o Corrente;148,332;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3543204;Ribeir„o do Sul;203,208;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3543238;Ribeir„o dos Õndios;196,446;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3543253;Ribeir„o Grande;333,363;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35161;Itapetininga
-3543303;Ribeir„o Pires;98,972;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3543402;Ribeir„o Preto;650,916;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3543501;Riversul;385,878;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3543600;Rifaina;162,508;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3543709;Rinc„o;316,639;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3543808;RinÛpolis;358,481;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3543907;Rio Claro;498,422;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35104;Rio Claro
-3544004;Rio das Pedras;226,657;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3544103;Rio Grande da Serra;36,341;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3544202;Riol‚ndia;631,897;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3544251;Rosana;744,011;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35115;Pontal do Paranapanema
-3544301;Roseira;129,847;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3544400;Rubi·cea;236,484;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3544509;RubinÈia;242,877;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35152;Santa FÈ do Sul
-3544608;Sabino;305,285;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3544707;Sagres;147,935;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3544806;Sales;308,555;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3544905;Sales Oliveira;305,776;15;RA Franca;6;RM Ribeir„o Preto;4;DRS Franca;35082;Alta Anhanguera
-3545001;SalesÛpolis;424,997;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3545100;Salmour„o;172,934;11;RA Presidente Prudente;9;Demais municÌpios;5;DRS MarÌlia;35091;Adamantina
-3545159;Saltinho;99,738;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3545209;Salto;133,057;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3545308;Salto de Pirapora;280,412;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3545407;Salto Grande;188,441;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3545506;Sandovalina;455,856;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3545605;Santa AdÈlia;330,269;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3545704;Santa Albertina;272,692;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3545803;Santa B·rbara d'Oeste;271,03;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3546009;Santa Branca;272,238;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3546108;Santa Clara d'Oeste;183,458;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35152;Santa FÈ do Sul
-3546207;Santa Cruz da ConceiÁ„o;150,13;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35101;Araras
-3546256;Santa Cruz da EsperanÁa;148,062;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3546306;Santa Cruz das Palmeiras;295,337;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3546405;Santa Cruz do Rio Pardo;1114,747;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3546504;Santa Ernestina;134,421;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35033;Norte do DRS III
-3546603;Santa FÈ do Sul;206,537;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35152;Santa FÈ do Sul
-3546702;Santa Gertrudes;98,291;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35104;Rio Claro
-3546801;Santa Isabel;363,332;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3546900;Santa L˙cia;153,86;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3547007;Santa Maria da Serra;252,621;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3547106;Santa Mercedes;166,753;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3547205;Santana da Ponte Pensa;129,888;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3547304;Santana de ParnaÌba;179,949;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35014;Rota dos Bandeirantes
-3547403;Santa Rita d'Oeste;209,8;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35152;Santa FÈ do Sul
-3547502;Santa Rita do Passa Quatro;754,141;13;RA Central;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3547601;Santa Rosa de Viterbo;288,576;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3547650;Santa Salete;79,192;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3547700;Santo Anast·cio;552,876;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3547809;Santo AndrÈ;175,782;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3547908;Santo AntÙnio da Alegria;310,311;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35133;Vale das Cachoeiras
-3548005;Santo AntÙnio de Posse;154,133;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3548054;Santo AntÙnio do Aracangu·;1308,432;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3548104;Santo AntÙnio do Jardim;109,956;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3548203;Santo AntÙnio do Pinhal;133,008;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3548302;Santo Expedito;94,465;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3548401;SantÛpolis do AguapeÌ;128,026;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3548500;Santos;281,033;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3548609;S„o Bento do SapucaÌ;252,579;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3548708;S„o Bernardo do Campo;409,532;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3548807;S„o Caetano do Sul;15,331;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35015;Grande ABC
-3548906;S„o Carlos;1136,907;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35034;CoraÁ„o do DRS III
-3549003;S„o Francisco;75,579;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3549102;S„o Jo„o da Boa Vista;516,399;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3549201;S„o Jo„o das Duas Pontes;129,462;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3549250;S„o Jo„o de Iracema;178,396;10;RA AraÁatuba;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3549300;S„o Jo„o do Pau d'Alho;117,665;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3549409;S„o Joaquim da Barra;410,863;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35082;Alta Anhanguera
-3549508;S„o JosÈ da Bela Vista;276,952;15;RA Franca;9;Demais municÌpios;4;DRS Franca;35081;TrÍs Colinas
-3549607;S„o JosÈ do Barreiro;570,685;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3549706;S„o JosÈ do Rio Pardo;419,684;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3549805;S„o JosÈ do Rio Preto;431,944;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3549904;S„o JosÈ dos Campos;1099,409;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35171;Alto Vale do ParaÌba
-3549953;S„o LourenÁo da Serra;186,456;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3550001;S„o Luiz do Paraitinga;617,315;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3550100;S„o Manuel;650,734;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3550209;S„o Miguel Arcanjo;930,339;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3550308;S„o Paulo;1521,202;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35016;S„o Paulo
-3550407;S„o Pedro;611,278;6;RA Campinas;9;RM Piracicaba;11;DRS Piracicaba;35103;Piracicaba
-3550506;S„o Pedro do Turvo;731,221;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3550605;S„o Roque;306,908;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3550704;S„o Sebasti„o;402,395;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35173;Litoral Norte
-3550803;S„o Sebasti„o da Grama;252,41;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3550902;S„o Sim„o;617,252;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3551009;S„o Vicente;148,151;3;RA Santos;2;RM Baixada Santista;13;DRS Baixada Santista;35041;Baixada Santista
-3551108;SarapuÌ;352,592;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3551207;Sarutai·;141,608;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3551306;SebastianÛpolis do Sul;167,848;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3551405;Serra Azul;283,144;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3551504;Serrana;126,046;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35132;AquÌfero Guarani
-3551603;Serra Negra;203,734;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35074;Circuito das ¡guas
-3551702;Sert„ozinho;403,089;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;1;DRS Ribeir„o Preto;35131;Horizonte Verde
-3551801;Sete Barras;1062,699;2;RA Registro;9;Demais municÌpios;9;DRS Registro;35121;Vale do Ribeira
-3551900;SeverÌnia;140,46;14;RA Barretos;9;RM S„o JosÈ do Rio Preto;16;DRS Barretos;35051;Norte - Barretos
-3552007;Silveiras;414,782;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35172;Circuito da FÈ e Vale HistÛrico
-3552106;Socorro;449,029;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3552205;Sorocaba;449,872;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3552304;Sud Mennucci;594,744;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3552403;SumarÈ;153,465;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3552502;Suzano;206,236;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35011;Alto do TietÍ
-3552551;Suzan·polis;330,587;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35022;Lagos do DRS II
-3552601;Tabapu„;345,792;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3552700;Tabatinga;368,604;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35032;Centro Oeste do DRS III
-3552809;Tabo„o da Serra;20,388;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3552908;Taciba;606,766;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3553005;TaguaÌ;145,332;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3553104;TaiaÁu;107,059;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35052;Sul - Barretos
-3553203;Tai˙va;132,459;14;RA Barretos;6;RM Ribeir„o Preto;16;DRS Barretos;35052;Sul - Barretos
-3553302;Tamba˙;561,788;6;RA Campinas;6;RM Ribeir„o Preto;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3553401;Tanabi;747,218;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3553500;TapiraÌ;755,101;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3553609;Tapiratiba;221,891;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35143;Rio Pardo
-3553658;Taquaral;53,892;7;RA Ribeir„o Preto;6;RM Ribeir„o Preto;16;DRS Barretos;35052;Sul - Barretos
-3553708;Taquaritinga;594,335;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35033;Norte do DRS III
-3553807;Taquarituba;448,515;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3553856;TaquarivaÌ;231,792;16;RA Itapeva;9;Demais municÌpios;6;DRS Sorocaba;35162;Itapeva
-3553906;Tarabai;201,385;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35112;Alta Sorocabana
-3553955;Tarum„;302,913;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35092;Assis
-3554003;TatuÌ;523,749;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35161;Itapetininga
-3554102;TaubatÈ;625,003;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3554201;Tejup·;296,189;16;RA Itapeva;9;Demais municÌpios;12;DRS Bauru;35061;Vale do Jurumirim
-3554300;Teodoro Sampaio;1555,803;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35115;Pontal do Paranapanema
-3554409;Terra Roxa;221,541;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35052;Sul - Barretos
-3554508;TietÍ;404,396;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3554607;Timburi;196,79;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3554656;Torre de Pedra;71,348;5;RA Sorocaba;9;Demais municÌpios;12;DRS Bauru;35063;Polo Cuesta
-3554706;Torrinha;315,267;6;RA Campinas;9;Demais municÌpios;12;DRS Bauru;35064;Ja˙
-3554755;Trabiju;63,421;13;RA Central;9;Demais municÌpios;8;DRS Araraquara;35031;Central do DRS III
-3554805;TremembÈ;191,094;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35174;Vale do ParaÌba/Regi„o Serrana
-3554904;TrÍs Fronteiras;151,594;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35152;Santa FÈ do Sul
-3554953;Tuiuti;126,731;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3555000;Tup„;627,986;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35095;Tup„
-3555109;Tupi Paulista;244,77;11;RA Presidente Prudente;9;Demais municÌpios;2;DRS Presidente Prudente;35111;Alta Paulista
-3555208;Turi˙ba;153,235;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35023;ConsÛrcios do DRS II
-3555307;Turmalina;147,797;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35154;FernandÛpolis
-3555356;Ubarana;209,861;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3555406;Ubatuba;708,105;4;RA S„o JosÈ dos Campos;4;RM Vale ParaÌba e Litoral Norte;17;DRS TaubatÈ;35173;Litoral Norte
-3555505;Ubirajara;282,179;8;RA Bauru;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3555604;Uchoa;252,434;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35155;S„o JosÈ do Rio Preto
-3555703;Uni„o Paulista;79,056;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3555802;Ur‚nia;209,262;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3555901;Uru;146,901;8;RA Bauru;9;Demais municÌpios;12;DRS Bauru;35065;Lins
-3556008;UrupÍs;323,916;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35151;Catanduva
-3556107;Valentim Gentil;149,741;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3556206;Valinhos;148,538;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3556305;ValparaÌso;857,661;10;RA AraÁatuba;9;Demais municÌpios;7;DRS AraÁatuba;35021;Central do DRS II
-3556354;Vargem;142,595;6;RA Campinas;9;Demais municÌpios;3;DRS Campinas;35071;BraganÁa
-3556404;Vargem Grande do Sul;267,178;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35142;Mantiqueira
-3556453;Vargem Grande Paulista;42,489;1;RM  S„o Paulo;1;RM S„o Paulo;10;DRS Grande S„o Paulo;35013;Mananciais
-3556503;V·rzea Paulista;35,12;6;RA Campinas;9;RM JundiaÌ;3;DRS Campinas;35073;JundiaÌ
-3556602;Vera Cruz;247,716;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35093;MarÌlia
-3556701;Vinhedo;80,95;6;RA Campinas;3;RM Campinas;3;DRS Campinas;35072;Regi„o Metropolitana de Campinas
-3556800;Viradouro;217,726;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35052;Sul - Barretos
-3556909;Vista Alegre do Alto;95,429;14;RA Barretos;9;Demais municÌpios;16;DRS Barretos;35052;Sul - Barretos
-3556958;VitÛria Brasil;49,832;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35153;Jales
-3557006;Votorantim;184,186;5;RA Sorocaba;5;RM Sorocaba;6;DRS Sorocaba;35163;Sorocaba
-3557105;Votuporanga;420,703;9;RA S„o JosÈ do Rio Preto;9;Demais municÌpios;15;DRS S„o JosÈ do Rio Preto;35157;Votuporanga
-3557154;Zacarias;319,056;9;RA S„o JosÈ do Rio Preto;9;RM S„o JosÈ do Rio Preto;15;DRS S„o JosÈ do Rio Preto;35156;JosÈ Bonif·cio
-3557204;Chavantes;188,727;12;RA MarÌlia;9;Demais municÌpios;5;DRS MarÌlia;35094;Ourinhos
-3557303;Estiva Gerbi;74,144;6;RA Campinas;9;Demais municÌpios;14;DRS S„o Jo„o da Boa Vista;35141;Baixa Mogiana
+cod_ibge,municipio,area_km,cod_ra,ra,cod_rm,rm,cod_drs,drs,cod_r_saude,r_saude
+3500105,Adamantina,"411,987",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3500204,Adolfo,"211,055",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3500303,Agua√≠,"474,554",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3500402,√Åguas da Prata,"142,673",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3500501,√Åguas de Lind√≥ia,"60,126",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35074,Circuito das √Åguas
+3500550,√Åguas de Santa B√°rbara,"404,463",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3500600,√Åguas de S√£o Pedro,"3,612",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3500709,Agudos,"966,708",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3500758,Alambari,"159,6",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3500808,Alfredo Marcondes,"118,915",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3500907,Altair,"313,007",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3501004,Altin√≥polis,"928,956",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3501103,Alto Alegre,"318,574",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3501152,Alum√≠nio,"83,619",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3501202,√Ålvares Florence,"362,411",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3501301,√Ålvares Machado,"347,647",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3501400,√Ålvaro de Carvalho,"153,662",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3501509,Alvinl√¢ndia,"84,879",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3501608,Americana,"133,912",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3501707,Am√©rico Brasiliense,"122,958",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3501806,Am√©rico de Campos,"252,876",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3501905,Amparo,"445,323",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35074,Circuito das √Åguas
+3502002,Anal√¢ndia,"325,953",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35104,Rio Claro
+3502101,Andradina,"964,226",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3502200,Angatuba,"1027,288",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35161,Itapetininga
+3502309,Anhembi,"736,557",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3502408,Anhumas,"320,84",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3502507,Aparecida,"120,89",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3502606,Aparecida d'Oeste,"179,004",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3502705,Apia√≠,"974,322",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3502754,Ara√ßariguama,"145,204",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3502804,Ara√ßatuba,"1167,126",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3502903,Ara√ßoiaba da Serra,"255,305",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3503000,Aramina,"202,829",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35083,Alta Mogiana
+3503109,Arandu,"285,908",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3503158,Arape√≠,"156,903",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3503208,Araraquara,"1003,625",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3503307,Araras,"644,831",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35101,Araras
+3503356,Arco-√çris,"264,904",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3503406,Arealva,"506,226",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3503505,Areias,"305,227",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3503604,Arei√≥polis,"85,907",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3503703,Ariranha,"132,624",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3503802,Artur Nogueira,"178,026",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3503901,Aruj√°,"96,167",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3503950,Asp√°sia,"69,373",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3504008,Assis,"460,609",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3504107,Atibaia,"478,521",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3504206,Auriflama,"434,498",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3504305,Ava√≠,"540,689",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3504404,Avanhandava,"338,37",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3504503,Avar√©,"1213,055",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3504602,Bady Bassitt,"110,372",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3504701,Balbinos,"91,635",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3504800,B√°lsamo,"149,881",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3504909,Bananal,"616,429",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3505005,Bar√£o de Antonina,"153,142",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3505104,Barbosa,"205,212",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3505203,Bariri,"444,405",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3505302,Barra Bonita,"150,121",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3505351,Barra do Chap√©u,"405,681",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3505401,Barra do Turvo,"1007,684",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3505500,Barretos,"1566,161",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3505609,Barrinha,"146,025",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3505708,Barueri,"65,701",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3505807,Bastos,"170,912",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3505906,Batatais,"849,526",15,RA Franca,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3506003,Bauru,"667,684",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3506102,Bebedouro,"683,192",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35052,Sul - Barretos
+3506201,Bento de Abreu,"301,687",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3506300,Bernardino de Campos,"244,158",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3506359,Bertioga,"491,546",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3506409,Bilac,"158,025",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3506508,Birigui,"530,031",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3506607,Biritiba Mirim,"317,406",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3506706,Boa Esperan√ßa do Sul,"690,748",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3506805,Bocaina,"363,926",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3506904,Bofete,"653,541",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3507001,Boituva,"248,954",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3507100,Bom Jesus dos Perd√µes,"108,366",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3507159,Bom Sucesso de Itarar√©,"133,578",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3507209,Bor√°,"118,951",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3507308,Borac√©ia,"122,11",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3507407,Borborema,"552,256",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35032,Centro Oeste do DRS III
+3507456,Borebi,"347,989",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3507506,Botucatu,"1482,642",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3507605,Bragan√ßa Paulista,"512,584",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3507704,Bra√∫na,"195,176",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3507753,Brejo Alegre,"105,689",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3507803,Brodowski,"278,458",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3507902,Brotas,"1101,373",6,RA Campinas,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3508009,Buri,"1196,463",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3508108,Buritama,"326,921",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3508207,Buritizal,"266,42",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35083,Alta Mogiana
+3508306,Cabr√°lia Paulista,"239,974",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3508405,Cabre√∫va,"260,234",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3508504,Ca√ßapava,"368,99",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3508603,Cachoeira Paulista,"287,99",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3508702,Caconde,"468,214",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3508801,Cafel√¢ndia,"920,28",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3508900,Caiabu,"253,352",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3509007,Caieiras,"97,642",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35012,Franco da Rocha
+3509106,Caiu√°,"551,159",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35114,Extremo Oeste Paulista
+3509205,Cajamar,"131,386",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35012,Franco da Rocha
+3509254,Cajati,"454,489",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3509304,Cajobi,"176,929",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3509403,Cajuru,"660,088",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3509452,Campina do Monte Alegre,"184,479",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35161,Itapetininga
+3509502,Campinas,"794,571",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3509601,Campo Limpo Paulista,"79,403",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3509700,Campos do Jord√£o,"289,981",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3509809,Campos Novos Paulista,"484,199",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3509908,Canan√©ia,"1237,354",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3509957,Canas,"53,261",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3510005,C√¢ndido Mota,"595,811",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3510104,C√¢ndido Rodrigues,"70,892",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35033,Norte do DRS III
+3510153,Canitar,"57,459",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3510203,Cap√£o Bonito,"1640,229",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35161,Itapetininga
+3510302,Capela do Alto,"169,89",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3510401,Capivari,"322,878",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3510500,Caraguatatuba,"484,947",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35173,Litoral Norte
+3510609,Carapicu√≠ba,"34,546",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3510708,Cardoso,"639,248",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3510807,Casa Branca,"864,225",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3510906,C√°ssia dos Coqueiros,"191,683",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3511003,Castilho,"1065,318",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3511102,Catanduva,"290,596",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3511201,Catigu√°,"148,393",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3511300,Cedral,"197,838",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3511409,Cerqueira C√©sar,"511,621",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3511508,Cerquilho,"127,803",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3511607,Ces√°rio Lange,"190,392",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3511706,Charqueada,"175,846",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3511904,Clementina,"168,59",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3512001,Colina,"422,303",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3512100,Col√¥mbia,"728,648",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3512209,Conchal,"182,793",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35101,Araras
+3512308,Conchas,"466,12",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3512407,Cordeir√≥polis,"137,579",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35102,Limeira
+3512506,Coroados,"246,825",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3512605,Coronel Macedo,"303,83",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3512704,Corumbata√≠,"278,622",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35104,Rio Claro
+3512803,Cosm√≥polis,"154,665",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3512902,Cosmorama,"441,68",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3513009,Cotia,"323,994",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3513108,Cravinhos,"311,423",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3513207,Cristais Paulista,"385,23",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3513306,Cruz√°lia,"149,33",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3513405,Cruzeiro,"305,699",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3513504,Cubat√£o,"142,879",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3513603,Cunha,"1407,25",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3513702,Descalvado,"753,706",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35034,Cora√ß√£o do DRS III
+3513801,Diadema,"30,732",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3513850,Dirce Reis,"88,133",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3513900,Divinol√¢ndia,"223,749",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3514007,Dobrada,"149,729",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35033,Norte do DRS III
+3514106,Dois C√≥rregos,"632,972",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3514205,Dolcin√≥polis,"77,939",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3514304,Dourado,"205,874",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35034,Cora√ß√£o do DRS III
+3514403,Dracena,"487,688",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3514502,Duartina,"264,557",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3514601,Dumont,"111,376",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3514700,Echapor√£,"515,258",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3514809,Eldorado,"1654,256",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3514908,Elias Fausto,"202,36",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3514924,Elisi√°rio,"93,98",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3514957,Emba√∫ba,"83,129",14,RA Barretos,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3515004,Embu das Artes,"70,398",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3515103,Embu-Gua√ßu,"155,641",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3515129,Emilian√≥polis,"225,167",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3515152,Engenheiro Coelho,"109,941",6,RA Campinas,3,RM Campinas,11,DRS Piracicaba,35102,Limeira
+3515186,Esp√≠rito Santo do Pinhal,"389,235",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3515194,Esp√≠rito Santo do Turvo,"193,666",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3515202,Estrela d'Oeste,"296,281",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3515301,Estrela do Norte,"264,987",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3515350,Euclides da Cunha Paulista,"573,894",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35115,Pontal do Paranapanema
+3515400,Fartura,"429,171",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3515509,Fernand√≥polis,"549,797",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3515608,Fernando Prestes,"169,99",13,RA Central,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3515657,Fern√£o,"100,504",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3515707,Ferraz de Vasconcelos,"29,547",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3515806,Flora Rica,"224,711",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3515905,Floreal,"204,236",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3516002,Fl√≥rida Paulista,"524,138",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3516101,Flor√≠nea,"225,886",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3516200,Franca,"605,679",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3516309,Francisco Morato,"49,001",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35012,Franco da Rocha
+3516408,Franco da Rocha,"132,775",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35012,Franco da Rocha
+3516507,Gabriel Monteiro,"138,681",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3516606,G√°lia,"355,914",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3516705,Gar√ßa,"555,807",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3516804,Gast√£o Vidigal,"180,569",10,RA Ara√ßatuba,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3516853,Gavi√£o Peixoto,"243,766",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3516903,General Salgado,"494,376",10,RA Ara√ßatuba,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3517000,Getulina,"676,755",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3517109,Glic√©rio,"272,8",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3517208,Guai√ßara,"277,154",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3517307,Guaimb√™,"217,811",8,RA Bauru,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3517406,Gua√≠ra,"1258,465",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3517505,Guapia√ßu,"325,126",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3517604,Guapiara,"408,292",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3517703,Guar√°,"362,183",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35083,Alta Mogiana
+3517802,Guara√ßa√≠,"569,197",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3517901,Guaraci,"641,501",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3518008,Guarani d'Oeste,"85,7",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3518107,Guarant√£,"461,746",8,RA Bauru,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3518206,Guararapes,"955,637",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3518305,Guararema,"270,816",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3518404,Guaratinguet√°,"752,636",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3518503,Guare√≠,"567,884",5,RA Sorocaba,9,Demais munic√≠pios,6,DRS Sorocaba,35161,Itapetininga
+3518602,Guariba,"270,289",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3518701,Guaruj√°,"144,794",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3518800,Guarulhos,"318,675",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3518859,Guatapar√°,"413,567",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3518909,Guzol√¢ndia,"252,477",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3519006,Hercul√¢ndia,"364,252",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3519055,Holambra,"65,577",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3519071,Hortol√¢ndia,"62,416",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3519105,Iacanga,"547,393",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3519204,Iacri,"321,948",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3519253,Iaras,"401,381",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3519303,Ibat√©,"290,977",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35034,Cora√ß√£o do DRS III
+3519402,Ibir√°,"271,912",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3519501,Ibirarema,"228,23",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3519600,Ibitinga,"689,391",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35032,Centro Oeste do DRS III
+3519709,Ibi√∫na,"1058,082",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3519808,Ic√©m,"362,355",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3519907,Iep√™,"594,974",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35113,Alto Capivari
+3520004,Igara√ßu do Tiet√™,"97,747",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3520103,Igarapava,"468,355",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35083,Alta Mogiana
+3520202,Igarat√°,"292,953",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3520301,Iguape,"1978,795",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3520400,Ilhabela,"346,389",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35173,Litoral Norte
+3520426,Ilha Comprida,"196,567",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3520442,Ilha Solteira,"652,641",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3520509,Indaiatuba,"311,545",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3520608,Indiana,"129,367",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3520707,Indiapor√£,"279,606",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3520806,In√∫bia Paulista,"87,119",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3520905,Ipaussu,"209,554",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3521002,Iper√≥,"170,289",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3521101,Ipe√∫na,"190,01",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35104,Rio Claro
+3521150,Ipigu√°,"136,028",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3521200,Iporanga,"1152,059",16,RA Itapeva,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3521309,Ipu√£,"466,461",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35082,Alta Anhanguera
+3521408,Iracem√°polis,"115,118",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35102,Limeira
+3521507,Irapu√£,"257,612",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3521606,Irapuru,"214,461",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3521705,Itaber√°,"1100,247",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3521804,Ita√≠,"1092,884",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3521903,Itajobi,"502,066",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3522000,Itaju,"230,355",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3522109,Itanha√©m,"601,711",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3522158,Itaoca,"183,015",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3522208,Itapecerica da Serra,"150,742",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3522307,Itapetininga,"1789,35",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3522406,Itapeva,"1826,258",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3522505,Itapevi,"82,658",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3522604,Itapira,"518,416",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35141,Baixa Mogiana
+3522653,Itapirapu√£ Paulista,"406,478",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3522703,It√°polis,"996,747",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35032,Centro Oeste do DRS III
+3522802,Itaporanga,"507,997",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3522901,Itapu√≠,"140,023",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3523008,Itapura,"301,653",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3523107,Itaquaquecetuba,"82,622",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3523206,Itarar√©,"1003,86",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3523305,Itariri,"273,667",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3523404,Itatiba,"322,269",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3523503,Itatinga,"979,817",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3523602,Itirapina,"564,603",6,RA Campinas,9,Demais munic√≠pios,11,DRS Piracicaba,35104,Rio Claro
+3523701,Itirapu√£,"161,118",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3523800,Itobi,"138,986",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3523909,Itu,"640,719",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3524006,Itupeva,"200,876",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3524105,Ituverava,"704,659",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35083,Alta Mogiana
+3524204,Jaborandi,"273,438",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35051,Norte - Barretos
+3524303,Jaboticabal,"706,602",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3524402,Jacare√≠,"464,272",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3524501,Jaci,"145,133",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3524600,Jacupiranga,"704,136",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3524709,Jaguari√∫na,"141,391",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3524808,Jales,"368,574",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3524907,Jambeiro,"184,413",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3525003,Jandira,"17,449",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3525102,Jardin√≥polis,"501,87",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3525201,Jarinu,"207,549",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3525300,Ja√∫,"687,103",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3525409,Jeriquara,"141,971",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3525508,Joan√≥polis,"374,293",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3525607,Jo√£o Ramalho,"415,452",12,RA Mar√≠lia,9,Demais munic√≠pios,2,DRS Presidente Prudente,35113,Alto Capivari
+3525706,Jos√© Bonif√°cio,"860,2",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3525805,J√∫lio Mesquita,"128,183",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3525854,Jumirim,"56,685",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3525904,Jundia√≠,"431,204",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3526001,Junqueir√≥polis,"582,565",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3526100,Juqui√°,"812,799",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3526209,Juquitiba,"522,169",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3526308,Lagoinha,"255,472",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3526407,Laranjal Paulista,"384,274",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3526506,Lav√≠nia,"537,675",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3526605,Lavrinhas,"167,067",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3526704,Leme,"402,871",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35101,Araras
+3526803,Len√ß√≥is Paulista,"809,541",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3526902,Limeira,"580,711",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35102,Limeira
+3527009,Lind√≥ia,"48,756",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35074,Circuito das √Åguas
+3527108,Lins,"570,058",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3527207,Lorena,"414,16",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3527256,Lourdes,"113,94",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3527306,Louveira,"55,738",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3527405,Luc√©lia,"314,81",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3527504,Lucian√≥polis,"189,536",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3527603,Lu√≠s Ant√¥nio,"598,257",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3527702,Luizi√¢nia,"166,576",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3527801,Lup√©rcio,"155,171",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3527900,Lut√©cia,"475,226",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3528007,Macatuba,"224,514",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3528106,Macaubal,"248,087",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3528205,Maced√¥nia,"327,567",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3528304,Magda,"312,282",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3528403,Mairinque,"210,149",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3528502,Mairipor√£,"320,697",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35012,Franco da Rocha
+3528601,Manduri,"229,046",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3528700,Marab√° Paulista,"919,519",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35114,Extremo Oeste Paulista
+3528809,Maraca√≠,"533,498",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3528858,Marapoama,"111,267",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3528908,Mari√°polis,"186,544",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3529005,Mar√≠lia,"1170,515",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3529104,Marin√≥polis,"77,827",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3529203,Martin√≥polis,"1254,032",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3529302,Mat√£o,"524,899",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35033,Norte do DRS III
+3529401,Mau√°,"61,937",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3529500,Mendon√ßa,"195,151",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3529609,Meridiano,"228,199",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3529658,Mes√≥polis,"148,636",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3529708,Miguel√≥polis,"820,849",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35083,Alta Mogiana
+3529807,Mineiros do Tiet√™,"213,242",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3529906,Miracatu,"1001,484",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3530003,Mira Estrela,"216,825",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3530102,Mirand√≥polis,"917,694",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3530201,Mirante do Paranapanema,"1238,931",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35115,Pontal do Paranapanema
+3530300,Mirassol,"243,228",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3530409,Mirassol√¢ndia,"166,125",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3530508,Mococa,"855,156",6,RA Campinas,6,RM Ribeir√£o Preto,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3530607,Mogi das Cruzes,"712,541",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3530706,Mogi Gua√ßu,"812,753",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35141,Baixa Mogiana
+3530805,Mogi Mirim,"497,708",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35141,Baixa Mogiana
+3530904,Mombuca,"133,698",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3531001,Mon√ß√µes,"104,352",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3531100,Mongagu√°,"142,755",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3531209,Monte Alegre do Sul,"110,308",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35074,Circuito das √Åguas
+3531308,Monte Alto,"346,95",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3531407,Monte Apraz√≠vel,"495,559",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3531506,Monte Azul Paulista,"263,463",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35052,Sul - Barretos
+3531605,Monte Castelo,"233,547",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3531704,Monteiro Lobato,"332,742",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3531803,Monte Mor,"240,566",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3531902,Morro Agudo,"1388,127",15,RA Franca,6,RM Ribeir√£o Preto,4,DRS Franca,35082,Alta Anhanguera
+3532009,Morungaba,"146,752",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3532058,Motuca,"228,7",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3532108,Murutinga do Sul,"250,873",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3532157,Nantes,"286,647",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35113,Alto Capivari
+3532207,Narandiba,"357,325",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3532306,Natividade da Serra,"833,372",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3532405,Nazar√© Paulista,"326,254",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3532504,Neves Paulista,"219,05",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3532603,Nhandeara,"436,159",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3532702,Nipo√£,"137,609",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3532801,Nova Alian√ßa,"217,515",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3532827,Nova Campina,"385,375",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3532843,Nova Cana√£ Paulista,"124,473",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35152,Santa F√© do Sul
+3532868,Nova Castilho,"183,396",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3532900,Nova Europa,"160,25",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35032,Centro Oeste do DRS III
+3533007,Nova Granada,"531,796",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3533106,Nova Guataporanga,"34,158",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3533205,Nova Independ√™ncia,"265,029",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3533254,Novais,"117,772",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3533304,Nova Luzit√¢nia,"73,816",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3533403,Nova Odessa,"73,788",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3533502,Novo Horizonte,"931,743",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3533601,Nuporanga,"348,265",15,RA Franca,6,RM Ribeir√£o Preto,4,DRS Franca,35082,Alta Anhanguera
+3533700,Ocau√ßu,"301,036",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3533809,√ìleo,"198,938",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3533908,Ol√≠mpia,"802,555",14,RA Barretos,9,RM S√£o Jos√© do Rio Preto,16,DRS Barretos,35051,Norte - Barretos
+3534005,Onda Verde,"242,946",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3534104,Oriente,"218,668",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3534203,Orindi√∫va,"247,378",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3534302,Orl√¢ndia,"291,765",15,RA Franca,6,RM Ribeir√£o Preto,4,DRS Franca,35082,Alta Anhanguera
+3534401,Osasco,"64,954",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3534500,Oscar Bressane,"222,13",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3534609,Osvaldo Cruz,"248,038",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3534708,Ourinhos,"295,818",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3534757,Ouroeste,"288,648",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3534807,Ouro Verde,"266,778",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3534906,Pacaembu,"339,375",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3535002,Palestina,"697,701",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3535101,Palmares Paulista,"82,125",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3535200,Palmeira d'Oeste,"318,74",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3535309,Palmital,"548,407",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3535408,Panorama,"356,05",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3535507,Paragua√ßu Paulista,"1001,492",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3535606,Paraibuna,"809,576",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3535705,Para√≠so,"155,186",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3535804,Paranapanema,"1018,724",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3535903,Paranapu√£,"140,354",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3536000,Parapu√£,"366,664",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3536109,Pardinho,"209,894",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3536208,Pariquera-A√ßu,"359,414",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3536257,Parisi,"84,737",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3536307,Patroc√≠nio Paulista,"602,848",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3536406,Paulic√©ia,"374,091",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3536505,Paul√≠nia,"138,777",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3536570,Paulist√¢nia,"256,178",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3536604,Paulo de Faria,"737,986",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3536703,Pederneiras,"727,482",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3536802,Pedra Bela,"158,587",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3536901,Pedran√≥polis,"260,101",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3537008,Pedregulho,"712,604",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3537107,Pedreira,"108,817",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3537156,Pedrinhas Paulista,"152,309",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3537206,Pedro de Toledo,"670,44",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3537305,Pen√°polis,"711,314",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3537404,Pereira Barreto,"974,247",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3537503,Pereiras,"223,136",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3537602,Peru√≠be,"326,216",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3537701,Piacatu,"232,488",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3537800,Piedade,"746,868",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3537909,Pilar do Sul,"681,248",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3538006,Pindamonhangaba,"731,355",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3538105,Pindorama,"184,825",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3538204,Pinhalzinho,"154,529",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3538303,Piquerobi,"482,769",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35114,Extremo Oeste Paulista
+3538501,Piquete,"175,996",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3538600,Piracaia,"385,568",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3538709,Piracicaba,"1378,069",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3538808,Piraju,"504,591",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3538907,Piraju√≠,"823,758",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3539004,Pirangi,"215,809",14,RA Barretos,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3539103,Pirapora do Bom Jesus,"108,489",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3539202,Pirapozinho,"477,673",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3539301,Pirassununga,"727,118",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35101,Araras
+3539400,Piratininga,"402,409",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3539509,Pitangueiras,"430,638",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3539608,Planalto,"289,825",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3539707,Platina,"327,48",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3539806,Po√°,"17,264",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3539905,Poloni,"135,119",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3540002,Pomp√©ia,"784,674",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3540101,Ponga√≠,"183,399",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3540200,Pontal,"356,371",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3540259,Pontalinda,"209,525",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3540309,Pontes Gestal,"217,505",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3540408,Populina,"315,938",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3540507,Porangaba,"265,689",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3540606,Porto Feliz,"556,706",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3540705,Porto Ferreira,"244,906",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35034,Cora√ß√£o do DRS III
+3540754,Potim,"44,643",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3540804,Potirendaba,"342,492",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3540853,Pracinha,"63,054",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3540903,Prad√≥polis,"167,378",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3541000,Praia Grande,"149,652",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3541059,Prat√¢nia,"175,1",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3541109,Presidente Alves,"286,642",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3541208,Presidente Bernardes,"749,233",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3541307,Presidente Epit√°cio,"1260,281",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35114,Extremo Oeste Paulista
+3541406,Presidente Prudente,"560,637",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3541505,Presidente Venceslau,"755,203",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35114,Extremo Oeste Paulista
+3541604,Promiss√£o,"779,2",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3541653,Quadra,"205,672",5,RA Sorocaba,9,Demais munic√≠pios,6,DRS Sorocaba,35161,Itapetininga
+3541703,Quat√°,"651,341",12,RA Mar√≠lia,9,Demais munic√≠pios,2,DRS Presidente Prudente,35113,Alto Capivari
+3541802,Queiroz,"234,914",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3541901,Queluz,"249,399",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3542008,Quintana,"318,937",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3542107,Rafard,"121,645",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3542206,Rancharia,"1587,498",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35113,Alto Capivari
+3542305,Reden√ß√£o da Serra,"309,441",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3542404,Regente Feij√≥,"263,313",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3542503,Regin√≥polis,"410,406",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35062,Bauru
+3542602,Registro,"722,201",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3542701,Restinga,"245,746",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3542800,Ribeira,"335,759",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3542909,Ribeir√£o Bonito,"471,553",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35034,Cora√ß√£o do DRS III
+3543006,Ribeir√£o Branco,"697,5",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3543105,Ribeir√£o Corrente,"148,332",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3543204,Ribeir√£o do Sul,"203,208",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3543238,Ribeir√£o dos √çndios,"196,446",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3543253,Ribeir√£o Grande,"333,363",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35161,Itapetininga
+3543303,Ribeir√£o Pires,"98,972",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3543402,Ribeir√£o Preto,"650,916",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3543501,Riversul,"385,878",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3543600,Rifaina,"162,508",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3543709,Rinc√£o,"316,639",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3543808,Rin√≥polis,"358,481",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3543907,Rio Claro,"498,422",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35104,Rio Claro
+3544004,Rio das Pedras,"226,657",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3544103,Rio Grande da Serra,"36,341",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3544202,Riol√¢ndia,"631,897",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3544251,Rosana,"744,011",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35115,Pontal do Paranapanema
+3544301,Roseira,"129,847",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3544400,Rubi√°cea,"236,484",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3544509,Rubin√©ia,"242,877",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35152,Santa F√© do Sul
+3544608,Sabino,"305,285",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3544707,Sagres,"147,935",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3544806,Sales,"308,555",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3544905,Sales Oliveira,"305,776",15,RA Franca,6,RM Ribeir√£o Preto,4,DRS Franca,35082,Alta Anhanguera
+3545001,Sales√≥polis,"424,997",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3545100,Salmour√£o,"172,934",11,RA Presidente Prudente,9,Demais munic√≠pios,5,DRS Mar√≠lia,35091,Adamantina
+3545159,Saltinho,"99,738",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3545209,Salto,"133,057",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3545308,Salto de Pirapora,"280,412",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3545407,Salto Grande,"188,441",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3545506,Sandovalina,"455,856",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3545605,Santa Ad√©lia,"330,269",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3545704,Santa Albertina,"272,692",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3545803,Santa B√°rbara d'Oeste,"271,03",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3546009,Santa Branca,"272,238",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3546108,Santa Clara d'Oeste,"183,458",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35152,Santa F√© do Sul
+3546207,Santa Cruz da Concei√ß√£o,"150,13",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35101,Araras
+3546256,Santa Cruz da Esperan√ßa,"148,062",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3546306,Santa Cruz das Palmeiras,"295,337",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3546405,Santa Cruz do Rio Pardo,"1114,747",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3546504,Santa Ernestina,"134,421",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35033,Norte do DRS III
+3546603,Santa F√© do Sul,"206,537",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35152,Santa F√© do Sul
+3546702,Santa Gertrudes,"98,291",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35104,Rio Claro
+3546801,Santa Isabel,"363,332",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3546900,Santa L√∫cia,"153,86",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3547007,Santa Maria da Serra,"252,621",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3547106,Santa Mercedes,"166,753",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3547205,Santana da Ponte Pensa,"129,888",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3547304,Santana de Parna√≠ba,"179,949",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35014,Rota dos Bandeirantes
+3547403,Santa Rita d'Oeste,"209,8",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35152,Santa F√© do Sul
+3547502,Santa Rita do Passa Quatro,"754,141",13,RA Central,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3547601,Santa Rosa de Viterbo,"288,576",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3547650,Santa Salete,"79,192",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3547700,Santo Anast√°cio,"552,876",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3547809,Santo Andr√©,"175,782",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3547908,Santo Ant√¥nio da Alegria,"310,311",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35133,Vale das Cachoeiras
+3548005,Santo Ant√¥nio de Posse,"154,133",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3548054,Santo Ant√¥nio do Aracangu√°,"1308,432",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3548104,Santo Ant√¥nio do Jardim,"109,956",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3548203,Santo Ant√¥nio do Pinhal,"133,008",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3548302,Santo Expedito,"94,465",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3548401,Sant√≥polis do Aguape√≠,"128,026",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3548500,Santos,"281,033",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3548609,S√£o Bento do Sapuca√≠,"252,579",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3548708,S√£o Bernardo do Campo,"409,532",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3548807,S√£o Caetano do Sul,"15,331",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35015,Grande ABC
+3548906,S√£o Carlos,"1136,907",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35034,Cora√ß√£o do DRS III
+3549003,S√£o Francisco,"75,579",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3549102,S√£o Jo√£o da Boa Vista,"516,399",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3549201,S√£o Jo√£o das Duas Pontes,"129,462",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3549250,S√£o Jo√£o de Iracema,"178,396",10,RA Ara√ßatuba,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3549300,S√£o Jo√£o do Pau d'Alho,"117,665",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3549409,S√£o Joaquim da Barra,"410,863",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35082,Alta Anhanguera
+3549508,S√£o Jos√© da Bela Vista,"276,952",15,RA Franca,9,Demais munic√≠pios,4,DRS Franca,35081,Tr√™s Colinas
+3549607,S√£o Jos√© do Barreiro,"570,685",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3549706,S√£o Jos√© do Rio Pardo,"419,684",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3549805,S√£o Jos√© do Rio Preto,"431,944",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3549904,S√£o Jos√© dos Campos,"1099,409",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35171,Alto Vale do Para√≠ba
+3549953,S√£o Louren√ßo da Serra,"186,456",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3550001,S√£o Luiz do Paraitinga,"617,315",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3550100,S√£o Manuel,"650,734",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3550209,S√£o Miguel Arcanjo,"930,339",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3550308,S√£o Paulo,"1521,202",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35016,S√£o Paulo
+3550407,S√£o Pedro,"611,278",6,RA Campinas,9,RM Piracicaba,11,DRS Piracicaba,35103,Piracicaba
+3550506,S√£o Pedro do Turvo,"731,221",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3550605,S√£o Roque,"306,908",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3550704,S√£o Sebasti√£o,"402,395",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35173,Litoral Norte
+3550803,S√£o Sebasti√£o da Grama,"252,41",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3550902,S√£o Sim√£o,"617,252",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3551009,S√£o Vicente,"148,151",3,RA Santos,2,RM Baixada Santista,13,DRS Baixada Santista,35041,Baixada Santista
+3551108,Sarapu√≠,"352,592",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3551207,Sarutai√°,"141,608",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3551306,Sebastian√≥polis do Sul,"167,848",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3551405,Serra Azul,"283,144",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3551504,Serrana,"126,046",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35132,Aqu√≠fero Guarani
+3551603,Serra Negra,"203,734",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35074,Circuito das √Åguas
+3551702,Sert√£ozinho,"403,089",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,1,DRS Ribeir√£o Preto,35131,Horizonte Verde
+3551801,Sete Barras,"1062,699",2,RA Registro,9,Demais munic√≠pios,9,DRS Registro,35121,Vale do Ribeira
+3551900,Sever√≠nia,"140,46",14,RA Barretos,9,RM S√£o Jos√© do Rio Preto,16,DRS Barretos,35051,Norte - Barretos
+3552007,Silveiras,"414,782",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35172,Circuito da F√© e Vale Hist√≥rico
+3552106,Socorro,"449,029",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3552205,Sorocaba,"449,872",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3552304,Sud Mennucci,"594,744",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3552403,Sumar√©,"153,465",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3552502,Suzano,"206,236",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35011,Alto do Tiet√™
+3552551,Suzan√°polis,"330,587",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35022,Lagos do DRS II
+3552601,Tabapu√£,"345,792",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3552700,Tabatinga,"368,604",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35032,Centro Oeste do DRS III
+3552809,Tabo√£o da Serra,"20,388",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3552908,Taciba,"606,766",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3553005,Tagua√≠,"145,332",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3553104,Taia√ßu,"107,059",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35052,Sul - Barretos
+3553203,Tai√∫va,"132,459",14,RA Barretos,6,RM Ribeir√£o Preto,16,DRS Barretos,35052,Sul - Barretos
+3553302,Tamba√∫,"561,788",6,RA Campinas,6,RM Ribeir√£o Preto,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3553401,Tanabi,"747,218",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3553500,Tapira√≠,"755,101",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3553609,Tapiratiba,"221,891",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35143,Rio Pardo
+3553658,Taquaral,"53,892",7,RA Ribeir√£o Preto,6,RM Ribeir√£o Preto,16,DRS Barretos,35052,Sul - Barretos
+3553708,Taquaritinga,"594,335",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35033,Norte do DRS III
+3553807,Taquarituba,"448,515",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3553856,Taquariva√≠,"231,792",16,RA Itapeva,9,Demais munic√≠pios,6,DRS Sorocaba,35162,Itapeva
+3553906,Tarabai,"201,385",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35112,Alta Sorocabana
+3553955,Tarum√£,"302,913",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35092,Assis
+3554003,Tatu√≠,"523,749",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35161,Itapetininga
+3554102,Taubat√©,"625,003",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3554201,Tejup√°,"296,189",16,RA Itapeva,9,Demais munic√≠pios,12,DRS Bauru,35061,Vale do Jurumirim
+3554300,Teodoro Sampaio,"1555,803",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35115,Pontal do Paranapanema
+3554409,Terra Roxa,"221,541",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35052,Sul - Barretos
+3554508,Tiet√™,"404,396",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3554607,Timburi,"196,79",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3554656,Torre de Pedra,"71,348",5,RA Sorocaba,9,Demais munic√≠pios,12,DRS Bauru,35063,Polo Cuesta
+3554706,Torrinha,"315,267",6,RA Campinas,9,Demais munic√≠pios,12,DRS Bauru,35064,Ja√∫
+3554755,Trabiju,"63,421",13,RA Central,9,Demais munic√≠pios,8,DRS Araraquara,35031,Central do DRS III
+3554805,Trememb√©,"191,094",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35174,Vale do Para√≠ba/Regi√£o Serrana
+3554904,Tr√™s Fronteiras,"151,594",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35152,Santa F√© do Sul
+3554953,Tuiuti,"126,731",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3555000,Tup√£,"627,986",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35095,Tup√£
+3555109,Tupi Paulista,"244,77",11,RA Presidente Prudente,9,Demais munic√≠pios,2,DRS Presidente Prudente,35111,Alta Paulista
+3555208,Turi√∫ba,"153,235",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35023,Cons√≥rcios do DRS II
+3555307,Turmalina,"147,797",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35154,Fernand√≥polis
+3555356,Ubarana,"209,861",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3555406,Ubatuba,"708,105",4,RA S√£o Jos√© dos Campos,4,RM Vale Para√≠ba e Litoral Norte,17,DRS Taubat√©,35173,Litoral Norte
+3555505,Ubirajara,"282,179",8,RA Bauru,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3555604,Uchoa,"252,434",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35155,S√£o Jos√© do Rio Preto
+3555703,Uni√£o Paulista,"79,056",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3555802,Ur√¢nia,"209,262",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3555901,Uru,"146,901",8,RA Bauru,9,Demais munic√≠pios,12,DRS Bauru,35065,Lins
+3556008,Urup√™s,"323,916",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35151,Catanduva
+3556107,Valentim Gentil,"149,741",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3556206,Valinhos,"148,538",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3556305,Valpara√≠so,"857,661",10,RA Ara√ßatuba,9,Demais munic√≠pios,7,DRS Ara√ßatuba,35021,Central do DRS II
+3556354,Vargem,"142,595",6,RA Campinas,9,Demais munic√≠pios,3,DRS Campinas,35071,Bragan√ßa
+3556404,Vargem Grande do Sul,"267,178",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35142,Mantiqueira
+3556453,Vargem Grande Paulista,"42,489",1,RM  S√£o Paulo,1,RM S√£o Paulo,10,DRS Grande S√£o Paulo,35013,Mananciais
+3556503,V√°rzea Paulista,"35,12",6,RA Campinas,9,RM Jundia√≠,3,DRS Campinas,35073,Jundia√≠
+3556602,Vera Cruz,"247,716",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35093,Mar√≠lia
+3556701,Vinhedo,"80,95",6,RA Campinas,3,RM Campinas,3,DRS Campinas,35072,Regi√£o Metropolitana de Campinas
+3556800,Viradouro,"217,726",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35052,Sul - Barretos
+3556909,Vista Alegre do Alto,"95,429",14,RA Barretos,9,Demais munic√≠pios,16,DRS Barretos,35052,Sul - Barretos
+3556958,Vit√≥ria Brasil,"49,832",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35153,Jales
+3557006,Votorantim,"184,186",5,RA Sorocaba,5,RM Sorocaba,6,DRS Sorocaba,35163,Sorocaba
+3557105,Votuporanga,"420,703",9,RA S√£o Jos√© do Rio Preto,9,Demais munic√≠pios,15,DRS S√£o Jos√© do Rio Preto,35157,Votuporanga
+3557154,Zacarias,"319,056",9,RA S√£o Jos√© do Rio Preto,9,RM S√£o Jos√© do Rio Preto,15,DRS S√£o Jos√© do Rio Preto,35156,Jos√© Bonif√°cio
+3557204,Chavantes,"188,727",12,RA Mar√≠lia,9,Demais munic√≠pios,5,DRS Mar√≠lia,35094,Ourinhos
+3557303,Estiva Gerbi,"74,144",6,RA Campinas,9,Demais munic√≠pios,14,DRS S√£o Jo√£o da Boa Vista,35141,Baixa Mogiana
