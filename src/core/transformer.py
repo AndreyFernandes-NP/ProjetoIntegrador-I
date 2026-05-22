@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
-from cleaner import normalize_column_mapping, normalize_column_name, normalize_column_list
+from src.core.cleaner import normalize_column_mapping, normalize_column_name, normalize_column_list
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 MAPPING_DIR   = PATHS.data_mapping

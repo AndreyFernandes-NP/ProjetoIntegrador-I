@@ -28,4 +28,4 @@ def create_supervised_model(model_cfg: dict, global_config: dict | None = None) 
         print(f"Tipos válidos são: {valid_models}")
         return None
 
-    return model_class(name=model_name, type=model_type, config=model_cfg, global_config=global_config)
+    return model_class(model_name=model_name, model_type=model_type, config=model_cfg, global_config=global_config)

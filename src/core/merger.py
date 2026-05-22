@@ -33,8 +33,8 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
-from cleaner import normalize_column_list
-from transformer import careful_load_csv, apply_purge
+from src.core.cleaner import normalize_column_list
+from src.core.transformer import careful_load_csv, apply_purge
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 CLEAN_DIR = PATHS.data_clean

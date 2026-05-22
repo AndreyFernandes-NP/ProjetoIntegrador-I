@@ -46,8 +46,8 @@ ml_supervised:
   enabled: true
   dataset:
     arquivo: main_dataframe.csv
-    global_features: []
-    global_target: ''
+    global_features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'diagnostico em laboratorio clinico', 'diagnostico por radiologia', 'diagnostico por teste rapido', 'tratamentos clinicos (outras especialidades)', 'parto e nascimento', 'cirurgia obstetrica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'acoes relacionadas ao atendimento', 'populacao', 'receita_anual', 'ids']
+    global_target: 'ids'
 
   split:
     global_test_size: 0.2

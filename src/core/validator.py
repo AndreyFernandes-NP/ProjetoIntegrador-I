@@ -7,7 +7,7 @@ Não altera dados, serve apenas pra reporta problemas ou interrompe a pipeline.
 """
 
 import pandas as pd
-from cleaner import normalize_column_list
+from src.core.cleaner import normalize_column_list
 
 class ValidationError(Exception):
     """Erro lançado quando a validação de qualidade falha."""

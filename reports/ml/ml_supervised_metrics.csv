@@ -1,0 +1,4 @@
+nome;tipo;n_features;notas;mae;rmse;r2
+KNN Regressor (N=5);KNNRegressor;28;Modelo KNN exemplo com N=5, sem features específicas ou hiperparâmetros definidos, para fins de demonstração;0.019618604651162785;0.0462867570258383;0.9335640096301486
+Random Forest Regressor (Depth=10);RandomForestRegressor;28;Modelo de Random Forest exemplo com 100 árvores e profundidade máxima de 10, para fins de demonstração;0.0012107700258398074;0.005032965606294385;0.9992145151182202
+SVR (RBF, C=1.0);SVR;28;Modelo de SVM exemplo com kernel RBF e parâmetro C igual a 1.0, para fins de demonstração;0.0372366035785421;0.04665611071440708;0.9324995028930249

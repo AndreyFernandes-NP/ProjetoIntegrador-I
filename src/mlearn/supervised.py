@@ -55,6 +55,10 @@ class BaseSupervisedModel(MLModel):
 
         self.evaluate(y_test, y_pred)
 
+        y_pred = pd.Series(y_pred, index=y_test.index)
+        y_pred = y_pred.clip(lower=0, upper=1)
+        y_pred = y_pred.round(4)
+
         self.predictions = pd.DataFrame({
             "y_true": y_test,
             "y_pred": y_pred,
