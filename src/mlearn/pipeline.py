@@ -5,6 +5,9 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, Ma
 
 from src.config import PATHS
 from src.mlearn.registry import create_supervised_model
+from src.core.pipeline import load_config
+
+CONFIG_PATH = PATHS.config / "sources.yaml"
 
 SCALER_REGISTRY = {
     "StandardScaler": StandardScaler,
@@ -175,6 +178,32 @@ class MachineLearningPipeline:
 
         return True
     
+    def predict_with_model(self, model, df_external: pd.DataFrame, has_target: bool = False) -> pd.DataFrame | None:
+        target = self.get_global_target()
+        features = model.features
+
+        missing = [col for col in features if col not in df_external.columns]
+
+        if missing:
+            print(f"[Erro] Dados externos para modelo '{model.name}' estão faltando features: {missing}")
+            return None
+        
+        X_external = df_external[features].copy()
+        X_external = self.preprocess_X(X_external)
+
+        y_pred = model.predict_external(X_external)
+        result = pd.DataFrame()
+
+        if "municipio" in df_external.columns:
+            result["municipio"] = df_external["municipio"]
+        
+        result[f"{model.name}_pred"] = y_pred
+
+        if has_target and target in df_external.columns:
+            result[f"{model.name}_true"] = df_external[target]
+        
+        return result
+    
     # Save
     def save_supervised_results(self, results_df: pd.DataFrame) -> None:
         if results_df.empty:
@@ -209,3 +238,11 @@ class MachineLearningPipeline:
 
         self.save_supervised_results(results)
         self.save_predictions()
+
+def run_pipeline(config: dict) -> None:
+    ml_pipeline = MachineLearningPipeline(config)
+    ml_pipeline.run_all()
+
+def __main__():
+    config = load_config(CONFIG_PATH)
+    run_pipeline(config)

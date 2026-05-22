@@ -30,6 +30,14 @@ class BaseSupervisedModel(MLModel):
             return None
 
         return self.model.predict(X_test)
+    
+    def predict_external(self, X_external):
+        # É a mesma função de predict, mas pra deixar claro que é pra dados externos (e, talvez fazer validações específicas aqui no futuro)
+        if self.model is None:
+            print(f"[Erro] Modelo '{self.name}' ainda não foi treinado.")
+            return None
+
+        return self.model.predict(X_external)
 
     def evaluate(self, y_true, y_pred) -> dict:
         self.metrics = {
