@@ -8,7 +8,7 @@ class MLModel(ABC):
     Classe base para todos os modelos de machine learning.
 
     Guarda informações definidas no YAML como:
-    - name
+    - nome
     - tipo
     - features
     - drop_cols
@@ -17,9 +17,9 @@ class MLModel(ABC):
     - predições
     """
 
-    def __init__(self, name: str, type: str, config: dict, global_config: dict | None = None) -> None:
-        self.name = name
-        self.type = type
+    def __init__(self, model_name: str, model_type: str, config: dict, global_config: dict | None = None) -> None:
+        self.name = model_name
+        self.tipo = model_type
         self.config = config
         self.global_config = global_config or {}
 
@@ -52,8 +52,8 @@ class MLModel(ABC):
         Retorna uma linha padronizada para salvar em CSV depois.
         """
         return {
-            "name": self.name,
-            "tipo": self.type,
+            "nome": self.name,
+            "tipo": self.tipo,
             "n_features": len(self.features) if self.features else None,
             "notas": self.notes,
             **self.metrics,

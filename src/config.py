@@ -12,6 +12,8 @@ class ProjectPaths:
     data_clean:     Path   # data/clean/
     data_processed: Path   # data/processed/
     data_mapping:   Path   # data/mapping/
+    reports:        Path   # reports/
+    reports_ml:     Path   # reports/ml/
     src:            Path   # src/
     core:           Path   # src/core/
     ui:             Path   # src/ui/
@@ -33,6 +35,8 @@ def get_project_paths(root: Path | None = None) -> ProjectPaths:
         data_clean     = data_dir / "clean",
         data_processed = data_dir / "processed",
         data_mapping   = data_dir / "mapping",
+        reports        = project_root / "reports",
+        reports_ml     = project_root / "reports" / "ml",
         src            = src_dir,
         core           = src_dir / "core",
         ui             = src_dir / "ui",
