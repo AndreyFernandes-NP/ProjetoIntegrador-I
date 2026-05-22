@@ -42,6 +42,46 @@
 #   saida       : nome do arquivo final salvo em data/processed/
 # =============================================================================
 
+ml_supervised:
+  enabled: true
+  dataset:
+    arquivo: main_dataframe.csv
+    global_features: []
+    global_target: ''
+
+  split:
+    global_test_size: 0.2
+    global_random_state: 42
+  
+  preprocessing:
+    global_scale: true
+    global_scaler: StandardScaler
+
+  models:
+    - nome: 'KNN (N=5)'
+      tipo: KNN
+      features: []
+      drop_cols: []
+      hyperparameters:
+        n_neighbors: 5
+      notas: 'Modelo KNN exemplo com N=5, sem features específicas ou hiperparâmetros definidos, para fins de demonstração'
+    - nome: 'Random Forest'
+      tipo: RandomForest
+      features: []
+      drop_cols: []
+      hyperparameters:
+        n_estimators: 100
+        max_depth: 10
+      notas: 'Modelo de Random Forest exemplo com 100 árvores e profundidade máxima de 10, para fins de demonstração'
+    - nome: 'SVM'
+      tipo: SVM
+      features: []
+      drop_cols: []
+      hyperparameters:
+        kernel: rbf
+        C: 1.0
+      notas: 'Modelo de SVM exemplo com kernel RBF e parâmetro C igual a 1.0, para fins de demonstração'
+
 merge:
   chave: municipio
   como: left
