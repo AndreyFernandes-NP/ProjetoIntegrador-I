@@ -58,23 +58,23 @@ ml_supervised:
     global_scaler: StandardScaler
 
   models:
-    - nome: 'KNN (N=5)'
-      tipo: KNN
+    - nome: 'KNN Regressor (N=5)'
+      tipo: KNNRegressor
       features: []
       drop_cols: []
       hyperparameters:
         n_neighbors: 5
       notas: 'Modelo KNN exemplo com N=5, sem features específicas ou hiperparâmetros definidos, para fins de demonstração'
-    - nome: 'Random Forest'
-      tipo: RandomForest
+    - nome: 'Random Forest Regressor (Depth=10)'
+      tipo: RandomForestRegressor
       features: []
       drop_cols: []
       hyperparameters:
         n_estimators: 100
         max_depth: 10
       notas: 'Modelo de Random Forest exemplo com 100 árvores e profundidade máxima de 10, para fins de demonstração'
-    - nome: 'SVM'
-      tipo: SVM
+    - nome: 'SVR (RBF, C=1.0)'
+      tipo: SVR
       features: []
       drop_cols: []
       hyperparameters:
