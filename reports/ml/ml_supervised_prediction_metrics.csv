@@ -1,5 +1,5 @@
 model;tipo;target;n_rows;r2;mae;rmse
-Random Forest Regressor (Depth=10);RandomForestRegressor;ids;100;0.3023334010896477;0.11094564142802417;0.13370144564976136
-Gradient Boosting Regressor (Depth=2);GradientBoostingRegressor;ids;100;0.40560948495748295;0.10199344749468908;0.12340935221434862
-Extra Trees Regressor (Est=500);ExtraTreesRegressor;ids;100;0.4090504984713923;0.10409961866666667;0.12305161633337126
-Hist Gradient Boosting Regressor (Iter=300);HistGradientBoostingRegressor;ids;100;0.18513672197805764;0.1162048060549348;0.14449556274415315
+Random Forest Regressor;RandomForestRegressor;ids;100;0.695653994854593;0.0674427711752136;0.0940267314832876
+Gradient Boosting Regressor;GradientBoostingRegressor;ids;100;0.7900265112572629;0.05601717455152509;0.07809977251948205
+Extra Trees Regressor;ExtraTreesRegressor;ids;100;0.7463013592879826;0.06316136669864894;0.08584729335098447
+Hist Gradient Boosting Regressor;HistGradientBoostingRegressor;ids;100;0.7279665453285887;0.0632929937962842;0.08889527857793147
