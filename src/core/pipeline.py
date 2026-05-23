@@ -23,12 +23,12 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
-from cleaner import clean
-from validator import validate_quality
-from register_source import create_template
-from transformer import load_refs, transform, careful_load_csv
-from merger import run_merge, load_merge_config
-from calculator import calculate_ids, append_dimensions
+from src.core.cleaner import clean
+from src.core.validator import validate_quality
+from src.core.register_source import create_template
+from src.core.transformer import load_refs, transform, careful_load_csv
+from src.core.merger import run_merge, load_merge_config
+from src.core.calculator import calculate_ids, append_dimensions
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 RAW_DIR     = PATHS.data_raw
@@ -83,6 +83,12 @@ def load_config(path: Path) -> dict:
 
     if not isinstance(config.get("merge"), dict):
         config["merge"] = {}
+    
+    if not isinstance(config.get("ml_supervised"), dict):
+        config["ml_supervised"] = {}
+    
+    if not isinstance(config.get("ml_unsupervised"), dict):
+        config["ml_unsupervised"] = {}
 
     return config
 
