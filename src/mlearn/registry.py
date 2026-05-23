@@ -1,7 +1,8 @@
 from src.mlearn.supervised import (LinearRegressionModel, KNNRegressorModel, 
                                    SVRModel, DecisionTreeRegressorModel, 
                                    RandomForestRegressorModel, GradientBoostingRegressorModel,
-                                   BaseSupervisedModel)
+                                   LassoModel, RidgeModel, ExtraTreesRegressorModel, 
+                                   HistGradientBoostingRegressorModel, BaseSupervisedModel)
 
 SUPERVISED_MODEL_REGISTRY = {
     "LinearRegression": LinearRegressionModel,
@@ -10,6 +11,10 @@ SUPERVISED_MODEL_REGISTRY = {
     "DecisionTreeRegressor": DecisionTreeRegressorModel,
     "RandomForestRegressor": RandomForestRegressorModel,
     "GradientBoostingRegressor": GradientBoostingRegressorModel,
+    "Lasso": LassoModel,
+    "Ridge": RidgeModel,
+    "ExtraTreesRegressor": ExtraTreesRegressorModel,
+    "HistGradientBoostingRegressor": HistGradientBoostingRegressorModel,
 }
 
 def create_supervised_model(model_cfg: dict, global_config: dict | None = None) -> BaseSupervisedModel | None:

@@ -40,13 +40,33 @@
 #   chave       : coluna comum usada para unir os DFs de dados
 #   como        : tipo de join — left | right | inner | outer (padrão: left)
 #   saida       : nome do arquivo final salvo em data/processed/
+#
+# Bloco ml_supervised (nível raiz):
+#   enabled     : habilita a execução do módulo de ML supervisionado (padrão: true)
+#   dataset:
+#     arquivo           : nome do arquivo em data/processed a ser usado para ML supervisionado
+#     global_features   : lista de colunas a serem usadas como features para todos os modelos (padrão: todas as colunas utilizadas no cálculo do IDS, exceto é claro o IDS em si)
+#     global_target     : coluna a ser usada como alvo para o modelo (padrão: 'ids')
+#   split:
+#     global_test_size    : proporção do dataset a ser usado como teste (padrão: 0.2)
+#     global_random_state : semente para divisão aleatória (padrão: 42)
+#   preprocessing:
+#     global_scale        : se true, aplica padronização (StandardScaler) a todas as features (padrão: true)
+#     global_scaler       : tipo de scaler a ser usado (padrão: StandardScaler)
+#   models:
+#     - nome            : nome do modelo (ex: 'Random Forest Regressor (Depth=10)')
+#       tipo            : tipo do modelo (Tipos disponíveis: LinearRegression, KNNRegressor, SVR, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor, HistGradientBoostingRegressor, Lasso, Ridge)
+#       features        : lista de colunas extras a serem usadas como features para este modelo (padrão: global_features + features)
+#       drop_cols       : lista de colunas a serem excluídas para este modelo (padrão: [])
+#       hyperparameters : dicionário de hiperparâmetros específicos para este modelo (padrão: {})
+#       notas           : notas livres sobre o modelo
 # =============================================================================
 
 ml_supervised:
   enabled: true
   dataset:
     arquivo: main_dataframe.csv
-    global_features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'diagnostico em laboratorio clinico', 'diagnostico por radiologia', 'diagnostico por teste rapido', 'tratamentos clinicos (outras especialidades)', 'parto e nascimento', 'cirurgia obstetrica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'acoes relacionadas ao atendimento', 'populacao', 'receita_anual', 'ids']
+    global_features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento', 'tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica', 'populacao', 'receita_anual']
     global_target: 'ids'
 
   split:
@@ -58,29 +78,49 @@ ml_supervised:
     global_scaler: StandardScaler
 
   models:
-    - nome: 'KNN Regressor (N=5)'
-      tipo: KNNRegressor
-      features: []
-      drop_cols: []
-      hyperparameters:
-        n_neighbors: 5
-      notas: 'Modelo KNN exemplo com N=5, sem features específicas ou hiperparâmetros definidos, para fins de demonstração'
     - nome: 'Random Forest Regressor (Depth=10)'
       tipo: RandomForestRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        n_estimators: 100
+        n_estimators: 500
         max_depth: 10
-      notas: 'Modelo de Random Forest exemplo com 100 árvores e profundidade máxima de 10, para fins de demonstração'
-    - nome: 'SVR (RBF, C=1.0)'
-      tipo: SVR
+        min_samples_leaf: 2
+        max_features: 'sqrt'
+        n_jobs: -1
+      notas: 'Modelo de Random Forest exemplo com 500 árvores e profundidade máxima de 10, para fins de demonstração'
+    - nome: 'Gradient Boosting Regressor (Depth=2)'
+      tipo: GradientBoostingRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        kernel: rbf
-        C: 1.0
-      notas: 'Modelo de SVM exemplo com kernel RBF e parâmetro C igual a 1.0, para fins de demonstração'
+        n_estimators: 200
+        learning_rate: 0.05
+        max_depth: 2
+        min_samples_leaf: 5
+        subsample: 0.8
+      notas: 'Modelo de Gradient Boosting exemplo com 200 árvores e profundidade máxima de 2, para fins de demonstração'
+    - nome: 'Extra Trees Regressor (Est=500)'
+      tipo: ExtraTreesRegressor
+      features: []
+      drop_cols: []
+      hyperparameters:
+        n_estimators: 500
+        max_depth:
+        min_samples_leaf: 2
+        n_jobs: -1
+      notas: 'Modelo de Extra Trees exemplo com 500 árvores e profundidade None, para fins de demonstração'
+    - nome: 'Hist Gradient Boosting Regressor (Iter=300)'
+      tipo: HistGradientBoostingRegressor
+      features: []
+      drop_cols: []
+      hyperparameters:
+        max_iter: 300
+        learning_rate: 0.05
+        max_leaf_nodes: 15
+        min_samples_leaf: 10
+        l2_regularization: 0.1
+      notas: 'Modelo de Hist Gradient Boosting exemplo com 300 iterações, para fins de demonstração'
 
 merge:
   chave: municipio
@@ -192,7 +232,7 @@ fontes:
   - nome: sia_cnv_qgsp
     arquivo: sia_cnv_qgsp.csv
     merge: true
-    colunas_uteis: ['vigilancia em saude', 'consultas / atendimentos / acompanhamentos']
+    colunas_uteis: ['vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento']
     notas: 'Dados da Rede de Atenção à Saúde (SIA) por município de SP, 2022'
     transformacoes:
       Município gestor:
@@ -205,15 +245,41 @@ fontes:
     qualidade:
     ids:
       serviços:
-        vigilancia em saude: 0.6
+        vigilancia em saude: 1.0
         consultas / atendimentos / acompanhamentos: 1.0
+        diagnostico em vigilancia epidemiologica e ambiental: 1.0
+        diagnostico em laboratorio clinico: 1.0
+        coleta de material: 0.9
+        tratamentos clinicos (outras especialidades): 0.9
+        diagnostico por ultrasonografia: 0.9
+        diagnostico por radiologia: 0.9
+        fisioterapia: 0.8
+        tratamentos odontologicos: 0.8
+        diagnostico por teste rapido: 0.8
+        terapias especializadas: 0.8
+        diagnostico por tomografia: 0.8
+        diagnostico por ressonancia magnetica: 0.8
+        pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa: 0.7
+        diagnostico por endoscopia: 0.7
+        metodos diagnosticos em especialidades: 0.7
+        diagnostico por anatomia patologica e citopatologia: 0.7
+        bucomaxilofacial: 0.6
+        diagnostico por radiologia intervencionista: 0.6
+        anestesiologia: 0.6
+        hemoterapia: 0.6
+        diagnostico e procedimentos especiais em hemoterapia: 0.5
+        diagnostico por medicina nuclear in vivo: 0.5
+        tratamento em oncologia: 0.5
+        tratamento em nefrologia: 0.5
+        componente especializado da assitencia farmaceutica: 0.4
+        orteses, proteses e materiais especiais nao relacionados ao ato cirurgico: 0.3
+        autorizacao / regulacao: 0.3
+        acoes coletivas / individuais em saude: 1.0
+        acoes relacionadas ao estabelecimento: 0.2
   - nome: sih_cnv_spgsp
     arquivo: sih_cnv_spgsp.csv
     merge: true
-    colunas_uteis: ['diagnostico em laboratorio clinico', 'diagnostico por radiologia',
-      'diagnostico por teste rapido', 'tratamentos clinicos (outras especialidades)',
-      'parto e nascimento', 'cirurgia obstetrica', 'pequenas cirurgias e cirurgias
-          de pele, tecido subcutaneo e mucosa', 'acoes relacionadas ao atendimento']
+    colunas_uteis: ['tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica']
     notas: 'Dados do Sistema de Informações Hospitalares (SIH) por município de SP,
       2022'
     transformacoes:
@@ -224,14 +290,32 @@ fontes:
     qualidade:
     ids:
       serviços:
-        diagnostico em laboratorio clinico: 0.55
-        diagnostico por radiologia: 0.55
-        diagnostico por teste rapido: 0.25
-        tratamentos clinicos (outras especialidades): 0.4
-        parto e nascimento: 0.5
-        cirurgia obstetrica: 0.4
-        pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa: 0.25
-        acoes relacionadas ao atendimento: 0.2
+        tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas: 1.0
+        cirurgia do aparelho circulatorio: 1.0
+        cirurgia do sistema nervoso central e periferico: 1.0
+        parto e nascimento: 1.0
+        medicamentos de ambito hospitalar e urgencia: 1.0
+        cirurgia do aparelho digestivo, orgaos anexos e parede abdominal: 0.9
+        cirurgia do sistema osteomuscular: 0.9
+        cirurgia obstetrica: 0.9
+        cirurgia toracica: 0.9
+        cirurgia em oncologia: 0.9
+        acoes relacionadas ao atendimento: 0.9
+        cirurgia do aparelho geniturinario: 0.8
+        cirurgia reparadora: 0.8
+        cirurgia das vias aereas superiores, da face, da cabeca e do pescoco: 0.8
+        cirurgia de mama: 0.8
+        orteses, proteses e materiais especiais relacionados ao ato cirurgico: 0.8
+        acompanhamento e intercorrencias no pre e pos-transplante: 0.8
+        cirurgia do aparelho da visao: 0.7
+        cirurgia de glandulas endocrinas: 0.7
+        cirurgia em nefrologia: 0.7
+        outras cirurgias: 0.6
+        coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante: 0.6
+        acoes relacionadas a doacao de orgaos e tecidos para transplante: 0.6
+        processamento de tecidos para transplante: 0.6
+        transplante de orgaos, tecidos e celulas: 0.5
+        avaliacao de morte encefalica: 0.5
   - nome: tabela30_SP_internacao
     arquivo: tabela30_SP_internacao.csv
     merge: false

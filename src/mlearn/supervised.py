@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
 
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression, Lasso, Ridge
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor, HistGradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 from src.mlearn.base import MLModel
@@ -57,7 +57,7 @@ class BaseSupervisedModel(MLModel):
 
         y_pred = pd.Series(y_pred, index=y_test.index)
         y_pred = y_pred.clip(lower=0, upper=1)
-        y_pred = y_pred.round(4)
+        y_pred = y_pred.round(3)
 
         self.predictions = pd.DataFrame({
             "y_true": y_test,
@@ -70,6 +70,14 @@ class BaseSupervisedModel(MLModel):
 class LinearRegressionModel(BaseSupervisedModel):
     def build_model(self):
         return LinearRegression(**self.hyperparameters)
+
+class LassoModel(BaseSupervisedModel):
+    def build_model(self):
+        return Lasso(**self.hyperparameters)
+
+class RidgeModel(BaseSupervisedModel):
+    def build_model(self):
+        return Ridge(**self.hyperparameters)
 
 class KNNRegressorModel(BaseSupervisedModel):
     def build_model(self):
@@ -90,3 +98,11 @@ class RandomForestRegressorModel(BaseSupervisedModel):
 class GradientBoostingRegressorModel(BaseSupervisedModel):
     def build_model(self):
         return GradientBoostingRegressor(**self.hyperparameters)
+
+class ExtraTreesRegressorModel(BaseSupervisedModel):
+    def build_model(self):
+        return ExtraTreesRegressor(**self.hyperparameters)
+
+class HistGradientBoostingRegressorModel(BaseSupervisedModel):
+    def build_model(self):
+        return HistGradientBoostingRegressor(**self.hyperparameters)

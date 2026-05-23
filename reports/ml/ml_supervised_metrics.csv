@@ -1,4 +1,5 @@
 nome;tipo;n_features;notas;mae;rmse;r2
-KNN Regressor (N=5);KNNRegressor;28;Modelo KNN exemplo com N=5, sem features específicas ou hiperparâmetros definidos, para fins de demonstração;0.019618604651162785;0.0462867570258383;0.9335640096301486
-Random Forest Regressor (Depth=10);RandomForestRegressor;28;Modelo de Random Forest exemplo com 100 árvores e profundidade máxima de 10, para fins de demonstração;0.0012107700258398074;0.005032965606294385;0.9992145151182202
-SVR (RBF, C=1.0);SVR;28;Modelo de SVM exemplo com kernel RBF e parâmetro C igual a 1.0, para fins de demonstração;0.0372366035785421;0.04665611071440708;0.9324995028930249
+Random Forest Regressor (Depth=10);RandomForestRegressor;76;Modelo de Random Forest exemplo com 500 árvores e profundidade máxima de 10, para fins de demonstração;0.08569865934321208;0.10975768509091996;0.6121643026184358
+Gradient Boosting Regressor (Depth=2);GradientBoostingRegressor;76;Modelo de Gradient Boosting exemplo com 200 árvores e profundidade máxima de 2, para fins de demonstração;0.06715229913407282;0.08881697607352429;0.7460373393716812
+Extra Trees Regressor (Est=500);ExtraTreesRegressor;76;Modelo de Extra Trees exemplo com 500 árvores e profundidade None, para fins de demonstração;0.07420626190476191;0.09629814284757772;0.7014523025702746
+Hist Gradient Boosting Regressor (Iter=300);HistGradientBoostingRegressor;76;Modelo de Hist Gradient Boosting exemplo com 300 iterações, para fins de demonstração;0.05865826033093793;0.07763756973126364;0.8059463716882688
