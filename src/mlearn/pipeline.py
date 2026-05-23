@@ -13,8 +13,11 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, Ma
 from src.config import PATHS
 from src.mlearn.registry import create_supervised_model
 from src.core.pipeline import load_config
+from src.data.generator import DatasetGenerator
+from src.core.calculator import calculate_ids, load_ids_config
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
+PROC_DIR = PATHS.data_processed
 
 SCALER_REGISTRY = {
     "StandardScaler": StandardScaler,
@@ -22,6 +25,14 @@ SCALER_REGISTRY = {
     "RobustScaler": RobustScaler,
     "MaxAbsScaler": MaxAbsScaler
 }
+
+def load_dataframe(path: Path) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(f"Arquivo de dataset não encontrado: {path}")
+
+    df = pd.read_csv(path, sep=";", encoding="utf-8")
+
+    return df
 
 class MachineLearningPipeline:
     """
@@ -45,8 +56,10 @@ class MachineLearningPipeline:
 
         self.df: pd.DataFrame | None = None
 
+        self.scaler = StandardScaler()
         self.supervised_models = []
         self.supervised_results: list[dict] = []
+        self.supervised_prediction_results: list[dict] = []
 
     # Dataset
     def load_dataset(self) -> pd.DataFrame:
@@ -132,6 +145,8 @@ class MachineLearningPipeline:
         print(f"[ML] Aplicando scaler '{scaler_cls.__name__}' aos dados de treino e teste...")
 
         scaler = scaler_cls()
+        self.scaler = scaler if self.scaler != scaler else self.scaler
+
         X_train_scaled = scaler.fit_transform(X_train)
         X_test_scaled = scaler.transform(X_test)
 
@@ -166,7 +181,7 @@ class MachineLearningPipeline:
         try:
             X, y = self.select_features_for_model(model)
             X = self.preprocess_X(X)
-            print(f"[ML] Dados preparados para modelo '{model.name}'. Features: {X.columns.tolist()}\n[ML] Target: {y.name}")
+            print(f"[ML] Dados preparados para modelo '{model.name}'. Quantidade de Features: {X.shape[1]} | Target: {y.name}")
 
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_test_size(), random_state=self.get_random_state())
 
@@ -203,18 +218,48 @@ class MachineLearningPipeline:
         
         X_external = df_external[features].copy()
         X_external = self.preprocess_X(X_external)
+        X_external_scaled = self.scaler.transform(X_external)
 
-        y_pred = model.predict_external(X_external)
-        result = pd.DataFrame()
+        y_pred = model.predict_external(X_external_scaled)
+        y_pred = pd.Series(y_pred, index=df_external.index, name=f"{model.name}_pred")
+        y_pred = y_pred.clip(lower=0, upper=1)
+
+        result = pd.DataFrame(index=df_external.index)
 
         if "municipio" in df_external.columns:
             result["municipio"] = df_external["municipio"]
         
-        result[f"{model.name}_pred"] = y_pred
+        result[f"{model.name}_pred"] = y_pred.round(3)
 
         if has_target and target in df_external.columns:
+            y_true = df_external[target]
+
             result[f"{model.name}_true"] = df_external[target]
+
+            metrics = model.evaluate(y_true, y_pred)
+            
+            validation_result = {
+                "model": model.name,
+                "tipo": model.tipo,
+                "target": target,
+                "n_rows": len(df_external),
+                "r2": metrics["r2"],
+                "mae": metrics["mae"],
+                "rmse": metrics["rmse"],
+            }
+
+            self.supervised_prediction_results.append(validation_result)
+
+            print(
+                f"[ML] Validação externa de '{model.name}' concluído "
+                f"| R²={metrics['r2']:.4f} "
+                f"| MAE={metrics['mae']:.4f} "
+                f"| RMSE={metrics['rmse']:.4f}"
+            )
         
+        elif has_target and target not in df_external.columns:
+            print(f"[Aviso] 'has_target' é True, mas coluna de target '{target}' não encontrada nos dados externos para modelo '{model.name}'. Métricas de validação não serão calculadas.")
+
         return result
     
     # Save
@@ -258,6 +303,25 @@ def run_pipeline(config: dict) -> None:
     ml_pipeline = MachineLearningPipeline(config)
     print("[ML] Pipeline configurada. Iniciando execução...")
     ml_pipeline.run_all()
+
+    print("[ML] Gerando dataset de validação...")
+    validation_config = config.get("validation") or {}
+    generator = DatasetGenerator(load_dataframe(PROC_DIR / "main_dataframe.csv"), config=validation_config)
+
+    validation_df = generator.generate()
+    load_ids_config(config)
+    validation_df = calculate_ids(validation_df)
+    generator.save(validation_df, validation_config.get("output", "validation_dataset.csv"))
+
+    print("[ML] Realizando validação cruzada com dataset sintético...")
+    for model in ml_pipeline.supervised_models:
+        print(f"\n[ML] Validando modelo '{model.name}' com dataset sintético...")
+        ml_pipeline.predict_with_model(model, validation_df, has_target=True)
+    
+    df_validation_metrics = pd.DataFrame(ml_pipeline.supervised_prediction_results)
+
+    pred_output = PATHS.reports_ml / "ml_supervised_prediction_metrics.csv"
+    df_validation_metrics.to_csv(pred_output, sep=";", index=False, encoding="utf-8")
 
 if __name__ == "__main__":
     print("[ML] Iniciando pipeline de Machine Learning...")

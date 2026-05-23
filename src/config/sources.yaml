@@ -60,6 +60,11 @@
 #       drop_cols       : lista de colunas a serem excluídas para este modelo (padrão: [])
 #       hyperparameters : dicionário de hiperparâmetros específicos para este modelo (padrão: {})
 #       notas           : notas livres sobre o modelo
+#
+# Bloco validation (nível raiz):
+#   enabled       : habilita ou não a geração de um banco de dados sintético e a predição com os modelos treinados (padrão: true)
+#   rows          : quantidade de linhas que o dataset gerado vai ter (necessário ter nomes/sobrenomes o suficiente) (padrão: 100)
+#   output        : nome do arquivo .csv que irá ser exportado na pasta processed (padrão: validation_samples)
 # =============================================================================
 
 ml_supervised:
@@ -70,7 +75,7 @@ ml_supervised:
     global_target: 'ids'
 
   split:
-    global_test_size: 0.2
+    global_test_size: 0.05
     global_random_state: 42
   
   preprocessing:
@@ -78,7 +83,7 @@ ml_supervised:
     global_scaler: StandardScaler
 
   models:
-    - nome: 'Random Forest Regressor (Depth=10)'
+    - nome: 'Random Forest Regressor'
       tipo: RandomForestRegressor
       features: []
       drop_cols: []
@@ -89,7 +94,7 @@ ml_supervised:
         max_features: 'sqrt'
         n_jobs: -1
       notas: 'Modelo de Random Forest exemplo com 500 árvores e profundidade máxima de 10, para fins de demonstração'
-    - nome: 'Gradient Boosting Regressor (Depth=2)'
+    - nome: 'Gradient Boosting Regressor'
       tipo: GradientBoostingRegressor
       features: []
       drop_cols: []
@@ -100,7 +105,7 @@ ml_supervised:
         min_samples_leaf: 5
         subsample: 0.8
       notas: 'Modelo de Gradient Boosting exemplo com 200 árvores e profundidade máxima de 2, para fins de demonstração'
-    - nome: 'Extra Trees Regressor (Est=500)'
+    - nome: 'Extra Trees Regressor'
       tipo: ExtraTreesRegressor
       features: []
       drop_cols: []
@@ -110,17 +115,52 @@ ml_supervised:
         min_samples_leaf: 2
         n_jobs: -1
       notas: 'Modelo de Extra Trees exemplo com 500 árvores e profundidade None, para fins de demonstração'
-    - nome: 'Hist Gradient Boosting Regressor (Iter=300)'
+    - nome: 'Hist Gradient Boosting Regressor'
       tipo: HistGradientBoostingRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        max_iter: 300
-        learning_rate: 0.05
+        max_iter: 100
+        learning_rate: 1.0
         max_leaf_nodes: 15
         min_samples_leaf: 10
         l2_regularization: 0.1
       notas: 'Modelo de Hist Gradient Boosting exemplo com 300 iterações, para fins de demonstração'
+
+validation:
+  enabled: true
+  rows: 100
+  output: validation_samples.csv
+
+  columns:
+    ids: ids
+    municipality: municipio
+  
+  generation:
+    noise_factor: 0.1
+    preserve_zero_probability: 0.9
+    clip_to_original_range: true
+    sample_with_replacement: true
+    null_strategy: sample_column
+  
+  sampling:
+    mode: balanced
+
+    ids_distribution:
+      low: 0.3
+      medium: 0.3
+      high: 0.4
+  
+  names:
+    base_names_path: muni_nomes.txt
+    surnames_path: muni_sobrenomes.txt
+    connector_probability: 0.4
+    connectors:
+      - DE
+      - DA
+      - DO
+      - DAS
+      - DOS
 
 merge:
   chave: municipio

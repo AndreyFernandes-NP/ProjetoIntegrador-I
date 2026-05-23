@@ -57,7 +57,7 @@ IDS_CONFIG = {
     "renda": {
         "tipo": "log_per_capita",
         "normalizacao": "robust_minmax",
-        "coluna_valor": "rendimento_anual"
+        "coluna_valor": "receita_anual"
     }
 }
 
@@ -284,6 +284,16 @@ def append_dimensions(config: dict) -> None:
             continue
 
         IDS_CONFIG[nome_dimensao]["colunas"].update(valores)
+
+def load_ids_config(config: dict) -> None:
+    """
+    Carrega as colunas e pesos do IDS_CONFIG a partir do YAML.
+    """
+    fonte_cfg = config.get("fontes", {})
+    for fonte in fonte_cfg:
+        append_dimensions(fonte)
+    
+    return None
 
 # Cálculo do IDS
 
