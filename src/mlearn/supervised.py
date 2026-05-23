@@ -65,7 +65,9 @@ class BaseSupervisedModel(MLModel):
         })
 
         return self.get_result_row()
-
+    
+    def set_scaler(self, scaler) -> None:
+        self.scaler = scaler if scaler else None
 
 class LinearRegressionModel(BaseSupervisedModel):
     def build_model(self):

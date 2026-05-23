@@ -1,0 +1,5 @@
+model;tipo;target;n_rows;r2;mae;rmse
+Random Forest Regressor;RandomForestRegressor;ids;100;0.695653994854593;0.0674427711752136;0.0940267314832876
+Gradient Boosting Regressor;GradientBoostingRegressor;ids;100;0.7900265112572629;0.05601717455152509;0.07809977251948205
+Extra Trees Regressor;ExtraTreesRegressor;ids;100;0.7463013592879826;0.06316136669864894;0.08584729335098447
+Hist Gradient Boosting Regressor;HistGradientBoostingRegressor;ids;100;0.7279665453285887;0.0632929937962842;0.08889527857793147

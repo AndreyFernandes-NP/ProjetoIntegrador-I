@@ -24,11 +24,13 @@ class MLModel(ABC):
         self.global_config = global_config or {}
 
         self.features: list[str] = config.get("features") or []
+        self.selected_features: list[str] = []
         self.drop_cols: list[str] = config.get("drop_cols") or []
         self.hyperparameters: dict[str, Any] = config.get("hyperparameters") or {}
         self.notes: str = config.get("notas", "")
 
         self.model: Any = None
+        self.scaler: Any = None
         self.metrics: dict[str, Any] = {}
         self.predictions: pd.DataFrame | None = None
 

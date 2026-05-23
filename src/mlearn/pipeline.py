@@ -13,8 +13,12 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, Ma
 from src.config import PATHS
 from src.mlearn.registry import create_supervised_model
 from src.core.pipeline import load_config
+from src.data.generator import DatasetGenerator
+from src.core.calculator import calculate_ids, load_ids_config
+from src.mlearn.fine_tuning import TUNING_SETTINGS, explore_tuning_for_model, save_tuning_exploration_results
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
+PROC_DIR = PATHS.data_processed
 
 SCALER_REGISTRY = {
     "StandardScaler": StandardScaler,
@@ -22,6 +26,14 @@ SCALER_REGISTRY = {
     "RobustScaler": RobustScaler,
     "MaxAbsScaler": MaxAbsScaler
 }
+
+def load_dataframe(path: Path) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(f"Arquivo de dataset não encontrado: {path}")
+
+    df = pd.read_csv(path, sep=";", encoding="utf-8")
+
+    return df
 
 class MachineLearningPipeline:
     """
@@ -39,6 +51,7 @@ class MachineLearningPipeline:
 
         self.supervised_cfg = config.get("ml_supervised") or {}
         self.enabled = bool(self.supervised_cfg.get("enabled", False))
+        self.tuning_exp = bool(self.supervised_cfg.get("fine-tuning_exploration", False))
         self.dataset_cfg = self.supervised_cfg.get("dataset") or {}
         self.split_cfg = self.supervised_cfg.get("split") or {}
         self.preprocessing_cfg = self.supervised_cfg.get("preprocessing") or {}
@@ -47,6 +60,8 @@ class MachineLearningPipeline:
 
         self.supervised_models = []
         self.supervised_results: list[dict] = []
+        self.supervised_prediction_results: list[dict] = []
+        self.supervised_exploration_results: list[pd.DataFrame] = []
 
     # Dataset
     def load_dataset(self) -> pd.DataFrame:
@@ -95,24 +110,31 @@ class MachineLearningPipeline:
         if target not in df.columns:
             raise ValueError(f"Target '{target}' não encontrado no DataFrame.")
 
-        features = self.get_global_features() + model.features
-        drop_cols = model.drop_cols
+        global_features = self.get_global_features()
+        model_features = model.features or []
+        drop_cols = model.drop_cols or []
+
+        features = global_features + model_features
 
         if features:
-            selected_cols = features
+            selected_cols = list(dict.fromkeys(features))
         else:
             selected_cols = [col for col in df.columns if col != target and col not in drop_cols and pd.api.types.is_numeric_dtype(df[col])]
             print(f"[Aviso] Modelo '{model.name}' sem features definidas, usando seleção automática: {selected_cols}")
+
+        selected_cols = [col for col in selected_cols if col != target and col not in drop_cols]
 
         missing = [col for col in selected_cols if col not in df.columns]
 
         if missing:
             print(f"[Aviso] Modelo '{model.name}' possui features ausentes no DataFrame: {missing}")
 
+        selected_cols = [col for col in selected_cols if col in df.columns]
+
         X = df[selected_cols].copy()
         y = df[target].copy()
 
-        model.features = selected_cols
+        model.selected_features = selected_cols
 
         return X, y
 
@@ -120,7 +142,7 @@ class MachineLearningPipeline:
     def preprocess_X(self, X: pd.DataFrame) -> pd.DataFrame:
         return X.fillna(0) # TODO/FASE 2: implementar preprocessamento mais robusto depois pra modelos conseguirem lidar melhor com dados reais
 
-    def maybe_scale(self, X_train, X_test):
+    def maybe_scale(self, X_train, X_test, model):
         scale = self.preprocessing_cfg.get("global_scale", False)
 
         if not scale:
@@ -128,12 +150,12 @@ class MachineLearningPipeline:
 
         scaler_name = self.preprocessing_cfg.get("global_scaler", "StandardScaler")
         scaler_cls = SCALER_REGISTRY.get(scaler_name, StandardScaler)
+        model.set_scaler(scaler_cls())
 
         print(f"[ML] Aplicando scaler '{scaler_cls.__name__}' aos dados de treino e teste...")
 
-        scaler = scaler_cls()
-        X_train_scaled = scaler.fit_transform(X_train)
-        X_test_scaled = scaler.transform(X_test)
+        X_train_scaled = model.scaler.fit_transform(X_train)
+        X_test_scaled = model.scaler.transform(X_test)
 
         return X_train_scaled, X_test_scaled
 
@@ -166,13 +188,14 @@ class MachineLearningPipeline:
         try:
             X, y = self.select_features_for_model(model)
             X = self.preprocess_X(X)
-            print(f"[ML] Dados preparados para modelo '{model.name}'. Features: {X.columns.tolist()}\n[ML] Target: {y.name}")
+            print(f"[ML] Dados preparados para modelo '{model.name}'. Quantidade de Features: {X.shape[1]} | Target: {y.name}")
 
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_test_size(), random_state=self.get_random_state())
 
             print(f"[ML] Dados divididos para modelo '{model.name}': {X_train.shape[0]} treino, {X_test.shape[0]} teste")
 
-            X_train, X_test = self.maybe_scale(X_train, X_test)
+            X_train, X_test = self.maybe_scale(X_train, X_test, model)
+
             print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escala aplicada: {self.preprocessing_cfg.get('global_scale', False)}")
 
             print(f"[ML] Treinando e avaliando modelo '{model.name}'...")
@@ -193,7 +216,9 @@ class MachineLearningPipeline:
     
     def predict_with_model(self, model, df_external: pd.DataFrame, has_target: bool = False) -> pd.DataFrame | None:
         target = self.get_global_target()
-        features = model.features
+        features = getattr(model, "selected_features", None) or (self.get_global_features() + model.features)
+
+        features = list(dict.fromkeys(features))
 
         missing = [col for col in features if col not in df_external.columns]
 
@@ -203,19 +228,101 @@ class MachineLearningPipeline:
         
         X_external = df_external[features].copy()
         X_external = self.preprocess_X(X_external)
+        X_external = model.scaler.transform(X_external)
 
         y_pred = model.predict_external(X_external)
-        result = pd.DataFrame()
+        y_pred = pd.Series(y_pred, index=df_external.index, name=f"{model.name}_pred")
+        y_pred = y_pred.clip(lower=0, upper=1)
+
+        result = pd.DataFrame(index=df_external.index)
 
         if "municipio" in df_external.columns:
             result["municipio"] = df_external["municipio"]
         
-        result[f"{model.name}_pred"] = y_pred
+        result[f"{model.name}_pred"] = y_pred.round(3)
 
         if has_target and target in df_external.columns:
+            y_true = df_external[target]
+
             result[f"{model.name}_true"] = df_external[target]
+
+            metrics = model.evaluate(y_true, y_pred)
+            
+            validation_result = {
+                "model": model.name,
+                "tipo": model.tipo,
+                "target": target,
+                "n_rows": len(df_external),
+                "r2": metrics["r2"],
+                "mae": metrics["mae"],
+                "rmse": metrics["rmse"],
+            }
+
+            self.supervised_prediction_results.append(validation_result)
+
+            print(
+                f"[ML] Validação externa de '{model.name}' concluído "
+                f"| R²={metrics['r2']:.4f} "
+                f"| MAE={metrics['mae']:.4f} "
+                f"| RMSE={metrics['rmse']:.4f}"
+            )
         
+        elif has_target and target not in df_external.columns:
+            print(f"[Aviso] 'has_target' é True, mas coluna de target '{target}' não encontrada nos dados externos para modelo '{model.name}'. Métricas de validação não serão calculadas.")
+
         return result
+    
+    def run_tuning_exploration(self, validation_df: pd.DataFrame | None = None, has_target: bool = False) -> None:
+        if not self.tuning_exp:
+            print("[ML Exploration] A exploração de fine-tuning está desativada. Certifique que seu valor no sources.yaml seja verdadeiro.")
+            return
+        
+        print("\n[ML Exploration] Iniciando exploração de hiperparâmetros de modelos...")
+
+        self.supervised_exploration_results = []
+        target = self.get_global_target()
+
+        for model in self.supervised_models:
+            try:
+                print(f"[ML Exploration] Preparando dados para '{model.name}'...")
+
+                X, y = self.select_features_for_model(model)
+                X = self.preprocess_X(X)
+
+                X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_test_size(), random_state=self.get_random_state())
+
+                X_train, X_test = self.maybe_scale(X_train, X_test, model)
+
+                X_external = None
+                y_external = None
+
+                if validation_df is not None and has_target and target in validation_df.columns:
+                    missing = [col for col in model.selected_features if col not in validation_df.columns]
+
+                    if missing:
+                        print(f"[Aviso] Validação externa ignorada para '{model.name}'. Features faltando: {missing}")
+                    else:
+                        X_external = validation_df[model.selected_features].copy()
+                        X_external = self.preprocess_X(X_external)
+
+                        if self.preprocessing_cfg.get("global_scale", False):
+                            X_external = model.scaler.transform(X_external) if model.scaler else X_external
+                        
+                        y_external = validation_df[target].copy()
+
+                result = explore_tuning_for_model(model=model, X_train=X_train, y_train=y_train, random_state=self.get_random_state(), 
+                                                  settings=TUNING_SETTINGS, X_external=X_external, y_external=y_external)
+
+                if result is not None:
+                    self.supervised_exploration_results.append(result)
+
+            except Exception as e:
+                print(f"[Erro] Falha ao explorar '{model.name}': {e}")
+        
+        if TUNING_SETTINGS.get("save_results", False):
+            output = PATHS.reports_ml / "ml_supervised_tuning_exploration.csv"
+
+            save_tuning_exploration_results(results_list=self.supervised_exploration_results, output_path=output, sep=";")
     
     # Save
     def save_supervised_results(self, results_df: pd.DataFrame) -> None:
@@ -258,6 +365,28 @@ def run_pipeline(config: dict) -> None:
     ml_pipeline = MachineLearningPipeline(config)
     print("[ML] Pipeline configurada. Iniciando execução...")
     ml_pipeline.run_all()
+
+    print("[ML] Gerando dataset de validação...")
+    validation_config = config.get("validation") or {}
+    generator = DatasetGenerator(load_dataframe(PROC_DIR / "main_dataframe.csv"), config=validation_config)
+
+    validation_df = generator.generate()
+    load_ids_config(config)
+    validation_df = calculate_ids(validation_df)
+    generator.save(validation_df, validation_config.get("output", "validation_dataset.csv"))
+
+    print("[ML] Rodando exploração de hiperparâmetros com comparação externa...")
+    ml_pipeline.run_tuning_exploration(validation_df=validation_df, has_target=True)
+
+    print("[ML] Realizando validação cruzada com dataset sintético...")
+    for model in ml_pipeline.supervised_models:
+        print(f"\n[ML] Validando modelo '{model.name}' com dataset sintético...")
+        ml_pipeline.predict_with_model(model, validation_df, has_target=True)
+    
+    df_validation_metrics = pd.DataFrame(ml_pipeline.supervised_prediction_results)
+
+    pred_output = PATHS.reports_ml / "ml_supervised_prediction_metrics.csv"
+    df_validation_metrics.to_csv(pred_output, sep=";", index=False, encoding="utf-8")
 
 if __name__ == "__main__":
     print("[ML] Iniciando pipeline de Machine Learning...")

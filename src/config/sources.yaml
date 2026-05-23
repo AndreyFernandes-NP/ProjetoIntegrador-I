@@ -42,7 +42,8 @@
 #   saida       : nome do arquivo final salvo em data/processed/
 #
 # Bloco ml_supervised (nível raiz):
-#   enabled     : habilita a execução do módulo de ML supervisionado (padrão: true)
+#   enabled                 : habilita a execução do módulo de ML supervisionado (padrão: true)
+#   fine-tuning_exploration : habilita a execução da exploração de hiperparâmetros dos módulos utilizando kfold/cv (padrão: false (por ser pesado))
 #   dataset:
 #     arquivo           : nome do arquivo em data/processed a ser usado para ML supervisionado
 #     global_features   : lista de colunas a serem usadas como features para todos os modelos (padrão: todas as colunas utilizadas no cálculo do IDS, exceto é claro o IDS em si)
@@ -60,17 +61,48 @@
 #       drop_cols       : lista de colunas a serem excluídas para este modelo (padrão: [])
 #       hyperparameters : dicionário de hiperparâmetros específicos para este modelo (padrão: {})
 #       notas           : notas livres sobre o modelo
+#
+# Bloco validation (nível raiz):
+#   enabled       : habilita ou não a geração de um banco de dados sintético e a predição com os modelos treinados (padrão: true)
+#   rows          : quantidade de linhas que o dataset gerado vai ter (necessário ter nomes/sobrenomes o suficiente) (padrão: 100)
+#   output        : nome do arquivo .csv que irá ser exportado na pasta processed (padrão: validation_samples)
+#
+#   columns:
+#     ids           : nome da coluna que representa o target do df (padrão: ids)
+#     municipality  : nome da coluna que iremos trocar os nomes das chaves com nossos próprios (padrão: municipio)
+#
+#   generation:
+#     noise_factor              : int, quantidade em quantos % será aplicado uma variância de maior ou menor no dado da linha selecionada (padrão: 0.1 (10% pra +-))
+#     preserve_zero_probability : true/false, chance em % de preservar ou não os valores zero, caso não preserve, irá gerar um valor aleatório com base na própria coluna do dataset (padrão: 0.9)
+#     clip_to_original_range    : true/false, se o valor deve ou não ser clipado para a escala original, ex: ao ser -0.1, se torna 0.0, ao ser 1.1, se torna 1.0 (padrão: true)
+#     sample_with_replacement   : true/false, quando o np.rng.choice() escolhe um valor, se esse campo for verdadeiro, ele pode escolher o mesmo valor mais de 1x, caso contrário, só poderá escolher ele uma única vez. Decida quando usar, os dois dão resultados um tanto que intrigantes (padrão: true)
+#     null_strategy             : 'sample_column'/'zero', trata da forma que abordar colunas com valores nulos, cada um deles já é quase auto-explicativo.
+#
+#   sampling:
+#     mode  : 'balanced'/'random', a forma com que os dados vão ser gerados, por favor não ser maluco de usar 'random', mas esse campo é bem exótico pros treinamentos. (padrão: balanced)
+#     ids_distribution: (só é usado se mode = balanced)
+#       low     : float(0,1), qual é a proporção de campos considerados low devem ter no dataset gerado, todos devem somar no final 100% ou 1.0 (padrão: 0.3)
+#       medium  : float(0,1), qual é a proporção de campos considerados medium devem ter no dataset gerado, todos devem somar no final 100% ou 1.0 (padrão: 0.3)
+#       high    : float(0,1), qual é a proporção de campos considerados high devem ter no dataset gerado, todos devem somar no final 100% ou 1.0 (padrão: 0.4)
+#
+#   names:
+#     base_names_path       : nome do arquivo .txt que será usado para dar load nos primeiros nomes dos municípios (padrão: muni_nomes.txt)
+#     surnames_path         : nome do arquivo .txt que será usado para dar load nos sobrenomes dos municípios (padrão: muni_sobrenomes.txt)
+#     connector_probability : float(0,1), probabilidade dos nomes terem conectores como da, dos e etc antes do sobrenome (padrão: 0.3)
+#     connectors            : lista dos conectores que serão usados/sorteados caso connector_probability dispare (padrão: - de, - da, - dos, sla é o básico)
+#
 # =============================================================================
 
 ml_supervised:
   enabled: true
+  fine-tuning_exploration: false
   dataset:
     arquivo: main_dataframe.csv
     global_features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento', 'tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica', 'populacao', 'receita_anual']
     global_target: 'ids'
 
   split:
-    global_test_size: 0.2
+    global_test_size: 0.05
     global_random_state: 42
   
   preprocessing:
@@ -78,49 +110,94 @@ ml_supervised:
     global_scaler: StandardScaler
 
   models:
-    - nome: 'Random Forest Regressor (Depth=10)'
+    - nome: 'Random Forest Regressor'
       tipo: RandomForestRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        n_estimators: 500
-        max_depth: 10
-        min_samples_leaf: 2
-        max_features: 'sqrt'
-        n_jobs: -1
-      notas: 'Modelo de Random Forest exemplo com 500 árvores e profundidade máxima de 10, para fins de demonstração'
-    - nome: 'Gradient Boosting Regressor (Depth=2)'
+        n_estimators: 100
+        min_samples_split: 2
+        min_samples_leaf: 1
+        max_depth: 20
+        max_features: 0.6
+        bootstrap: true
+      notas: 'Modelo de regressão RandomForest fine-tuned com hiperparâmetros específicos e seletos. Resultado final após diversos testes e fits serem decentes.'
+    - nome: 'Gradient Boosting Regressor'
       tipo: GradientBoostingRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        n_estimators: 200
-        learning_rate: 0.05
-        max_depth: 2
+        n_estimators: 500
+        learning_rate: 0.15
+        subsample: 0.6
+        min_samples_split: 10
         min_samples_leaf: 5
-        subsample: 0.8
-      notas: 'Modelo de Gradient Boosting exemplo com 200 árvores e profundidade máxima de 2, para fins de demonstração'
-    - nome: 'Extra Trees Regressor (Est=500)'
+        max_features: 0.5
+        max_depth: 3
+        loss: 'huber'
+      notas: 'Modelo de regressão GradientBoosting feito a partir de um fine-tuning bastante seleto com cada campo, em comparação com milhares de outros hiperparâmetros. Resultado final após diversos testes e fits com ele se demonstrarem satisfatórios.'
+    - nome: 'Extra Trees Regressor'
       tipo: ExtraTreesRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        n_estimators: 500
-        max_depth:
-        min_samples_leaf: 2
-        n_jobs: -1
-      notas: 'Modelo de Extra Trees exemplo com 500 árvores e profundidade None, para fins de demonstração'
-    - nome: 'Hist Gradient Boosting Regressor (Iter=300)'
+        n_estimators: 200
+        min_samples_split: 2
+        min_samples_leaf: 1
+        max_features: 0.4
+        max_depth: 20
+        bootstrap: false
+      notas: 'Modelo de regressão ExtraTrees feito com base em um fine-tuning próprio e customizado, obtendo resultados bons mas não tão satisfatórios.'
+    - nome: 'Hist Gradient Boosting Regressor'
       tipo: HistGradientBoostingRegressor
       features: []
       drop_cols: []
       hyperparameters:
-        max_iter: 300
-        learning_rate: 0.05
-        max_leaf_nodes: 15
+        max_iter: 400
+        learning_rate: 0.12
+        validation_fraction: 0.2
+        n_iter_no_change: 30
         min_samples_leaf: 10
+        max_leaf_nodes: 15
+        max_bins: 64
         l2_regularization: 0.1
-      notas: 'Modelo de Hist Gradient Boosting exemplo com 300 iterações, para fins de demonstração'
+        early_stopping: True
+      notas: 'Modelo de regressão HistGradientBoosting mais robusto de modo geral tanto para os testes como predição de dados desconhecidos, alcançado resultados satisfatórios mas ainda não ideais.'
+
+validation:
+  enabled: true
+  rows: 100
+  output: validation_samples.csv
+
+  columns:
+    ids: ids
+    municipality: municipio
+  
+  generation:
+    noise_factor: 0.15
+    preserve_zero_probability: 0.95
+    clip_to_original_range: true
+    sample_with_replacement: false
+    null_strategy: sample_column
+  
+  sampling:
+    mode: balanced
+
+    ids_distribution:
+      low: 0.3
+      medium: 0.3
+      high: 0.4
+  
+  names:
+    base_names_path: muni_nomes.txt
+    surnames_path: muni_sobrenomes.txt
+    connector_probability: 0.2
+    connectors:
+      - DE
+      - DA
+      - DO
+      - DAS
+      - DOS
 
 merge:
   chave: municipio
