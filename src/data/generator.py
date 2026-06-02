@@ -11,8 +11,10 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
+from src.core.pipeline import load_config
 
 CONFIG_DIR = PATHS.config
+CONFIG_PATH = PATHS.config / "sources.yaml"
 PROC_DIR = PATHS.data_processed
 
 class DatasetGenerator:
@@ -27,9 +29,13 @@ class DatasetGenerator:
     - preservar a estrutura das colunas do dataset original.
     """
 
-    def __init__(self, df_base: pd.DataFrame, config: dict[str, Any]) -> None:
+    def __init__(self, df_base: pd.DataFrame, config: dict[str, Any] = {}) -> None:
+        if not config:
+            self.config = get_default_config()
+        else:
+            self.config = config
+
         self.df_base = df_base.copy()
-        self.config = config
 
         self.n_rows = config.get("n_rows", 100)
         self.enabled = bool(config.get("enabled", True))
@@ -91,8 +97,9 @@ class DatasetGenerator:
 
         return self._order_columns(df_synthetic)
 
-    def save(self, df: pd.DataFrame, output_path: str | Path) -> None:
-        output_path = PROC_DIR / output_path
+    def save(self, df: pd.DataFrame) -> None:
+        output_name = self.config.get("output", "validation_dataset.csv")
+        output_path = PROC_DIR / output_name
         df.to_csv(output_path, index=False, encoding="utf-8-sig")
 
     def _validate_config(self) -> None:
@@ -348,3 +355,6 @@ class DatasetGenerator:
             cols.insert(0, self.municipality_col)
 
         return df[cols]
+
+def get_default_config() -> dict[str, Any]:
+    return load_config(CONFIG_PATH)

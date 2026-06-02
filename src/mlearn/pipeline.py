@@ -6,18 +6,18 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 import pandas as pd
+import yaml
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, MaxAbsScaler
 
 from src.config import PATHS
 from src.mlearn.registry import create_supervised_model
-from src.core.pipeline import load_config
 from src.data.generator import DatasetGenerator
 from src.core.calculator import calculate_ids, load_ids_config
 from src.mlearn.fine_tuning import TUNING_SETTINGS, explore_tuning_for_model, save_tuning_exploration_results
 
-CONFIG_PATH = PATHS.config / "sources.yaml"
+CONFIG_PATH = PATHS.config / "models.yaml"
 PROC_DIR = PATHS.data_processed
 
 SCALER_REGISTRY = {
@@ -34,6 +34,29 @@ def load_dataframe(path: Path) -> pd.DataFrame:
     df = pd.read_csv(path, sep=";", encoding="utf-8")
 
     return df
+
+def load_models_config(path: Path) -> dict:
+    default = {
+        "ml_supervised": {},
+        "ml_unsupervised": {},
+    }
+
+    if not path.exists():
+        return default
+
+    with open(path, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f)
+
+    if not isinstance(config, dict):
+        return default
+    
+    if not isinstance(config.get("ml_supervised"), dict):
+        config["ml_supervised"] = {}
+    
+    if not isinstance(config.get("ml_unsupervised"), dict):
+        config["ml_unsupervised"] = {}
+
+    return config
 
 class MachineLearningPipeline:
     """
@@ -367,13 +390,12 @@ def run_pipeline(config: dict) -> None:
     ml_pipeline.run_all()
 
     print("[ML] Gerando dataset de validação...")
-    validation_config = config.get("validation") or {}
-    generator = DatasetGenerator(load_dataframe(PROC_DIR / "main_dataframe.csv"), config=validation_config)
+    generator = DatasetGenerator(load_dataframe(PROC_DIR / "main_dataframe.csv"))
 
     validation_df = generator.generate()
-    load_ids_config(config)
+    load_ids_config()
     validation_df = calculate_ids(validation_df)
-    generator.save(validation_df, validation_config.get("output", "validation_dataset.csv"))
+    generator.save(validation_df)
 
     print("[ML] Rodando exploração de hiperparâmetros com comparação externa...")
     ml_pipeline.run_tuning_exploration(validation_df=validation_df, has_target=True)
@@ -390,5 +412,5 @@ def run_pipeline(config: dict) -> None:
 
 if __name__ == "__main__":
     print("[ML] Iniciando pipeline de Machine Learning...")
-    config = load_config(CONFIG_PATH)
+    config = load_models_config(CONFIG_PATH)
     run_pipeline(config)
