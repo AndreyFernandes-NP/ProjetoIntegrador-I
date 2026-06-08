@@ -41,7 +41,6 @@
 #   como        : tipo de join — left | right | inner | outer (padrão: left)
 #   saida       : nome do arquivo final salvo em data/processed/
 #
-#
 # Bloco validation (nível raiz):
 #   enabled       : habilita ou não a geração de um banco de dados sintético e a predição com os modelos treinados (padrão: true)
 #   rows          : quantidade de linhas que o dataset gerado vai ter (necessário ter nomes/sobrenomes o suficiente) (padrão: 100)

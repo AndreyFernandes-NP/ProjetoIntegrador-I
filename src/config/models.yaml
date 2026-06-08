@@ -24,22 +24,23 @@
 #       notas           : notas livres sobre o modelo
 #
 # =============================================================================
+global_config:
+  dataset:
+    arquivo: main_dataframe.csv
+    features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento', 'tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica', 'populacao', 'receita_anual']
+    target_col: 'ids'
+
+  preprocessing:
+    scale: true
+    scaler: StandardScaler
 
 ml_supervised:
   enabled: true
   fine-tuning_exploration: false
-  dataset:
-    arquivo: main_dataframe.csv
-    global_features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento', 'tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica', 'populacao', 'receita_anual']
-    global_target: 'ids'
 
   split:
     global_test_size: 0.05
     global_random_state: 42
-  
-  preprocessing:
-    global_scale: true
-    global_scaler: StandardScaler
 
   models:
     - nome: 'Random Forest Regressor'
@@ -95,3 +96,14 @@ ml_supervised:
         l2_regularization: 0.1
         early_stopping: True
       notas: 'Modelo de regressão HistGradientBoosting mais robusto de modo geral tanto para os testes como predição de dados desconhecidos, alcançado resultados satisfatórios mas ainda não ideais.'
+
+  # ── Template para novos modelos supervisionados ───────────────────────────────────────────
+  # - nome: 'Nome do Modelo, ex: Regressor Furacão 2000'
+  #   tipo: Tipo do modelo, ex: RandomForestRegressor (consultar lista acima de tipos)
+  #   features: [col_x, col_y], colunas extras a serem usadas como features para esse modelo (opcional, padrão: global_features + features)
+  #   drop_cols: [col_z], colunas a serem excluídas para esse modelo (opcional, padrão: [])
+  #   hyperparameters:
+  #     param_1: valor_1
+  #     param_2: valor_2
+  #     ..., lista de hiperparâmetros específicos do tipo de modelo selecionado, em dúvida consulte a documentação do modelo no scikit-learn
+  #   notas: "Anotações que você quiser fazer sobre o modelo, como detalhes do fine-tuning, resultados de testes, expectativas ou qualquer coisa que você ache relevante ou sentir vontade de colocar."

@@ -33,6 +33,7 @@ class MLModel(ABC):
         self.scaler: Any = None
         self.metrics: dict[str, Any] = {}
         self.predictions: pd.DataFrame | None = None
+        self.labels_: Any = None
 
     @abstractmethod
     def build_model(self) -> Any:
@@ -47,6 +48,10 @@ class MLModel(ABC):
 
     @abstractmethod
     def predict(self, X_test):
+        raise NotImplementedError
+    
+    @abstractmethod
+    def fit_predict(self, X_scaled):
         raise NotImplementedError
 
     def get_result_row(self) -> dict:

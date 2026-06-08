@@ -37,6 +37,7 @@ def load_dataframe(path: Path) -> pd.DataFrame:
 
 def load_models_config(path: Path) -> dict:
     default = {
+        "dataset_config": {},
         "ml_supervised": {},
         "ml_unsupervised": {},
     }
@@ -49,6 +50,9 @@ def load_models_config(path: Path) -> dict:
 
     if not isinstance(config, dict):
         return default
+    
+    if not isinstance(config.get("ml_supervised"), dict):
+        config["dataset_config"] = {}
     
     if not isinstance(config.get("ml_supervised"), dict):
         config["ml_supervised"] = {}
@@ -72,12 +76,17 @@ class MachineLearningPipeline:
     def __init__(self, config: dict) -> None:
         self.config = config
 
+        self.global_cfg = self.config.get("global_config") or {}
+        self.dataset_cfg = self.global_cfg.get("dataset") or {}
+        self.preprocessing_cfg = self.global_cfg.get("preprocessing") or {}
+        self.unsupervised_cfg = config.get("ml_unsupervised") or {}
         self.supervised_cfg = config.get("ml_supervised") or {}
-        self.enabled = bool(self.supervised_cfg.get("enabled", False))
-        self.tuning_exp = bool(self.supervised_cfg.get("fine-tuning_exploration", False))
-        self.dataset_cfg = self.supervised_cfg.get("dataset") or {}
-        self.split_cfg = self.supervised_cfg.get("split") or {}
-        self.preprocessing_cfg = self.supervised_cfg.get("preprocessing") or {}
+        
+        self.unsup_enabled = bool(self.unsupervised_cfg.get("enabled", False))
+        self.sup_enabled = bool(self.supervised_cfg.get("enabled", False))
+
+        self.sup_tuning_exp = bool(self.supervised_cfg.get("fine-tuning_exploration", False))
+        self.sup_split_cfg = self.supervised_cfg.get("split") or {}
 
         self.df: pd.DataFrame | None = None
 
@@ -109,21 +118,21 @@ class MachineLearningPipeline:
     
     # Supervised config
     def get_global_target(self) -> str:
-        target = self.dataset_cfg.get("global_target")
+        target = self.dataset_cfg.get("target_col")
 
         if not target:
-            raise ValueError("Campo ml_supervised.dataset.global_target não definido em 'sources.yaml'.")
+            raise ValueError("Campo dataset_config.target_col não definido em 'models.yaml'.")
 
         return target
 
     def get_global_features(self) -> list[str]:
-        return self.dataset_cfg.get("global_features") or []
+        return self.dataset_cfg.get("features") or []
 
-    def get_test_size(self) -> float:
-        return self.split_cfg.get("global_test_size", 0.2)
+    def get_sup_test_size(self) -> float:
+        return self.sup_split_cfg.get("global_test_size", 0.2)
     
-    def get_random_state(self) -> int:
-        return self.split_cfg.get("global_random_state", 42)
+    def get_sup_random_state(self) -> int:
+        return self.sup_split_cfg.get("global_random_state", 42)
 
     # Feature selection
     def select_features_for_model(self, model) -> tuple[pd.DataFrame, pd.Series]:
@@ -166,12 +175,12 @@ class MachineLearningPipeline:
         return X.fillna(0) # TODO/FASE 2: implementar preprocessamento mais robusto depois pra modelos conseguirem lidar melhor com dados reais
 
     def maybe_scale(self, X_train, X_test, model):
-        scale = self.preprocessing_cfg.get("global_scale", False)
+        scale = self.preprocessing_cfg.get("scale", False)
 
         if not scale:
             return X_train, X_test
 
-        scaler_name = self.preprocessing_cfg.get("global_scaler", "StandardScaler")
+        scaler_name = self.preprocessing_cfg.get("scaler", "StandardScaler")
         scaler_cls = SCALER_REGISTRY.get(scaler_name, StandardScaler)
         model.set_scaler(scaler_cls())
 
@@ -213,13 +222,13 @@ class MachineLearningPipeline:
             X = self.preprocess_X(X)
             print(f"[ML] Dados preparados para modelo '{model.name}'. Quantidade de Features: {X.shape[1]} | Target: {y.name}")
 
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_test_size(), random_state=self.get_random_state())
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_sup_test_size(), random_state=self.get_sup_random_state())
 
             print(f"[ML] Dados divididos para modelo '{model.name}': {X_train.shape[0]} treino, {X_test.shape[0]} teste")
 
             X_train, X_test = self.maybe_scale(X_train, X_test, model)
 
-            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escala aplicada: {self.preprocessing_cfg.get('global_scale', False)}")
+            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escalonamento aplicado: {self.preprocessing_cfg.get('scale', False)}")
 
             print(f"[ML] Treinando e avaliando modelo '{model.name}'...")
             result = model.run(X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test)
@@ -296,7 +305,7 @@ class MachineLearningPipeline:
         return result
     
     def run_tuning_exploration(self, validation_df: pd.DataFrame | None = None, has_target: bool = False) -> None:
-        if not self.tuning_exp:
+        if not self.sup_tuning_exp:
             print("[ML Exploration] A exploração de fine-tuning está desativada. Certifique que seu valor no sources.yaml seja verdadeiro.")
             return
         
@@ -312,7 +321,7 @@ class MachineLearningPipeline:
                 X, y = self.select_features_for_model(model)
                 X = self.preprocess_X(X)
 
-                X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_test_size(), random_state=self.get_random_state())
+                X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_sup_test_size(), random_state=self.get_sup_random_state())
 
                 X_train, X_test = self.maybe_scale(X_train, X_test, model)
 
@@ -328,12 +337,12 @@ class MachineLearningPipeline:
                         X_external = validation_df[model.selected_features].copy()
                         X_external = self.preprocess_X(X_external)
 
-                        if self.preprocessing_cfg.get("global_scale", False):
+                        if self.preprocessing_cfg.get("scale", False):
                             X_external = model.scaler.transform(X_external) if model.scaler else X_external
                         
                         y_external = validation_df[target].copy()
 
-                result = explore_tuning_for_model(model=model, X_train=X_train, y_train=y_train, random_state=self.get_random_state(), 
+                result = explore_tuning_for_model(model=model, X_train=X_train, y_train=y_train, random_state=self.get_sup_random_state(), 
                                                   settings=TUNING_SETTINGS, X_external=X_external, y_external=y_external)
 
                 if result is not None:
