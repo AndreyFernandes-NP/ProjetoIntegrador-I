@@ -1,0 +1,109 @@
+model;tipo;candidate;params;n_clusters;n_noise;silhouette;calinski_harabasz;davies_bouldin;inertia;bic;aic;rank
+KMeans Clustering;KMeans;1;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 2, 'n_init': 10};2;0;0.9813495372423453;2035.3882341889298;0.011456502953150843;11458.529278259644;;;1
+KMeans Clustering;KMeans;2;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 2, 'n_init': 20};2;0;0.9813495372423453;2035.3882341889298;0.011456502953150843;11458.529278259644;;;2
+KMeans Clustering;KMeans;19;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 2, 'n_init': 10};2;0;0.9813495372423453;2035.3882341889298;0.011456502953150843;11458.529278259644;;;3
+KMeans Clustering;KMeans;20;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 2, 'n_init': 20};2;0;0.9813495372423453;2035.3882341889298;0.011456502953150843;11458.529278259644;;;4
+KMeans Clustering;KMeans;3;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 3, 'n_init': 10};3;0;0.8670763948745953;1562.5951167607893;0.7163439591847293;8134.088830272625;;;5
+KMeans Clustering;KMeans;4;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 3, 'n_init': 20};3;0;0.8670763948745953;1562.5951167607893;0.7163439591847293;8134.088830272625;;;6
+KMeans Clustering;KMeans;21;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 3, 'n_init': 10};3;0;0.8670763948745953;1562.5951167607893;0.7163439591847293;8134.088830272625;;;7
+KMeans Clustering;KMeans;22;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 3, 'n_init': 20};3;0;0.8670763948745953;1562.5951167607893;0.7163439591847293;8134.088830272625;;;8
+KMeans Clustering;KMeans;7;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 5, 'n_init': 10};5;0;0.8577919825490107;1003.1934214773433;0.7553794607552933;6565.3741321032285;;;9
+KMeans Clustering;KMeans;25;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 5, 'n_init': 10};5;0;0.8577919825490107;1003.1934214773433;0.7553794607552933;6565.3741321032285;;;10
+KMeans Clustering;KMeans;9;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 6, 'n_init': 10};6;0;0.8569378075477816;889.4257173388046;0.6924223377593647;5996.598292813633;;;11
+KMeans Clustering;KMeans;27;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 6, 'n_init': 10};6;0;0.8569378075477816;889.4257173388046;0.6924223377593647;5996.598292813633;;;12
+KMeans Clustering;KMeans;6;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 4, 'n_init': 20};4;0;0.8546116759012934;1187.3883867051659;0.8514306827375688;7279.021602653196;;;13
+KMeans Clustering;KMeans;24;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 4, 'n_init': 20};4;0;0.8546116759012934;1187.3883867051659;0.8514306827375688;7279.021602653196;;;14
+KMeans Clustering;KMeans;5;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 4, 'n_init': 10};4;0;0.8100415923182069;1179.2896367359308;1.1463613186484005;7321.342367372483;;;15
+KMeans Clustering;KMeans;23;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 4, 'n_init': 10};4;0;0.8100415923182069;1179.2896367359308;1.1463613186484005;7321.342367372483;;;16
+KMeans Clustering;KMeans;12;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 7, 'n_init': 20};7;0;0.7992062749267831;861.8932219123676;0.8253738720431436;5241.841356759807;;;17
+KMeans Clustering;KMeans;30;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 7, 'n_init': 20};7;0;0.7992062749267831;861.8932219123676;0.8253738720431436;5241.841356759807;;;18
+KMeans Clustering;KMeans;10;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 6, 'n_init': 20};6;0;0.7990832890105428;896.6726075002117;1.067006855406618;5954.179697282674;;;19
+KMeans Clustering;KMeans;28;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 6, 'n_init': 20};6;0;0.7990832890105428;896.6726075002117;1.067006855406618;5954.179697282674;;;20
+KMeans Clustering;KMeans;8;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 5, 'n_init': 20};5;0;0.7923941582823292;1025.5460636707296;1.1345223624737593;6441.588592816603;;;21
+KMeans Clustering;KMeans;26;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 5, 'n_init': 20};5;0;0.7923941582823292;1025.5460636707296;1.1345223624737593;6441.588592816604;;;22
+KMeans Clustering;KMeans;14;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 8, 'n_init': 20};8;0;0.7025452872038545;826.432761819748;0.9128194084802699;4734.330602478934;;;23
+KMeans Clustering;KMeans;32;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 8, 'n_init': 20};8;0;0.7025452872038545;826.432761819748;0.9128194084802699;4734.330602478934;;;24
+KMeans Clustering;KMeans;11;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 7, 'n_init': 10};7;0;0.6814581594015331;859.4477063536194;1.0059967029592372;5255.114556447598;;;25
+KMeans Clustering;KMeans;29;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 7, 'n_init': 10};7;0;0.6814581594015331;859.4477063536194;1.0059967029592372;5255.114556447598;;;26
+KMeans Clustering;KMeans;13;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 8, 'n_init': 10};8;0;0.6546684513746299;825.5236465335352;0.9212038556085538;4739.026664972222;;;27
+KMeans Clustering;KMeans;31;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 8, 'n_init': 10};8;0;0.6546684513746299;825.5236465335352;0.9212038556085538;4739.026664972222;;;28
+KMeans Clustering;KMeans;17;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 12, 'n_init': 10};12;0;0.6533680180115894;746.5948203388111;1.0075915380165126;3415.6286300295674;;;29
+KMeans Clustering;KMeans;35;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 12, 'n_init': 10};12;0;0.6533680180115894;746.5948203388111;1.0075915380165126;3415.6286300295674;;;30
+KMeans Clustering;KMeans;18;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 12, 'n_init': 20};12;0;0.6416983636634049;755.1654708640823;0.9100966735188419;3379.608246401352;;;31
+KMeans Clustering;KMeans;36;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 12, 'n_init': 20};12;0;0.6416983636634049;755.1654708640823;0.9100966735188419;3379.6082464013525;;;32
+KMeans Clustering;KMeans;15;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 10};10;0;0.6388060382543755;764.0884062193878;1.1667951498762057;4034.794260663115;;;33
+KMeans Clustering;KMeans;33;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 10, 'n_init': 10};10;0;0.6388060382543755;764.0884062193878;1.1667951498762057;4034.794260663115;;;34
+KMeans Clustering;KMeans;16;{'init': 'k-means++', 'max_iter': 300, 'n_clusters': 10, 'n_init': 20};10;0;0.635225021448985;771.7893126318344;0.9646977417564108;3997.907263224995;;;35
+KMeans Clustering;KMeans;34;{'init': 'k-means++', 'max_iter': 500, 'n_clusters': 10, 'n_init': 20};10;0;0.635225021448985;771.7893126318344;0.9646977417564108;3997.907263224995;;;36
+DBSCAN Clustering;DBSCAN;43;{'eps': 2.0, 'min_samples': 3};2;92;0.6190701712413572;26.52974012270881;1.6158974093329297;;;;1
+DBSCAN Clustering;DBSCAN;44;{'eps': 2.0, 'min_samples': 5};2;94;0.6179226053169498;25.97133379376766;1.6242744615399385;;;;2
+DBSCAN Clustering;DBSCAN;31;{'eps': 1.25, 'min_samples': 3};2;132;0.5723396414741319;19.97847186691619;1.6431001925172064;;;;3
+DBSCAN Clustering;DBSCAN;37;{'eps': 1.5, 'min_samples': 3};3;111;0.5437339724203666;15.54696768834269;1.6175435346110367;;;;4
+DBSCAN Clustering;DBSCAN;19;{'eps': 0.75, 'min_samples': 3};3;172;0.15019656112588706;9.753295263166208;1.8762311109041767;;;;5
+DBSCAN Clustering;DBSCAN;14;{'eps': 0.5, 'min_samples': 5};2;221;0.04977444125460729;10.920687365662875;1.9236005759810866;;;;6
+DBSCAN Clustering;DBSCAN;15;{'eps': 0.5, 'min_samples': 8};2;222;0.0452342352767988;10.856008516797255;1.919493671619093;;;;7
+DBSCAN Clustering;DBSCAN;18;{'eps': 0.5, 'min_samples': 15};2;225;0.04441134693605058;10.683330647682496;1.9176924074109174;;;;8
+DBSCAN Clustering;DBSCAN;16;{'eps': 0.5, 'min_samples': 10};2;224;0.042055421160494925;10.738750475446865;1.9172419237136378;;;;9
+DBSCAN Clustering;DBSCAN;17;{'eps': 0.5, 'min_samples': 12};2;224;0.042055421160494925;10.738750475446865;1.9172419237136378;;;;10
+DBSCAN Clustering;DBSCAN;13;{'eps': 0.5, 'min_samples': 3};5;211;0.0320659251662297;4.698938630339657;1.8541444986044624;;;;11
+DBSCAN Clustering;DBSCAN;10;{'eps': 0.3, 'min_samples': 10};4;296;-0.07037489059228434;3.6388846778402923;1.9697863771857858;;;;12
+DBSCAN Clustering;DBSCAN;11;{'eps': 0.3, 'min_samples': 12};3;312;-0.07614877903347086;4.406024392293317;1.9958153411691861;;;;13
+DBSCAN Clustering;DBSCAN;9;{'eps': 0.3, 'min_samples': 8};3;292;-0.09285330276497876;4.879638364524906;1.9879245981311628;;;;14
+DBSCAN Clustering;DBSCAN;7;{'eps': 0.3, 'min_samples': 3};3;288;-0.09427039994788625;4.981816279572705;1.9866541912759765;;;;15
+DBSCAN Clustering;DBSCAN;8;{'eps': 0.3, 'min_samples': 5};3;288;-0.09427039994788625;4.981816279572705;1.9866541912759765;;;;16
+DBSCAN Clustering;DBSCAN;12;{'eps': 0.3, 'min_samples': 15};2;330;-0.10436676828131954;5.947469231548883;2.0198865654890032;;;;17
+DBSCAN Clustering;DBSCAN;5;{'eps': 0.2, 'min_samples': 12};3;377;-0.13917681412372118;3.060457075378783;2.035071634686706;;;;18
+DBSCAN Clustering;DBSCAN;6;{'eps': 0.2, 'min_samples': 15};3;380;-0.14289779803301317;3.0066771579933933;2.0352164034907414;;;;19
+DBSCAN Clustering;DBSCAN;1;{'eps': 0.2, 'min_samples': 3};5;348;-0.14578691465504345;2.165850303929363;2.0168579959537065;;;;20
+DBSCAN Clustering;DBSCAN;2;{'eps': 0.2, 'min_samples': 5};4;356;-0.15020563569431997;2.5934347869087158;1.9947564849858455;;;;21
+DBSCAN Clustering;DBSCAN;3;{'eps': 0.2, 'min_samples': 8};2;372;-0.15927669770268746;4.691362754550972;2.026218257180549;;;;22
+DBSCAN Clustering;DBSCAN;4;{'eps': 0.2, 'min_samples': 10};2;372;-0.15927669770268746;4.691362754550972;2.026218257180549;;;;23
+DBSCAN Clustering;DBSCAN;20;{'eps': 0.75, 'min_samples': 5};1;186;;;;;;;24
+DBSCAN Clustering;DBSCAN;21;{'eps': 0.75, 'min_samples': 8};1;187;;;;;;;25
+DBSCAN Clustering;DBSCAN;22;{'eps': 0.75, 'min_samples': 10};1;188;;;;;;;26
+DBSCAN Clustering;DBSCAN;23;{'eps': 0.75, 'min_samples': 12};1;188;;;;;;;27
+DBSCAN Clustering;DBSCAN;24;{'eps': 0.75, 'min_samples': 15};1;190;;;;;;;28
+DBSCAN Clustering;DBSCAN;25;{'eps': 1.0, 'min_samples': 3};1;150;;;;;;;29
+DBSCAN Clustering;DBSCAN;26;{'eps': 1.0, 'min_samples': 5};1;150;;;;;;;30
+DBSCAN Clustering;DBSCAN;27;{'eps': 1.0, 'min_samples': 8};1;150;;;;;;;31
+DBSCAN Clustering;DBSCAN;28;{'eps': 1.0, 'min_samples': 10};1;151;;;;;;;32
+DBSCAN Clustering;DBSCAN;29;{'eps': 1.0, 'min_samples': 12};1;151;;;;;;;33
+DBSCAN Clustering;DBSCAN;30;{'eps': 1.0, 'min_samples': 15};1;151;;;;;;;34
+DBSCAN Clustering;DBSCAN;32;{'eps': 1.25, 'min_samples': 5};1;137;;;;;;;35
+DBSCAN Clustering;DBSCAN;33;{'eps': 1.25, 'min_samples': 8};1;139;;;;;;;36
+DBSCAN Clustering;DBSCAN;34;{'eps': 1.25, 'min_samples': 10};1;139;;;;;;;37
+DBSCAN Clustering;DBSCAN;35;{'eps': 1.25, 'min_samples': 12};1;139;;;;;;;38
+DBSCAN Clustering;DBSCAN;36;{'eps': 1.25, 'min_samples': 15};1;139;;;;;;;39
+DBSCAN Clustering;DBSCAN;38;{'eps': 1.5, 'min_samples': 5};1;119;;;;;;;40
+DBSCAN Clustering;DBSCAN;39;{'eps': 1.5, 'min_samples': 8};1;121;;;;;;;41
+DBSCAN Clustering;DBSCAN;40;{'eps': 1.5, 'min_samples': 10};1;121;;;;;;;42
+DBSCAN Clustering;DBSCAN;41;{'eps': 1.5, 'min_samples': 12};1;123;;;;;;;43
+DBSCAN Clustering;DBSCAN;42;{'eps': 1.5, 'min_samples': 15};1;126;;;;;;;44
+DBSCAN Clustering;DBSCAN;45;{'eps': 2.0, 'min_samples': 8};1;101;;;;;;;45
+DBSCAN Clustering;DBSCAN;46;{'eps': 2.0, 'min_samples': 10};1;102;;;;;;;46
+DBSCAN Clustering;DBSCAN;47;{'eps': 2.0, 'min_samples': 12};1;102;;;;;;;47
+DBSCAN Clustering;DBSCAN;48;{'eps': 2.0, 'min_samples': 15};1;103;;;;;;;48
+Mean-Shift Clustering;MeanShift;21;{'bandwidth': 2.4846392110846622, 'bin_seeding': True, 'cluster_all': True};19;0;0.5915925402494173;34.619496309638755;1.9253596357525102;;;;1
+Mean-Shift Clustering;MeanShift;17;{'bandwidth': 2.3985642660353594, 'bin_seeding': True, 'cluster_all': True};19;0;0.586135371868614;22.94909092133419;1.993902797140282;;;;2
+Mean-Shift Clustering;MeanShift;24;{'bandwidth': 2.4846392110846622, 'bin_seeding': False, 'cluster_all': False};76;38;0.5742811711810236;543.6872912771606;0.475417363711492;;;;3
+Mean-Shift Clustering;MeanShift;20;{'bandwidth': 2.3985642660353594, 'bin_seeding': False, 'cluster_all': False};79;38;0.5709436264000729;546.1922509547073;0.4826127542699421;;;;4
+Mean-Shift Clustering;MeanShift;19;{'bandwidth': 2.3985642660353594, 'bin_seeding': False, 'cluster_all': True};79;0;0.5648450384026761;657.5170275716449;0.3666967309243809;;;;5
+Mean-Shift Clustering;MeanShift;23;{'bandwidth': 2.4846392110846622, 'bin_seeding': False, 'cluster_all': True};76;0;0.5634149696964841;657.2286042033768;0.4156881344176959;;;;6
+Mean-Shift Clustering;MeanShift;12;{'bandwidth': 2.2779458277100466, 'bin_seeding': False, 'cluster_all': False};88;31;0.5499648706593271;618.5522492640903;0.45190680315238274;;;;7
+Mean-Shift Clustering;MeanShift;16;{'bandwidth': 2.3389861130386516, 'bin_seeding': False, 'cluster_all': False};85;35;0.5487987306821658;570.4868455997009;0.47306153650893734;;;;8
+Mean-Shift Clustering;MeanShift;4;{'bandwidth': None, 'bin_seeding': False, 'cluster_all': False};89;32;0.5482923708727435;620.9903915417406;0.45415864084156743;;;;9
+Mean-Shift Clustering;MeanShift;8;{'bandwidth': 2.1845086019635382, 'bin_seeding': False, 'cluster_all': False};92;34;0.5460888125806634;615.4405741569981;0.45618826030781734;;;;10
+Mean-Shift Clustering;MeanShift;15;{'bandwidth': 2.3389861130386516, 'bin_seeding': False, 'cluster_all': True};85;0;0.5411240979658534;665.3650929357145;0.38848586840656985;;;;11
+Mean-Shift Clustering;MeanShift;22;{'bandwidth': 2.4846392110846622, 'bin_seeding': True, 'cluster_all': False};19;95;0.5363912633345437;3.196587768196107;1.4374454271460473;;;;12
+Mean-Shift Clustering;MeanShift;18;{'bandwidth': 2.3985642660353594, 'bin_seeding': True, 'cluster_all': False};19;98;0.5348817133953155;2.9807306527021487;1.5045785179010642;;;;13
+Mean-Shift Clustering;MeanShift;11;{'bandwidth': 2.2779458277100466, 'bin_seeding': False, 'cluster_all': True};88;0;0.5288237802317532;714.2498452803509;0.41343161980856585;;;;14
+Mean-Shift Clustering;MeanShift;3;{'bandwidth': None, 'bin_seeding': False, 'cluster_all': True};89;0;0.5274585027535602;718.0160451209181;0.41370549894101594;;;;15
+Mean-Shift Clustering;MeanShift;7;{'bandwidth': 2.1845086019635382, 'bin_seeding': False, 'cluster_all': True};92;0;0.525246227729179;707.0128284236305;0.4084333869589859;;;;16
+Mean-Shift Clustering;MeanShift;5;{'bandwidth': 2.1845086019635382, 'bin_seeding': True, 'cluster_all': True};23;0;0.5114341169966632;18.820230453714352;1.8954202022267297;;;;17
+Mean-Shift Clustering;MeanShift;1;{'bandwidth': None, 'bin_seeding': True, 'cluster_all': True};23;0;0.5083234543094693;18.67654947677533;1.9626043497472514;;;;18
+Mean-Shift Clustering;MeanShift;9;{'bandwidth': 2.2779458277100466, 'bin_seeding': True, 'cluster_all': True};23;0;0.5083234543094693;18.67654947677533;1.9626043497472514;;;;19
+Mean-Shift Clustering;MeanShift;13;{'bandwidth': 2.3389861130386516, 'bin_seeding': True, 'cluster_all': True};21;0;0.5065991576392905;20.463776499763256;1.9518106486336322;;;;20
+Mean-Shift Clustering;MeanShift;14;{'bandwidth': 2.3389861130386516, 'bin_seeding': True, 'cluster_all': False};21;99;0.48844999855855387;2.688677636959446;1.5114854589446074;;;;21
+Mean-Shift Clustering;MeanShift;10;{'bandwidth': 2.2779458277100466, 'bin_seeding': True, 'cluster_all': False};23;95;0.48645068042023726;2.560876138361657;1.5223865315508647;;;;22
+Mean-Shift Clustering;MeanShift;2;{'bandwidth': None, 'bin_seeding': True, 'cluster_all': False};23;98;0.4848879597867809;2.508103699599371;1.5140313637494807;;;;23
+Mean-Shift Clustering;MeanShift;6;{'bandwidth': 2.1845086019635382, 'bin_seeding': True, 'cluster_all': False};23;101;0.4810511556632716;2.435001166129699;1.5107459291537737;;;;24

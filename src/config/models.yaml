@@ -101,6 +101,7 @@ ml_supervised:
 
 ml_unsupervised:
   enabled: false
+  fine-tuning_exploration: false
 
   models:
     - nome: 'KMeans Clustering'
@@ -108,7 +109,7 @@ ml_unsupervised:
       features: []
       drop_cols: []
       hyperparameters:
-        n_clusters: 5
+        n_clusters: 6
         init: 'k-means++'
         n_init: 10
         max_iter: 300
@@ -119,8 +120,8 @@ ml_unsupervised:
       features: []
       drop_cols: []
       hyperparameters:
-        eps: 0.5
-        min_samples: 5
+        eps: 2.0
+        min_samples: 3
         metric: 'euclidean'
       notas: 'Modelo de clustering DBSCAN para análise exploratória, ainda em fase de testes e ajustes.'
     - nome: 'Mean-Shift Clustering'
@@ -128,7 +129,7 @@ ml_unsupervised:
       features: []
       drop_cols: []
       hyperparameters:
-        bandwidth:
+        bandwidth: 2.4846392110846622
         bin_seeding: True
         cluster_all: True
       notas: 'Modelo de clustering Mean Shift para análise exploratória, ainda em fase de testes e ajustes.'

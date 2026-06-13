@@ -15,7 +15,8 @@ from src.config import PATHS
 from src.mlearn.registry import create_supervised_model, create_unsupervised_model
 from src.data.generator import DatasetGenerator
 from src.core.calculator import calculate_ids, load_ids_config
-from src.mlearn.fine_tuning import TUNING_SETTINGS, explore_tuning_for_model, save_tuning_exploration_results
+from src.mlearn.fine_tuning import (SUPERVISED_TUNING_SETTINGS, explore_tuning_for_supervised_model, save_supervised_tuning_exploration_results,
+                                    UNSUPERVISED_TUNING_SETTINGS, explore_tuning_for_unsupervised_model, save_unsupervised_tuning_results)
 
 CONFIG_PATH = PATHS.config / "models.yaml"
 PROC_DIR = PATHS.data_processed
@@ -85,13 +86,16 @@ class MachineLearningPipeline:
         self.unsup_enabled = bool(self.unsupervised_cfg.get("enabled", False))
         self.sup_enabled = bool(self.supervised_cfg.get("enabled", False))
 
+        self.unsup_tuning_exp = bool(self.unsupervised_cfg.get("fine-tuning_exploration", False))
         self.sup_tuning_exp = bool(self.supervised_cfg.get("fine-tuning_exploration", False))
+
         self.sup_split_cfg = self.supervised_cfg.get("split") or {}
 
         self.df: pd.DataFrame | None = None
 
         self.unsupervised_models = []
         self.unsupervised_results: list[dict] = []
+        self.unsupervised_exploration_results: list[pd.DataFrame] = []
 
         self.supervised_models = []
         self.supervised_results: list[dict] = []
@@ -357,12 +361,47 @@ class MachineLearningPipeline:
 
         return result
     
-    def run_tuning_exploration(self, validation_df: pd.DataFrame | None = None, has_target: bool = False) -> None:
+    def run_unsupervised_tuning_exploration(self) -> None:
+        if not self.unsup_tuning_exp:
+            print("[ML Exploration] A exploração de fine-tuning não supervisionada está desativada, continuando...")
+            return
+
+        print("\n[ML Exploration] Iniciando exploração de hiperparâmetros de modelos supervisionados...")
+
+        self.unsupervised_tuning_results = []
+
+        for model in self.unsupervised_models:
+            try:
+                print(f"[ML Exploration] Preparando dados para '{model.name}'...")
+
+                X, _ = self.select_features_for_model(model)
+                X = self.preprocess_X(X)
+
+                if X.shape[1] == 0:
+                    print(f"[Aviso] Modelo '{model.name}' ficou sem features. Pulando exploração.")
+                    continue
+
+                X_scaled, _ = self.maybe_scale(X, None, model)
+
+                result = explore_tuning_for_unsupervised_model(model=model, X=X_scaled, settings=UNSUPERVISED_TUNING_SETTINGS)
+
+                if result is not None:
+                    self.unsupervised_tuning_results.append(result)
+
+            except Exception as e:
+                print(f"[Erro] Falha ao explorar '{model.name}': {e}")
+
+        if UNSUPERVISED_TUNING_SETTINGS.get("save_results", True):
+            output = PATHS.reports_ml / "ml_unsupervised_tuning_exploration.csv"
+
+            save_unsupervised_tuning_results(results_list=self.unsupervised_tuning_results, output_path=output, sep=";")
+    
+    def run_supervised_tuning_exploration(self, validation_df: pd.DataFrame | None = None, has_target: bool = False) -> None:
         if not self.sup_tuning_exp:
-            print("[ML Exploration] A exploração de fine-tuning está desativada, continuando...")
+            print("[ML Exploration] A exploração de fine-tuning supervisionada está desativada, continuando...")
             return
         
-        print("\n[ML Exploration] Iniciando exploração de hiperparâmetros de modelos...")
+        print("\n[ML Exploration] Iniciando exploração de hiperparâmetros de modelos supervisionados...")
 
         self.supervised_exploration_results = []
         target = self.get_global_target()
@@ -395,8 +434,8 @@ class MachineLearningPipeline:
                         
                         y_external = validation_df[target].copy()
 
-                result = explore_tuning_for_model(model=model, X_train=X_train, y_train=y_train, random_state=self.get_sup_random_state(), 
-                                                  settings=TUNING_SETTINGS, X_external=X_external, y_external=y_external)
+                result = explore_tuning_for_supervised_model(model=model, X_train=X_train, y_train=y_train, random_state=self.get_sup_random_state(), 
+                                                  settings=SUPERVISED_TUNING_SETTINGS, X_external=X_external, y_external=y_external)
 
                 if result is not None:
                     self.supervised_exploration_results.append(result)
@@ -404,10 +443,10 @@ class MachineLearningPipeline:
             except Exception as e:
                 print(f"[Erro] Falha ao explorar '{model.name}': {e}")
         
-        if TUNING_SETTINGS.get("save_results", False):
+        if SUPERVISED_TUNING_SETTINGS.get("save_results", False):
             output = PATHS.reports_ml / "ml_supervised_tuning_exploration.csv"
 
-            save_tuning_exploration_results(results_list=self.supervised_exploration_results, output_path=output, sep=";")
+            save_supervised_tuning_exploration_results(results_list=self.supervised_exploration_results, output_path=output, sep=";")
     
     # Save
     def save_unsupervised_results(self, results_df: pd.DataFrame) -> None:
@@ -483,7 +522,8 @@ def run_pipeline(config: dict) -> None:
     generator.save(validation_df)
 
     print("[ML] Rodando exploração de hiperparâmetros com comparação externa...")
-    ml_pipeline.run_tuning_exploration(validation_df=validation_df, has_target=True)
+    ml_pipeline.run_unsupervised_tuning_exploration()
+    ml_pipeline.run_supervised_tuning_exploration(validation_df=validation_df, has_target=True)
 
     print("[ML] Realizando validação cruzada com dataset sintético...")
     for model in ml_pipeline.supervised_models:
