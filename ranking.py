@@ -1,228 +1,141 @@
 import pandas as pd
-import matplotlib.pyplot as plt
+import numpy as np
+
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
-
-
-# Leitura do CSV
-df = pd.read_csv("data/processed/main_dataframe.csv", sep=";" )
-
-# TESTES DO RANKING
-# TOP 10 melhores ids
-# print(df.sort_values("ids").head(10))
-
-#TOP 10 piores ids
-# print(df.sort_values("ids", ascending=False).head(10))
+from sklearn.metrics import silhouette_score
 
 
 # =========================
-# Quartis // Divisão dos municípios em 4 grupos iguais baseando-se no IDS
+# LOAD DATA
 # =========================
-
-df["categoria"] = pd.qcut(
-    df["ids"],
-    q=4,
-    labels=[
-        "Crítico",
-        "Em risco",
-        "Moderado",
-        "Estruturado"
-    ]
-)
-
-# Municipios por categoria
-print("\nQuantidade por categoria:\n")
-print(df["categoria"].value_counts())
+df = pd.read_csv("data/processed/main_dataframe.csv", sep=";")
 
 
-
-### K-MEANS
-
-print("\n=========================")
-print("K-MEANS COM SÃO PAULO")
-print("=========================\n")
-
-# Variáveis utilizadas
-X = df[[
-    "ids",
-    "receita_anual",
-    "populacao"
-]]
-
-# Normalização
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
-
-# Modelo K-Means
-kmeans = KMeans(
-    n_clusters=4,
-    random_state=42,
-    n_init=10
-)
-
-# Criar clusters
-df["cluster"] = kmeans.fit_predict(X_scaled)
-
-print(df["cluster"].value_counts())
-
-print("\nMédia das variáveis por cluster:\n")
-print(
-    df.groupby("cluster")[[
-        "ids",
-        "receita_anual",
-        "populacao"
-    ]].mean()
-)
+FEATURES = ["ids", "receita_anual", "populacao"]
 
 
-print("\n=========================")
-print("K-MEANS SEM SÃO PAULO")
-print("=========================\n")
+def run_kmeans_analysis(df_input: pd.DataFrame, k: int = 4, label: str = ""):
+    print("\n" + "=" * 60)
+    print(f"K-MEANS ANALYSIS {label}")
+    print("=" * 60)
 
-df_sem_sp = df[df["municipio"] != "SAO PAULO"].copy()
+    df = df_input.copy()
 
-X_sem_sp = df_sem_sp[[
-    "ids",
-    "receita_anual",
-    "populacao"
-]]
+    # =========================
+    # PREPROCESSING
+    # =========================
+    X = df[FEATURES].copy()
 
-scaler_sem_sp = StandardScaler()
-X_scaled_sem_sp = scaler_sem_sp.fit_transform(X_sem_sp)
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
 
-kmeans_sem_sp = KMeans(
-    n_clusters=4,
-    random_state=42,
-    n_init=10
-)
+    kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
 
-df_sem_sp["cluster"] = kmeans_sem_sp.fit_predict(X_scaled_sem_sp)
+    df["cluster"] = kmeans.fit_predict(X_scaled)
 
-print(df_sem_sp["cluster"].value_counts())
+    # =========================
+    # QUALITY METRIC
+    # =========================
+    silhouette = silhouette_score(X_scaled, df["cluster"])
+    print(f"\n📊 Silhouette Score: {silhouette:.4f}")
 
-print("\nMédia das variáveis por cluster:\n")
-print(
-    df_sem_sp.groupby("cluster")[[
-        "ids",
-        "receita_anual",
-        "populacao"
-    ]].mean()
-)
-
-
-
-# Municipios por Cluster
-print("\nMunicípios por cluster:\n")
-
-for i in range(4):
-    print(f"\nCLUSTER {i}\n")
-    print(
-        df_sem_sp[df_sem_sp["cluster"] == i][
-            ["municipio", "ids"]
-        ].head(10)
+    # =========================
+    # CLUSTER PROFILING
+    # =========================
+    profile = (
+        df.groupby("cluster")[FEATURES]
+        .agg(["mean", "median", "min", "max"])
+        .round(2)
     )
 
+    print("\n📌 Cluster profiling:")
+    print(profile)
 
-# Salvar CSV
+    # =========================
+    # CLUSTER SIZES
+    # =========================
+    print("\n📦 Cluster sizes:")
+    print(df["cluster"].value_counts().sort_index())
 
-df_sem_sp.to_csv(
-    "data/processed/main_dataframe_classificacao_com_cluster.csv",
+    # =========================
+    # 🔥 NEW: IMPROVED CLUSTER SCORING
+    # =========================
+    cluster_profile = df.groupby("cluster")[FEATURES].mean().copy()
+
+    # log para reduzir impacto de escala absurda
+    cluster_profile["receita_anual"] = np.log1p(cluster_profile["receita_anual"])
+    cluster_profile["populacao"] = np.log1p(cluster_profile["populacao"])
+
+    # z-score (normalização comparável entre variáveis)
+    cluster_norm = (cluster_profile - cluster_profile.mean()) / cluster_profile.std()
+
+    # score composto (interpretação de desenvolvimento)
+    cluster_profile["score"] = (
+        cluster_norm["ids"] * 0.5 +
+        cluster_norm["receita_anual"] * 0.3 +
+        cluster_norm["populacao"] * 0.2
+    )
+
+    ranking = cluster_profile.sort_values("score", ascending=False).reset_index()
+
+    ranking["rank"] = range(1, len(ranking) + 1)
+
+    print("\n🏆 Cluster ranking (score composto):")
+    print(ranking[["cluster", "score", "rank"]])
+
+    # =========================
+    # MERGE RANK BACK
+    # =========================
+    df = df.merge(ranking[["cluster", "rank"]], on="cluster", how="left")
+
+    # =========================
+    # LABELING (INTERPRETAÇÃO FINAL)
+    # =========================
+    cluster_labels = {}
+
+    for _, row in ranking.iterrows():
+        cluster_id = row["cluster"]
+        rank = row["rank"]
+
+        if rank == 1:
+            cluster_labels[cluster_id] = "Estruturado"
+        elif rank == 2:
+            cluster_labels[cluster_id] = "Moderado"
+        elif rank == 3:
+            cluster_labels[cluster_id] = "Em risco"
+        else:
+            cluster_labels[cluster_id] = "Crítico"
+
+    df["cluster_label"] = df["cluster"].map(cluster_labels)
+
+    print("\n🏷️ Cluster labels:")
+    print(cluster_labels)
+
+    return df
+
+
+# =========================
+# COM SÃO PAULO
+# =========================
+df_with_sp = run_kmeans_analysis(df, k=4, label="(COM SÃO PAULO)")
+
+
+# =========================
+# SEM SÃO PAULO
+# =========================
+df_without_sp = run_kmeans_analysis(
+    df[df["municipio"] != "SAO PAULO"],
+    k=4,
+    label="(SEM SÃO PAULO)"
+)
+
+
+# =========================
+# SAVE RESULT
+# =========================
+df_without_sp.to_csv(
+    "data/processed/main_dataframe_clusterizado.csv",
     sep=";",
     index=False
 )
-
-
-# Visualização gráfica (COM SÃO PAULO)
-
-# Cria o gráfico
-plt.figure(figsize=(8, 5))
-
-df["cluster"].value_counts().sort_index().plot(kind="bar")
-
-# Títulos do gráfico
-plt.title("Distribuição dos Clusters (Com São Paulo)")
-plt.xlabel("Cluster")
-plt.ylabel("Quantidade de Municípios")
-
-# Melhorar layout
-plt.xticks(rotation=0)
-
-# Mostra o gráfico em si
-plt.show()
-
-
-# Visualização gráfica (SEM SÃO PAULO)
-
-plt.figure(figsize=(8, 5))
-
-df_sem_sp["cluster"].value_counts().sort_index().plot(kind="bar")
-
-plt.title("Distribuição dos Clusters (Sem São Paulo)")
-plt.xlabel("Cluster")
-plt.ylabel("Quantidade de Municípios")
-
-plt.xticks(rotation=0)
-
-plt.show()
-
-
-# =========================
-# SCATTER PLOT (COM SÃO PAULO)
-# =========================
-
-plt.figure(figsize=(18, 12))
-
-# Cria o Scatter Plot
-plt.scatter(
-    df["receita_anual"],
-    df["ids"],
-    c=df["cluster"]
-)
-
-# Escala logarítmica
-plt.xscale("log")
-
-# Adicionar nome dos municípios
-for _, row in df.iterrows():
-    plt.text(
-        row["receita_anual"],
-        row["ids"],
-        row["municipio"],
-        fontsize=7
-    )
-
-# Títulos
-plt.title("Clusters dos Municípios (Com São Paulo)")
-plt.xlabel("Receita Anual (escala log)")
-plt.ylabel("IDS")
-
-# Mostra o gráfico
-plt.show()
-
-# =========================
-# SCATTER PLOT (SEM SÃO PAULO)
-# =========================
-
-plt.figure(figsize=(18, 12))
-
-plt.scatter(
-    df_sem_sp["receita_anual"],
-    df_sem_sp["ids"],
-    c=df_sem_sp["cluster"]
-)
-
-plt.xscale("log")
-
-for _, row in df_sem_sp.iterrows():
-    plt.text(
-        row["receita_anual"],
-        row["ids"],
-        row["municipio"],
-        fontsize=7
-    )
-
-plt.title("Clusters dos Municípios (Sem São Paulo)")
-plt.xlabel("Receita Anual (escala log)")
-plt.ylabel("IDS")
-
-plt.show()
