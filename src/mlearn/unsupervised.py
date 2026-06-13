@@ -21,11 +21,22 @@ class BaseUnsupervisedModel(MLModel):
             print(f"[Erro] Modelo não supervisionado '{self.name}' precisa de dados de treinamento.")
             return None
 
-        self.ensure_model()     
+        self.ensure_model()
         self.model.fit(X_train)
         
         if hasattr(self.model, "labels_"):
             self.labels_ = self.model.labels_
+    
+    def predict(self, X_test):
+        if X_test is None:
+            print(f"[Erro] Modelo não supervisionado '{self.name}' precisa de dados para predição.")
+            return None
+
+        if hasattr(self.model, "predict"):
+            return self.model.predict(X_test)
+        else:
+            print(f"[Erro] Modelo '{self.name}' não suporta método predict.")
+            return None
 
     def fit_predict(self, X_scaled) -> None:
         if X_scaled is None:

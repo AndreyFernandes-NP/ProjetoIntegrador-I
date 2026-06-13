@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, MaxAbsScaler
 
 from src.config import PATHS
-from src.mlearn.registry import create_supervised_model
+from src.mlearn.registry import create_supervised_model, create_unsupervised_model
 from src.data.generator import DatasetGenerator
 from src.core.calculator import calculate_ids, load_ids_config
 from src.mlearn.fine_tuning import TUNING_SETTINGS, explore_tuning_for_model, save_tuning_exploration_results
@@ -89,6 +89,9 @@ class MachineLearningPipeline:
         self.sup_split_cfg = self.supervised_cfg.get("split") or {}
 
         self.df: pd.DataFrame | None = None
+
+        self.unsupervised_models = []
+        self.unsupervised_results: list[dict] = []
 
         self.supervised_models = []
         self.supervised_results: list[dict] = []
@@ -187,11 +190,27 @@ class MachineLearningPipeline:
         print(f"[ML] Aplicando scaler '{scaler_cls.__name__}' aos dados de treino e teste...")
 
         X_train_scaled = model.scaler.fit_transform(X_train)
-        X_test_scaled = model.scaler.transform(X_test)
+        X_test_scaled = model.scaler.transform(X_test) if X_test is not None else None
 
         return X_train_scaled, X_test_scaled
 
     # Model creation
+    def build_unsupervised_models(self) -> None:
+        models_cfg = self.unsupervised_cfg.get("models") or []
+
+        created_models = [
+            create_unsupervised_model(model_cfg=model_cfg, global_config=self.unsupervised_cfg)
+            for model_cfg in models_cfg
+        ]
+
+        self.unsupervised_models = [model for model in created_models if model is not None]
+
+        invalid_count = len(created_models) - len(self.unsupervised_models)
+        if invalid_count:
+            print(f"[ML] {invalid_count} modelo(s) inválido(s) ignorado(s).")
+        
+        print(f"[ML] {len(self.unsupervised_models)} modelo(s) não supervisionado(s) instanciado(s).")
+
     def build_supervised_models(self) -> None:
         models_cfg = self.supervised_cfg.get("models") or []
 
@@ -209,12 +228,46 @@ class MachineLearningPipeline:
         print(f"[ML] {len(self.supervised_models)} modelo(s) supervisionado(s) instanciado(s).")
 
     # Execution
+    def setup_unsupervised(self) -> None:
+        if not self.unsupervised_cfg:
+            print("[ML] Nenhuma configuração ml_unsupervised encontrada.")
+            return None
+
+        self.build_unsupervised_models()
+
     def setup_supervised(self) -> None:
         if not self.supervised_cfg:
             print("[ML] Nenhuma configuração ml_supervised encontrada.")
             return None
 
         self.build_supervised_models()
+    
+    def run_unsupervised(self, model) -> bool:
+        try:
+            X, _ = self.select_features_for_model(model)
+            X = self.preprocess_X(X)
+            print(f"[ML] Dados preparados para modelo '{model.name}'. Quantidade de Features: {X.shape[1]}")
+
+            X_train, _ = self.maybe_scale(X, None, model)
+
+            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escalonamento aplicado: {self.preprocessing_cfg.get('scale', False)}")
+            
+            print(f"[ML] Treinando e avaliando modelo '{model.name}'...")
+            result = model.run(X_train=X_train)
+
+            self.unsupervised_results.append(result)
+
+            print(
+                f"[ML] {model.name} concluído "
+                f"| Silhouette={model.metrics.get('silhouette'):.4f} "
+                f"| Calinski-Harabasz={model.metrics.get('calinski_harabasz'):.4f} "
+                f"| Davies-Bouldin={model.metrics.get('davies_bouldin'):.4f}"
+            )
+        except Exception as e:
+            print(f"[Erro] Falha ao executar modelo não supervisionado '{model.name}': {e}")
+            return False
+
+        return True
 
     def run_supervised(self, model) -> bool:
         try:
@@ -241,7 +294,7 @@ class MachineLearningPipeline:
                 f"| MAE={model.metrics.get('mae'):.4f}"
             )
         except Exception as e:
-            print(f"[Erro] Falha ao executar modelo '{model.name}': {e}")
+            print(f"[Erro] Falha ao executar modelo supervisionado '{model.name}': {e}")
             return False
 
         return True
@@ -306,7 +359,7 @@ class MachineLearningPipeline:
     
     def run_tuning_exploration(self, validation_df: pd.DataFrame | None = None, has_target: bool = False) -> None:
         if not self.sup_tuning_exp:
-            print("[ML Exploration] A exploração de fine-tuning está desativada. Certifique que seu valor no sources.yaml seja verdadeiro.")
+            print("[ML Exploration] A exploração de fine-tuning está desativada, continuando...")
             return
         
         print("\n[ML Exploration] Iniciando exploração de hiperparâmetros de modelos...")
@@ -357,6 +410,16 @@ class MachineLearningPipeline:
             save_tuning_exploration_results(results_list=self.supervised_exploration_results, output_path=output, sep=";")
     
     # Save
+    def save_unsupervised_results(self, results_df: pd.DataFrame) -> None:
+        if results_df.empty:
+            print("[ML] Nenhum resultado não supervisionado para salvar.")
+            return
+
+        output = PATHS.reports_ml / "ml_unsupervised_metrics.csv"
+
+        results_df.to_csv(output, sep=";", index=False, encoding="utf-8")
+        print(f"[ML] Métricas não supervisionadas salvas em {output.relative_to(PATHS.root)}")
+
     def save_supervised_results(self, results_df: pd.DataFrame) -> None:
         if results_df.empty:
             print("[ML] Nenhum resultado supervisionado para salvar.")
@@ -378,15 +441,28 @@ class MachineLearningPipeline:
             print(f"[ML] Predições salvas: {output.relative_to(PATHS.root)}")
 
     def run_all(self) -> None:
-        self.setup_supervised()
-        print("[ML] Modelos configurados. Modelos para executar:", [model.name for model in self.supervised_models])
+        self.setup_unsupervised()
+        print("[ML] Modelos Não Supervisionados configurados. Modelos para executar:", [model.name for model in self.unsupervised_models])
 
-        models_status = {}
-        for model in self.supervised_models:
-            print(f"\n[ML] Executando modelo: {model.name} ({model.tipo})")
-            models_status[model.name] = self.run_supervised(model)
+        self.setup_supervised()
+        print("[ML] Modelos Supervisionados configurados. Modelos para executar:", [model.name for model in self.supervised_models])
+
+        unsupervised_status = {}
+        for model in self.unsupervised_models:
+            print(f"\n[ML] Executando modelo não supervisionado: {model.name} ({model.tipo})")
+            unsupervised_status[model.name] = self.run_unsupervised(model)
         
-        print(f"\n[ML] Execução concluída. Status dos modelos: {models_status}")
+        print(f"\n[ML] Execução de modelos não supervisionados concluída. Status dos modelos: {unsupervised_status}")
+        results = pd.DataFrame(self.unsupervised_results)
+
+        self.save_unsupervised_results(results)
+
+        supervised_status = {}
+        for model in self.supervised_models:
+            print(f"\n[ML] Executando modelo supervisionado: {model.name} ({model.tipo})")
+            supervised_status[model.name] = self.run_supervised(model)
+        
+        print(f"\n[ML] Execução dos modelos supervisionados concluída. Status dos modelos: {supervised_status}")
         results = pd.DataFrame(self.supervised_results)
 
         self.save_supervised_results(results)

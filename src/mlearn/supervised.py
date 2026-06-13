@@ -30,6 +30,10 @@ class BaseSupervisedModel(MLModel):
             return None
 
         return self.model.predict(X_test)
+
+    def fit_predict(self, X_scaled) -> None:
+        print(f"[Erro] Modelo supervisionado '{self.name}' não suporta fit_predict. Use fit e predict separadamente.")
+        return None
     
     def predict_external(self, X_external):
         # É a mesma função de predict, mas pra deixar claro que é pra dados externos (e, talvez fazer validações específicas aqui no futuro)
