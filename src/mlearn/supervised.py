@@ -72,6 +72,9 @@ class BaseSupervisedModel(MLModel):
     
     def set_scaler(self, scaler) -> None:
         self.scaler = scaler if scaler else None
+    
+    def set_pca(self, pca) -> None:
+        self.pca = pca if pca else None
 
 class LinearRegressionModel(BaseSupervisedModel):
     def build_model(self):

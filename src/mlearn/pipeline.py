@@ -10,13 +10,15 @@ import yaml
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, MaxAbsScaler
+from sklearn.decomposition import PCA, KernelPCA
 
 from src.config import PATHS
 from src.mlearn.registry import create_supervised_model, create_unsupervised_model
 from src.data.generator import DatasetGenerator
 from src.core.calculator import calculate_ids, load_ids_config
 from src.mlearn.fine_tuning import (SUPERVISED_TUNING_SETTINGS, explore_tuning_for_supervised_model, save_supervised_tuning_exploration_results,
-                                    UNSUPERVISED_TUNING_SETTINGS, explore_tuning_for_unsupervised_model, save_unsupervised_tuning_results)
+                                    UNSUPERVISED_TUNING_SETTINGS, explore_tuning_for_unsupervised_model, save_unsupervised_tuning_results,
+                                    PCA_TUNING_SETTINGS, explore_tuning_for_pca, save_pca_tuning_results)
 
 CONFIG_PATH = PATHS.config / "models.yaml"
 PROC_DIR = PATHS.data_processed
@@ -26,6 +28,11 @@ SCALER_REGISTRY = {
     "MinMaxScaler": MinMaxScaler,
     "RobustScaler": RobustScaler,
     "MaxAbsScaler": MaxAbsScaler
+}
+
+PCA_REGISTRY = {
+    "PCA": PCA,
+    "KernelPCA": KernelPCA,
 }
 
 def load_dataframe(path: Path) -> pd.DataFrame:
@@ -197,6 +204,41 @@ class MachineLearningPipeline:
         X_test_scaled = model.scaler.transform(X_test) if X_test is not None else None
 
         return X_train_scaled, X_test_scaled
+    
+    def maybe_reduce(self, pca_config, X_train, X_test, model):
+        if not pca_config:
+            print(f"[Aviso] Nenhuma configuração recebida, pulando etapa de PCA.")
+            return X_train, X_test
+        
+        pca = pca_config.get("enabled", False)
+
+        if not pca:
+            return X_train, X_test
+
+        pca_name = pca_config.get("tipo", "PCA")
+        pca_params = pca_config.get("hyperparameters", {})
+        pca_cls = PCA_REGISTRY.get(pca_name, "PCA")
+        model.set_pca(self.select_pca(pca_name, **pca_params))
+
+        print(f"[ML] Aplicando redução '{pca_cls.__name__}' aos dados de treino e teste...")
+
+        if not model.pca:
+            print(f"[Aviso] PCA não pôde ser aplicado, continuando...")
+            return X_train, X_test
+        
+        X_train_reduced = model.pca.fit_transform(X_train)
+        X_test_reduced = model.pca.transform(X_test) if X_test is not None else None
+
+        return X_train_reduced, X_test_reduced
+    
+    def select_pca(self, pca_type: str, **hyperparameters):
+        pca_class = PCA_REGISTRY.get(pca_type)
+
+        if pca_class is None:
+            print(f"[Erro] Tipo de PCA selecionado inválido: {pca_type}")
+            return None
+
+        return pca_class(**hyperparameters)
 
     # Model creation
     def build_unsupervised_models(self) -> None:
@@ -252,9 +294,13 @@ class MachineLearningPipeline:
             X = self.preprocess_X(X)
             print(f"[ML] Dados preparados para modelo '{model.name}'. Quantidade de Features: {X.shape[1]}")
 
+            pca_config = self.unsupervised_cfg.get('pca', None)
             X_train, _ = self.maybe_scale(X, None, model)
+            X_train, _ = self.maybe_reduce(pca_config, X, None, model)
+            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escalonamento aplicado?: {self.preprocessing_cfg.get('scale', False)}")
 
-            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escalonamento aplicado: {self.preprocessing_cfg.get('scale', False)}")
+            if pca_config:
+                print(f"[ML] Redução aplicada?: {pca_config.get('enabled', False)}")
             
             print(f"[ML] Treinando e avaliando modelo '{model.name}'...")
             result = model.run(X_train=X_train)
@@ -283,9 +329,14 @@ class MachineLearningPipeline:
 
             print(f"[ML] Dados divididos para modelo '{model.name}': {X_train.shape[0]} treino, {X_test.shape[0]} teste")
 
+            pca_config = self.supervised_cfg.get('pca', None)
             X_train, X_test = self.maybe_scale(X_train, X_test, model)
+            X_train, X_test = self.maybe_reduce(pca_config, X_train, X_test, model)
 
-            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escalonamento aplicado: {self.preprocessing_cfg.get('scale', False)}")
+            print(f"[ML] Pré-processamento concluído para modelo '{model.name}', escalonamento aplicado?: {self.preprocessing_cfg.get('scale', False)}")
+
+            if pca_config:
+                print(f"[ML] Redução aplicada?: {pca_config.get('enabled', False)}")
 
             print(f"[ML] Treinando e avaliando modelo '{model.name}'...")
             result = model.run(X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test)
@@ -318,6 +369,9 @@ class MachineLearningPipeline:
         X_external = df_external[features].copy()
         X_external = self.preprocess_X(X_external)
         X_external = model.scaler.transform(X_external)
+
+        if model.pca:
+            X_external = model.pca.transform(X_external)
 
         y_pred = model.predict_external(X_external)
         y_pred = pd.Series(y_pred, index=df_external.index, name=f"{model.name}_pred")
@@ -380,10 +434,12 @@ class MachineLearningPipeline:
                 if X.shape[1] == 0:
                     print(f"[Aviso] Modelo '{model.name}' ficou sem features. Pulando exploração.")
                     continue
-
+                
+                pca_config = self.unsupervised_cfg.get('pca', None)
                 X_scaled, _ = self.maybe_scale(X, None, model)
+                X_reduced, _ = self.maybe_reduce(pca_config, X_scaled, None, model)
 
-                result = explore_tuning_for_unsupervised_model(model=model, X=X_scaled, settings=UNSUPERVISED_TUNING_SETTINGS)
+                result = explore_tuning_for_unsupervised_model(model=model, X=X_reduced, settings=UNSUPERVISED_TUNING_SETTINGS)
 
                 if result is not None:
                     self.unsupervised_tuning_results.append(result)
@@ -415,7 +471,9 @@ class MachineLearningPipeline:
 
                 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=self.get_sup_test_size(), random_state=self.get_sup_random_state())
 
+                pca_config = self.supervised_cfg.get('pca', None)
                 X_train, X_test = self.maybe_scale(X_train, X_test, model)
+                X_train, X_test = self.maybe_reduce(pca_config, X_train, X_test, model)
 
                 X_external = None
                 y_external = None
@@ -447,6 +505,42 @@ class MachineLearningPipeline:
             output = PATHS.reports_ml / "ml_supervised_tuning_exploration.csv"
 
             save_supervised_tuning_exploration_results(results_list=self.supervised_exploration_results, output_path=output, sep=";")
+    
+    def run_pca_tuning_exploration(self) -> None:
+        pca_cfg = self.preprocessing_cfg.get("pca") or {}
+        pca_tuning_exp = pca_cfg.get("fine-tuning_exploration", False)
+
+        if not pca_tuning_exp:
+            print("[ML Exploration] A exploração de fine-tuning de PCA está desativada, continuando...")
+            return
+
+        models = []
+
+        if hasattr(self, "supervised_models"):
+            models.extend(self.supervised_models)
+
+        if hasattr(self, "unsupervised_models"):
+            models.extend(self.unsupervised_models)
+
+        if not models:
+            print("[PCA Exploration] Nenhum modelo disponível para resolver features.")
+            return
+
+        model = models[0]
+
+        X, _ = self.select_features_for_model(model)
+        X = self.preprocess_X(X)
+
+        if X.shape[1] == 0:
+            print("[PCA Exploration] X não possui features, encerrando exploração...")
+            return
+
+        X_scaled, _ = self.maybe_scale(X, None, model)
+
+        results = explore_tuning_for_pca(X=X_scaled, pca_cfg=pca_cfg, df_name="main_dataframe", settings=PCA_TUNING_SETTINGS,)
+
+        if PCA_TUNING_SETTINGS.get("save_results", True):
+            save_pca_tuning_results(results=results, output_dir=PATHS.reports_ml / "pca_tuning", sep=";")
     
     # Save
     def save_unsupervised_results(self, results_df: pd.DataFrame) -> None:
@@ -524,6 +618,7 @@ def run_pipeline(config: dict) -> None:
     print("[ML] Rodando exploração de hiperparâmetros com comparação externa...")
     ml_pipeline.run_unsupervised_tuning_exploration()
     ml_pipeline.run_supervised_tuning_exploration(validation_df=validation_df, has_target=True)
+    ml_pipeline.run_pca_tuning_exploration()
 
     print("[ML] Realizando validação cruzada com dataset sintético...")
     for model in ml_pipeline.supervised_models:

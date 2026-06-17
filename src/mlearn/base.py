@@ -31,6 +31,7 @@ class MLModel(ABC):
 
         self.model: Any = None
         self.scaler: Any = None
+        self.pca: Any = None
         self.metrics: dict[str, Any] = {}
         self.predictions: pd.DataFrame | None = None
         self.labels_: Any = None

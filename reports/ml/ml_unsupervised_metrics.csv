@@ -1,4 +1,2 @@
 nome;tipo;n_features;notas;silhouette;calinski_harabasz;davies_bouldin
-KMeans Clustering;KMeans;;Modelo de clustering KMeans para análise exploratória, ainda em fase de testes e ajustes.;0.8569378075477816;889.4257173388046;0.6924223377593647
-DBSCAN Clustering;DBSCAN;;Modelo de clustering DBSCAN para análise exploratória, ainda em fase de testes e ajustes.;0.6190701712413572;26.52974012270881;1.6158974093329297
-Mean-Shift Clustering;MeanShift;;Modelo de clustering Mean Shift para análise exploratória, ainda em fase de testes e ajustes.;0.5915925402494173;34.619496309638755;1.9253596357525102
+KMeans Clustering;KMeans;;Modelo de clustering KMeans para análise exploratória, ainda em fase de testes e ajustes.;0.7787120924405676;60.73012347520216;0.26315322522404944

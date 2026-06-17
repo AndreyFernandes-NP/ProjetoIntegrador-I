@@ -1,0 +1,6 @@
+dataset;threshold;n_components_required;reached_variance
+main_dataframe;0.8;1;0.8264889100130777
+main_dataframe;0.85;2;0.8587181845077806
+main_dataframe;0.9;5;0.9115533728161882
+main_dataframe;0.95;9;0.9535530642712333
+main_dataframe;0.99;22;0.9900865944104966
