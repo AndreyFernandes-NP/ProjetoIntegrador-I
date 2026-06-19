@@ -53,7 +53,7 @@ def run_kmeans_analysis(
         df["cluster"]
     )
 
-    print(f"\n📊 Silhouette Score: {silhouette:.4f}")
+    print(f"\nSilhouette Score: {silhouette:.4f}")
 
     # Perfil estatístico dos clusters
     profile = (
@@ -62,11 +62,11 @@ def run_kmeans_analysis(
         .round(2)
     )
 
-    print("\n📌 Cluster profiling:")
+    print("\nCluster profiling:")
     print(profile)
 
     # Tamanho dos clusters
-    print("\n📦 Cluster sizes:")
+    print("\nCluster sizes:")
     print(
         df["cluster"]
         .value_counts()
@@ -74,7 +74,7 @@ def run_kmeans_analysis(
     )
 
     # Exemplos de municípios em cada cluster
-    print("\n📍 Exemplos de municípios por cluster:")
+    print("\nExemplos de municípios por cluster:")
 
     for cluster_id in sorted(df["cluster"].unique()):
 
@@ -95,10 +95,10 @@ def run_kmeans_analysis(
 
         piores = (dados_cluster.sort_values(by=["ids", "receita_anual"],ascending=True).head(1))
 
-        print("\n🏆 TOP 10 IDS")
+        print("\nTOP 10 IDS")
         print(melhores.to_string(index=False))
 
-        print("\n⚠️ PIOR IDS")
+        print("\nPIOR IDS")
         print(piores.to_string(index=False))
 
     return df
@@ -164,10 +164,10 @@ for barra in ax.patches:
         fontsize=10
     )
 
-# Gráfico 2 (scatterplot)
 plt.tight_layout()
 plt.show()
 
+# Gráfico 2 (scatterplot)
 plt.figure(figsize=(16, 9))
 
 scatter = plt.scatter(
