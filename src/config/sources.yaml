@@ -41,27 +41,6 @@
 #   como        : tipo de join — left | right | inner | outer (padrão: left)
 #   saida       : nome do arquivo final salvo em data/processed/
 #
-# Bloco ml_supervised (nível raiz):
-#   enabled                 : habilita a execução do módulo de ML supervisionado (padrão: true)
-#   fine-tuning_exploration : habilita a execução da exploração de hiperparâmetros dos módulos utilizando kfold/cv (padrão: false (por ser pesado))
-#   dataset:
-#     arquivo           : nome do arquivo em data/processed a ser usado para ML supervisionado
-#     global_features   : lista de colunas a serem usadas como features para todos os modelos (padrão: todas as colunas utilizadas no cálculo do IDS, exceto é claro o IDS em si)
-#     global_target     : coluna a ser usada como alvo para o modelo (padrão: 'ids')
-#   split:
-#     global_test_size    : proporção do dataset a ser usado como teste (padrão: 0.2)
-#     global_random_state : semente para divisão aleatória (padrão: 42)
-#   preprocessing:
-#     global_scale        : se true, aplica padronização (StandardScaler) a todas as features (padrão: true)
-#     global_scaler       : tipo de scaler a ser usado (padrão: StandardScaler)
-#   models:
-#     - nome            : nome do modelo (ex: 'Random Forest Regressor (Depth=10)')
-#       tipo            : tipo do modelo (Tipos disponíveis: LinearRegression, KNNRegressor, SVR, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor, HistGradientBoostingRegressor, Lasso, Ridge)
-#       features        : lista de colunas extras a serem usadas como features para este modelo (padrão: global_features + features)
-#       drop_cols       : lista de colunas a serem excluídas para este modelo (padrão: [])
-#       hyperparameters : dicionário de hiperparâmetros específicos para este modelo (padrão: {})
-#       notas           : notas livres sobre o modelo
-#
 # Bloco validation (nível raiz):
 #   enabled       : habilita ou não a geração de um banco de dados sintético e a predição com os modelos treinados (padrão: true)
 #   rows          : quantidade de linhas que o dataset gerado vai ter (necessário ter nomes/sobrenomes o suficiente) (padrão: 100)
@@ -92,77 +71,6 @@
 #     connectors            : lista dos conectores que serão usados/sorteados caso connector_probability dispare (padrão: - de, - da, - dos, sla é o básico)
 #
 # =============================================================================
-
-ml_supervised:
-  enabled: true
-  fine-tuning_exploration: false
-  dataset:
-    arquivo: main_dataframe.csv
-    global_features: ['hospital_estadual', 'hospital_federal', 'hospital_municipal', 'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal', 'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total', 'baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas', 'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas', 'vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento', 'tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica', 'populacao', 'receita_anual']
-    global_target: 'ids'
-
-  split:
-    global_test_size: 0.05
-    global_random_state: 42
-  
-  preprocessing:
-    global_scale: true
-    global_scaler: StandardScaler
-
-  models:
-    - nome: 'Random Forest Regressor'
-      tipo: RandomForestRegressor
-      features: []
-      drop_cols: []
-      hyperparameters:
-        n_estimators: 100
-        min_samples_split: 2
-        min_samples_leaf: 1
-        max_depth: 20
-        max_features: 0.6
-        bootstrap: true
-      notas: 'Modelo de regressão RandomForest fine-tuned com hiperparâmetros específicos e seletos. Resultado final após diversos testes e fits serem decentes.'
-    - nome: 'Gradient Boosting Regressor'
-      tipo: GradientBoostingRegressor
-      features: []
-      drop_cols: []
-      hyperparameters:
-        n_estimators: 500
-        learning_rate: 0.15
-        subsample: 0.6
-        min_samples_split: 10
-        min_samples_leaf: 5
-        max_features: 0.5
-        max_depth: 3
-        loss: 'huber'
-      notas: 'Modelo de regressão GradientBoosting feito a partir de um fine-tuning bastante seleto com cada campo, em comparação com milhares de outros hiperparâmetros. Resultado final após diversos testes e fits com ele se demonstrarem satisfatórios.'
-    - nome: 'Extra Trees Regressor'
-      tipo: ExtraTreesRegressor
-      features: []
-      drop_cols: []
-      hyperparameters:
-        n_estimators: 200
-        min_samples_split: 2
-        min_samples_leaf: 1
-        max_features: 0.4
-        max_depth: 20
-        bootstrap: false
-      notas: 'Modelo de regressão ExtraTrees feito com base em um fine-tuning próprio e customizado, obtendo resultados bons mas não tão satisfatórios.'
-    - nome: 'Hist Gradient Boosting Regressor'
-      tipo: HistGradientBoostingRegressor
-      features: []
-      drop_cols: []
-      hyperparameters:
-        max_iter: 400
-        learning_rate: 0.12
-        validation_fraction: 0.2
-        n_iter_no_change: 30
-        min_samples_leaf: 10
-        max_leaf_nodes: 15
-        max_bins: 64
-        l2_regularization: 0.1
-        early_stopping: True
-      notas: 'Modelo de regressão HistGradientBoosting mais robusto de modo geral tanto para os testes como predição de dados desconhecidos, alcançado resultados satisfatórios mas ainda não ideais.'
 
 validation:
   enabled: true

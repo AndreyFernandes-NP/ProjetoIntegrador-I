@@ -67,6 +67,7 @@ def load_config(path: Path) -> dict:
     default = {
         "merge": {},
         "fontes": [],
+        "validation": {},
     }
 
     if not path.exists():
@@ -84,11 +85,8 @@ def load_config(path: Path) -> dict:
     if not isinstance(config.get("merge"), dict):
         config["merge"] = {}
     
-    if not isinstance(config.get("ml_supervised"), dict):
-        config["ml_supervised"] = {}
-    
-    if not isinstance(config.get("ml_unsupervised"), dict):
-        config["ml_unsupervised"] = {}
+    if not isinstance(config.get("validation"), dict):
+        config["validation"] = {}
 
     return config
 

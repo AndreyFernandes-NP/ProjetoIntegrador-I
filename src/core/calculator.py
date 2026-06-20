@@ -13,6 +13,8 @@ import pandas as pd
 import numpy as np
 from typing import Any
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
@@ -285,15 +287,37 @@ def append_dimensions(config: dict) -> None:
 
         IDS_CONFIG[nome_dimensao]["colunas"].update(valores)
 
-def load_ids_config(config: dict) -> None:
+def load_ids_config(config: dict = {}) -> None:
     """
     Carrega as colunas e pesos do IDS_CONFIG a partir do YAML.
     """
+    if not config:
+        config = load_config(CONFIG_PATH)
+    
     fonte_cfg = config.get("fontes", {})
     for fonte in fonte_cfg:
         append_dimensions(fonte)
     
     return None
+
+def load_config(path: Path) -> dict:
+    default = {
+        "fontes": [],
+    }
+
+    if not path.exists():
+        return default
+
+    with open(path, "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f)
+
+    if not isinstance(config, dict):
+        return default
+
+    if not isinstance(config.get("fontes"), list):
+        config["fontes"] = []
+
+    return config
 
 # Cálculo do IDS
 
