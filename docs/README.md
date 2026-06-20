@@ -62,16 +62,10 @@ A documentação tem como principais objetivos:
 - apoiar a comunicação entre os membros do grupo
 - fornecer uma visão organizada do projeto para fins acadêmicos
 
-## Observações
-
-Esta estrutura poderá ser ajustada ao longo do semestre conforme o projeto evoluir, novas bases forem incorporadas e a etapa analítica se tornar mais específica.
-
-Sempre que possível, mudanças relevantes na organização, no escopo ou no uso dos dados devem ser refletidas também nesta pasta.
-
 ## Mapa de Documentação do Repositório
 
 - **Pastas**: [`data/`](../data/README.md), [`docs/`](README.md)
-- **Projeto**: [`CRONOGRAMA.md`](project/CRONOGRAMA.md), [`ESCOPO.md`](project/ESCOPO.md), [`OBJETIVOS.md`](project/OBJETIVOS.md)
+- **Planejamento**: [`CRONOGRAMA.md`](project/CRONOGRAMA.md), [`ESCOPO.md`](project/ESCOPO.md), [`OBJETIVOS.md`](project/OBJETIVOS.md)
 - **Dados**: [`DICIONARIO_DE_DADOS.md`](data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](data/TRATAMENTO_DE_DADOS.md)
-- **Arquitetura**: [`ARQUITETURA.md`](docs/architecture/ARQUITETURA.md), [`PIPELINE.md`](docs/architecture/PIPELINE.md)
+- **Arquitetura & Pipeline**: [`ARQUITETURA.md`](architecture/ARQUITETURA.md), [`PIPELINE.md`](architecture/PIPELINE.md)
 - **Análise**: [`ABORDAGEM_ANALITICA.md`](analysis/ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](analysis/HIPOTESES.md), [`METODOLOGIA.md`](analysis/METODOLOGIA.md)
