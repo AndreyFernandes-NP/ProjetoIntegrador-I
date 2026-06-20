@@ -1,2 +1,2 @@
 nome;tipo;n_features;notas;silhouette;calinski_harabasz;davies_bouldin
-KMeans Clustering;KMeans;;Modelo de clustering KMeans para análise exploratória, ainda em fase de testes e ajustes.;0.7787120924405676;60.73012347520216;0.26315322522404944
+KMeans Clustering;KMeans;1;Modelo de clustering KMeans para análise exploratória, ainda em fase de testes e ajustes.;0.7978925127005985;69958.38430961203;0.4231362471591745
