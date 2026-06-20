@@ -2,153 +2,111 @@
 
 ## Mapa de Documentação do Repositório
 
-- **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
-- **Projeto**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
-- **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
-- **Arquitetura**: [`ARQUITETURA.md`](ARQUITETURA.md), [`PIPELINE.md`](PIPELINE.md)
-- **Análise**: [`ABORDAGEM_ANALITICA.md`](../analysis/ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](../analysis/HIPOTESES.md), [`METODOLOGIA.md`](../analysis/METODOLOGIA.md)
+- **Pastas**: [`..data/`](../../data/README.md), [`docs/`](../README.md)
+- **Visão geral**: [`../README.md`](../README.md)
+- **Planejamento**: [`../project/CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`../project/ESCOPO.md`](../project/ESCOPO.md), [`../project/OBJETIVOS.md`](../project/OBJETIVOS.md)
+- **Dados**: [`../data/DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`../data/FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`../data/TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
+- **Arquitetura & Pipeline**: [`ARQUITETURA.md`](ARQUITETURA.md), [`PIPELINE.md`](PIPELINE.md)
+- **Análise**: [`../analysis/ABORDAGEM_ANALITICA.md`](../analysis/ABORDAGEM_ANALITICA.md), [`../analysis/HIPOTESES.md`](../analysis/HIPOTESES.md), [`../analysis/METODOLOGIA.md`](../analysis/METODOLOGIA.md)
 
 ## Visão geral
 
-A arquitetura do projeto foi definida de forma simples e compatível com o escopo acadêmico da proposta, priorizando organização, reprodutibilidade e facilidade de evolução ao longo do semestre.
+A arquitetura do projeto define como os dados, o código e os resultados são organizados para dar suporte à análise de indicadores sociais, infraestrutura urbana e pressão sobre a saúde pública em municípios de São Paulo.
 
-O projeto combina desenvolvimento local, versionamento no GitHub, acompanhamento das tarefas no GitHub Projects e uso de ambientes de análise interativos, como Jupyter Notebook e Google Colab, para exploração, testes e preparação de modelos.
+O foco está em uma estrutura leve e modular, que permita:
 
-## Estrutura geral
+- ingestão e tratamento de dados variados
+- composição de uma base analítica integrada
+- experimentação com modelos de machine learning
+- geração de relatórios e visualizações reproduzíveis
 
-A arquitetura atual do projeto está organizada em quatro frentes principais:
+A arquitetura atual é centrada em um repositório local com código Python em `src/`, dados em `data/`, notebooks em `notebooks/` e resultados em `reports/`.
 
-- versionamento e gerenciamento do projeto
-- armazenamento e preparação de dados
-- análise e experimentação
-- documentação técnica e acadêmica
+## Componentes principais
 
-## Ferramentas e ambientes utilizados
+### 1. Dados (`data/`)
 
-### GitHub
+A camada de dados é organizada em três subdiretórios:
 
-O GitHub é utilizado como plataforma principal de versionamento do código, armazenamento da documentação e centralização do repositório do projeto.
+- `raw/`: dados brutos importados das fontes originais
+- `clean/`: bases tratadas e normalizadas
+- `processed/`: bases finais prontas para análise e modelagem
+- `mapping/`: arquivos de apoio para integração, como códigos do IBGE
 
-Seu uso permite:
+Essa separação garante que os dados originais permaneçam preservados e que as etapas de tratamento sejam rastreáveis.
 
-- manter histórico de alterações
-- organizar a evolução do código e dos documentos
-- registrar tarefas por meio de issues e pull requests
-- centralizar a base do projeto em um único ambiente
+### 2. Código fonte (`src/`)
 
-### GitHub Projects
+O código é organizado em módulos com responsabilidades claras:
 
-O GitHub Projects é utilizado como ferramenta de organização das atividades do grupo, permitindo acompanhar o andamento das tarefas ao longo do semestre.
+- `src/core/`: lógica de pipeline, limpeza, transformação, integração e validação de dados
+- `src/data/`: geração e manipulação de dados auxiliares
+- `src/mlearn/`: componentes de machine learning, registro de modelos e fluxo de treinamento
+- `src/config/`: configurações e arquivos de suporte para fontes, modelos e dados
+- `src/ui/`: interface de execução ou scripts de interação
+- `src/__main__.py`: ponto de entrada do projeto quando executado como pacote
 
-Seu uso atual está voltado para:
+### 3. Documentação (`docs/`)
 
-- controle de backlog
-- priorização de tarefas
-- acompanhamento do desenvolvimento
-- apoio à organização do cronograma do grupo
+A documentação está dividida em blocos lógicos:
 
-### Desenvolvimento local
+- `docs/project/`: escopo, cronograma e objetivos do projeto
+- `docs/data/`: dicionário, fontes e tratamento dos dados
+- `docs/analysis/`: abordagem analítica, hipóteses e metodologia
+- `docs/architecture/`: arquitetura e pipeline do projeto
 
-O desenvolvimento local é utilizado para:
+### 4. Notebooks e experimentos (`notebooks/`)
 
-- tratamento inicial das bases
-- construção e execução de scripts Python
-- organização do projeto em pastas
-- validação das transformações de dados
-- testes de integração entre arquivos e estruturas
+Os notebooks hospedam análises exploratórias e visualizações interativas, permitindo experimentação sem alterar o código fonte principal.
 
-Esse ambiente representa a base principal de construção do projeto.
+A pasta também serve como ambiente de documentação dinâmica para resultados intermediários e testes rápidos.
 
-### Jupyter Notebook
+### 5. Relatórios e resultados (`reports/`)
 
-O Jupyter Notebook será utilizado principalmente para:
+Os relatórios armazenam resultados exportados de modelos e métricas de avaliação, com foco em transparência dos experimentos e reprodutibilidade das análises.
 
-- análise exploratória dos dados
-- visualização de distribuições e correlações
-- testes analíticos iniciais
-- experimentação com variáveis e abordagens de modelagem
+Atualmente, a pasta `reports/ml/` contém previsões e métricas de modelos supervisionados e não supervisionados.
 
-Seu uso favorece iteração rápida e documentação mais clara do processo analítico.
+## Fluxo de execução
 
-### Google Colab
+A arquitetura segue um fluxo de alto nível composto por:
 
-O Google Colab será utilizado como ambiente complementar para:
+1. coleta de dados brutos em `data/raw/`
+2. limpeza, padronização e mapeamento em `data/clean/`
+3. integração e criação de bases analíticas em `data/processed/`
+4. análise exploratória em `notebooks/` e/ou `src/`
+5. modelagem e validação em `src/mlearn/`
+6. geração de resultados em `reports/`
 
-- testes rápidos de análise e modelagem
-- execução de notebooks sem dependência do ambiente local
-- experimentos com treinamento, ajuste e validação de modelos
-- exploração inicial de abordagens mais pesadas, quando necessário
+Esse fluxo é descrito de forma complementar em `docs/architecture/PIPELINE.md`.
 
-O uso do Colab será principalmente de apoio, sem substituir a organização central do projeto no repositório local.
+## Diretrizes arquiteturais
 
-## Organização do repositório
+As decisões de arquitetura foram tomadas para garantir:
 
-A estrutura atual do repositório está organizada da seguinte forma:
+- modularidade entre dados, processamento e modelagem
+- preservação dos dados brutos
+- reprodutibilidade do pipeline analítico
+- fácil navegação entre código, dados e documentação
+- suporte a evoluções futuras sem refatorações extensivas
 
-```text
-ProjetoIntegrador-I/
-├── data/
-|   ├── clean/
-|   |   ├── inst_hospitalares_sp-clean.csv
-|   |   └── ipvs_esp-merge.csv
-|   ├── processed/
-|   ├── raw/
-|   |   ├── codigos_ibge_sp.csv
-|   |   ├── inst_hospitalares_sp-raw.csv
-|   |   └── ipvs_esp-raw.csv
-|   └── data_cleaner+merger.py
-├── docs/
-|   ├── analysis/
-|   |   ├── ABORDAGEM_ANALITICA.md
-|   |   ├── HIPOTESES.md
-|   |   └── METODOLOGIA.md
-|   ├── architecture/
-|   |   ├── ARQUITETURA.md
-|   |   └── PIPELINE.md
-|   ├── data/
-|   |   ├── DICIONARIO_DE_DADOS.md
-|   |   ├── FONTES_DE_DADOS.md
-|   |   └── TRATAMENTO_DE_DADOS.md
-|   └── project/
-|       ├── CRONOGRAMA.md
-|       ├── ESCOPO.md
-|       └── OBJETIVOS.md
-├── notebooks/
-├── src/
-├── requirements.txt
-└── README.md
-```
+## Considerações sobre ferramentas
 
-## Papéis da estrutura
+O projeto é desenvolvido principalmente em Python e utiliza:
 
-`data/`
-Armazena as bases utilizadas no projeto, incluindo arquivos brutos, dados limpos e dados processados.
+- ambiente virtual local (`env/`)
+- dependências listadas em `requirements.txt`
+- edição e execução de scripts em `src/`
+- notebooks para exploração experimental
 
-`docs/`
-Armazena as bases utilizadas no projeto, incluindo arquivos brutos, dados limpos e dados processados.
+A arquitetura não depende de ferramentas externas complexas, priorizando a execução local e a manutenção do repositório como fonte única de verdade.
 
-`notebooks/`
-Reúne a documentação do projeto, cobrindo escopo, dados, metodologia, arquitetura e demais definições relevantes.
+## Limitações e próximos passos
 
-`src/`
-Espaço destinado a notebooks de análise exploratória, testes estatísticos e experimentos de modelagem.
+A arquitetura ainda está em maturação, e os resultados obtidos não foram satisfatórios. As principais melhorias previstas incluem:
 
-## Diretrizes da arquitetura
-A arquitetura do projeto segue algumas diretrizes principais:
-
-- manter o repositório como fonte central de organização
-- separar dados brutos de dados tratados
-- documentar as principais decisões técnicas
-- permitir experimentação sem comprometer a base principal do projeto
-- favorecer evolução gradual da estrutura, sem complexidade excessiva
-
-## Limitações atuais
-A arquitetura ainda está em estágio inicial e poderá ser refinada ao longo do desenvolvimento, principalmente em relação a:
-
-- organização definitiva dos scripts
-- padronização do uso entre notebooks e código em `src/`
-- definição mais clara do fluxo de modelagem
-- consolidação dos artefatos finais de análise
-
-# Observações
-Esta arquitetura foi planejada para ser suficiente ao projeto acadêmico atual, sem adoção de ferramentas ou camadas desnecessariamente complexas para o estágio do trabalho.
+- documentar melhor o fluxo de execução do pipeline
+- harmonizar scripts de transformação com notebooks de análise
+- consolidar o uso de `src/mlearn/` para experimentos e modelos finais
+- definir critérios mais claros para a geração de artefatos em `reports/`
+- aplicar estratégias para a natureza de nossos dados visando uma melhor eficácia e generalização do modelo de predição final
