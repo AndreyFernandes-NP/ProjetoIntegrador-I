@@ -3,11 +3,11 @@
 ## Mapa de Documentação do Repositório
 
 - **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
-- **Visão geral**: [`../README.md`](../README.md)
-- **Planejamento**: [`../project/CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`../project/ESCOPO.md`](../project/ESCOPO.md), [`../project/OBJETIVOS.md`](../project/OBJETIVOS.md)
-- **Dados**: [`../data/DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`../data/FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`../data/TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
+- **Visão geral**: [`README.md`](../README.md)
+- **Planejamento**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
+- **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
 - **Arquitetura & Pipeline**: [`ARQUITETURA.md`](ARQUITETURA.md), [`PIPELINE.md`](PIPELINE.md)
-- **Análise**: [`../analysis/ABORDAGEM_ANALITICA.md`](../analysis/ABORDAGEM_ANALITICA.md), [`../analysis/HIPOTESES.md`](../analysis/HIPOTESES.md), [`../analysis/METODOLOGIA.md`](../analysis/METODOLOGIA.md)
+- **Análise**: [`ABORDAGEM_ANALITICA.md`](../analysis/ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](../analysis/HIPOTESES.md), [`METODOLOGIA.md`](../analysis/METODOLOGIA.md)
 
 ## Visão geral
 
