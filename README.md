@@ -8,10 +8,11 @@ Analisar se municípios com maior vulnerabilidade social e piores condições de
 
 ## Hipótese
 
-Municípios com maior vulnerabilidade social e infraestrutura urbana mais precária tendem a apresentar maior pressão sobre os serviços públicos de saúde.
+Municípios com maior vulnerabilidade social e infraestrutura urbana mais precária tendem a apresentar maior pressão sobre os serviços públicos de saúde e como isso é subvertido por alguns deles.
 
 ## Mapa de documentação do repositório
 
+- **Pastas**: [`data/`](data/README.md), [`docs/`](docs/README.md)
 - **Visão geral**: [`docs/README.md`](docs/README.md)
 - **Planejamento**: [`docs/project/CRONOGRAMA.md`](docs/project/CRONOGRAMA.md), [`docs/project/ESCOPO.md`](docs/project/ESCOPO.md), [`docs/project/OBJETIVOS.md`](docs/project/OBJETIVOS.md)
 - **Dados**: [`docs/data/DICIONARIO_DE_DADOS.md`](docs/data/DICIONARIO_DE_DADOS.md), [`docs/data/FONTES_DE_DADOS.md`](docs/data/FONTES_DE_DADOS.md), [`docs/data/TRATAMENTO_DE_DADOS.md`](docs/data/TRATAMENTO_DE_DADOS.md)

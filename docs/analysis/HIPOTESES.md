@@ -2,51 +2,57 @@
 
 ## Mapa de Documentação do Repositório
 
-- **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
-- **Projeto**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
-- **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
-- **Arquitetura**: [`ARQUITETURA.md`](../architecture/ARQUITETURA.md), [`PIPELINE.md`](../architecture/PIPELINE.md)
+- **Pastas**: [`..data/`](../../data/README.md), [`docs/`](../README.md)
+- **Visão geral**: [`../README.md`](../README.md)
+- **Planejamento**: [`../project/CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`../project/ESCOPO.md`](../project/ESCOPO.md), [`../project/OBJETIVOS.md`](../project/OBJETIVOS.md)
+- **Dados**: [`../data/DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`../data/FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`../data/TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
+- **Arquitetura & Pipeline**: [`../architecture/ARQUITETURA.md`](../architecture/ARQUITETURA.md), [`../architecture/PIPELINE.md`](../architecture/PIPELINE.md)
 - **Análise**: [`ABORDAGEM_ANALITICA.md`](ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](HIPOTESES.md), [`METODOLOGIA.md`](METODOLOGIA.md)
 
 ## Visão geral
 
-Este documento registra as hipóteses analíticas iniciais do projeto, com base no problema definido e nas bases públicas selecionadas até o momento.
+Este documento registra as hipóteses analíticas do projeto, fundamentadas no problema de pesquisa e nas bases públicas municipais selecionadas.
 
-As hipóteses abaixo orientam a análise exploratória, a integração dos dados e a futura etapa de modelagem.
+As hipóteses orientam a análise exploratória, a construção da base analítica integrada, os testes estatísticos e a modelagem preditiva.
 
 ## Hipótese principal
 
-Municípios com maior vulnerabilidade social e piores condições de infraestrutura urbana tendem a apresentar maior pressão sobre os serviços públicos de saúde.
+Municípios com maior vulnerabilidade social e piores condições de infraestrutura urbana apresentam maior pressão sobre os serviços públicos de saúde e como alguns municípios subvertem essa necessidade.
 
 ## Hipóteses secundárias
 
-### Hipótese 1
+### Hipótese 1: Vulnerabilidade social e concentração de riscos
 
-Municípios com piores indicadores sociais tendem a apresentar maior concentração de condições associadas à vulnerabilidade da população.
+Municípios com piores indicadores sociais e de pobreza apresentam concentrações de fatores que amplificam vulnerabilidades: receita baixa ou desigual, saúde precária e infraestrutura inadequada.
 
-### Hipótese 2
+### Hipótese 2: Receita desigual para baixa receita
 
-Municípios com menor estrutura ou menor cobertura relativa de instalações de saúde podem apresentar maior pressão sobre a rede de atendimento.
+Municípios com uma receita muito alta porém uma infraestrutura ruim e/ou poucos serviços de saúde denunciam negligência de seus governantes com a população e o investimento de seu capital no próprio município.
 
-### Hipótese 3
+### Hipótese 3: Interação entre vulnerabilidade e infraestrutura
 
-A combinação entre vulnerabilidade social elevada e infraestrutura urbana mais precária tende a estar associada a cenários mais críticos de demanda ou pressão sobre os serviços de saúde.
+A combinação de vulnerabilidade social elevada e infraestrutura urbana/hospitalar inadequada está associada a cenários críticos de demanda sobre serviços de saúde.
 
-### Hipótese 4
+### Hipótese 4: Potencial preditivo de indicadores integrados
 
-A integração de indicadores sociais, estruturais e de saúde pode permitir a construção de uma abordagem preditiva inicial para identificação de municípios mais suscetíveis a cenários de maior pressão assistencial.
+A integração de indicadores sociais, urbanos e de saúde permite construir modelos preditivos capazes de identificar municípios com maior propensão a pressão sobre a rede hospitalar.
+
+### Hipótese 5: Padrões territoriais
+
+Existem padrões territoriais e regionais no estado de São Paulo que agrupam municípios com vulnerabilidade similar e pressão semelhante sobre serviços de saúde.
 
 ## Papel das hipóteses no projeto
 
-As hipóteses registradas neste documento não representam conclusões prontas, mas sim direções analíticas que serão investigadas com base nos dados disponíveis.
+As hipóteses neste documento são diretrizes analíticas, não conclusões prévias. Elas são testadas da seguinte forma:
 
-A validação ou rejeição dessas hipóteses dependerá:
+- análise exploratória dos dados municipais
+- testes de correlação entre indicadores
+- modelagem supervisionada e não supervisionada
+- validação com dados de validação e amostras independentes
 
-- da qualidade das bases utilizadas
-- da compatibilidade entre os dados
-- da análise exploratória
-- dos testes estatísticos e preditivos realizados ao longo do projeto
+A confirmação, rejeição ou refinamento também depende da:
 
-## Observações
-
-As hipóteses poderão ser reformuladas ou refinadas à medida que o escopo analítico for amadurecido e novas bases forem incorporadas ao projeto.
+- qualidade e cobertura das bases utilizadas
+- compatibilidade temporal e metodológica entre dados
+- resultados dos testes estatísticos e preditivos
+- análise crítica das limitações dos dados
