@@ -131,9 +131,6 @@ def process_csv(fonte: dict, fonte_cfg: dict, dfs_ref: dict, dry_run: bool = Fal
         df = transform(df, fonte_cfg, dfs_ref)
         print(f"[Transform] concluído para '{nome}'")
     
-    # Etapa 2.1: inicialização de colunas IDS (se declaradas no YAML)
-    append_dimensions(fonte_cfg)
-    
     # Etapa 3: validação de qualidade
     validate_quality(df, nome, fonte_cfg, fail_on_error=not dry_run)
 
@@ -181,6 +178,21 @@ def pipeline(force_save: bool = False):
             fonte_cfg = get_fonte_cfg(config, fonte["nome"])
             # process_csv contém etapas 1,2,3
             process_csv(fonte, fonte_cfg, dfs_ref, dry_run=args.dry_run, skip_transform=args.skip_transform)
+
+            fonte_clean = fonte.copy()
+            fonte_clean["arquivo"] = f"{fonte['nome']}-clean.csv"
+            fontes_clean.append(fonte_clean)
+        except Exception as e:
+            print(f"[Erro] {fonte['nome']}: {e}")
+            erros.append(fonte["nome"])
+    
+    for fonte in fontes_clean:
+        try:
+            fonte_cfg = get_fonte_cfg(config, fonte["nome"])
+
+            # Etapa 2.1: inicialização de colunas IDS (se declaradas no YAML)
+            append_dimensions(fonte_cfg)
+            
         except Exception as e:
             print(f"[Erro] {fonte['nome']}: {e}")
             erros.append(fonte["nome"])
@@ -208,4 +220,4 @@ def pipeline(force_save: bool = False):
         print(f"\n[Merge] Merge final concluído com {len(merged)} linhas x {len(merged.columns)} colunas.")
 
 if __name__ == "__main__":
-    pipeline(force_save=True)
+    pipeline(force_save=False)

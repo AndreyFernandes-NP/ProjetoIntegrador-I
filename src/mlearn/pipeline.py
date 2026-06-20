@@ -1,4 +1,3 @@
-import argparse
 import sys
 from pathlib import Path
 
@@ -600,6 +599,41 @@ class MachineLearningPipeline:
 
         self.save_supervised_results(results)
         self.save_predictions()
+    
+    def run_pipeline(self, run_type: str = "supervised") -> None:
+        match run_type:
+            case "supervised":
+                self.setup_supervised()
+                print("[ML] Modelos Supervisionados configurados. Modelos para executar:", [model.name for model in self.supervised_models])
+
+                supervised_status = {}
+                for model in self.supervised_models:
+                    print(f"\n[ML] Executando modelo supervisionado: {model.name} ({model.tipo})")
+                    supervised_status[model.name] = self.run_supervised(model)
+
+                print(f"\n[ML] Execução dos modelos supervisionados concluída. Status dos modelos: {supervised_status}")
+                results = pd.DataFrame(self.supervised_results)
+
+                self.save_supervised_results(results)
+                self.save_predictions()
+
+            case "unsupervised":
+                self.setup_unsupervised()
+                print("[ML] Modelos Não Supervisionados configurados. Modelos para executar:", [model.name for model in self.unsupervised_models])
+
+                unsupervised_status = {}
+                for model in self.unsupervised_models:
+                    print(f"\n[ML] Executando modelo não supervisionado: {model.name} ({model.tipo})")
+                    unsupervised_status[model.name] = self.run_unsupervised(model)
+                
+                print(f"\n[ML] Execução de modelos não supervisionados concluída. Status dos modelos: {unsupervised_status}")
+                results = pd.DataFrame(self.unsupervised_results)
+
+                self.save_unsupervised_results(results)
+
+            case _:
+                print(f"[Aviso] Tipo de execução de pipeline desconhecido: {run_type}")
+                print(f"[Aviso] Ignorando execução...")
 
 def run_pipeline(config: dict) -> None:
     print("[ML] Configurando pipeline...")
@@ -630,7 +664,50 @@ def run_pipeline(config: dict) -> None:
     pred_output = PATHS.reports_ml / "ml_supervised_prediction_metrics.csv"
     df_validation_metrics.to_csv(pred_output, sep=";", index=False, encoding="utf-8")
 
-if __name__ == "__main__":
+def supervised_pipeline() -> None:
+    print("[ML] Iniciando pipeline de Modelos Supervisionados...")
+    config = load_models_config(CONFIG_PATH)
+
+    print("[ML] Configurando pipeline...")
+    ml_pipeline = MachineLearningPipeline(config)
+    print("[ML] Pipeline configurada. Iniciando execução...")
+    ml_pipeline.run_pipeline(run_type="supervised")
+
+    print("[ML] Gerando dataset de validação...")
+    generator = DatasetGenerator(load_dataframe(PROC_DIR / "main_dataframe.csv"))
+
+    validation_df = generator.generate()
+    load_ids_config()
+    validation_df = calculate_ids(validation_df)
+    generator.save(validation_df)
+
+    print("[ML] Rodando exploração de hiperparâmetros com comparação externa...")
+    ml_pipeline.run_supervised_tuning_exploration(validation_df=validation_df, has_target=True)
+    ml_pipeline.run_pca_tuning_exploration()
+
+    print("[ML] Realizando validação cruzada com dataset sintético...")
+    for model in ml_pipeline.supervised_models:
+        print(f"\n[ML] Validando modelo '{model.name}' com dataset sintético...")
+        ml_pipeline.predict_with_model(model, validation_df, has_target=True)
+    
+    df_validation_metrics = pd.DataFrame(ml_pipeline.supervised_prediction_results)
+
+    pred_output = PATHS.reports_ml / "ml_supervised_prediction_metrics.csv"
+    df_validation_metrics.to_csv(pred_output, sep=";", index=False, encoding="utf-8")
+
+def unsupervised_pipeline() -> None:
+    print("[ML] Iniciando pipeline de Modelos Não Supervisionados...")
+    config = load_models_config(CONFIG_PATH)
+
+    print("[ML] Configurando pipeline...")
+    ml_pipeline = MachineLearningPipeline(config)
+    print("[ML] Pipeline configurada. Iniciando execução...")
+    ml_pipeline.run_pipeline(run_type="unsupervised")
+
+def run_mlearn():
     print("[ML] Iniciando pipeline de Machine Learning...")
     config = load_models_config(CONFIG_PATH)
     run_pipeline(config)
+
+if __name__ == "__main__":
+    run_mlearn()
