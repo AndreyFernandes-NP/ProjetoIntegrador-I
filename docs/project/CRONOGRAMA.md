@@ -3,7 +3,6 @@
 ## Mapa de Documentação do Repositório
 
 - **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
-- **Visão geral**: [`README.md`](../README.md)
 - **Planejamento**: [`CRONOGRAMA.md`](CRONOGRAMA.md), [`ESCOPO.md`](ESCOPO.md), [`OBJETIVOS.md`](OBJETIVOS.md)
 - **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
 - **Arquitetura & Pipeline**: [`ARQUITETURA.md`](../architecture/ARQUITETURA.md), [`PIPELINE.md`](../architecture/PIPELINE.md)
