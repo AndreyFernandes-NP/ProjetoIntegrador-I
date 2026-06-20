@@ -165,10 +165,10 @@ class MachineLearningPipeline:
         if features:
             selected_cols = list(dict.fromkeys(features))
         else:
-            selected_cols = [col for col in df.columns if col != target and col not in drop_cols and pd.api.types.is_numeric_dtype(df[col])]
+            selected_cols = [col for col in df.columns if col != target and pd.api.types.is_numeric_dtype(df[col])]
             print(f"[Aviso] Modelo '{model.name}' sem features definidas, usando seleção automática: {selected_cols}")
 
-        selected_cols = [col for col in selected_cols if col != target and col not in drop_cols]
+        selected_cols = [col for col in selected_cols if col not in drop_cols]
 
         missing = [col for col in selected_cols if col not in df.columns]
 

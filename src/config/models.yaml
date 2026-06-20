@@ -97,7 +97,7 @@ ml_unsupervised:
   fine-tuning_exploration: false
 
   pca:
-    enabled: true
+    enabled: false
 
     tipo: KernelPCA
     hyperparameters:
@@ -109,7 +109,7 @@ ml_unsupervised:
   models:
     - nome: 'KMeans Clustering'
       tipo: KMeans
-      features: []
+      features: ['ids']
       drop_cols: []
       hyperparameters:
         n_clusters: 6
