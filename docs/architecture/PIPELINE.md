@@ -3,139 +3,235 @@
 ## Mapa de Documentação do Repositório
 
 - **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
-- **Projeto**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
+- **Planejamento**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
 - **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
-- **Arquitetura**: [`ARQUITETURA.md`](ARQUITETURA.md), [`PIPELINE.md`](PIPELINE.md)
+- **Arquitetura & Pipeline**: [`ARQUITETURA.md`](ARQUITETURA.md), [`PIPELINE.md`](PIPELINE.md)
 - **Análise**: [`ABORDAGEM_ANALITICA.md`](../analysis/ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](../analysis/HIPOTESES.md), [`METODOLOGIA.md`](../analysis/METODOLOGIA.md)
 
 ## Visão geral
 
-O pipeline do projeto descreve o fluxo básico de trabalho adotado para transformar dados públicos brutos em uma base analítica utilizável para exploração, comparação e modelagem.
+Este documento descreve a pipeline implementada no código do projeto. A jornada cobre desde os dados brutos (`data/raw/`) até a criação da base final em `data/processed/`, geração do IDS e a execução de modelos de machine learning e validação.
 
-A proposta atual prioriza um fluxo simples, reprodutível e compatível com o estágio acadêmico do projeto.
+A pipeline atual foi desenhada para ser reproduzível, transparente e compatível com o volume e o escopo de um projeto acadêmico. O pipeline funciona de forma integrada com as configurações declaradas em `src/config/sources.yaml` e `src/config/models.yaml`.
 
-## Fluxo geral
+## Visão da jornada de dados
 
-O fluxo do projeto pode ser resumido nas seguintes etapas:
+1. ingestão de dados brutos nas fontes em `data/raw/`
+2. leitura e limpeza genérica de cada arquivo
+3. transformações específicas definidas em `src/config/sources.yaml`
+4. validação de qualidade por fonte
+5. escrita de arquivos limpos em `data/clean/`
+6. merge sequencial e criação de base analítica em `data/processed/main_dataframe.csv`
+7. cálculo do IDS e inclusão da métrica no dataset final
+8. geração de dataset de validação sintético
+9. execução de modelos de ML supervisonados e não supervisionados
+10. geração de métricas, previsões e relatórios em `reports/`
 
-1. obtenção das bases públicas
-2. armazenamento dos arquivos brutos
-3. limpeza e padronização inicial
-4. integração entre bases compatíveis
-5. geração de dados limpos e processados
-6. análise exploratória
-7. preparação para modelagem supervisionada
-8. avaliação e documentação dos resultados
+## Principais scripts e pontos de entrada
 
-## Etapas do pipeline
+- `src/core/pipeline.py`: pipeline principal de ingestão, limpeza, transformação, validação, merge e cálculo de IDS.
+- `src/core/cleaner.py`: funções de limpeza genérica aplicadas a todos os datasets.
+- `src/core/transformer.py`: transformações específicas por fonte com base em `sources.yaml`.
+- `src/core/merger.py`: merge sequencial dos arquivos limpos em um único dataset.
+- `src/core/calculator.py`: cálculo do Índice de Desenvolvimento de Saúde (IDS).
+- `src/data/generator.py`: geração de dataset sintético de validação.
+- `src/mlearn/pipeline.py`: execução dos pipelines de ML supervisionado e não supervisionado.
+- `src/config/sources.yaml`: configuração de fontes, transformações, qualidade, merge e IDS.
+- `src/config/models.yaml`: configuração de dataset, pré-processamento e modelos de ML.
+- `src/__main__.py`: menu interativo para executar pipeline e modelos.
 
-### 1. Obtenção dos dados
+## Pipeline de dados detalhada
 
-As bases são coletadas a partir de fontes públicas e oficiais, de acordo com o recorte do projeto.
+### 1. Coleta e armazenamento
 
-Neste momento, o pipeline considera principalmente:
+Os arquivos originais são mantidos em `data/raw/` e não são modificados. Cada CSV é lido com `transformer.careful_load_csv`, que testa diferentes encodings e separadores para evitar erros de leitura.
 
-- dados de municípios do IBGE
-- dados de instalações hospitalares do DATASUS
-- dados de vulnerabilidade social do IPVS
+### 2. Limpeza genérica
 
-### 2. Armazenamento inicial
+A função `clean()` em `src/core/cleaner.py` executa a limpeza básica de cada fonte:
 
-Após a coleta, os arquivos são armazenados na pasta `data/raw/`, preservando os dados originais para referência e reprocessamento futuro.
+- normaliza nomes de colunas (lowercase, remoção de acentos, remoção de espaços extras)
+- limpa strings, retirando espaços e convertendo células vazias para nulo
+- remove duplicatas
+- detecta colunas com possíveis erros de encoding
+- imprime relatório de valores nulos para cada coluna
 
-Essa separação permite manter uma distinção clara entre fonte original e dados tratados.
+### 3. Transformação por fonte
 
-### 3. Limpeza e padronização
+A função `transform()` em `src/core/transformer.py` aplica transformações específicas definidas em `src/config/sources.yaml`.
 
-Na etapa de preparação inicial, são aplicados tratamentos como:
+Suporta:
 
-- leitura com encodings compatíveis
-- remoção ou ajuste de valores inconsistentes
-- padronização de nomes de municípios
-- conversão de tipos numéricos
-- remoção de elementos indesejados em campos textuais
+- `tipo: mapa_ibge`: mapeia códigos IBGE para nome de município usando `codigos_ibge_sp.csv`
+- `tipo: purge`: remove dígitos e normaliza textos (uppercase)
+- `rename`: renomeia colunas
+- `cast`: converte colunas para `Int64`, `Float64`, `str` ou `datetime`
+- `convert_to_column`: transforma coluna categórica em várias colunas via pivot
+- inferência automática de colunas numéricas
 
-Essa fase tem como objetivo viabilizar integração e comparação entre bases.
+Essas transformações permitem harmonizar diferentes fontes para que possam ser integradas posteriormente.
 
-### 4. Integração entre bases
+### 4. Validação de qualidade
 
-Após a limpeza, as bases compatíveis passam por junção com base em chaves disponíveis, como:
+Após transformação, `src/core/validator.py` valida cada DataFrame com base nas regras definidas em `sources.yaml`:
 
-- código IBGE
-- nome padronizado do município
+- `cols_obrigatorias`
+- `cols_nao_nulas`
+- `cols_unicas`
+- `cols_numericas`
 
-Essa etapa permite consolidar diferentes indicadores em uma estrutura mais adequada para análise conjunta.
+Também aplica validações genéricas:
 
-### 5. Geração de saídas tratadas
+- verifica DataFrames vazios
+- identifica linhas duplicadas
+- detecta colunas `Unnamed`
 
-Os resultados das transformações são armazenados em diretórios como:
+A pipeline pode falhar quando há erros de validação (exceto em `--dry-run`).
 
-- `data/clean/`
-- `data/processed/`
+### 5. Produção de dados limpos
 
-Esses arquivos representam versões intermediárias ou consolidadas dos dados, prontas para uso analítico.
+Os DataFrames validados são salvos em `data/clean/` no formato `nome-da-fonte-clean.csv`. Essa camada representa a etapa de preparação de dados, preservando a separação entre bruto e tratado.
 
-### 6. Análise exploratória
+### 6. Merge e base processada
 
-Com a base tratada, o projeto segue para análise exploratória por meio de notebooks e scripts, buscando:
+Depois de processar as fontes, `src/core/pipeline.py` chama `run_merge()` em `src/core/merger.py`.
 
-- compreender a distribuição dos indicadores
-- comparar municípios
-- identificar padrões e possíveis relações
-- detectar limitações e inconsistências restantes
+O merge usa:
 
-### 7. Preparação para modelagem
+- fonte base `codigos_ibge_sp` para garantir consistência geográfica
+- chave de merge definida em `sources.yaml` (ex: `municipio`)
+- join do tipo `left` por padrão
+- whitelist `colunas_uteis` para limitar colunas por fonte
 
-A partir da análise exploratória, será construída uma base analítica mais consolidada para:
+A junção é feita sequencialmente, evitando duplicação de colunas já presentes, e mantendo a chave de merge como referência principal.
 
-- definição de variáveis preditoras
-- definição da variável-alvo
-- testes com modelos supervisionados
-- comparação inicial de abordagens
+O resultado final do merge é salvo em `data/processed/main_dataframe.csv`.
 
-### 8. Avaliação e documentação
+### 7. Cálculo do IDS
 
-Os resultados obtidos ao longo do pipeline serão documentados na pasta `docs/` e, quando aplicável, em notebooks e relatórios do projeto.
+Após o merge, `src/core/pipeline.py` invoca `calculate_ids()` em `src/core/calculator.py`.
 
-Essa etapa garante que decisões, limitações e avanços permaneçam registrados de forma organizada.
+O IDS é calculado a partir de quatro dimensões:
 
-## Representação resumida do fluxo
+- `infraestrutura`
+- `serviços`
+- `vulnerabilidade`
+- `renda`
 
-```text
-Fontes públicas oficiais
-        ↓
-data/raw/
-        ↓
-limpeza e padronização
-        ↓
-integração entre bases
-        ↓
-data/clean/ e data/processed/
-        ↓
-notebooks e análises exploratórias
-        ↓
-base analítica
-        ↓
-modelagem supervisionada inicial
-        ↓
-documentação e resultados
-```
+Cada dimensão é configurada em `sources.yaml` com colunas e pesos específicos.
 
-## Ferramentas associadas ao pipeline
-O pipeline atual utiliza, ou prevê utilizar, as seguintes ferramentas:
+O cálculo do IDS passa por:
 
-- Python para scripts de limpeza, transformação e integração
-- Jupyter Notebook para exploração e análise
-- Google Colab para testes e experimentos complementares
-- GitHub para versionamento e centralização do projeto
+- normalização robusta (`robust_minmax`) de infraestrutura e renda
+- média ponderada populacional para vulnerabilidade
+- cobertura adaptativa de serviços considerando necessidade média e taxa base
+- soma ponderada final com pesos definidos em `IDS_CONFIG`
 
-# Limitações atuais
-O pipeline ainda se encontra em evolução e poderá sofrer ajustes em função de:
+O valor final é normalizado para [0, 1] e salvo na coluna `ids`.
 
-- novas bases incorporadas ao projeto
-- mudanças na estratégia de integração
-- refinamento da variável-alvo
-- amadurecimento da etapa de modelagem
+## Pipeline de modelos e validação
 
-# Observações
-O pipeline foi desenhado para atender às necessidades atuais do projeto sem adotar soluções de orquestração ou processamento distribuído, que seriam desnecessárias para o escopo e volume de dados trabalhados neste momento.
+### 8. Configuração de ML
+
+A configuração de machine learning está em `src/config/models.yaml`.
+
+Ela define:
+
+- `dataset.arquivo`: dataset processado usado para ML
+- `dataset.features`: lista de colunas a serem usadas como features
+- `dataset.target_col`: coluna alvo (`ids`)
+- `preprocessing.scale`: se o scaler deve ser aplicado
+- `preprocessing.scaler`: tipo de scaler
+- `ml_supervised.enabled`: habilita modelos supervisionados
+- `ml_supervised.pca`: controla uso de PCA em supervisado
+- `ml_supervised.models`: lista de modelos e hiperparâmetros
+- `ml_unsupervised.enabled`: habilita modelos de clusterização
+- `ml_unsupervised.pca`: controla uso de PCA em não supervisionado
+- `ml_unsupervised.models`: lista de algoritmos de agrupamento
+
+### 9. Pipeline de ML
+
+O pipeline de ML em `src/mlearn/pipeline.py` realiza:
+
+- carregamento do dataset processado de `data/processed/`
+- seleção de features globais e específicas por modelo
+- preenchimento de valores faltantes com zero
+- divisão de treino/teste para modelos supervisionados
+- escalonamento opcional com `StandardScaler` ou outros scalers
+- redução opcional de dimensionalidade via PCA/KernelPCA
+- treinamento e avaliação de modelos
+
+Para modelos supervisionados, o fluxo é:
+
+1. `train_test_split`
+2. `fit()` no modelo
+3. `predict()` em `X_test`
+4. avaliação com `MAE`, `RMSE` e `R²`
+5. salvamento de predições e métricas
+
+Para modelos não supervisionados, o fluxo é:
+
+1. treinamento em `X_train`
+2. obtenção de rótulos ou clusters
+3. avaliação com `silhouette`, `calinski_harabasz` e `davies_bouldin`
+4. salvamento de métricas
+
+### 10. Registro de modelos
+
+Os modelos são instanciados a partir de registries em `src/mlearn/registry.py`.
+
+Modelos suportados atualmente:
+
+- Supervisionados: `LinearRegression`, `Lasso`, `Ridge`, `KNNRegressor`, `SVR`, `DecisionTreeRegressor`, `RandomForestRegressor`, `GradientBoostingRegressor`, `ExtraTreesRegressor`, `HistGradientBoostingRegressor`
+- Não supervisionados: `KMeans`, `DBSCAN`, `MeanShift`, `AgglomerativeClustering`, `GaussianMixture`
+
+Cada modelo herda comportamentos comuns para treino, predição e avaliação.
+
+### 11. Geração de dataset de validação sintético
+
+Ao final da execução de ML, o projeto gera um dataset sintético com `src/data/generator.py`.
+
+O `DatasetGenerator`:
+
+- classifica linhas reais em `low`, `medium` e `high` a partir do IDS
+- amostra linhas reais aleatoriamente ou de forma balanceada
+- aplica ruído percentual aos valores numéricos
+- preserva zeros com probabilidade configurável
+- recria nomes de municípios sintéticos usando listas de nomes e sobrenomes
+- salva o resultado em `data/processed/`
+
+Essa base sintética é usada para validação externa dos modelos e para comparar previsões em um cenário de dados gerados.
+
+### 12. Validação cruzada e exploração
+
+O pipeline de ML também executa explorações de hiperparâmetros quando habilitado.
+
+- `run_unsupervised_tuning_exploration()` testa parâmetros de modelos não supervisionados
+- `run_supervised_tuning_exploration()` testa parâmetros de modelos supervisionados
+- `run_pca_tuning_exploration()` testa configurações de redução de dimensionalidade
+
+Os resultados dessas explorações são salvos em `reports/ml/` e subpastas de `pca_tuning/`.
+
+### 13. Resultados e relatórios
+
+O pipeline salva:
+
+- `reports/ml/ml_supervised_metrics.csv`
+- `reports/ml/ml_supervised_prediction_metrics.csv`
+- `reports/ml/ml_unsupervised_metrics.csv`
+- predições individuais por modelo em `reports/ml/{model_name}_predictions.csv`
+- resultados de exploração de hiperparâmetros em `reports/ml/ml_supervised_tuning_exploration.csv` e `reports/ml/ml_unsupervised_tuning_exploration.csv`
+
+## Observações sobre a pipeline
+
+- a pipeline assume que a configuração de fontes em `src/config/sources.yaml` está atualizada e completa
+- a base de merge parte de `codigos_ibge_sp` como referência geográfica
+- o cálculo do IDS depende da coluna `populacao` e dos pesos definidos em `calculator.py`
+- o pré-processamento de ML atualmente é simples (`fillna(0)`) e pode ser refinado em fases futuras
+- o menu em `src/__main__.py` permite executar pipeline de dados e de modelos de forma interativa
+
+## Como executar
+
+- `python -m src.core.pipeline` → executa a pipeline completa de dados, incluindo merge e cálculo de IDS
+- `python -m src.mlearn.pipeline` → executa todos os modelos e validações configurados em `src/config/models.yaml`
+- `python -m src.__main__` → abre o menu interativo do sistema IDS

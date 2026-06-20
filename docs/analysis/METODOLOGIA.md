@@ -3,78 +3,78 @@
 ## Mapa de Documentação do Repositório
 
 - **Pastas**: [`data/`](../../data/README.md), [`docs/`](../README.md)
-- **Projeto**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
+- **Planejamento**: [`CRONOGRAMA.md`](../project/CRONOGRAMA.md), [`ESCOPO.md`](../project/ESCOPO.md), [`OBJETIVOS.md`](../project/OBJETIVOS.md)
 - **Dados**: [`DICIONARIO_DE_DADOS.md`](../data/DICIONARIO_DE_DADOS.md), [`FONTES_DE_DADOS.md`](../data/FONTES_DE_DADOS.md), [`TRATAMENTO_DE_DADOS.md`](../data/TRATAMENTO_DE_DADOS.md)
-- **Arquitetura**: [`ARQUITETURA.md`](../architecture/ARQUITETURA.md), [`PIPELINE.md`](../architecture/PIPELINE.md)
+- **Arquitetura & Pipeline**: [`ARQUITETURA.md`](../architecture/ARQUITETURA.md), [`PIPELINE.md`](../architecture/PIPELINE.md)
 - **Análise**: [`ABORDAGEM_ANALITICA.md`](ABORDAGEM_ANALITICA.md), [`HIPOTESES.md`](HIPOTESES.md), [`METODOLOGIA.md`](METODOLOGIA.md)
 
 ## Visão geral
 
-O projeto será conduzido com base em uma abordagem de análise de dados inspirada no **CRISP-DM** (*Cross Industry Standard Process for Data Mining*), adaptada à realidade e ao escopo acadêmico do trabalho.
+O projeto segue uma metodologia inspirada no **CRISP-DM** (*Cross Industry Standard Process for Data Mining*), adaptada à realidade acadêmica e ao conjunto de dados públicos do estado de São Paulo.
 
-A escolha dessa metodologia se deve à sua organização em etapas claras, que permitem estruturar o problema, compreender os dados, preparar a base analítica, desenvolver modelos e avaliar resultados de forma progressiva.
+A metodologia orienta a condução do trabalho em etapas claras e iterativas: entendimento do problema, compreensão dos dados, preparação da base, análise exploratória, modelagem e avaliação.
 
 ## Etapas adotadas no projeto
 
 ### 1. Entendimento do problema
 
-Nesta etapa, o grupo define o problema central do projeto, o recorte adotado, a hipótese principal e os objetivos da análise.
+Nesta etapa, o grupo estabeleceu o recorte do projeto, a hipótese central e os objetivos analíticos.
 
-O foco atual está em investigar a relação entre vulnerabilidade social, infraestrutura urbana e pressão sobre os serviços públicos de saúde nos municípios do estado de São Paulo.
+O foco está em investigar como vulnerabilidade social e infraestrutura urbana impactam a pressão sobre os serviços públicos de saúde nos municípios paulista, seus viéses e problemática.
 
 ### 2. Entendimento dos dados
 
-Nesta fase, são identificadas e avaliadas as bases públicas disponíveis para o projeto, observando aspectos como:
+São avaliadas as bases públicas locais quanto a:
 
-- aderência ao problema estudado
-- qualidade dos dados
-- granularidade
+- pertinência ao problema de saúde e vulnerabilidade
+- qualidade e limpeza necessárias
+- granularidade municipal e temporal
 - compatibilidade entre fontes
-- possibilidade de integração por município
+- potencial de integração em uma base única
 
 ### 3. Preparação dos dados
 
-A preparação dos dados envolve:
+A preparação atual do projeto inclui:
 
-- leitura e organização das bases
-- tratamento de inconsistências
-- padronização de nomes e colunas
-- compatibilização de chaves
-- integração entre datasets
-- geração de uma base analítica inicial
+- leitura e organização das tabelas brutas
+- limpeza e padronização de colunas
+- validação de nomes de municípios e códigos IBGE
+- integração de datasets por município
+- geração de bases processadas e clusterizadas
 
 ### 4. Análise exploratória
 
-A análise exploratória será utilizada para:
+A análise exploratória realizada tem por objetivo:
 
-- compreender a distribuição dos indicadores
-- identificar padrões iniciais
-- observar possíveis correlações
-- detectar anomalias, inconsistências e limitações
-- apoiar decisões sobre variáveis e modelagem
+- compreender distribuições e tendências nos indicadores
+- identificar padrões espaciais e grupos de municípios
+- avaliar relações entre vulnerabilidade, infraestrutura e saúde
+- detectar anomalias, dados faltantes e inconsistências
+- apoiar a escolha de variáveis para modelagem
 
 ### 5. Modelagem
 
-Após a consolidação da base analítica, o projeto prevê o uso inicial de modelos supervisionados com finalidade preditiva, buscando apoiar a identificação de cenários de maior pressão sobre os serviços de saúde.
+Com a base analítica consolidada, são testadas abordagens de machine learning para apoiar a previsão de pressão sobre o sistema de saúde.
 
-A escolha final dos algoritmos dependerá da definição da variável-alvo, da qualidade dos dados e do comportamento observado nas etapas anteriores.
+A modelagem considera:
+
+- variável-alvo ainda em refinamento
+- seleção de variáveis preditoras relevantes
+- experimentos com algoritmos supervisionados e não supervisionados
+- avaliação de performance e estabilidade dos modelos
 
 ### 6. Avaliação dos resultados
 
-Os resultados serão avaliados com base em:
+A avaliação dos resultados é feita com base em:
 
-- coerência com o problema proposto
-- qualidade da base construída
-- capacidade explicativa das análises
-- desempenho preliminar dos modelos
-- limitações metodológicas e dos dados utilizados
+- consistência com o problema pesquisado
+- qualidade da base e dos indicadores
+- capacidade explicativa das análises exploratórias
+- desempenho de modelos e robustez das previsões
+- limitações metodológicas e dos dados disponíveis
 
 ## Estratégia de trabalho
 
-A condução do projeto seguirá uma organização simples e iterativa, com refinamento progressivo das análises, da documentação e das decisões metodológicas ao longo do semestre.
+A execução do projeto é iterativa e incremental, permitindo ajustes nas etapas conforme evolução das análises e disponibilidade de dados.
 
-Essa abordagem permite que o grupo adapte o andamento do trabalho de acordo com a disponibilidade de dados, a compatibilidade entre fontes e os resultados obtidos em cada etapa.
-
-## Observações
-
-Esta metodologia poderá ser refinada ao longo do projeto, principalmente nas etapas de modelagem e avaliação, conforme o avanço das análises e a definição mais precisa da variável-alvo.
+Essa estratégia favorece refinamentos sucessivos em documentação, preparação de dados e modelagem.
