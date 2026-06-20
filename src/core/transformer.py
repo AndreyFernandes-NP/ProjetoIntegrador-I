@@ -6,7 +6,6 @@ Transformações de fontes de dados automaticamente com base em configurações/
 Roda após a limpeza genérica e antes do merge final.
 """
 
-import re
 import sys
 from pathlib import Path
 
@@ -17,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
-from cleaner import normalize_column_mapping, normalize_column_name, normalize_column_list
+from src.core.cleaner import normalize_column_mapping, normalize_column_name, normalize_column_list
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 MAPPING_DIR   = PATHS.data_mapping
@@ -143,23 +142,40 @@ def apply_rename(df: pd.DataFrame, coluna: str, novo_nome: str) -> pd.DataFrame:
 def apply_cast(df: pd.DataFrame, coluna: str, dtype: str) -> pd.DataFrame:
     if coluna not in df.columns:
         return df
+
     try:
-        match dtype.lower():
-            case "int" | "int64":
-                df[coluna] = pd.to_numeric(df[coluna], errors="coerce").astype("Int64")
+        dtype = dtype.lower()
 
-            case "float64":
-                df[coluna] = pd.to_numeric(df[coluna], errors="coerce").astype("float64")
+        match dtype:
+            case "int" | "int64" | "float" | "float64":
+                s_original = df[coluna]
 
-            case "str":
-                df[coluna] = df[coluna].astype(str)
+                s = (s_original.astype("string").str.strip().str.replace(".", "", regex=False).str.replace(",", ".", regex=False))
+
+                num = pd.to_numeric(s, errors="coerce")
+                falhas = s_original[num.isna() & s_original.notna()]
+
+                if not falhas.empty:
+                    print(f"[Aviso] Alguns valores de '{coluna}' não puderam ser convertidos:")
+                    print(falhas.unique()[:20])
+
+                if dtype in ["int", "int64"]:
+                    if (num.dropna() % 1 == 0).all():
+                        df[coluna] = num.astype("Int64")
+                    else:
+                        df[coluna] = num.astype("float64")
+                else:
+                    df[coluna] = num.astype("float64")
+
+            case "str" | "string":
+                df[coluna] = df[coluna].astype("string")
 
             case "datetime":
                 df[coluna] = pd.to_datetime(df[coluna], errors="coerce")
-            
+
             case _:
                 print(f"[Aviso] Tipo de cast desconhecido '{dtype}' para '{coluna}'. Pulando cast.")
-
+            
     except Exception as e:
         print(f"[Aviso] cast '{coluna}' para {dtype} falhou: {e}")
 

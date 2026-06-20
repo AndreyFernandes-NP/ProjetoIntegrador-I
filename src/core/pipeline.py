@@ -23,15 +23,17 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
-from cleaner import clean
-from validator import validate_quality
-from register_source import create_template
-from transformer import load_refs, transform, careful_load_csv
-from merger import run_merge, load_merge_config
+from src.core.cleaner import clean
+from src.core.validator import validate_quality
+from src.core.register_source import create_template
+from src.core.transformer import load_refs, transform, careful_load_csv
+from src.core.merger import run_merge, load_merge_config
+from src.core.calculator import calculate_ids, append_dimensions
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 RAW_DIR     = PATHS.data_raw
 CLEAN_DIR   = PATHS.data_clean
+PROC_DIR = PATHS.data_processed
 
 # Utils
 
@@ -65,6 +67,7 @@ def load_config(path: Path) -> dict:
     default = {
         "merge": {},
         "fontes": [],
+        "validation": {},
     }
 
     if not path.exists():
@@ -81,6 +84,9 @@ def load_config(path: Path) -> dict:
 
     if not isinstance(config.get("merge"), dict):
         config["merge"] = {}
+    
+    if not isinstance(config.get("validation"), dict):
+        config["validation"] = {}
 
     return config
 
@@ -172,6 +178,21 @@ def pipeline(force_save: bool = False):
             fonte_cfg = get_fonte_cfg(config, fonte["nome"])
             # process_csv contém etapas 1,2,3
             process_csv(fonte, fonte_cfg, dfs_ref, dry_run=args.dry_run, skip_transform=args.skip_transform)
+
+            fonte_clean = fonte.copy()
+            fonte_clean["arquivo"] = f"{fonte['nome']}-clean.csv"
+            fontes_clean.append(fonte_clean)
+        except Exception as e:
+            print(f"[Erro] {fonte['nome']}: {e}")
+            erros.append(fonte["nome"])
+    
+    for fonte in fontes_clean:
+        try:
+            fonte_cfg = get_fonte_cfg(config, fonte["nome"])
+
+            # Etapa 2.1: inicialização de colunas IDS (se declaradas no YAML)
+            append_dimensions(fonte_cfg)
+            
         except Exception as e:
             print(f"[Erro] {fonte['nome']}: {e}")
             erros.append(fonte["nome"])
@@ -186,10 +207,17 @@ def pipeline(force_save: bool = False):
 
     # Etapa 4: merge final
     merge_config = load_merge_config(CONFIG_PATH)
-    merged = run_merge(config=merge_config)
+    merged, destino = run_merge(config=merge_config)
 
     if merged is not None:
+        # Etapa 5: calcular IDS
+        merged = calculate_ids(merged, keep_intermeds=False)
+
+        # Etapa 6: salvar o resultado final
+        merged.to_csv(destino, index=False, encoding="utf-8", sep=";")
+
+        print(f"\n[Salvo] {destino.relative_to(PATHS.root)}")
         print(f"\n[Merge] Merge final concluído com {len(merged)} linhas x {len(merged.columns)} colunas.")
 
 if __name__ == "__main__":
-    pipeline(force_save=True)
+    pipeline(force_save=False)

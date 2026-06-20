@@ -28,11 +28,84 @@
 #   cols_nao_nulas      : colunas que independentemente não podem ser nulas
 #   cols_numericas      : colunas que precisam ser algum tipo numérico
 #
+# Bloco IDS (por dimensionalidade):
+#   dimensões:
+#     infraestrutura      : colunas que devem ser relacionadas à infraestrutura de saúde do município
+#     vulnerabilidade     : colunas que devem ser relacionadas à vulnerabilidade social do município
+#     serviços            : colunas que devem ser relacionadas aos serviços ofertados de saúde do município
+#     renda:
+#       coluna_valor      : coluna relacionada à receita anual do município
+#
 # Bloco merge (nível raiz):
 #   chave       : coluna comum usada para unir os DFs de dados
 #   como        : tipo de join — left | right | inner | outer (padrão: left)
 #   saida       : nome do arquivo final salvo em data/processed/
+#
+# Bloco validation (nível raiz):
+#   enabled       : habilita ou não a geração de um banco de dados sintético e a predição com os modelos treinados (padrão: true)
+#   rows          : quantidade de linhas que o dataset gerado vai ter (necessário ter nomes/sobrenomes o suficiente) (padrão: 100)
+#   output        : nome do arquivo .csv que irá ser exportado na pasta processed (padrão: validation_samples)
+#
+#   columns:
+#     ids           : nome da coluna que representa o target do df (padrão: ids)
+#     municipality  : nome da coluna que iremos trocar os nomes das chaves com nossos próprios (padrão: municipio)
+#
+#   generation:
+#     noise_factor              : int, quantidade em quantos % será aplicado uma variância de maior ou menor no dado da linha selecionada (padrão: 0.1 (10% pra +-))
+#     preserve_zero_probability : true/false, chance em % de preservar ou não os valores zero, caso não preserve, irá gerar um valor aleatório com base na própria coluna do dataset (padrão: 0.9)
+#     clip_to_original_range    : true/false, se o valor deve ou não ser clipado para a escala original, ex: ao ser -0.1, se torna 0.0, ao ser 1.1, se torna 1.0 (padrão: true)
+#     sample_with_replacement   : true/false, quando o np.rng.choice() escolhe um valor, se esse campo for verdadeiro, ele pode escolher o mesmo valor mais de 1x, caso contrário, só poderá escolher ele uma única vez. Decida quando usar, os dois dão resultados um tanto que intrigantes (padrão: true)
+#     null_strategy             : 'sample_column'/'zero', trata da forma que abordar colunas com valores nulos, cada um deles já é quase auto-explicativo.
+#
+#   sampling:
+#     mode  : 'balanced'/'random', a forma com que os dados vão ser gerados, por favor não ser maluco de usar 'random', mas esse campo é bem exótico pros treinamentos. (padrão: balanced)
+#     ids_distribution: (só é usado se mode = balanced)
+#       low     : float(0,1), qual é a proporção de campos considerados low devem ter no dataset gerado, todos devem somar no final 100% ou 1.0 (padrão: 0.3)
+#       medium  : float(0,1), qual é a proporção de campos considerados medium devem ter no dataset gerado, todos devem somar no final 100% ou 1.0 (padrão: 0.3)
+#       high    : float(0,1), qual é a proporção de campos considerados high devem ter no dataset gerado, todos devem somar no final 100% ou 1.0 (padrão: 0.4)
+#
+#   names:
+#     base_names_path       : nome do arquivo .txt que será usado para dar load nos primeiros nomes dos municípios (padrão: muni_nomes.txt)
+#     surnames_path         : nome do arquivo .txt que será usado para dar load nos sobrenomes dos municípios (padrão: muni_sobrenomes.txt)
+#     connector_probability : float(0,1), probabilidade dos nomes terem conectores como da, dos e etc antes do sobrenome (padrão: 0.3)
+#     connectors            : lista dos conectores que serão usados/sorteados caso connector_probability dispare (padrão: - de, - da, - dos, sla é o básico)
+#
 # =============================================================================
+
+validation:
+  enabled: true
+  rows: 100
+  output: validation_samples.csv
+
+  columns:
+    ids: ids
+    municipality: municipio
+  
+  generation:
+    noise_factor: 0.15
+    preserve_zero_probability: 0.95
+    clip_to_original_range: true
+    sample_with_replacement: false
+    null_strategy: sample_column
+  
+  sampling:
+    mode: balanced
+
+    ids_distribution:
+      low: 0.3
+      medium: 0.3
+      high: 0.4
+  
+  names:
+    base_names_path: muni_nomes.txt
+    surnames_path: muni_sobrenomes.txt
+    connector_probability: 0.2
+    connectors:
+      - DE
+      - DA
+      - DO
+      - DAS
+      - DOS
 
 merge:
   chave: municipio
@@ -40,10 +113,24 @@ merge:
   saida: main_dataframe.csv
 
 fontes:
+  - nome: municipios
+    arquivo: municipios.csv
+    merge: true
+    colunas_uteis: ['latitude', 'longitude']
+    notas: 'Base de dados de todas as cidades do estado de SP, com seus respectivos
+      códigos IBGE e coordenadas geográficas, extraída do IBGE'
+    transformacoes:
+      codigo_ibge:
+        tipo: mapa_ibge
+        rename: municipio
+    qualidade:
+    ids:
   - nome: estabelecimentos_saude
     arquivo: estabelecimentos_saude.csv
     merge: true
-    colunas_uteis: ['consultorio_total', 'hospital_total', 'outros_total', 'pronto_atendimento_total']
+    colunas_uteis: ['hospital_estadual', 'hospital_federal', 'hospital_municipal',
+      'hospital_particular', 'clinica_estadual', 'clinica_federal', 'clinica_municipal',
+      'clinica_particular', 'consultorio_total', 'pronto_atendimento_total', 'unidade_movel_total']
     notas: 'Dados dos tipos e quantidade de estabelecimentos de saúde por município
       de SP, 2022, extraídos do CNES'
     transformacoes:
@@ -57,6 +144,19 @@ fontes:
       cols_obrigatorias: ['municipio']
       cols_unicas: ['municipio']
       cols_nao_nulas: ['municipio']
+    ids:
+      infraestrutura:
+        hospital_estadual: 0.9
+        hospital_federal: 0.9
+        hospital_municipal: 1.1
+        hospital_particular: 0.5
+        clinica_estadual: 0.45
+        clinica_federal: 0.45
+        clinica_municipal: 0.55
+        clinica_particular: 0.25
+        consultorio_total: 0.15
+        pronto_atendimento_total: 0.65
+        unidade_movel_total: 0.3
   - nome: healthcare_final_latlon
     arquivo: healthcare_final_latlon.csv
     merge: false
@@ -64,15 +164,16 @@ fontes:
     notas: 'Dados de estabelecimentos de saúde geolocalizados extraídos através do
       QGIS, utilizando o plugin MMQGIS para cruzar os dados de estabelecimentos de
       saúde do CNES com as coordenadas geográficas dos municípios de SP'
-    transformacoes: # É, temos uns probleminhas de dados aqui, lidar com isso em call
+    transformacoes:
       latitude:
         cast: float64
       longitude:
         cast: float64
     qualidade:
+    ids:
   - nome: inst_hospitalares_sp
     arquivo: inst_hospitalares_sp.csv
-    merge: true
+    merge: false
     colunas_uteis: ['Instituições Hospitalares']
     notas: 'Dados da quantidade de instituições hospitalares por município de SP,
       2022'
@@ -83,10 +184,13 @@ fontes:
         cast: Int64
         rename: Instituições Hospitalares
     qualidade:
+    ids:
   - nome: ipvs_esp
     arquivo: ipvs_esp.csv
     merge: true
-    colunas_uteis: ['alta vulnerabilidade_n_pessoas', 'alta vulnerabilidade_n_domicilios', 'alta vulnerabilidade_n_setores']
+    colunas_uteis: ['baixissima vulnerabilidade_n_pessoas', 'muito baixa vulnerabilidade_n_pessoas',
+      'baixa vulnerabilidade_n_pessoas', 'media vulnerabilidade_n_pessoas',
+      'alta vulnerabilidade_n_pessoas', 'muito alta vulnerabilidade_n_pessoas']
     notas: 'Dados do Índice Paulista de Vulnerabilidade Social (IPVS) por setor censitário,
       2022, fornecido pela Fundação Seade e IBGE'
     transformacoes:
@@ -102,10 +206,18 @@ fontes:
       cols_unicas: ['municipio']
       cols_nao_nulas: ['municipio']
       cols_numericas: ['n_pessoas', 'n_domicilios', 'n_setores']
+    ids:
+      vulnerabilidade:
+        baixissima vulnerabilidade_n_pessoas: 0.0
+        muito baixa vulnerabilidade_n_pessoas: 0.15
+        baixa vulnerabilidade_n_pessoas: 0.3
+        media vulnerabilidade_n_pessoas: 0.5
+        alta vulnerabilidade_n_pessoas: 0.75
+        muito alta vulnerabilidade_n_pessoas: 1.0
   - nome: sia_cnv_qgsp
     arquivo: sia_cnv_qgsp.csv
     merge: true
-    colunas_uteis: ['vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'terapias especializadas']
+    colunas_uteis: ['vigilancia em saude', 'consultas / atendimentos / acompanhamentos', 'diagnostico em vigilancia epidemiologica e ambiental', 'diagnostico em laboratorio clinico', 'coleta de material', 'tratamentos clinicos (outras especialidades)', 'diagnostico por ultrasonografia', 'diagnostico por radiologia', 'fisioterapia', 'tratamentos odontologicos', 'diagnostico por teste rapido', 'terapias especializadas', 'diagnostico por tomografia', 'diagnostico por ressonancia magnetica', 'pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa', 'diagnostico por endoscopia', 'metodos diagnosticos em especialidades', 'diagnostico por anatomia patologica e citopatologia', 'bucomaxilofacial', 'diagnostico por radiologia intervencionista', 'anestesiologia', 'hemoterapia', 'diagnostico e procedimentos especiais em hemoterapia', 'diagnostico por medicina nuclear in vivo', 'tratamento em oncologia', 'tratamento em nefrologia', 'componente especializado da assitencia farmaceutica', 'orteses, proteses e materiais especiais nao relacionados ao ato cirurgico', 'autorizacao / regulacao', 'acoes coletivas / individuais em saude', 'acoes relacionadas ao estabelecimento']
     notas: 'Dados da Rede de Atenção à Saúde (SIA) por município de SP, 2022'
     transformacoes:
       Município gestor:
@@ -116,10 +228,43 @@ fontes:
       Total:
         cast: Int64
     qualidade:
+    ids:
+      serviços:
+        vigilancia em saude: 1.0
+        consultas / atendimentos / acompanhamentos: 1.0
+        diagnostico em vigilancia epidemiologica e ambiental: 1.0
+        diagnostico em laboratorio clinico: 1.0
+        coleta de material: 0.9
+        tratamentos clinicos (outras especialidades): 0.9
+        diagnostico por ultrasonografia: 0.9
+        diagnostico por radiologia: 0.9
+        fisioterapia: 0.8
+        tratamentos odontologicos: 0.8
+        diagnostico por teste rapido: 0.8
+        terapias especializadas: 0.8
+        diagnostico por tomografia: 0.8
+        diagnostico por ressonancia magnetica: 0.8
+        pequenas cirurgias e cirurgias de pele, tecido subcutaneo e mucosa: 0.7
+        diagnostico por endoscopia: 0.7
+        metodos diagnosticos em especialidades: 0.7
+        diagnostico por anatomia patologica e citopatologia: 0.7
+        bucomaxilofacial: 0.6
+        diagnostico por radiologia intervencionista: 0.6
+        anestesiologia: 0.6
+        hemoterapia: 0.6
+        diagnostico e procedimentos especiais em hemoterapia: 0.5
+        diagnostico por medicina nuclear in vivo: 0.5
+        tratamento em oncologia: 0.5
+        tratamento em nefrologia: 0.5
+        componente especializado da assitencia farmaceutica: 0.4
+        orteses, proteses e materiais especiais nao relacionados ao ato cirurgico: 0.3
+        autorizacao / regulacao: 0.3
+        acoes coletivas / individuais em saude: 1.0
+        acoes relacionadas ao estabelecimento: 0.2
   - nome: sih_cnv_spgsp
     arquivo: sih_cnv_spgsp.csv
     merge: true
-    colunas_uteis: ['diagnostico por tomografia', 'transplante de orgaos, tecidos e celulas', 'outras cirurgias']
+    colunas_uteis: ['tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas', 'cirurgia do aparelho circulatorio', 'cirurgia do sistema nervoso central e periferico', 'parto e nascimento', 'medicamentos de ambito hospitalar e urgencia', 'cirurgia do aparelho digestivo, orgaos anexos e parede abdominal', 'cirurgia do sistema osteomuscular', 'cirurgia obstetrica', 'cirurgia toracica', 'cirurgia em oncologia', 'acoes relacionadas ao atendimento', 'cirurgia do aparelho geniturinario', 'cirurgia reparadora', 'cirurgia das vias aereas superiores, da face, da cabeca e do pescoco', 'cirurgia de mama', 'orteses, proteses e materiais especiais relacionados ao ato cirurgico', 'acompanhamento e intercorrencias no pre e pos-transplante', 'cirurgia do aparelho da visao', 'cirurgia de glandulas endocrinas', 'cirurgia em nefrologia', 'outras cirurgias', 'coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante', 'acoes relacionadas a doacao de orgaos e tecidos para transplante', 'processamento de tecidos para transplante', 'transplante de orgaos, tecidos e celulas', 'avaliacao de morte encefalica']
     notas: 'Dados do Sistema de Informações Hospitalares (SIH) por município de SP,
       2022'
     transformacoes:
@@ -128,11 +273,40 @@ fontes:
       Total:
         cast: Int64
     qualidade:
+    ids:
+      serviços:
+        tratamento de lesoes, envenenamentos e outros, decorrentes de causas externas: 1.0
+        cirurgia do aparelho circulatorio: 1.0
+        cirurgia do sistema nervoso central e periferico: 1.0
+        parto e nascimento: 1.0
+        medicamentos de ambito hospitalar e urgencia: 1.0
+        cirurgia do aparelho digestivo, orgaos anexos e parede abdominal: 0.9
+        cirurgia do sistema osteomuscular: 0.9
+        cirurgia obstetrica: 0.9
+        cirurgia toracica: 0.9
+        cirurgia em oncologia: 0.9
+        acoes relacionadas ao atendimento: 0.9
+        cirurgia do aparelho geniturinario: 0.8
+        cirurgia reparadora: 0.8
+        cirurgia das vias aereas superiores, da face, da cabeca e do pescoco: 0.8
+        cirurgia de mama: 0.8
+        orteses, proteses e materiais especiais relacionados ao ato cirurgico: 0.8
+        acompanhamento e intercorrencias no pre e pos-transplante: 0.8
+        cirurgia do aparelho da visao: 0.7
+        cirurgia de glandulas endocrinas: 0.7
+        cirurgia em nefrologia: 0.7
+        outras cirurgias: 0.6
+        coleta e exames para fins de doacao de orgaos, tecidos e celulas e de transplante: 0.6
+        acoes relacionadas a doacao de orgaos e tecidos para transplante: 0.6
+        processamento de tecidos para transplante: 0.6
+        transplante de orgaos, tecidos e celulas: 0.5
+        avaliacao de morte encefalica: 0.5
   - nome: tabela30_SP_internacao
     arquivo: tabela30_SP_internacao.csv
     merge: false
     colunas_uteis: []
-    notas: 'Tabela de Internações por tipo de serviço ou equipamento do município de SP, 2022, extraída do Tabnet do DATASUS'
+    notas: 'Tabela de Internações por tipo de serviço ou equipamento do município
+      de SP, 2022, extraída do Tabnet do DATASUS'
     transformacoes:
       Internação x tipo de Serviços ou Equipamentos:
         tipo: purge
@@ -145,6 +319,24 @@ fontes:
       Privado/SUS:
         cast: Int64
     qualidade:
+    ids:
+  - nome: finbra_2022SP
+    arquivo: finbra_2022SP.csv
+    merge: true
+    colunas_uteis: ['populacao', 'receita_anual']
+    notas: 'Dados da Finbra 2022 por município de SP, extraídos do site da Secretaria da Fazenda do Estado de São Paulo'
+    transformacoes:
+      cod_ibge:
+        tipo: mapa_ibge
+        rename: municipio
+      valor:
+        cast: float64
+        rename: receita_anual
+    qualidade:
+      cols_numericas: ['receita_anual']
+    ids:
+      renda:
+        coluna_valor: receita_anual
 
   # ── Template para novas fontes ───────────────────────────────────────────
   # - nome: nome_da_fonte
@@ -167,3 +359,13 @@ fontes:
   #     cols_unicas: []
   #     cols_nao_nulas: []
   #     cols_numericas: []
+  #   ids:
+  #     dimensoes:
+  #       infraestrutura:
+  #         coluna_x: peso_x
+  #       vulnerabilidade:
+  #         coluna_y: peso_y
+  #       serviços:
+  #         coluna_z: peso_z
+  #       renda:
+  #         coluna_valor: coluna_de_receita_anual

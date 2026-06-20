@@ -33,8 +33,8 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from src.config import PATHS
-from cleaner import normalize_column_list
-from transformer import careful_load_csv, apply_purge
+from src.core.cleaner import normalize_column_list
+from src.core.transformer import careful_load_csv, apply_purge
 
 CONFIG_PATH = PATHS.config / "sources.yaml"
 CLEAN_DIR = PATHS.data_clean
@@ -231,7 +231,7 @@ def sequence_merge(fontes_merge: list[dict], chave_merge: str, how: MergeHow) ->
 
     return df_base
 
-def run_merge(config: dict, dry_run: bool = False, how_override: MergeHow | None = None) -> pd.DataFrame | None:
+def run_merge(config: dict, how_override: MergeHow | None = None) -> tuple[pd.DataFrame | None, Path]:
     """
     Executa o merge usando o dict de configuração já carregado.
 
@@ -257,7 +257,7 @@ def run_merge(config: dict, dry_run: bool = False, how_override: MergeHow | None
     df_merged = sequence_merge(fontes_merge, chave_merge, how)
     if df_merged is None:
         print("\n[Erro] Nenhum dado para mesclar. Verifique se a pipeline foi executada.")
-        return None
+        return None, Path()
     
     df_merged = fill_missing_numeric(df_merged, chave_merge)
 
@@ -265,18 +265,11 @@ def run_merge(config: dict, dry_run: bool = False, how_override: MergeHow | None
     print(f"[Resultado] {len(df_merged)} linhas x {len(df_merged.columns)} colunas")
     print(f"[Colunas]   {list(df_merged.columns)}")
 
-    if dry_run:
-        print("\n[Dry-run] Arquivo NÃO salvo.")
-        return df_merged
-
     PROC_DIR.mkdir(parents=True, exist_ok=True)
 
     destino = PROC_DIR / arquivo_saida
 
-    df_merged.to_csv(destino, index=False, encoding="utf-8", sep=";")
-    print(f"\n[Salvo] {destino.relative_to(PATHS.root)}")
-
-    return df_merged
+    return df_merged, destino
 
 # Entrypoint
 
@@ -288,7 +281,7 @@ def main() -> None:
     args = parser.parse_args()
 
     config = load_merge_config(CONFIG_PATH)
-    run_merge(config=config, dry_run=args.dry_run, how_override=args.how)
+    run_merge(config=config, how_override=args.how)
 
 if __name__ == "__main__":
     main()
